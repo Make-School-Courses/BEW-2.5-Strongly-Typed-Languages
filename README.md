@@ -1,1 +1,2 @@
-# BEW 2.X - Patterns and Practices in Strongly Typed Ecosystems (Go)
+# BEW 2.X - Patterns & Practices in Strongly Typed Ecosystems
+
