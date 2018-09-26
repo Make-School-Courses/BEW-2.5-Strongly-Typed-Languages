@@ -2,7 +2,7 @@
 
 ## Course Description
 
-Describe your course here. A short elevator pitch for the course. This will be listed as the course description in the course catalog.
+In this course, students will blend their experience with the expressive features of dynamic languages with the performance capabilities of compiled languages.
 
 ### Why You Should Know This
 
