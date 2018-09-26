@@ -1,4 +1,4 @@
-# BEW 2.X - Patterns & Practices in Strongly Typed Ecosystems
+# BEW 2.5 - Patterns & Practices in Strongly Typed Ecosystems
 
 ## Course Description
 
