@@ -2,7 +2,7 @@
 
 ## Course Description
 
-In this course, students will blend their experience with the expressive features of dynamic languages with the performance capabilities of compiled languages.
+In this course, students discover the value of strongly typed languages in server-side architectures, and dive deep into performant, concurrent programming paradigms present in Go. Known best for it's ability to blend the expressive features of dynamic languages (Python, JavaScript) with the performance capabilities of compiled languages (C, C++), students will gain the syntactic diversity required in today's large-scale platform engineering persuits. Throughout the course, students will learn and implement the design patterns and best practices that make Go a top choice at high-velocity startups like Lyft, Heroku, Docker, Medium, and more!
 
 ### Why You Should Know This
 
