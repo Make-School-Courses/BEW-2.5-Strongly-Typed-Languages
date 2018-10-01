@@ -91,6 +91,10 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 1. Lesson Title & Topic
     - **In Class Activities**
     - **After Class**
+    
+## Additional Resources
+
+- [Go vs. Python](http://govspy.peterbe.com)
 
 ## Make School Course Policies
 
