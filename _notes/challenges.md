@@ -1,5 +1,12 @@
 # Go Challenges
 
+## Table of Contents
+
+* [[TUTORIAL] MakeAsciiArt](#tutorial-makeasciiart)
+* [[PROJECT] MakeAvatar](#project-makeavatar)
+* [[PROJECT] Realtime Attendance](#project-realtime-attendance)
+* [[PROJECT] Realtime TA Queue](#project-realtime-ta-queue)
+
 ## [TUTORIAL] MakeAsciiArt
 
 Create an ASCII Art generator that allows users to upload an image, converts it to ASCII art, and returns the generated text as `text/html` or `application/json` output.
