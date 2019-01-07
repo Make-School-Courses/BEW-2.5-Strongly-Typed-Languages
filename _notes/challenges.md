@@ -2,12 +2,13 @@
 
 ## Table of Contents
 
+* [[PROJECT] iscoding.live](#project-iscoding.live)
 * [[PROJECT] MakeAsciiArt](#project-makeasciiart)
 * [[PROJECT] MakeAvatar](#project-makeavatar)
 * [[PROJECT] Realtime Attendance](#project-realtime-attendance)
 * [[PROJECT] Realtime TA Queue](#project-realtime-ta-queue)
 
-## [PROJECT] DevStream
+## [PROJECT] iscoding.live
 
 An API that accesses and streams Wakatime data for a given email address or username, and returns whether or not the user is actively writing code at the present moment.
 
