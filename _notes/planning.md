@@ -83,7 +83,7 @@
 * [15 Mins] Warmup Challenge
 * [10 Mins] BREAK
 
-## Day 9: Testing and Benchmarking
+## Day 9: Go Design Patterns
 
 * [15 Mins] Warmup Challenge
 * [10 Mins] BREAK
@@ -93,7 +93,7 @@
 * [15 Mins] Warmup Challenge
 * [10 Mins] BREAK
 
-## Day 11: Lab Day?
+## Day 11: Testing and Benchmarking
 
 * [20 Mins] Repl.it Quiz
 * [10 Mins] BREAK
@@ -106,6 +106,6 @@
 
 * [10 Mins] BREAK
 
-## Day 14
+## Day 14: Final Exam
 
 * [60 Mins] Final Exam
