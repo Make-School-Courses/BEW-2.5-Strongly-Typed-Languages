@@ -2,12 +2,16 @@
 
 ## Table of Contents
 
-* [[TUTORIAL] MakeAsciiArt](#tutorial-makeasciiart)
+* [[PROJECT] MakeAsciiArt](#project-makeasciiart)
 * [[PROJECT] MakeAvatar](#project-makeavatar)
 * [[PROJECT] Realtime Attendance](#project-realtime-attendance)
 * [[PROJECT] Realtime TA Queue](#project-realtime-ta-queue)
 
-## [TUTORIAL] MakeAsciiArt
+## [PROJECT] DevStream
+
+An API that accesses and streams Wakatime data for a given email address or username, and returns whether or not the user is actively writing code at the present moment.
+
+## [PROJECT] MakeAsciiArt
 
 Create an ASCII Art generator that allows users to upload an image, converts it to ASCII art, and returns the generated text as `text/html` or `application/json` output.
 
