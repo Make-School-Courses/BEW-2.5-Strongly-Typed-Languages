@@ -68,7 +68,7 @@
     ```
 * [10 Mins] BREAK
 
-## Day 6: Advanced Language Features
+## Day 6: Concurrency and Goroutines
 
 * [15 Mins] Warmup Challenge
 * [10 Mins] BREAK
@@ -78,27 +78,27 @@
 * [60 Mins] Midterm Exam
 * [10 Mins] BREAK
 
-## Day 8: Concurrency and Goroutines
+## Day 8: Go Design Patterns
 
 * [15 Mins] Warmup Challenge
 * [10 Mins] BREAK
 
-## Day 9: Go Design Patterns
+## Day 9: Integrations and Bots
 
 * [15 Mins] Warmup Challenge
 * [10 Mins] BREAK
 
-## Day 10: Integrations
-
-* [15 Mins] Warmup Challenge
-* [10 Mins] BREAK
-
-## Day 11: Testing and Benchmarking
+## Day 10: Benchmarking, Testing, and Documentation
 
 * [20 Mins] Repl.it Quiz
 * [10 Mins] BREAK
 
-## Day 12: Microservice Deployment
+## Day 11: Go Microservice Deployment Strategies
+
+* [15 Mins] Warmup Challenge
+* [10 Mins] BREAK
+
+## Day 12: ???
 
 * [10 Mins] BREAK
 
