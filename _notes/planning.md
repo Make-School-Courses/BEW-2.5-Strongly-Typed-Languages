@@ -85,6 +85,8 @@
 
 ## Day 9: Integrations and Bots
 
+[gobots](https://github.com/strongo/bots-framework) 
+
 * [15 Mins] Warmup Challenge
 * [10 Mins] BREAK
 
