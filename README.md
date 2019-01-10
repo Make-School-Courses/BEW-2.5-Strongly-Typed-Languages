@@ -1,5 +1,9 @@
 # BEW 2.5 - Patterns & Practices in Strongly Typed Ecosystems
 
+| Guide | Slack | Office Hours | Shortlink | Tracker | Request 1-on-1 |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| [**Dani**](https://github.com/droxey) | _@droxey_ | Fri 0:00-0:00 _(Room)_ | [make.sc/bew2.5](https://make.sc/bew2.5) | [make.sc/trackbew2.5](https://make.sc/trackbew2.5) | [make.sc/codewithdani](https://make.sc/codewithdani) |
+
 ## Course Description
 
 In this course, students discover the value of strongly typed languages in server-side architectures, and dive deep into performant, concurrent programming paradigms present in Go. Known best for it's ability to blend the expressive features of dynamic languages (Python, JavaScript) with the performance capabilities of compiled languages (C, C++), students will gain the syntactic diversity required in today's large-scale platform engineering persuits. Throughout the course, students will learn and implement the design patterns and best practices that make Go a top choice at high-velocity startups like Lyft, Heroku, Docker, Medium, and more!
