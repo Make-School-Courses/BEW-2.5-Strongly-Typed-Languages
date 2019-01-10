@@ -27,10 +27,10 @@ Class Sessions:  13 classes, 7 labs
 
 Students by the end of the course will be able to ...
 
-1. Identify & Describe
-1. Explain
+1. Identify and describe architectures where the strengths of Go is are utilized.
+1. Design and implement command line interfaces, APIs, and bots in Go.
+1. Explain 
 1. Compare & Contrast
-1. Design & Implement
 1. Master
 
 ## [TODO] Schedule
