@@ -2,7 +2,7 @@
 
 | Guide | Slack | Office Hours | Shortlink | Tracker | Request 1-on-1 |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| [**Dani**](https://github.com/droxey) | _#bew2-5_ | Fri 0:00-0:00 _(Room)_ | [make.sc/bew2.5](https://make.sc/bew2.5) | [make.sc/trackbew2.5](https://make.sc/trackbew2.5) | [make.sc/codewithdani](https://make.sc/codewithdani) |
+| [**Dani**](https://github.com/droxey) | #bew2-5 | Fri 0:00-0:00 _(Room)_ | [**make.sc/bew2.5**](https://make.sc/bew2.5) | [**make.sc/trackbew2.5**](https://make.sc/trackbew2.5) | [**make.sc/codewithdani**](https://make.sc/codewithdani) |
 
 ## Course Description
 
@@ -21,7 +21,7 @@ Class Sessions:  13 classes, 7 labs
 ## Prerequisites:  
 
 - [BEW 1.1](https://make.sc/bew1.1)
-- [BEW 1.2]https://make.sc/bew1,2)
+- [BEW 1.2](https://make.sc/bew1.2)
 
 ## [TODO] Learning Objectives or Competencies
 
