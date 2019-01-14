@@ -6,14 +6,14 @@
 
 ## Week 2
 
-* **Day 3**:
+* **Day 3**
   * Go syntax quiz
   * Intro [URL Shortener](https://gophercises.com/exercises/urlshort) HW assignment.
 * **Due Friday**: URL Shortener assignment.
 
 ## Week 3
 
-**Day 5**:
+* **Day 5**
   * Intro [Retweet Contest](https://gophercises.com/exercises/twitter) assignment.
 
 ## Week 4
@@ -22,7 +22,6 @@
 * **Due Friday**: Retweet Contest assignment.
 
 ## Week 5
-
 
 ## Week 6
 

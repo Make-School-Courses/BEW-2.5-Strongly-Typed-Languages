@@ -1,9 +1,8 @@
-# BEW 2.5 - Patterns & Practices in Strongly Typed Ecosystems
+# BEW2.5: Patterns & Practices in Strongly Typed Ecosystems (Go)
 
 | Guide | Slack | Office Hours | Shortlink | Tracker | Request 1-on-1 |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | [**@droxey**](https://github.com/droxey) | #bew2-5 | Fri 0:00-0:00 _(Room)_ | [make.sc/bew2.5](https://make.sc/bew2.5) | [make.sc/trackbew2.5](https://make.sc/trackbew2.5) | [make.sc/codewithdani](https://make.sc/codewithdani) |
-
 
 ## Table of Contents
 
@@ -98,7 +97,7 @@ Through this requirement, **we encourage you to think about projects with an ite
 Projects are a **chance to build and ship code based on class concepts**.  Many are **open ended** allowing you to be **creative** and to have **individual work for your portfolio**.
 
 - [Sample Project](Sample_Project.md)
-    -   [Sample Project Rubric](Sample_Rubric.md)
+  - [Sample Project Rubric](Sample_Rubric.md)
 
 ## Evaluation
 
@@ -120,7 +119,6 @@ Attendance requirements for scheduled sessions are:
 - No more than four excused absences per term in any scheduled session.
 
 Failure to meet these requirements will result in a PIP (Participation Improvement Plan).  Failure to improve after the PIP is cause for not being allowed to continue at Make School.
-
 
 ## Make School Course Policies
 
