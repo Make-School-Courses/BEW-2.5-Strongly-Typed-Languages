@@ -1,4 +1,4 @@
-# BEW2.5: Patterns & Practices in Strongly Typed Ecosystems (Go)
+# BEW2.5: Patterns & Practices in Strongly Typed Ecosystems
 
 | Guide | Slack | Office Hours | Shortlink | Tracker | Request 1-on-1 |
 | :-: | :-: | :-: | :-: | :-: | :-: |
