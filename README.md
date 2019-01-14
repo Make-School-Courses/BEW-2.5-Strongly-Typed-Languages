@@ -2,7 +2,7 @@
 
 | Guide | Slack | Office Hours | Shortlink | Tracker | Request 1-on-1 |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| [**Dani**](https://github.com/droxey) | #bew2-5 | Fri 0:00-0:00 _(Room)_ | [make.sc/bew2.5](https://make.sc/bew2.5) | [make.sc/trackbew2.5](https://make.sc/trackbew2.5) | [make.sc/codewithdani](https://make.sc/codewithdani) |
+| [**@droxey**](https://github.com/droxey) | #bew2-5 | Fri 0:00-0:00 _(Room)_ | [make.sc/bew2.5](https://make.sc/bew2.5) | [make.sc/trackbew2.5](https://make.sc/trackbew2.5) | [make.sc/codewithdani](https://make.sc/codewithdani) |
 
 
 ## Table of Contents
