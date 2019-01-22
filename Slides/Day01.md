@@ -4,7 +4,7 @@
 
 ---
 
-## Objectives
+## Objectives<br>(5 Minutes)<br><br>
 
 1. Complete course overview and **syllabus review**.
 1. Learn about the **history of Golang**.
@@ -12,7 +12,7 @@
 
 ---
 
-## Course Overview
+## Course Overview<br>(25 Minutes)<br><br>
 
 * We will use Go to **solve common problems** experienced by students and staff **at Make School**.
 
@@ -40,17 +40,23 @@ _Coming soon!_
 
 ### Homework
 
-**~6 hours** of homework:
+**~5 hours** of homework:
 
 1. **Gophercises**: [_Link Shortener_](https://gophercises.com/exercises/urlshort)
-1. **Gophercises**: [_Quiz Game_](https://gophercises.com/exercises/quiz)
 1. **Gophercises**: [_Quiet HN_](https://gophercises.com/exercises/quiet_hn)
 1. **Gophercises**: [_Image Transform Service_](https://gophercises.com/exercises/transform) _(BONUS)_
 
-<img src="assets/img/quiet-hn.png" height="250" style="border: none; background: none;">
-<img src="assets/img/quizgame.png" height="250" style="border: none; background: none;">
-<img src="assets/img/img-transform-svc.png" height="250" style="border: none; background: none;">
-<img src="assets/img/shorturl.png" height="250" style="border: none; background: none;">
+<img src="assets/img/quiet-hn.png" height="350" style="border: none; background: none;">
+<img src="assets/img/img-transform-svc.png" height="350" style="border: none; background: none;">
+<img src="assets/img/shorturl.png" height="350" style="border: none; background: none;">
+
+~~~
+
+### Final Project
+
+#### `makeutility`
+
+Create your own utility and integration using Go!
 
 ~~~
 
@@ -60,7 +66,7 @@ _Coming soon!_
 
 1. Be **complete**.
 1. Score a **B or higher** on **[Go Report Card](https://goreportcard.com)**.
-1. Have **10 or more commits**.
+1. Have **10 or more commits** in a public GitHub repo.
 
 ~~~
 
@@ -68,7 +74,40 @@ _Coming soon!_
 
 ---
 
-## Get Started With Go
+## Why Go?<br>(5 Minutes)<br><br>
+
+<table>
+  <tr>
+    <td>GoDoc</td>
+    <td>Static code analysis</td>
+  </tr>
+  <tr>
+    <td>Built-in testing and profiling framework</td>
+    <td>Race condition detection</td>
+  </tr>
+  <tr>
+    <td>Learning curve</td>
+    <td>Reflection</td>
+  </tr>
+  <tr>
+    <td>Opinionatedness</td>
+    <td>Culture</td>
+  </tr>
+</table>
+
+---
+
+## Syntax Overview<br>(20 Minutes)<br><br>
+
+Let's learn about the syntax of Go using [Devhints](https://devhints.io/go).
+
+---
+
+## BREAK<br>(10 Minutes)
+
+---
+
+## Get Started With Go<br>(25 Minutes)
 
 ~~~
 
@@ -119,3 +158,23 @@ cd go
     hello, world
     ```
     If you see the `hello, world` message then your Go installation is working.
+
+~~~
+
+## Congrats!
+
+**You've written, built, and ran your first Go application!**
+
+---
+
+## Daily Deliverable<br>(15 Minutes)
+
+### Personal Learning Objective
+
+* Write **one sentence describing a goal you want to reach by the end of this course**.
+
+* Turn it in to Dani at the **end of the class period**.
+
+* I will be **tracking and discussing this goal** with you **throughout the course**.
+
+---
