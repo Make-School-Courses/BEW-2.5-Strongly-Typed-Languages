@@ -1,4 +1,6 @@
-## Minute-by-Minute [OPTIONAL]
+# Day 1: Introduction to Go
+
+## Minute-by-Minute
 
 | **Elapsed** | **Time**  | **Activity**              |
 | ----------- | --------- | ------------------------- |
@@ -9,11 +11,7 @@
 | 1:15        | 0:45      | In Class Activity II      |
 | TOTAL       | 2:00      |                           |
 
-# Why you should know this or industry application (optional) (5 min)
-
-Explain why students should care to learn the material presented in this class.
-
-## Class Learning Objectives/Competencies (5 min)
+## Learning Objectives/Competencies (5 min)
 
 1. Identify and describe
 1. Define
@@ -31,10 +29,9 @@ Explain why students should care to learn the material presented in this class.
 
 ## Overview/TT I (20 min)
 
-- Why learn this?
-- Industry examples of usage
-- Best practices
-- Personal anecdote
+Run the slides: `reveal-md -w Slides/Day01.md`
+
+## BREAK (10 min)
 
 ## In Class Activity I (30 min)
 

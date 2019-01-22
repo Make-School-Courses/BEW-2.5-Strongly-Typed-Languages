@@ -12,3 +12,17 @@
 *.out
 .wakatime-project
 .DS_Store
+
+.idea/
+*.iml
+*.iws
+*.eml
+out/
+.svn
+log/*.log
+tmp/**
+Slides/template/node_modules/
+Slides/template/package-lock.json
+Slides/template/.sass-cache
+Slides/template/css/reveal.min.css
+Slides/template/js/reveal.min.js
