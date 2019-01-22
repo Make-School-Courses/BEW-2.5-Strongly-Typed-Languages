@@ -4,7 +4,7 @@
 
 ---
 
-## Today's Objectives
+## Objectives
 
 1. Complete course overview and **syllabus review**.
 1. Learn about the **history of Golang**.
@@ -68,17 +68,54 @@ _Coming soon!_
 
 ---
 
-## History
-
----
-
-## Get Started
+## Get Started With Go
 
 ~~~
 
 ### Installing Go
 
+1. Visit the [downloads](https://golang.org/dl/) page and choose macOS.
+2. Double click the downloaded `.pkg` and install.
+
+<img src="assets/img/download.png" height="200" style="border: none; background: none;">
+
 ~~~
 
-### Testing the Installation
+### Testing Your Installation
 
+~~~
+
+#### Set Up GOPATH
+
+```bash
+cd ~
+mkdir go
+cd go
+```
+
+~~~
+
+#### Hello World
+
+1. `mkdir -p /src/hello`
+1. Create a file named `hello.go` and paste the following code:
+    ```golang
+    package main
+
+    import "fmt"
+
+    func main() {
+      fmt.Printf("hello, world\n")
+    }
+    ```
+1. Build `hello.go`:
+    ```bash
+    $ cd $HOME/go/src/hello
+    $ go build
+    ```
+1. Run it:
+    ```bash
+    $ ./hello
+    hello, world
+    ```
+    If you see the `hello, world` message then your Go installation is working.
