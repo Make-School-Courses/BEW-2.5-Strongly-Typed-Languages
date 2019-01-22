@@ -7,7 +7,7 @@
 ## Objectives<br>(5 Minutes)<br><br>
 
 1. Complete course overview and **syllabus review**.
-1. Learn about the **history of Golang**.
+1. Learn about why people are excited about **Golang** in 2019.
 1. **Install Go locally** and write our **first application**.
 
 ---
@@ -25,6 +25,13 @@
 Visit [make.sc/bew2.5](make.sc/bew2.5) for the latest syllabus.
 
 All class materials can be found at the above shortlink.
+
+~~~
+
+### Textbooks
+
+* Syntax: [Effective Go](https://golang.org/doc/effective_go.html)
+* Recipes: [Go by Example](https://gobyexample.com)
 
 ~~~
 
