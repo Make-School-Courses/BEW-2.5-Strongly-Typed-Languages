@@ -2,7 +2,7 @@
 
 | Guide | Slack | Office Hours | Shortlink | Tracker | Request 1-on-1 |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| [**@droxey**](https://github.com/droxey) | #bew2-5 | Fri 0:00-0:00 _(Room)_ | [make.sc/bew2.5](https://make.sc/bew2.5) | [make.sc/trackbew2.5](https://make.sc/trackbew2.5) | [make.sc/codewithdani](https://make.sc/codewithdani) |
+| [**@droxey**](https://github.com/droxey) | #bew2-5 | Fri 0:00-0:00 _(Room)_ | [make.sc/bew2.5](https://make.sc/bew2.5) | [Link](https://make.sc/trackbew2.5) | [Link](https://make.sc/codewithdani) |
 
 ## Table of Contents
 
@@ -43,13 +43,12 @@ Class Sessions:  13 classes, 7 labs
 
 ## Schedule
 
-**Course Dates:** Tuesday, January 22 – Thursday, March 7, 2019 (7 weeks)
+**Course Dates:** Tuesday, January 22 – Thursday, March 7, 2019 (_7 weeks_)<br>
+**Class Times:** Tuesday and Thursday at 1:30–3:20pm (_12 class sessions_)
 
-**Class Times:** Tuesday and Thursday at 1:30–3:20pm (12 class sessions)
-
-| Class |          Date             |                 Topics                     |
-|:-----:|:-------------------------:| ------------------------------------------ |
-|  1 |  Tuesday, January 22         | **[Lesson 1](Lessons/Lesson01.md): Title** |
+| Class |          Date             |                 Topics                      |
+|:-----:|:-------------------------:| ------------------------------------------- |
+|  1 |  Tuesday, January 22         | **[Lesson 1](Lessons/Lesson01.md): Title**  |
 |  2 | Thursday, January 24         | **[Lesson 2](Lessons/Lesson02.md): Title**  |
 |  3 |  Tuesday, January 29         | **[Lesson 3](Lessons/Lesson03.md): Title**  |
 |  4 | Thursday, January 31         | **[Lesson 4](Lessons/Lesson04.md): Title**  |
@@ -57,12 +56,12 @@ Class Sessions:  13 classes, 7 labs
 |  6 | Thursday, February 7         | **[Lesson 6](Lessons/Lesson06.md): Title**  |
 |  7 |  Tuesday, February 12        | **[Lesson 7](Lessons/Lesson07.md): Title**  |
 |  8 | Thursday, February 14        | **[Lesson 8](Lessons/Lesson08.md): Title**  |
-|  - |  _Tuesday, February 19_      | _President's Day (Observed)_ |
-|  9 | Thursday, February 21        | **[Lesson 9](Lessons/Lesson9.md): Title**  |
-|  10 |  Tuesday, February 26       | **[Lesson 10](Lessons/Lesson10.md): Title**  |
-|  11 | Thursday, February 28       | **[Lesson 11](Lessons/Lesson11.md): Title**  |
-|  12 |  Tuesday, March 5           | **[Lesson 12](Lessons/Lesson12.md): Title**  |
-|  13 | Thursday, March 7           | **Final Exam** |
+|  - |  _Tuesday, February 19_      | _President's Day (Observed)_                |
+|  9 | Thursday, February 21        | **[Lesson 9](Lessons/Lesson9.md): Title**   |
+|  10 |  Tuesday, February 26       | **[Lesson 10](Lessons/Lesson10.md): Title** |
+|  11 | Thursday, February 28       | **[Lesson 11](Lessons/Lesson11.md): Title** |
+|  12 |  Tuesday, March 5           | **[Lesson 12](Lessons/Lesson12.md): Title** |
+|  13 | Thursday, March 7           | **Final Exam**                              |
 
 ## Class Assignments
 
@@ -72,7 +71,7 @@ Class Sessions:  13 classes, 7 labs
 
 ### Tutorials
 
-[REWORD AS RELEVANT TO YOUR COURSE] Tutorials are to help you get started in a topic.  They are graded on completion only.
+Tutorials are to help you get started in a topic.  They are **graded on completion only**.
 
 - [Do Cool Stuff Tutorial]()
 
@@ -84,7 +83,7 @@ Class Sessions:  13 classes, 7 labs
 - **Bad Example:** **10 commits on one day** during the course and **no others**. Students who do this will be at **severe risk of not passing** the class.
 - **Unacceptable Example:** **2 commits the day before a project is due**. Students who do this **should not expect to pass the class**.
 
-#### Commit Early and Often
+### Commit Early and Often
 
 We want to encourage best practices that you will see working as a professional software engineer. Breaking up a project by doing a large amount of commits helps engineers in the following ways:
 
@@ -101,7 +100,7 @@ Projects are a **chance to build and ship code based on class concepts**.  Many 
 
 ## Evaluation
 
-To pass this course you must meet the following requirements:
+**To pass this course you must meet the following requirements**:
 
 - Complete all required tutorials
 - Pass all projects according to the associated project rubric
