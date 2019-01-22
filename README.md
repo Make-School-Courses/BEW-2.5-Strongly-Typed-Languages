@@ -4,7 +4,7 @@
 
 | Guide | Slack | Office Hours | Shortlink | Tracker | Request 1-on-1 |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| [**@droxey**](https://github.com/droxey) | #bew2-5-go | T-Th 3:30-4:30 _(Tea Tree)_ | [make.sc/bew2.5](https://make.sc/bew2.5) | [Link](https://make.sc/trackbew2.5) | [Link](https://make.sc/codewithdani) |
+| [**@droxey**](https://github.com/droxey) | #bew2-5-go | M-T-Th 1:00-1:30 _(Golden Gate)_<br>T-Th 3:30-4:30 _(Tea Tree)_ | [make.sc/bew2.5](https://make.sc/bew2.5) | [Link](https://make.sc/trackbew2.5) | [Link](https://make.sc/codewithdani) |
 
 ## Table of Contents
 
