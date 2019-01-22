@@ -50,19 +50,19 @@ Class Sessions:  13 classes, 7 labs
 
 | Class |          Date             |                 Topics                      |
 |:-----:|:-------------------------:| ------------------------------------------- |
-|  1 |  Tuesday, January 22         | **[Lesson 1](Lessons/Lesson01.md): Title**  |
-|  2 | Thursday, January 24         | **[Lesson 2](Lessons/Lesson02.md): Title**  |
-|  3 |  Tuesday, January 29         | **[Lesson 3](Lessons/Lesson03.md): Title**  |
-|  4 | Thursday, January 31         | **[Lesson 4](Lessons/Lesson04.md): Title**  |
-|  5 |  Tuesday, February 5         | **[Lesson 5](Lessons/Lesson05.md): Title**  |
-|  6 | Thursday, February 7         | **[Lesson 6](Lessons/Lesson06.md): Title**  |
-|  7 |  Tuesday, February 12        | **[Lesson 7](Lessons/Lesson07.md): Title**  |
-|  8 | Thursday, February 14        | **[Lesson 8](Lessons/Lesson08.md): Title**  |
+|  1 |  Tuesday, January 22         | **[Lesson 1](Lessons/Lesson01.md):  Intro to Go**  |
+|  2 | Thursday, January 24         | **[Lesson 2](Lessons/Lesson02.md): Anatomy & Architecture of Well Crafted Go Apps**  |
+|  3 |  Tuesday, January 29         | **[Lesson 3](Lessons/Lesson03.md): Command Line Applications in Go**  |
+|  4 | Thursday, January 31         | **[Lesson 4](Lessons/Lesson04.md): Solving Problems with Go**  |
+|  5 |  Tuesday, February 5         | **[Lesson 5](Lessons/Lesson05.md): APIs in Go**  |
+|  6 | Thursday, February 7         | **[Lesson 6](Lessons/Lesson06.md): Concurrency and Goroutines**  |
+|  7 |  Tuesday, February 12        | **[Lesson 7](Lessons/Lesson07.md): Go Design Patterns**  |
+|  8 | Thursday, February 14        | **[Lesson 8](Lessons/Lesson08.md): Integrations and Bots**  |
 |  - |  _Tuesday, February 19_      | _President's Day (Observed)_                |
-|  9 | Thursday, February 21        | **[Lesson 9](Lessons/Lesson9.md): Title**   |
-|  10 |  Tuesday, February 26       | **[Lesson 10](Lessons/Lesson10.md): Title** |
-|  11 | Thursday, February 28       | **[Lesson 11](Lessons/Lesson11.md): Title** |
-|  12 |  Tuesday, March 5           | **[Lesson 12](Lessons/Lesson12.md): Title** |
+|  9 | Thursday, February 21        | **[Lesson 9](Lessons/Lesson9.md):  Benchmarking, Testing, & Documentation**   |
+|  10 |  Tuesday, February 26       | **[Lesson 10](Lessons/Lesson10.md): Go Microservice Deployment Strategies** |
+|  11 | Thursday, February 28       | **[Lesson 11](Lessons/Lesson11.md): TBA** |
+|  12 |  Tuesday, March 5           | **[Lesson 12](Lessons/Lesson12.md): TBA** |
 |  13 | Thursday, March 7           | **Final Exam**                              |
 
 ## Class Assignments
