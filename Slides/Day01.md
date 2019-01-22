@@ -1,20 +1,26 @@
+<img src="https://raw.githubusercontent.com/ashleymcnamara/gophers/master/RickAndMorty.png" height="400" style="background:none; border: 0 none; box-shadow: none;">
+
 # Intro to Golang
 
 **BEW2.5**<br>_Patterns & Practices in Strongly Typed Ecosystems_
 
 ---
 
-## Objectives<br>(5 Minutes)<br><br>
+<img src="https://raw.githubusercontent.com/ashleymcnamara/gophers/master/TEACHING_GOPHER.png" height="300" style="background:none; border: 0 none; box-shadow: none;">
+
+## Objectives (5 Minutes)<br>
 
 1. Complete course overview and **syllabus review**.
-1. Learn about why people are excited about **Golang** in 2019.
+1. Learn why engineers are excited about **Golang**.
 1. **Install Go locally** and write our **first application**.
 
 ---
 
-## Course Overview<br>(25 Minutes)<br><br>
+<img src="https://raw.githubusercontent.com/ashleymcnamara/gophers/master/GOPHER_LAPTOP.png" height="300" style="background:none; border: 0 none; box-shadow: none;">
 
-* We will use Go to **solve common problems** experienced by students and staff **at Make School**.
+## Course Overview (25 Minutes)<br>
+
+* We will use Go to **solve common problems** experienced **at Make School**.
 
 * By the end of the course, you'll have a **complete suite of `makeschoolutils` that solve numerous problems found in industry**.
 
@@ -81,7 +87,9 @@ Create your own utility and integration using Go!
 
 ---
 
-## Why Go?<br>(5 Minutes)<br><br>
+<img src="https://raw.githubusercontent.com/ashleymcnamara/gophers/master/GoCommunity.png" height="240" style="background:none; border: 0 none; box-shadow: none;">
+
+## Why Go? (5 Minutes)<br><br>
 
 <table>
   <tr>
@@ -104,15 +112,21 @@ Create your own utility and integration using Go!
 
 ---
 
-## Syntax Overview<br>(20 Minutes)<br><br>
+<img src="https://raw.githubusercontent.com/ashleymcnamara/gophers/master/VS%20CODE%20GOPHER.png" height="400" style="background:none; border: 0 none; box-shadow: none;">
+
+## Syntax Overview (20 Minutes)<br><br>
 
 Let's learn about the syntax of Go using [Devhints](https://devhints.io/go).
 
 ---
 
+<img src="https://raw.githubusercontent.com/ashleymcnamara/gophers/master/GOPHER_MIC_DROP.png" height="400" style="background:none; border: 0 none; box-shadow: none;">
+
 ## BREAK<br>(10 Minutes)
 
 ---
+
+<img src="https://raw.githubusercontent.com/ashleymcnamara/gophers/master/GO_BUILD.png" height="400" style="background:none; border: 0 none; box-shadow: none;">
 
 ## Get Started With Go<br>(25 Minutes)
 
@@ -123,7 +137,7 @@ Let's learn about the syntax of Go using [Devhints](https://devhints.io/go).
 1. Visit the [downloads](https://golang.org/dl/) page and choose macOS.
 2. Double click the downloaded `.pkg` and install.
 
-<img src="assets/img/download.png" height="200" style="border: none; background: none;">
+<img src="assets/img/download.png" height="275" style="border: none; background: none;">
 
 ~~~
 
@@ -174,7 +188,9 @@ cd go
 
 ---
 
-## Daily Deliverable<br>(15 Minutes)
+<img src="https://raw.githubusercontent.com/ashleymcnamara/gophers/master/Hugging_Gophers.png" height="240" style="background:none; border: 0 none; box-shadow: none;">
+
+## Daily Deliverable (15 Minutes)
 
 ### Personal Learning Objective
 
