@@ -47,22 +47,22 @@ Class Sessions:  13 classes, 7 labs
 
 **Class Times:** Tuesday and Thursday at 1:30–3:20pm (12 class sessions)
 
-| Class |          Date          |                 Topics                  |
-|:-----:|:----------------------:| --------------------------------------- |
-|  1 |  Tuesday, January 22              | **[Lesson 1](Day-01/README.md): Title** |
-|  2 | Thursday, January 24             | **[Lesson 2](Day-02/README.md): Title**  |
-|  3 |  Tuesday, January 29             | **[Lesson 3](Day-03/README.md): Title**  |
-|  4 | Thursday, January 31             | **[Lesson 4](Day-04/README.md): Title**  |
-|  5 |  Tuesday, February 5             | **[Lesson 5](Day-05/README.md): Title**  |
-|  6 | Thursday, February 7             | **[Lesson 6](Day-06/README.md): Title**  |
-|  7 |  Tuesday, February 12             | **[Lesson 7](Day-07/README.md): Title**  |
-|  8 | Thursday, February 14             | **[Lesson 8](Day-08/README.md): Title**  |
-|  - |  _Tuesday, February 19_             | _President's Day (Observed)_ |
-|  9 | Thursday, February 21             | **[Lesson 9](Day-09/README.md): Title**  |
-|  10 |  Tuesday, February 26             | **[Lesson 10](Day-10/README.md): Title**  |
-|  11 | Thursday, February 28             | **[Lesson 11](Day-11/README.md): Title**  |
-|  12 |  Tuesday, March 5             | **[Lesson 12](Day-12/README.md): Title**  |
-|  13 | Thursday, March 7             | **Final Exam** |
+| Class |          Date             |                 Topics                     |
+|:-----:|:-------------------------:| ------------------------------------------ |
+|  1 |  Tuesday, January 22         | **[Lesson 1](Lessons/Lesson01.md): Title** |
+|  2 | Thursday, January 24         | **[Lesson 2](Lessons/Lesson02.md): Title**  |
+|  3 |  Tuesday, January 29         | **[Lesson 3](Lessons/Lesson03.md): Title**  |
+|  4 | Thursday, January 31         | **[Lesson 4](Lessons/Lesson04.md): Title**  |
+|  5 |  Tuesday, February 5         | **[Lesson 5](Lessons/Lesson05.md): Title**  |
+|  6 | Thursday, February 7         | **[Lesson 6](Lessons/Lesson06.md): Title**  |
+|  7 |  Tuesday, February 12        | **[Lesson 7](Lessons/Lesson07.md): Title**  |
+|  8 | Thursday, February 14        | **[Lesson 8](Lessons/Lesson08.md): Title**  |
+|  - |  _Tuesday, February 19_      | _President's Day (Observed)_ |
+|  9 | Thursday, February 21        | **[Lesson 9](Lessons/Lesson9.md): Title**  |
+|  10 |  Tuesday, February 26       | **[Lesson 10](Lessons/Lesson10.md): Title**  |
+|  11 | Thursday, February 28       | **[Lesson 11](Lessons/Lesson11.md): Title**  |
+|  12 |  Tuesday, March 5           | **[Lesson 12](Lessons/Lesson12.md): Title**  |
+|  13 | Thursday, March 7           | **Final Exam** |
 
 ## Class Assignments
 

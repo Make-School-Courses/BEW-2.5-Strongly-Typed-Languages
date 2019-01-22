@@ -1,5 +1,3 @@
-# Day XX: Title
-
 ## Minute-by-Minute [OPTIONAL]
 
 | **Elapsed** | **Time**  | **Activity**              |

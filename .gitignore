@@ -11,3 +11,4 @@
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 .wakatime-project
+.DS_Store
