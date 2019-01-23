@@ -157,7 +157,7 @@ cd go
 
 #### Hello World
 
-1. `mkdir -p /src/hello`
+1. `mkdir -p src/hello && cd src/hello`
 1. Create a file named `hello.go` and paste the following code:
     ```golang
     package main
@@ -199,5 +199,11 @@ cd go
 * Turn it in to Dani at the **end of the class period**.
 
 * I will be **tracking and discussing this goal** with you **throughout the course**.
+
+---
+
+## Final Challenge
+
+[A Tour of Go](https://tour.golang.org/welcome/1)
 
 ---
