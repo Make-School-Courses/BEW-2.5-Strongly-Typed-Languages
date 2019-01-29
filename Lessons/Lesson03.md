@@ -1,6 +1,6 @@
-# Modeling the Domain
+# Anatomy & Architecture of Well Crafted Go Apps
 
-## Minute-by-Minute [OPTIONAL]
+## Minute-by-Minute
 
 | **Elapsed** | **Time**  | **Activity**              |
 | ----------- | --------- | ------------------------- |
@@ -12,7 +12,7 @@
 | 1:30        | 0:30      | Continue Challenges       |
 | TOTAL       | 2:00      |                           |
 
-# Why you should know this or industry application
+## Why You Should Know This
 
 Today's class will help you to create models that you can use in your applications, in any language, throughout your entire career.
 
