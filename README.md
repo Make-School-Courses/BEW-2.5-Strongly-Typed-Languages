@@ -67,15 +67,11 @@ Class Sessions:  13 classes, 7 labs
 
 ## Class Assignments
 
-- List (with links) of all course-level assignments (i.e. tutorials, challenge sets, contractor project, custom projects, etc)
-- Under each assignment link the rubric used to evaluate it or describe how it is evaluated.
-- Projects should be linked to a project page which has a description & requirements.
-
 ### Tutorials
 
 Tutorials are to help you get started in a topic.  They are **graded on completion only**.
 
-- [Do Cool Stuff Tutorial]()
+- [Complete AT LEAST 25 Challenges](http://exercism.io)
 
 ### Projects
 
