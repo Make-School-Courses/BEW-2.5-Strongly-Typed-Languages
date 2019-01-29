@@ -48,22 +48,22 @@ Class Sessions:  13 classes, 7 labs
 **Course Dates:** Tuesday, January 22 – Thursday, March 7, 2019 (_7 weeks_)<br>
 **Class Times:** Tuesday and Thursday at 1:30–3:20pm (_12 class sessions_)
 
-| Class |          Date             |                 Topics                      |
-|:-----:|:-------------------------:| ------------------------------------------- |
-|  1 |  Tuesday, January 22         | **[Lesson 1](Lessons/Lesson01.md):  Intro to Go**  |
-|  2 | Thursday, January 24         | **[Lesson 2](Lessons/Lesson02.md): Tutorial Launch**  |
-|  3 |  Tuesday, January 29         | **[Lesson 3](Lessons/Lesson03.md): Anatomy & Architecture of Well Crafted Go Apps**  |
-|  4 | Thursday, January 31         | **[Lesson 4](Lessons/Lesson04.md): Solving Problems with Go**  |
-|  5 |  Tuesday, February 5         | **[Lesson 5](Lessons/Lesson05.md): APIs in Go**  |
-|  6 | Thursday, February 7         | **[Lesson 6](Lessons/Lesson06.md): Concurrency and Goroutines**  |
-|  7 |  Tuesday, February 12        | **[Lesson 7](Lessons/Lesson07.md): Go Design Patterns**  |
-|  8 | Thursday, February 14        | **[Lesson 8](Lessons/Lesson08.md): Integrations and Bots**  |
-|  - |  _Tuesday, February 19_      | _President's Day (Observed)_                |
-|  9 | Thursday, February 21        | **[Lesson 9](Lessons/Lesson9.md):  Benchmarking, Testing, & Documentation**   |
-|  10 |  Tuesday, February 26       | **[Lesson 10](Lessons/Lesson10.md): Go Microservice Deployment Strategies** |
-|  11 | Thursday, February 28       | **[Lesson 11](Lessons/Lesson11.md): TBA** |
-|  12 |  Tuesday, March 5           | **[Lesson 12](Lessons/Lesson12.md): TBA** |
-|  13 | Thursday, March 7           | **Final Exam**                              |
+| Class |          Date             |                 Topics                      | Assignment Due |
+|:-----:|:-------------------------:| ------------------------------------------- |:--------------:|
+|  1 |  Tuesday, January 22         | **[Lesson 1](Lessons/Lesson01.md):  Intro to Go**  ||
+|  2 | Thursday, January 24         | **[Lesson 2](Lessons/Lesson02.md): Tutorial Launch**  ||
+|  3 |  Tuesday, January 29         | **[Lesson 3](Lessons/Lesson03.md): Anatomy & Architecture of Well Crafted Go Apps**  ||
+|  4 | Thursday, January 31         | **[Lesson 4](Lessons/Lesson04.md): Solving Problems with Go**  ||
+|  5 |  Tuesday, February 5         | **[Lesson 5](Lessons/Lesson05.md): APIs in Go**  ||
+|  6 | Thursday, February 7         | **[Lesson 6](Lessons/Lesson06.md): Concurrency and Goroutines**  ||
+|  7 |  Tuesday, February 12        | **[Lesson 7](Lessons/Lesson07.md): Go Design Patterns**  ||
+|  8 | Thursday, February 14        | **[Lesson 8](Lessons/Lesson08.md): Integrations and Bots**  ||
+|  - |  _Tuesday, February 19_      | _President's Day (Observed)_ ||
+|  9 | Thursday, February 21        | **[Lesson 9](Lessons/Lesson9.md):  Benchmarking, Testing, & Documentation** | 25 Challenges Due |
+|  10 |  Tuesday, February 26       | **[Lesson 10](Lessons/Lesson10.md): Go Microservice Deployment Strategies** ||
+|  11 | Thursday, February 28       | **[Lesson 11](Lessons/Lesson11.md): TBA** ||
+|  12 |  Tuesday, March 5           | **[Lesson 12](Lessons/Lesson12.md): TBA** ||
+|  13 | Thursday, March 7           | **Final Exam** ||
 
 ## Class Assignments
 
