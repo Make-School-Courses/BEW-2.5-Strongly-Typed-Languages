@@ -20,7 +20,7 @@ Today's class will help you to create models that you can use in your applicatio
 
 1. Define what "modeling the domain" means to engineers.
 1. Design a program around the paradigms present in the Go language.
-1. Implement `struct`s or `interface`s that represent the nouns generated in class.
+1. Implement `struct`s or `interface`s that represent the nouns generated in class, and `func`s to represent verbs.
 
 ## Initial Exercise (15 min)
 
