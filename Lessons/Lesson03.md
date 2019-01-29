@@ -45,6 +45,7 @@ Today's class will help you to create models that you can use in your applicatio
 1. After 10 minutes, ask students to hold up their programmatic models.
 1. Ask students to swap whiteboards with yet another team at their tables.
 1. Implement a function (verb) on the whiteboards based on the programmatic representations of their peers.
+1. **Your deliverable today: post your complete implementation on Slack in a code block!**
 
 ## In Class Activity II (30 min)
 
