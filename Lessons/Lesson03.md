@@ -35,7 +35,7 @@ Today's class will help you to create models that you can use in your applicatio
   - How to model the domain of an application from a mockup or idea.
   - The diagram of steps we'll use in class in order to create the nouns and verbs that solve a problem programmatically.
 
-##f BREAK (10 min)
+## BREAK (10 min)
 
 ## In Class Activity I (40 min)
 
