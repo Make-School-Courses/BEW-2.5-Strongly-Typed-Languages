@@ -1,64 +1,46 @@
-## Minute-by-Minute [OPTIONAL]
+# APIs, Middleware, and You
+
+## Minute-by-Minute
 
 | **Elapsed** | **Time**  | **Activity**              |
 | ----------- | --------- | ------------------------- |
 | 0:00        | 0:05      | Objectives                |
-| 0:05        | 0:15      | Overview                  |
-| 0:20        | 0:45      | In Class Activity I       |
-| 1:05        | 0:10      | BREAK                     |
-| 1:15        | 0:45      | In Class Activity II      |
+| 0:05        | 0:30      | Initial Exercise          |
+| 0:35        | 0:20      | Overview                  |
+| 0:55        | 0:10      | BREAK                     |
+| 1:05        | 0:55      | In Class Activity I       |
 | TOTAL       | 2:00      |                           |
 
-# Why you should know this or industry application (optional) (5 min)
+## Why You Should Know This
 
-Explain why students should care to learn the material presented in this class.
+The ability to **create custom middleware that augments the request/response cycle** is crucial for all Systems Engineers.
 
 ## Class Learning Objectives/Competencies (5 min)
 
-1. Identify and describe
-1. Define
-1. Design
-1. Implement
+1. Identify and describe what a middleware is, and why you'd use the technique in your APIs or backend architectures.
+1. Design your first custom middleware.
+1. Implement a middleware that detects whether or not a request is coming from inside the building.
 
-## Initial Exercise (15 min)
+## Initial Exercise (30 min)
 
-- Funny comic
-- Prime the Pump (e.g. think and jot, think pair share, etc)
-- Productivity Tip/Tool
-- Review of current event (e.g. tech news relevant to your track/topic)
-- Quiz on homework or topic(s) of past class
-- Concept Test
+- Finish the activity from last class period.
+- If you've already completed the activity, make sure to slack out the GitHub repo.
+- Ask Dani for a stretch challenge related to your group project!
 
-## Overview/TT I (20 min)
+## Overview/TT (20 min)
 
-- Why learn this?
-- Industry examples of usage
-- Best practices
-- Personal anecdote
+Go over the [Echo Middleware Cookbook](https://echo.labstack.com/cookbook/middleware) with the class.
 
-## In Class Activity I (30 min)
+## BREAK (10 min)
 
-- I do, We do, You do
-- Reading & Discussion Questions in small groups
-- Draw a picture/diagram
-- Complete Challenges solo or in pair
-- Q&A about tutorials
-- Pair up and code review
-- Pair program
-- Formative assessment
-- Form into groups
-- etc (get creative :D)
+## In Class Activity I (55 min)
 
-## Overview/TT II (optional) (20 min)
+### Custom Make School Middleware
 
-## In Class Activity II (optional) (30 min)
+Your deliverable today is to **create a custom Echo middleware** that detects whether or not a particular request is coming from inside the building.
 
-## Wrap Up (5 min)
+#### Challenges
 
-- Continue working on your current tutorial
-- Complete reading
-- Complete challenges
-
-## Additional Resources
-
-1. Links to additional readings and videos
+1. Within a group of three, **brainstorm why one would be interested in detecting if a request came from a certain place**. What technique and technology could you use to detect this?
+1. Write a custom Echo middleware that can detect this.
+1. **Deliverable**: Slack out your technique and final code by end of class today.
