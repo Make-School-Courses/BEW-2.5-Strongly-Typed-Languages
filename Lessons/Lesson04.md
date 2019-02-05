@@ -19,7 +19,7 @@ The ability to **marshal and unmarshal objects into a particular format** is a g
 
 1. Define what marshalling and unmarshalling a object means in the context of JSON.
 1. Design and build your first server-side Go application.
-1. Implement `struct`s that represent real-life objects from the [Public APIs List]().
+1. Implement `struct`s that represent real-life objects from the [Public APIs List](https://github.com/toddmotto/public-apis).
 
 ## Initial Exercise (15 min)
 
@@ -59,7 +59,7 @@ Take a pic with your smartphone by the end of class and post it to our Slack cha
 ## In Class Activity I (50 min)
 
 1. Break into groups of 3 to 4.
-1. Select a [public API]() that doesn't require authentication of any kind.
+1. Select a [public API](https://github.com/toddmotto/public-apis) that doesn't require authentication of any kind.
 1. Design and write `struct`s or `interface`s that can contain the data that the API returns.
 1. Write a `GET` endpoint that returns a JSON with some API data that you think is interesting!
 1. **Stretch Challenge**: what other endpoints could you write to leverage the data you've pulled into your Golang server?
