@@ -60,11 +60,11 @@ Class Sessions:  13 classes, 7 labs
 |  7 |  Tuesday, February 12        | **[Lesson 7](Lessons/Lesson07.md): Concurrency and Goroutines**  ||
 |  8 | Thursday, February 14        | **[Lesson 8](Lessons/Lesson08.md): TBA**  ||
 |  - |  _Tuesday, February 19_      | _President's Day (Observed)_ ||
-|  9 | Thursday, February 21        | **[Lesson 9](Lessons/Lesson9.md):  Benchmarking, Testing, & Documentation** | 20 Challenges Due |
+|  9 | Thursday, February 21        | **[Lesson 9](Lessons/Lesson9.md):  Benchmarking, Testing, & Documentation** | _20 Challenges Due_ |
 |  10 |  Tuesday, February 26       | **[Lesson 10](Lessons/Lesson10.md): Microservice Deployment Strategies** ||
 |  11 | Thursday, February 28       | **[Lesson 11](Lessons/Lesson11.md): Integrations & Bots** ||
 |  12 |  Tuesday, March 5           | **[Lesson 12](Lessons/Lesson12.md): Go Design Patterns** ||
-|  13 | Thursday, March 7           | **Final Exam** ||
+|  13 | Thursday, March 7           | **Final Exam** | _Project Due_ |
 
 ## Class AssignmentsGo
 
