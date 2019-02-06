@@ -72,9 +72,9 @@ Class Sessions:  13 classes, 7 labs
 
 Tutorials are to help you get started in a topic.  They are **graded on completion only**.
 
-- **Complete AT LEAST 25 [Go Track Challenges](http://exercism.io), committed to a public GitHub repository**. 
+- **Complete AT LEAST 25 [Go Track Challenges](http://exercism.io)**, committed to a public GitHub repository. 
 
-**Go above and beyond in the Go Track to earn a special holographic [droxey](https://github.com/droxey) sticker** at the end of the term!
+_Go **above 25 challenges to earn a special holographic [droxey](https://github.com/droxey) sticker** at the end of the term!_
 
 ### Projects
 
