@@ -54,7 +54,7 @@ Class Sessions:  13 classes, 7 labs
 |  2 | Thursday, January 24         | **[Lesson 2](Lessons/Lesson02.md): Tutorial Launch**  ||
 |  3 |  Tuesday, January 29         | **[Lesson 3](Lessons/Lesson03.md): Anatomy & Architecture of Well Crafted Go Apps**  ||
 |  4 | Thursday, January 31         | **[Lesson 4](Lessons/Lesson04.md): Interacting with APIs in Golang**  ||
-|  5 |  Tuesday, February 5         | **[Lesson 5](Lessons/Lesson05.md): Solving Problems with Go**  ||
+|  5 |  Tuesday, February 5         | **[Lesson 5](Lessons/Lesson05.md): # APIs, Middleware, and You**  ||
 |  6 | Thursday, February 7         | **[Lesson 6](Lessons/Lesson06.md): Concurrency and Goroutines**  ||
 |  7 |  Tuesday, February 12        | **[Lesson 7](Lessons/Lesson07.md): Go Design Patterns**  ||
 |  8 | Thursday, February 14        | **[Lesson 8](Lessons/Lesson08.md): Integrations and Bots**  ||
