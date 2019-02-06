@@ -109,7 +109,7 @@ Projects are a **chance to build and ship code based on class concepts**.  Many 
 
 ## Additional Resources
 
-* [YouTube: Todd McCleod](https://www.youtube.com/user/toddmcleod/playlists) - Watch these videos to reinforce golang concepts and techniques that we cover in class.
+* [YouTube: Todd Mcleod](https://www.youtube.com/user/toddmcleod/playlists): Videos to reinforce golang concepts and techniques that we cover in class.
 
 ## Attendance
 
