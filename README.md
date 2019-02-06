@@ -21,7 +21,7 @@
 
 ## Course Description
 
-In this course, students discover the value of strongly typed languages in server-side architectures, and dive deep into performant, concurrent programming paradigms present in Go. Known best for it's ability to blend the expressive features of dynamic languages (Python, JavaScript) with the performance capabilities of compiled languages (C, C++), students will gain the syntactic diversity required in today's large-scale platform engineering pursuits. Throughout the course, students will learn and implement the design patterns and best practices that make Go a top choice at high-velocity startups like Lyft, Heroku, Docker, Medium, and more!
+_In this course, students discover the value of strongly typed languages in server-side architectures, and dive deep into performant, concurrent programming paradigms present in Go. Known best for it's ability to blend the expressive features of dynamic languages (Python, JavaScript) with the performance capabilities of compiled languages (C, C++), students will gain the syntactic diversity required in today's large-scale platform engineering pursuits. Throughout the course, students will learn and implement the design patterns and best practices that make Go a top choice at high-velocity startups like Lyft, Heroku, Docker, Medium, and more!_
 
 ## Course Specifics
 
@@ -52,29 +52,22 @@ Class Sessions:  13 classes, 7 labs
 **Course Dates:** Tuesday, January 22 – Thursday, March 7, 2019 (_7 weeks_)<br>
 **Class Times:** Tuesday and Thursday at 1:30–3:20pm (_12 class sessions_)
 
-| Class |          Date             |                 Topics                      | Assignment Due |
+| #  |          Date             |                 Topic                      | Assignment Due |
 |:-----:|---------------------------| ------------------------------------------- |:--------------:|
-|  1 |  Tuesday, January 22         | **[Lesson 1](Lessons/Lesson01.md): Intro to Go**  ||
-|  2 | Thursday, January 24         | **[Lesson 2](Lessons/Lesson02.md): Tutorial Launch**  ||
-|  3 |  Tuesday, January 29         | **[Lesson 3](Lessons/Lesson03.md): Architecture of Well Crafted Go Apps**  ||
-|  4 | Thursday, January 31         | **[Lesson 4](Lessons/Lesson04.md): Interacting with APIs in Golang**  ||
-<<<<<<< HEAD
-|  5 |  Tuesday, February 5         | **[Lesson 5](Lessons/Lesson05.md): # APIs, Middleware, and You**  ||
-|  6 | Thursday, February 7         | **[Lesson 6](Lessons/Lesson06.md): Concurrency and Goroutines**  ||
-|  7 |  Tuesday, February 12        | **[Lesson 7](Lessons/Lesson07.md): Go Design Patterns**  ||
-|  8 | Thursday, February 14        | **[Lesson 8](Lessons/Lesson08.md): Integrations and Bots**  ||
-=======
-|  5 |  Tuesday, February 5         | **[Lesson 5](Lessons/Lesson05.md): APIs, Middleware, and You**  ||
-|  6 | Thursday, February 7         | **[Lesson 6](Lessons/Lesson06.md): Go Relational with GORM**  ||
-|  7 |  Tuesday, February 12        | **[Lesson 7](Lessons/Lesson07.md): Concurrency and Goroutines**  ||
-|  8 | Thursday, February 14        | **[Lesson 8](Lessons/Lesson08.md): TBA**  ||
->>>>>>> 0ac2a7d7167965a8cda9f548b670e493ed95e920
-|  - |  _Tuesday, February 19_      | _President's Day (Observed)_ ||
-|  9 | Thursday, February 21        | **[Lesson 9](Lessons/Lesson9.md):  Benchmarking, Testing, & Documentation** | _20 Challenges Due_ |
-|  10 |  Tuesday, February 26       | **[Lesson 10](Lessons/Lesson10.md): Microservice Deployment Strategies** ||
-|  11 | Thursday, February 28       | **[Lesson 11](Lessons/Lesson11.md): Integrations & Bots** ||
-|  12 |  Tuesday, March 5           | **[Lesson 12](Lessons/Lesson12.md): Go Design Patterns** ||
-|  13 | Thursday, March 7           | **Final Exam** | _Project Due_ |
+|  1 |  Tuesday, Jan 22     | **[Lesson 1](Lessons/Lesson01.md): Intro to Go**  ||
+|  2 | Thursday, Jan 24     | **[Lesson 2](Lessons/Lesson02.md): Tutorial Launch**  ||
+|  3 |  Tuesday, Jan 29     | **[Lesson 3](Lessons/Lesson03.md): Architecture of Well Crafted Go Apps**  ||
+|  4 | Thursday, Jan 31     | **[Lesson 4](Lessons/Lesson04.md): Interacting with APIs in Golang**  ||
+|  5 |  Tuesday, Feb 5      | **[Lesson 5](Lessons/Lesson05.md): APIs, Middleware, & You**  ||
+|  6 | Thursday, Feb 7      | **[Lesson 6](Lessons/Lesson06.md): Go Relational with GORM**  ||
+|  7 |  Tuesday, Feb 12     | **[Lesson 7](Lessons/Lesson07.md): Concurrency & Goroutines**  ||
+|  8 | Thursday, Feb 14     | **[Lesson 8](Lessons/Lesson08.md): Benchmarking, Testing, & Documentation**  ||
+|  - |  _Tuesday, Feb 19_   | _President's Day (Observed)_ ||
+|  9 | Thursday, Feb 21     | **Lab Day** | _20 Challenges @ 11:59pm_ |
+|  10 |  Tuesday, Feb 26    | **[Lesson 10](Lessons/Lesson10.md): Microservice Deployment Strategies** ||
+|  11 | Thursday, Feb 28    | **[Lesson 11](Lessons/Lesson11.md): Integrations & Bots** ||
+|  12 |  Tuesday, Mar 5     | **[Lesson 12](Lessons/Lesson12.md): Go Design Patterns** ||
+|  13 | Thursday, Mar 7     | **Final Exam** | _Project Due @ 11:59pm_ |
 
 ## Class Assignments
 
@@ -82,13 +75,16 @@ Class Sessions:  13 classes, 7 labs
 
 Tutorials are to help you get started in a topic.  They are **graded on completion only**.
 
-- **Complete AT LEAST 20 [Go Track Challenges](http://exercism.io)**, committed to a public GitHub repository. 
+- **Complete AT LEAST 20 [Go Track Challenges](http://exercism.io)**, committed to a public GitHub repository.
 
 _Go **above 20 challenges to earn a special holographic [droxey](https://github.com/droxey) sticker** at the end of the term!_
 
 ### Projects
 
-**All projects will require a minimum of 10 commits, and must take place throughout the entirety of the course.**
+- **[MakeUtility Project](Project/MakeUtility.md)**: Architect, implement, deploy, and integrate a helpful utility written in Golang.
+  - **[MakeUtility Rubric](Project/MakeUtility.md#Rubric)**: Use this rubric to assess your project _before_ turning it in.
+
+**All projects require a minimum of 10 commits, and must take place throughout the entirety of the course.**
 
 - **Good Example:** **40+ commits throughout the length of the course**, looking for a healthy spattering of commits each week (such as **3-5 per day**).
 - **Bad Example:** **10 commits on one day** during the course and **no others**. Students who do this will be at **severe risk of not passing** the class.
@@ -105,9 +101,6 @@ We want to encourage best practices that you will see working as a professional 
 Through this requirement, **we encourage you to think about projects with an iterative, modular mindset**. Doing so will allow you to **break projects down into smaller milestones** that come together to make your fully-realized solution.
 
 Projects are a **chance to build and ship code based on class concepts**.  Many are **open ended** allowing you to be **creative** and to have **individual work for your portfolio**.
-
-- [Sample Project](Sample_Project.md)
-  - [Sample Project Rubric](Sample_Rubric.md)
 
 ## Evaluation
 
@@ -132,9 +125,9 @@ Failure to meet these requirements will result in a PIP (Participation Improveme
 
 ## Additional Resources
 
-* [YouTube - Todd Mcleod](https://www.youtube.com/user/toddmcleod/playlists): Videos to reinforce golang concepts and techniques that we cover in class.
-* [Echo Framework](https://echo.labstack.com/guide): Documentation for Echo, a high performance, extensible, minimalist Go web framework.
-* [GORM](http://doc.gorm.io/#): The fantastic ORM library for Golang.
+- [YouTube - Todd Mcleod](https://www.youtube.com/user/toddmcleod/playlists): Videos to reinforce Golang concepts and techniques that we cover in class.
+- [Echo Framework](https://echo.labstack.com/guide): Documentation for Echo, a high performance, extensible, minimalist Go web framework.
+- [GORM](http://doc.gorm.io/#): The fantastic ORM library for Golang.
 
 ## Make School Course Policies
 
