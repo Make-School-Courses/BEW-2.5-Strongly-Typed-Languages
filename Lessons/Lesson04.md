@@ -65,7 +65,6 @@ Take a pic with your smartphone by the end of class and post it to our Slack cha
 1. **Stretch Challenge**: what other endpoints could you write to leverage the data you've pulled into your Golang server?
 1. **Deliverable**: Slack your project to the class channel. We will continue exploring these techniques throughout the course!
 
-## After Class
+## Additional Resources
 
-
-1. Continue the Go track at [exercism.io](https://exercism.io).
+1. [JSON to Go Structs](https://mholt.github.io/json-to-go/)
