@@ -42,6 +42,7 @@ Class Sessions:  13 classes, 7 labs
 1. Identify the strengths of Go, and describe the architectures where Go could be best utilized.
 1. Design, implement, and deploy command line interfaces, APIs, and bots in Go.
 1. Compare and contrast different design patterns and the use cases in which they best fit.
+1. Use an Object Relational Mapper to save data to a relational database using Go.
 
 ## Schedule
 
@@ -55,17 +56,17 @@ Class Sessions:  13 classes, 7 labs
 |  3 |  Tuesday, January 29         | **[Lesson 3](Lessons/Lesson03.md): Anatomy & Architecture of Well Crafted Go Apps**  ||
 |  4 | Thursday, January 31         | **[Lesson 4](Lessons/Lesson04.md): Interacting with APIs in Golang**  ||
 |  5 |  Tuesday, February 5         | **[Lesson 5](Lessons/Lesson05.md): APIs, Middleware, and You**  ||
-|  6 | Thursday, February 7         | **[Lesson 6](Lessons/Lesson06.md): Concurrency and Goroutines**  ||
-|  7 |  Tuesday, February 12        | **[Lesson 7](Lessons/Lesson07.md): Go Design Patterns**  ||
-|  8 | Thursday, February 14        | **[Lesson 8](Lessons/Lesson08.md): Integrations and Bots**  ||
+|  6 | Thursday, February 7         | **[Lesson 6](Lessons/Lesson06.md): Go Relational with GORM**  ||
+|  7 |  Tuesday, February 12        | **[Lesson 7](Lessons/Lesson07.md): Concurrency and Goroutines**  ||
+|  8 | Thursday, February 14        | **[Lesson 8](Lessons/Lesson08.md): TBA**  ||
 |  - |  _Tuesday, February 19_      | _President's Day (Observed)_ ||
 |  9 | Thursday, February 21        | **[Lesson 9](Lessons/Lesson9.md):  Benchmarking, Testing, & Documentation** | 25 Challenges Due |
-|  10 |  Tuesday, February 26       | **[Lesson 10](Lessons/Lesson10.md): Go Microservice Deployment Strategies** ||
-|  11 | Thursday, February 28       | **[Lesson 11](Lessons/Lesson11.md): TBA** ||
-|  12 |  Tuesday, March 5           | **[Lesson 12](Lessons/Lesson12.md): TBA** ||
+|  10 |  Tuesday, February 26       | **[Lesson 10](Lessons/Lesson10.md): Microservice Deployment Strategies** ||
+|  11 | Thursday, February 28       | **[Lesson 11](Lessons/Lesson11.md): Integrations & Bots** ||
+|  12 |  Tuesday, March 5           | **[Lesson 12](Lessons/Lesson12.md): Go Design Patterns** ||
 |  13 | Thursday, March 7           | **Final Exam** ||
 
-## Class Assignments
+## Class AssignmentsGo
 
 ### Tutorials
 
