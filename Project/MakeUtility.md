@@ -18,7 +18,7 @@
     3.  **This technique will ensure delivery of a passing, portfolio-worthy project**.
 4. Items **marked with 🌟** will earn you **bonus points**.
    1. You may **choose to complete any, all, or none** of the **bonus challenges**.
-   2. Projects **scoring `>100%`** will **earn a limited-edition holographic [droxey](https://github.com/droxey) sticker** at the end of the term!
+   2. Projects **scoring `>95%`** will **earn a limited-edition holographic [droxey](https://github.com/droxey) sticker** at the end of the term!
 5. Instructor **feedback will appear in the empty space below** the rubric and **distributed at the end of the term**.
 
 ## Rubric
