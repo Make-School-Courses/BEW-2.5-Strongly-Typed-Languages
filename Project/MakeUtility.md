@@ -25,7 +25,7 @@
 
 | Student           | Total<br>(Possible) | Bonus<br>(Possible) | Total<br>(Earned) | Bonus<br>(Earned) | Final Score<br>(Points) | Final % |
 | ----------------- | :-----------------: | :-----------------: | :---------------: | :---------------: | :---------------------: | :-----: |
-| _Awesome Student_ |       **200**       |        **50**       |                   |                   |                         |         |
+| _Awesome Student&nbsp;&nbsp;&nbsp;_ |       **200**       |        **50**       |                   |                   |                         |         |
 
 |       Phase |  ✓  | Criteria                                                                            | Points | Score |
 | ----------: | :-: | ----------------------------------------------------------------------------------- | :----: | :---: |
