@@ -16,6 +16,7 @@
 1. [Class Assignments](#class-assignments)
 1. [Evaluation](#evaluation)
 1. [Attendance](#attendance)
+1. [Additional Resources](#additional-resources)
 1. [Make School Course Policies](#make-school-course-policies)
 
 ## Course Description
@@ -66,7 +67,7 @@ Class Sessions:  13 classes, 7 labs
 |  12 |  Tuesday, March 5           | **[Lesson 12](Lessons/Lesson12.md): Go Design Patterns** ||
 |  13 | Thursday, March 7           | **Final Exam** | _Project Due_ |
 
-## Class AssignmentsGo
+## Class Assignments
 
 ### Tutorials
 
