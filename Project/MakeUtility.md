@@ -31,7 +31,8 @@
 | ----------: | :-: | ----------------------------------------------------------------------------------- | :----: | :---: |
 |   _Propose_ |     | Repo Contains `proposal.md` Document & Written Proposal                             | **15** |       |
 |   _Propose_ |     | Utility Has Purpose & Fulfills the Propose                                          | **15** |       |
-| _Implement_ |     | Code Receives a B or Higher on [Go Report Card](https://goreportcard.com)           | **50** |       |
+|             |     | &nbsp;                                                                              |        |       |
+| _Implement_ |     | Source Code Receives a B or Higher on [Go Report Card](https://goreportcard.com)    | **50** |       |
 | _Implement_ |     | Utility Can Persist Data                                                            | **25** |       |
 | _Implement_ |     | Utility Incorporates a Third-Party API                                              | **25** |       |
 | _Implement_ |     | `README` Contains [Go Report Card](https://goreportcard.com) Badge at Top           |  **5** |       |
@@ -39,14 +40,16 @@
 | _Implement_ |     | No Exposed Secrets in Source Code                                                   |  **5** |       |
 | _Implement_ |     | Properly Defined `.gitignore`                                                       |  **5** |       |
 | _Implement_ |     | Attribution Links in Comments for "Borrowed" Code                                   |  **5** |       |
+|             |     | &nbsp;                                                                              |        |       |
 |    _Deploy_ |     | Shipped Live & Fully Usable                                                         | **30** |       |
+|             |     | &nbsp;                                                                              |        |       |
 |  _Document_ |     | Installation & How to Use Documentation in `README`                                 | **15** |       |
 |             |     | &nbsp;                                                                              |        |       |
-|     _Bonus_ |     | 🌟 Add API Key Authentication to Your API                                           | **10** |       |
+|     _Bonus_ |     | 🌟 Add API Key Authentication to Your API                                           | **5**  |       |
+|     _Bonus_ |     | 🌟 Documentation Website, Link in `README` & Repo Header                       | **5**  |       |
 |     _Bonus_ |     | 🌟 Test Suite with `>80%` Code Coverage                                             | **10** |       |
-|     _Bonus_ |     | 🌟 Documentation Website, Live Link in `README`                                     | **10** |       |
-|     _Bonus_ |     | 🌟 Project Released on [GoDoc.org](https://godoc.org)                               | **10** |       |
 |     _Bonus_ |     | 🌟 Published Blog Post About Project                                                | **10** |       |
+|     _Bonus_ |     | 🌟 Project Released on [GoDoc.org](https://godoc.org)                               | **20** |       |
 
 
 
