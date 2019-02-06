@@ -63,7 +63,7 @@ Class Sessions:  13 classes, 7 labs
 |  7 |  Tuesday, Feb 12     | **[Lesson 7](Lessons/Lesson07.md): Concurrency & Goroutines**  ||
 |  8 | Thursday, Feb 14     | **[Lesson 8](Lessons/Lesson08.md): Benchmarking, Testing, & Documentation**  ||
 |  - |  _Tuesday, Feb 19_   | _President's Day (Observed)_ ||
-|  9 | Thursday, Feb 21     | **Lab Day** | _20 Challenges @ 11:59pm_ |
+|  9 | Thursday, Feb 21     | **Lab Day: Challenges & MakeUtility Project Kickoff** | _20 Challenges @ 11:59pm_ |
 |  10 |  Tuesday, Feb 26    | **[Lesson 10](Lessons/Lesson10.md): Microservice Deployment Strategies** ||
 |  11 | Thursday, Feb 28    | **[Lesson 11](Lessons/Lesson11.md): Integrations & Bots** ||
 |  12 |  Tuesday, Mar 5     | **[Lesson 12](Lessons/Lesson12.md): Go Design Patterns** ||
