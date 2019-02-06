@@ -51,7 +51,7 @@ Class Sessions:  13 classes, 7 labs
 **Class Times:** Tuesday and Thursday at 1:30–3:20pm (_12 class sessions_)
 
 | Class |          Date             |                 Topics                      | Assignment Due |
-|:-----:|:-------------------------:| ------------------------------------------- |:--------------:|
+|:-----:|---------------------------| ------------------------------------------- |:--------------:|
 |  1 |  Tuesday, January 22         | **[Lesson 1](Lessons/Lesson01.md):  Intro to Go**  ||
 |  2 | Thursday, January 24         | **[Lesson 2](Lessons/Lesson02.md): Tutorial Launch**  ||
 |  3 |  Tuesday, January 29         | **[Lesson 3](Lessons/Lesson03.md): Architecture of Well Crafted Go Apps**  ||
