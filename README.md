@@ -40,11 +40,12 @@ Class Sessions:  13 classes, 7 labs
 
 ## Learning Objectives
 
-1. Identify and describe the architectures wherein the features of Go could be best utilized.
-1. Compare and contrast different design patterns and the use cases in which they best fit.
-1. Leverage Object Relational Mapping techniques to save data to relational databases using Go.
+1. Design and implement command line interfaces, APIs, and bots in Go.
+1. Identify and describe the architectures wherein the features of Golang could be best utilized.
+1. Build data structures that support unmarshalling JSON retreived from third-party APIs.
+1. Apply Object Relational Mapping techniques to persist data to relational databases in Go.
 1. Examine benchmarks to determine how to improve the speed and readability of a Golang project.
-1. Design, implement, and deploy command line interfaces, APIs, and bots in Go.
+1. Gain experience deploying APIs and bots to production.
 
 ## Schedule
 
@@ -53,7 +54,7 @@ Class Sessions:  13 classes, 7 labs
 
 | Class |          Date             |                 Topics                      | Assignment Due |
 |:-----:|---------------------------| ------------------------------------------- |:--------------:|
-|  1 |  Tuesday, January 22         | **[Lesson 1](Lessons/Lesson01.md):  Intro to Go**  ||
+|  1 |  Tuesday, January 22         | **[Lesson 1](Lessons/Lesson01.md): Intro to Go**  ||
 |  2 | Thursday, January 24         | **[Lesson 2](Lessons/Lesson02.md): Tutorial Launch**  ||
 |  3 |  Tuesday, January 29         | **[Lesson 3](Lessons/Lesson03.md): Architecture of Well Crafted Go Apps**  ||
 |  4 | Thursday, January 31         | **[Lesson 4](Lessons/Lesson04.md): Interacting with APIs in Golang**  ||
