@@ -60,7 +60,7 @@ Class Sessions:  13 classes, 7 labs
 |  7 |  Tuesday, February 12        | **[Lesson 7](Lessons/Lesson07.md): Concurrency and Goroutines**  ||
 |  8 | Thursday, February 14        | **[Lesson 8](Lessons/Lesson08.md): TBA**  ||
 |  - |  _Tuesday, February 19_      | _President's Day (Observed)_ ||
-|  9 | Thursday, February 21        | **[Lesson 9](Lessons/Lesson9.md):  Benchmarking, Testing, & Documentation** | 25 Challenges Due |
+|  9 | Thursday, February 21        | **[Lesson 9](Lessons/Lesson9.md):  Benchmarking, Testing, & Documentation** | 20 Challenges Due |
 |  10 |  Tuesday, February 26       | **[Lesson 10](Lessons/Lesson10.md): Microservice Deployment Strategies** ||
 |  11 | Thursday, February 28       | **[Lesson 11](Lessons/Lesson11.md): Integrations & Bots** ||
 |  12 |  Tuesday, March 5           | **[Lesson 12](Lessons/Lesson12.md): Go Design Patterns** ||
@@ -72,7 +72,7 @@ Class Sessions:  13 classes, 7 labs
 
 Tutorials are to help you get started in a topic.  They are **graded on completion only**.
 
-- **Complete AT LEAST 25 [Go Track Challenges](http://exercism.io)**, committed to a public GitHub repository. 
+- **Complete AT LEAST 20 [Go Track Challenges](http://exercism.io)**, committed to a public GitHub repository. 
 
 _Go **above 25 challenges to earn a special holographic [droxey](https://github.com/droxey) sticker** at the end of the term!_
 
@@ -109,10 +109,6 @@ Projects are a **chance to build and ship code based on class concepts**.  Many 
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
 
-## Additional Resources
-
-* [YouTube: Todd Mcleod](https://www.youtube.com/user/toddmcleod/playlists): Videos to reinforce golang concepts and techniques that we cover in class.
-
 ## Attendance
 
 Just like any job, attendance at Make School is required and a key component of your success. Attendance is being onsite from 9:30 to 5:30 each day, attending all scheduled sessions including classes, huddles, coaching and school meetings, and working in the study labs when not in a scheduled session. Working onsite allows you to learn with your peers, have access to support from TAs, instructors and others, and is vital to your learning.
@@ -123,6 +119,12 @@ Attendance requirements for scheduled sessions are:
 - No more than four excused absences per term in any scheduled session.
 
 Failure to meet these requirements will result in a PIP (Participation Improvement Plan).  Failure to improve after the PIP is cause for not being allowed to continue at Make School.
+
+## Additional Resources
+
+* [YouTube - Todd Mcleod](https://www.youtube.com/user/toddmcleod/playlists): Videos to reinforce golang concepts and techniques that we cover in class.
+* [Echo Framework](https://echo.labstack.com/guide): Documentation for Echo, a high performance, extensible, minimalist Go web framework.
+* [GORM](http://doc.gorm.io/#): The fantastic ORM library for Golang.
 
 ## Make School Course Policies
 
