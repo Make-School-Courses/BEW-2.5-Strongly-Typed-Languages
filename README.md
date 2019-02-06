@@ -40,10 +40,11 @@ Class Sessions:  13 classes, 7 labs
 
 ## Learning Objectives
 
-1. Identify the strengths of Go, and describe the architectures where Go could be best utilized.
-1. Design, implement, and deploy command line interfaces, APIs, and bots in Go.
+1. Identify and describe the architectures wherein the features of Go could be best utilized.
 1. Compare and contrast different design patterns and the use cases in which they best fit.
-1. Use an Object Relational Mapper to save data to a relational database using Go.
+1. Leverage Object Relational Mapping techniques to save data to relational databases using Go.
+1. Examine benchmarks to determine how to improve the speed and readability of a Golang project.
+1. Design, implement, and deploy command line interfaces, APIs, and bots in Go.
 
 ## Schedule
 
