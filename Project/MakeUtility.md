@@ -23,9 +23,9 @@
 
 ## Rubric
 
-| Student           | Total<br>(Possible) | Bonus<br>(Possible) | Total<br>(Earned) | Bonus<br>(Earned) | Final Score<br>(Points) | Final % |
+| Student Name      | Total<br>(Possible) | Bonus<br>(Possible) | Total<br>(Earned) | Bonus<br>(Earned) | Final Score<br>(Points) | Final % |
 | ----------------- | :-----------------: | :-----------------: | :---------------: | :---------------: | :---------------------: | :-----: |
-| _&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_ |       **200**       |        **50**       |                   |                   |                         |         |
+| __________________ |       **200**       |        **50**       |                   |                   |                         |         |
 
 |       Phase |  ✓  | Criteria                                                                            | Points | Score |
 | ----------: | :-: | ----------------------------------------------------------------------------------- | :----: | :---: |
