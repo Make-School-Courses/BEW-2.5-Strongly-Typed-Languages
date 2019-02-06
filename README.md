@@ -106,6 +106,10 @@ Projects are a **chance to build and ship code based on class concepts**.  Many 
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
 
+## Additional Resources
+
+* [YouTube: Todd McCleod](https://www.youtube.com/user/toddmcleod/playlists) - Watch these videos to reinforce golang concepts and techniques that we cover in class.
+
 ## Attendance
 
 Just like any job, attendance at Make School is required and a key component of your success. Attendance is being onsite from 9:30 to 5:30 each day, attending all scheduled sessions including classes, huddles, coaching and school meetings, and working in the study labs when not in a scheduled session. Working onsite allows you to learn with your peers, have access to support from TAs, instructors and others, and is vital to your learning.
