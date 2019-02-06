@@ -41,7 +41,7 @@
 | _Implement_ |     | Attribution Links in Comments for "Borrowed" Code                                   |  **5** |       |
 |    _Deploy_ |     | Shipped Live & Fully Usable                                                         | **30** |       |
 |  _Document_ |     | Installation & How to Use Documentation in `README`                                 | **15** |       |
-|             |     |                                                                                     |        |       |
+|             |     | &nbsp;                                                                              |        |       |
 |     _Bonus_ |     | 🌟 Add API Key Authentication to Your API                                           | **10** |       |
 |     _Bonus_ |     | 🌟 Test Suite with `>80%` Code Coverage                                             | **10** |       |
 |     _Bonus_ |     | 🌟 Documentation Website, Live Link in `README`                                     | **10** |       |
