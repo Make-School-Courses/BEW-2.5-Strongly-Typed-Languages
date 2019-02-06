@@ -4,7 +4,7 @@
 
 | Guide | Slack | Office Hours | Shortlink | Tracker | Request 1-on-1 |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| [**@droxey**](https://github.com/droxey) | #bew2-5-go | M/T/Th 1:00 - 1:30pm _(Golden Gate)_<br>T/Th 3:30 - 4:30pm _(Tea Tree)_ | [make.sc/bew2.5](https://make.sc/bew2.5) | [Link](https://make.sc/trackbew2.5) | [Link](https://make.sc/codewithdani) |
+| [**@droxey**](https://github.com/droxey) | #bew2-5-go | M/Th 1:00 - 1:30pm _(Golden Gate)_<br>T/Th 3:30 - 4:30pm _(Tea Tree)_ | [make.sc/bew2.5](https://make.sc/bew2.5) | [Link](https://make.sc/trackbew2.5) | [Link](https://make.sc/codewithdani) |
 
 ## Table of Contents
 
@@ -16,6 +16,7 @@
 1. [Class Assignments](#class-assignments)
 1. [Evaluation](#evaluation)
 1. [Attendance](#attendance)
+1. [Additional Resources](#additional-resources)
 1. [Make School Course Policies](#make-school-course-policies)
 
 ## Course Description
@@ -39,9 +40,12 @@ Class Sessions:  13 classes, 7 labs
 
 ## Learning Objectives
 
-1. Identify the strengths of Go, and describe the architectures where Go could be best utilized.
-1. Design, implement, and deploy command line interfaces, APIs, and bots in Go.
-1. Compare and contrast different design patterns and the use cases in which they best fit.
+1. Design and implement command line interfaces, APIs, and bots in Go.
+1. Identify and describe the architectures wherein the features of Golang could be best utilized.
+1. Build data structures that support unmarshalling JSON retreived from third-party APIs.
+1. Apply Object Relational Mapping techniques to persist data to relational databases in Go.
+1. Examine benchmarks to determine how to improve the speed and readability of a Golang project.
+1. Gain experience deploying APIs and bots to production.
 
 ## Schedule
 
@@ -49,21 +53,28 @@ Class Sessions:  13 classes, 7 labs
 **Class Times:** Tuesday and Thursday at 1:30–3:20pm (_12 class sessions_)
 
 | Class |          Date             |                 Topics                      | Assignment Due |
-|:-----:|:-------------------------:| ------------------------------------------- |:--------------:|
-|  1 |  Tuesday, January 22         | **[Lesson 1](Lessons/Lesson01.md):  Intro to Go**  ||
+|:-----:|---------------------------| ------------------------------------------- |:--------------:|
+|  1 |  Tuesday, January 22         | **[Lesson 1](Lessons/Lesson01.md): Intro to Go**  ||
 |  2 | Thursday, January 24         | **[Lesson 2](Lessons/Lesson02.md): Tutorial Launch**  ||
-|  3 |  Tuesday, January 29         | **[Lesson 3](Lessons/Lesson03.md): Anatomy & Architecture of Well Crafted Go Apps**  ||
+|  3 |  Tuesday, January 29         | **[Lesson 3](Lessons/Lesson03.md): Architecture of Well Crafted Go Apps**  ||
 |  4 | Thursday, January 31         | **[Lesson 4](Lessons/Lesson04.md): Interacting with APIs in Golang**  ||
+<<<<<<< HEAD
 |  5 |  Tuesday, February 5         | **[Lesson 5](Lessons/Lesson05.md): # APIs, Middleware, and You**  ||
 |  6 | Thursday, February 7         | **[Lesson 6](Lessons/Lesson06.md): Concurrency and Goroutines**  ||
 |  7 |  Tuesday, February 12        | **[Lesson 7](Lessons/Lesson07.md): Go Design Patterns**  ||
 |  8 | Thursday, February 14        | **[Lesson 8](Lessons/Lesson08.md): Integrations and Bots**  ||
+=======
+|  5 |  Tuesday, February 5         | **[Lesson 5](Lessons/Lesson05.md): APIs, Middleware, and You**  ||
+|  6 | Thursday, February 7         | **[Lesson 6](Lessons/Lesson06.md): Go Relational with GORM**  ||
+|  7 |  Tuesday, February 12        | **[Lesson 7](Lessons/Lesson07.md): Concurrency and Goroutines**  ||
+|  8 | Thursday, February 14        | **[Lesson 8](Lessons/Lesson08.md): TBA**  ||
+>>>>>>> 0ac2a7d7167965a8cda9f548b670e493ed95e920
 |  - |  _Tuesday, February 19_      | _President's Day (Observed)_ ||
-|  9 | Thursday, February 21        | **[Lesson 9](Lessons/Lesson9.md):  Benchmarking, Testing, & Documentation** | 25 Challenges Due |
-|  10 |  Tuesday, February 26       | **[Lesson 10](Lessons/Lesson10.md): Go Microservice Deployment Strategies** ||
-|  11 | Thursday, February 28       | **[Lesson 11](Lessons/Lesson11.md): TBA** ||
-|  12 |  Tuesday, March 5           | **[Lesson 12](Lessons/Lesson12.md): TBA** ||
-|  13 | Thursday, March 7           | **Final Exam** ||
+|  9 | Thursday, February 21        | **[Lesson 9](Lessons/Lesson9.md):  Benchmarking, Testing, & Documentation** | _20 Challenges Due_ |
+|  10 |  Tuesday, February 26       | **[Lesson 10](Lessons/Lesson10.md): Microservice Deployment Strategies** ||
+|  11 | Thursday, February 28       | **[Lesson 11](Lessons/Lesson11.md): Integrations & Bots** ||
+|  12 |  Tuesday, March 5           | **[Lesson 12](Lessons/Lesson12.md): Go Design Patterns** ||
+|  13 | Thursday, March 7           | **Final Exam** | _Project Due_ |
 
 ## Class Assignments
 
@@ -71,7 +82,9 @@ Class Sessions:  13 classes, 7 labs
 
 Tutorials are to help you get started in a topic.  They are **graded on completion only**.
 
-- [Complete AT LEAST 25 Challenges](http://exercism.io)
+- **Complete AT LEAST 20 [Go Track Challenges](http://exercism.io)**, committed to a public GitHub repository. 
+
+_Go **above 20 challenges to earn a special holographic [droxey](https://github.com/droxey) sticker** at the end of the term!_
 
 ### Projects
 
@@ -116,6 +129,12 @@ Attendance requirements for scheduled sessions are:
 - No more than four excused absences per term in any scheduled session.
 
 Failure to meet these requirements will result in a PIP (Participation Improvement Plan).  Failure to improve after the PIP is cause for not being allowed to continue at Make School.
+
+## Additional Resources
+
+* [YouTube - Todd Mcleod](https://www.youtube.com/user/toddmcleod/playlists): Videos to reinforce golang concepts and techniques that we cover in class.
+* [Echo Framework](https://echo.labstack.com/guide): Documentation for Echo, a high performance, extensible, minimalist Go web framework.
+* [GORM](http://doc.gorm.io/#): The fantastic ORM library for Golang.
 
 ## Make School Course Policies
 
