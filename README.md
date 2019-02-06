@@ -75,7 +75,7 @@ Tutorials are to help you get started in a topic.  They are **graded on completi
 
 - **Complete AT LEAST 20 [Go Track Challenges](http://exercism.io)**, committed to a public GitHub repository. 
 
-_Go **above 25 challenges to earn a special holographic [droxey](https://github.com/droxey) sticker** at the end of the term!_
+_Go **above 20 challenges to earn a special holographic [droxey](https://github.com/droxey) sticker** at the end of the term!_
 
 ### Projects
 
