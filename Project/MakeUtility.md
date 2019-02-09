@@ -10,17 +10,17 @@ The entire software suite will be presented and discussed during the retrospecti
 
 ### Identifying Good Problems to Solve 
 
-1. What do you wish was easier?
-1. What utility, API, or library could have the most impact on your day to day life?
+1. What do you **wish was easier**?
+1. What utility, API, or library could **have the most impact on your day to day life**?
 1. What can I automate that would make myself and others more productive?
-1. How could you make your colleagues day more fun, interesting, or relevant?
-1. In which scenarios can the unique features of Golang be applied in order to produce a polished product quickly?
-    1. Example 1: Could use you goroutines to download a bunch of GitHub repositories concurrently?
-    1. Example 2: Could you import a well-written Open Source package or API that grabs data from Google Sheets and returns it as a secured JSON API?
+1. How could you make your colleagues' day more **fun, interesting, or relevant**?
+1. When can the **unique features of Golang be applied** in order to **produce a polished product quickly**?
+    1. _Example 1_: _Could use you `goroutines` to download a bunch of GitHub repositories concurrently?_
+    1. _Example 2_: _Could you import a well-written Open Source package or API that grabs data from Google Sheets and returns it as a secured JSON API?_
 
-### Send the Proposal
+### Communicating Intent via Proposal
 
-The proposal describing the problem you'll solve is due ASAP, committed at the root of a GitHub Repo.
+**Commit a proposal document that describes the problem you'll solve** in the project root. Your boss will be looking for it in a file named `proposal.md`.
 
 ## Table of Contents
 
