@@ -2,13 +2,13 @@
 
 ## Scenario
 
-Your Project Manager at Awesome New Startup, Inc. has secured a sprint for your team to focus on creating utilities that enhance the development team's workflow. 
+Your Project Manager at Awesome New Startup, Inc. has secured a sprint for your team to focus on creating utilities that enhance the development team's workflow. During sprint planning, the team was asked to identify areas of improvement, and to each take ownership in writing a new API that that can help out the team. Furthermore, the suite of tools will be available internally for company-wide usage. A presentation will be made company-wide to introduce the helpful tools you create, and a  feedback form will also be sent in the organization's #general channel. 
 
-During sprint planning, the team was asked to identify areas of improvement, and to each take ownership in writing a new API that that can help out the team. Each developer on the team will contribute to streamlining the process, and a suite of tools will be made available internally for company wide usage. The suite will be presented to the _whole_ company soon, and a feedback form will also be sent in the organization's #general channel. 
+_That means all eyes are on you!_ You recognize an opportunity to identify and solve a unique problem, and are highly motivated to impress the senior developers on your team with your insightful implementation. 
 
-_All eyes are on you!_ You recognize an opportunity to identify and solve a unique problem, and are highly motivated to impress the senior developers on your team with your insightful implementation. 
+The proposal describing the problem you'll solve is due ASAP, committed at the root of a GitHub Repo.
 
-The proposal describing the problem you'll solve is due tomorrow. Better get started! _Ask yourself the following questions..._
+### Figuring Out What to Solve
 
 1. What challenge will you tackle? 
 1. What utility, API, or library could have the most impact on your day to day life?
