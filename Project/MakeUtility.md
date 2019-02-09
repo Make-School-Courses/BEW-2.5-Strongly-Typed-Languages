@@ -8,14 +8,15 @@ During sprint planning, the team was asked to identify areas of improvement, and
 
 _All eyes are on you!_ You recognize an opportunity to identify and solve a unique problem, and are highly motivated to impress the senior developers on your team with your insightful implementation. 
 
-The proposal describing the problem you'll solve is due tomorrow. Better get started! 
-
-Ask yourself the following questions...
+The proposal describing the problem you'll solve is due tomorrow. Better get started! _Ask yourself the following questions..._
 
 1. What challenge will you tackle? 
 1. What utility, API, or library could have the most impact on your day to day life?
 1. What do you wish was easier?
 1. How could you make your colleagues day more fun, interesting, or relevant?
+1. In which scenarios can the unique features of Golang be applied in order to produce a polished product quickly?
+    1. Example 1: Could use you goroutines to download a bunch of GitHub repositories concurrently?
+    1. Example 2: Could you import a well-written Open Source package or API that grabs data from Google Sheets and returns it as a secured JSON API?
 
 ## Table of Contents
 
