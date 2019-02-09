@@ -1,16 +1,27 @@
 # MakeUtility Project
 
+## Table of Contents
+
+- [MakeUtility Project](#makeutility-project)
+  - [Scenario](#scenario)
+  - [Table of Contents](#table-of-contents)
+  - [Project Guidelines](#project-guidelines)
+  - [Rubric](#rubric)
+  - [Code Review and Feedback](#code-review-and-feedback)
+
 ## Scenario
 
-The Project Manager at _Awesome New Startup, Inc._ has **secured an entire sprint to focus on creating utilities that enhance the development team's workflow**. 
+The Project Manager at _Awesome New Startup, Inc._ has **secured an entire sprint to focus on creating utilities that enhance the development team's workflow**. During sprint planning, the **team identified areas of improvement** together. Each team member will be responsible for **taking ownership over one problem** this sprint. 
 
-During sprint planning, the team **identified areas of improvement**. You'll each **take ownership over solving one problem on the list** this sprint. 
+### Stakes
 
-### High Stakes, High Visibility
+The entire software suite will be presented and discussed during the retrospective. Furthermore, the suite of tools will be available internally for company-wide usage. A presentation will be made to everyone, introducing each tool, and a feedback form will also be sent in the organization's #general channel. **_That means all eyes are on you!_** You recognize an opportunity to **identify and solve a unique problem**, and are highly motivated to earn the respect of the entire organization. 
 
-The entire software suite will be presented and discussed during the retrospective. Furthermore, the suite of tools will be available internally for company-wide usage. A presentation will be made to everyone, introducing each tool, and a feedback form will also be sent in the organization's #general channel. **_That means all eyes are on you!_** You recognize an opportunity to **identify and solve a unique problem**, and are highly motivated to earn the respect of the entire organization. Eager show your colleagues what Golang can do, you **dive in and start brainstorming, using the questions below to guide you**.
+Eager to show your colleagues what Golang can do, you **dive in and start brainstorming. The questions below will guide you**.
 
-### Identifying Good Problems to Solve 
+### Solve 
+
+#### Identifying a Good Engineering Problem
 
 1. What do you **wish was easier**?
 1. What utility, API, or library could **have the most impact on your day to day life**?
@@ -25,14 +36,6 @@ The entire software suite will be presented and discussed during the retrospecti
 **Commit a proposal document that describes the problem you'll solve** in the project root. 
 
 Your boss will be looking for it in a **file named `proposal.md`**.
-
-## Table of Contents
-
-- [MakeUtility Project](#makeutility-project)
-  - [Table of Contents](#table-of-contents)
-  - [Project Guidelines](#project-guidelines)
-  - [Rubric](#rubric)
-  - [Code Review and Feedback](#code-review-and-feedback)
 
 ## Project Guidelines
 
