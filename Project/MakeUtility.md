@@ -2,13 +2,11 @@
 
 ## Scenario
 
-Your Project Manager at Awesome New Startup, Inc. has **secured an entire sprint for your team to focus on creating utilities that enhance the development team's workflow**. During sprint planning, the team was asked to **identify areas of improvement**, and to **each take ownership over solving one problem on the list** this sprint. 
+The Project Manager at _Awesome New Startup, Inc._ has **secured an entire sprint to focus on creating utilities that enhance the development team's workflow**. During sprint planning, the team **identified areas of improvement**. You'll each **take ownership over solving one problem on the list** this sprint. 
 
 ### High Stakes, High Visibility
 
-The entire software suite will be presented and discussed during the retrospective. Furthermore, the suite of tools will be available internally for company-wide usage. A presentation will be made company-wide to introduce the helpful tools you create, and a  feedback form will also be sent in the organization's #general channel. 
-
-_That means all eyes are on you!_ You recognize an opportunity to identify and solve a unique problem, and are highly motivated to earn the respect of the entire organization. Eager show your colleagues what Golang can do, you dive in and start brainstorming, using the questions below to guide you.
+The entire software suite will be presented and discussed during the retrospective. Furthermore, the suite of tools will be available internally for company-wide usage. A presentation will be made to everyone, introducing each tool, and a feedback form will also be sent in the organization's #general channel. **_That means all eyes are on you!_** You recognize an opportunity to **identify and solve a unique problem**, and are highly motivated to earn the respect of the entire organization. Eager show your colleagues what Golang can do, you **dive in and start brainstorming, using the questions below to guide you**.
 
 ### Identifying Good Problems to Solve 
 
