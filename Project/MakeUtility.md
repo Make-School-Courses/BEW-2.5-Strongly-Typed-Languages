@@ -2,7 +2,9 @@
 
 ## Scenario
 
-The Project Manager at _Awesome New Startup, Inc._ has **secured an entire sprint to focus on creating utilities that enhance the development team's workflow**. During sprint planning, the team **identified areas of improvement**. You'll each **take ownership over solving one problem on the list** this sprint. 
+The Project Manager at _Awesome New Startup, Inc._ has **secured an entire sprint to focus on creating utilities that enhance the development team's workflow**. 
+
+During sprint planning, the team **identified areas of improvement**. You'll each **take ownership over solving one problem on the list** this sprint. 
 
 ### High Stakes, High Visibility
 
@@ -12,15 +14,17 @@ The entire software suite will be presented and discussed during the retrospecti
 
 1. What do you **wish was easier**?
 1. What utility, API, or library could **have the most impact on your day to day life**?
-1. What can I automate that would make myself and others more productive?
+1. What can I automate that would make **myself and others more productive**?
 1. How could you make your colleagues' day more **fun, interesting, or relevant**?
 1. When can the **unique features of Golang be applied** in order to **produce a polished product quickly**?
     1. _Example 1_: _Could use you `goroutines` to download a bunch of GitHub repositories concurrently?_
     1. _Example 2_: _Could you import a well-written Open Source package or API that grabs data from Google Sheets and returns it as a secured JSON API?_
 
-### Communicating Intent via Proposal
+### First Deliverable
 
-**Commit a proposal document that describes the problem you'll solve** in the project root. Your boss will be looking for it in a file named `proposal.md`.
+**Commit a proposal document that describes the problem you'll solve** in the project root. 
+
+Your boss will be looking for it in a **file named `proposal.md`**.
 
 ## Table of Contents
 
