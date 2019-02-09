@@ -1,5 +1,22 @@
 # MakeUtility Project
 
+## Scenario
+
+Your Project Manager at Awesome New Startup, Inc. has secured a sprint for your team to focus on creating utilities that enhance the development team's workflow. 
+
+During sprint planning, the team was asked to identify areas of improvement, and to each take ownership in writing a new API that that can help out the team. Each developer on the team will contribute to streamlining the process, and a suite of tools will be made available internally for company wide usage. The suite will be presented to the _whole_ company soon, and a feedback form will also be sent in the organization's #general channel. 
+
+_All eyes are on you!_ You recognize an opportunity to identify and solve a unique problem, and are highly motivated to impress the senior developers on your team with your insightful implementation. 
+
+The proposal describing the problem you'll solve is due tomorrow. Better get started! 
+
+Ask yourself the following questions...
+
+1. What challenge will you tackle? 
+1. What utility, API, or library could have the most impact on your day to day life?
+1. What do you wish was easier?
+1. How could you make your colleagues day more fun, interesting, or relevant?
+
 ## Table of Contents
 
 - [MakeUtility Project](#makeutility-project)
