@@ -15,9 +15,11 @@ The Project Manager at _Awesome New Startup, Inc._ has **secured an entire sprin
 
 ### Stakes
 
-The entire software suite will be presented and discussed during the retrospective. Furthermore, the suite of tools will be available internally for company-wide usage. A presentation will be made to everyone, introducing each tool, and a feedback form will also be sent in the organization's #general channel. **_That means all eyes are on you!_** You recognize an opportunity to **identify and solve a unique problem**, and are highly motivated to earn the respect of the entire organization. 
+#### Real World Opportunities, High Visibility Consequences 
 
-Eager to show your colleagues what Golang can do, you **dive in and start brainstorming. The questions below will guide you**.
+The entire software suite will be presented and discussed during the sprint retrospective. Furthermore, the suite of tools will be available internally for company-wide usage. A presentation will be made to everyone, introducing each tool, and a feedback form will also be sent in the organization's #general channel. **_That means all eyes are on you!_** You recognize an opportunity to **identify and solve a unique problem**, and are highly motivated to earn the respect of the entire organization. 
+
+**Take some time to reflect upon the following questions** in a **quiet space without screens**, and brainstorm ideas that  fit this scenario. 
 
 ### Solve 
 
