@@ -52,13 +52,13 @@
 
 ### Setup Project (5 min)
 
-1. Fork this [starter repo](https://github.com/droxey/goslackit).
-   1. It is best if you work from one computer today.
-2. Clone the forked repo to your local machine and `cd REPO_NAME`.
-3. Run `cp .env.sample .env` to create a `.env` file.
-4. Paste the Bot Token from Step 9 to your `.env` file under `BOT_OAUTH_ACCESS_TOKEN`.
-5. Run `go run main.go` to start the application.
-   1. If it fails, please let the instructor know.
+1. **Fork** this [starter repo](https://github.com/droxey/goslackit).
+   1. It is best if you **work from one computer today**.
+2. **Clone the forked repo** to your local machine and `cd REPO_NAME`.
+3. Create a `.env` file by running `cp .env.sample .env`.
+4. **Paste the Bot Token** from Step 9 in `.env` after `BOT_OAUTH_ACCESS_TOKEN=`.
+5. Run `go run main.go` to **start the server**.
+   1. If it fails to start, **let the instructor know**.
 
 ## BREAK (10 min)
 
@@ -66,7 +66,8 @@
 
 ### Goroutines Challenge (40 min)
 
-* There are 3 challenges written in the comments of the repo you forked. Search the project for `TODO` in order to find them.
+* There are **3 challenges** written in the project's comments.
+  * Search the project for `TODO` in order to find them.
 * Complete each with the help of your team.
   * Examine the output of `go run main.go`.
   * Manually test the bot via Slack as you complete the activity.
