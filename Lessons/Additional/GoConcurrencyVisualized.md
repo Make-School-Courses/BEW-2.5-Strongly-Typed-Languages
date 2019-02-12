@@ -2,7 +2,7 @@
 
 - [Learning Go’s Concurrency Through Illustrations](#learning-gos-concurrency-through-illustrations)
     - [Single-threaded vs. Multi-threaded Programs](#single-threaded-vs-multi-threaded-programs)
-    - [Go routines](#go-routines)
+    - [goroutines](#goroutines)
     - [Channels](#channels)
       - [Channel Blocking](#channel-blocking)
       - [Blocking on a Send](#blocking-on-a-send)
@@ -11,8 +11,8 @@
       - [Buffered Channels](#buffered-channels)
     - [Putting it all Together](#putting-it-all-together)
     - [Before you go, you should know..](#before-you-go-you-should-know)
-      - [Anonymous Go Routines](#anonymous-go-routines)
-      - [The main function is a go routine](#the-main-function-is-a-go-routine)
+      - [Anonymous goroutines](#anonymous-goroutines)
+      - [The main function is a goroutine](#the-main-function-is-a-goroutine)
       - [You can range over a channel](#you-can-range-over-a-channel)
       - [You can make a non-blocking read on a channel](#you-can-make-a-non-blocking-read-on-a-channel)
       - [You can also do non-blocking sends on a channel](#you-can-also-do-non-blocking-sends-on-a-channel)
@@ -24,7 +24,7 @@ concurrency model. Go’s concurrency primitives make creating concurrent,
 multi-threaded programs simple and fun. I’ll be introducing Go’s concurrency
 primitives through illustrations in hopes that it’ll make these concepts click
 for future learning. This article is meant for those who’re new to Go and want
-to start learning about Go’s concurrency primitives: go routines and channels.
+to start learning about Go’s concurrency primitives: goroutines and channels.
 
 ### Single-threaded vs. Multi-threaded Programs
 
@@ -84,9 +84,9 @@ need two things: a way to create independently working gophers, and a way for
 gophers to communicate (*send ore) *to each other. This is where Go’s
 concurrency primitives come in: goroutines and channels.
 
-### Go routines
+### goroutines
 
-Go routines can be thought of as lightweight threads. Creating a go routine is
+goroutines can be thought of as lightweight threads. Creating a goroutine is
 as easy as adding *go* to the start of calling a function. For an example of
 just how easy it is, lets create two finder functions, call them using the *go*
 keyword, and have them print out every time they find “ore” in their mine.
@@ -126,9 +126,9 @@ routines to communicate to each other? Welcome to the magical world of
 
 ![](https://cdn-images-1.medium.com/max/800/1*9QQ_B3EqsjSa9QtjqHLAZA.jpeg)
 
-Channels allow go routines to communicate with each other. You can think of a
-channel as a pipe, from which go routines can send and receive information from
-other go routines.
+Channels allow goroutines to communicate with each other. You can think of a
+channel as a pipe, from which goroutines can send and receive information from
+other goroutines.
 
 ![](https://cdn-images-1.medium.com/max/800/1*_rq9tbbJ2SeTfx_j-vlbmw.jpeg)
 
@@ -136,7 +136,7 @@ other go routines.
     myFirstChannel := make(chan string)
 ```
 
-Go routines can *send* and *receive* on a channel. This is done through using an
+goroutines can *send* and *receive* on a channel. This is done through using an
 arrow (<-) that points in the direction that the data is going.
 
 ![](https://cdn-images-1.medium.com/max/800/1*KsMXEiIsh4T3Bxopc7fyzg.jpeg)
@@ -155,8 +155,8 @@ everything.
 I’ve updated the example so the finder code and miner functions are set up as
 unnamed functions. If you’ve never seen lambda functions don’t focus too much on
 that part of the program, just know that each of the functions are being called
-with the *go* keyword so they’re being ran on their own go routine. What’s
-important is to notice how the go routines are passing data between each other
+with the *go* keyword so they’re being ran on their own goroutine. What’s
+important is to notice how the goroutines are passing data between each other
 using the channel, *oreChan*. *Don’t worry, I’ll explain unnamed functions at
 the end.*
 
@@ -194,13 +194,13 @@ at a time from reading off the ore channel three times.
     Miner: Received ore3 from finder
 ```
 
-Great, now we can send data between different go routines (gophers) in our
+Great, now we can send data between different goroutines (gophers) in our
 program. Before we start writing complex programs with channels, lets first
 cover some crucial to understand channel properties.
 
 #### Channel Blocking
 
-Channels block go routines in various situations. This allows our go routines to
+Channels block goroutines in various situations. This allows our goroutines to
 sync up with each other for a moment, before going on their independently merry
 way.
 
@@ -208,22 +208,22 @@ way.
 
 ![](https://cdn-images-1.medium.com/max/800/1*C9l3QmY9Q1JvvcuLCkBxhQ.jpeg)
 
-Once a go routine (gopher) sends on a channel, the sending go routine blocks
-until another go routine receives what was sent on the channel.
+Once a goroutine (gopher) sends on a channel, the sending goroutine blocks
+until another goroutine receives what was sent on the channel.
 
 #### Blocking on a Receive
 
 ![](https://cdn-images-1.medium.com/max/800/1*atvgFqE8zYoAdd1sNtEKzg.jpeg)
 
-Similar to blocking after sending on a channel, a go routine can block waiting
+Similar to blocking after sending on a channel, a goroutine can block waiting
 to get a value from a channel, with nothing sent to it yet.
 
 Blocking can be a bit confusing at first, but you can think of it like a
-transaction between two go routines (gophers). Whether a gopher is waiting for
+transaction between two goroutines (gophers). Whether a gopher is waiting for
 money or sending money, it will wait until the other partner in the transaction
 shows up.
 
-Now that we have an idea on the different ways a go routine can block while
+Now that we have an idea on the different ways a goroutine can block while
 communicating through a channel, lets discuss the two different types of
 channels: *unbuffered, *and *buffered*. Choosing what type of channel you use
 can change how your program behaves.
@@ -281,7 +281,7 @@ routine to read from it.
     }()
 ```
 
-The order of printing between our two go routines would be:
+The order of printing between our two goroutines would be:
 
 ```bash
     Sent 1st
@@ -304,7 +304,7 @@ block multiple times in the program.
 
 ### Putting it all Together
 
-Now with the power of go routines and channels, we can write a program that
+Now with the power of goroutines and channels, we can write a program that
 takes full advantage of multiple threads using Go’s concurrency primitives.
 
 ![](https://cdn-images-1.medium.com/max/800/1*mdkQasa9ipcJZrSGajSU1A.jpeg)
@@ -367,31 +367,31 @@ The output of this program is the following:
 ```
 
 This has been a great improvement from our original example! Now each of our
-functions are running independently on their own go routines. Also, every time
+functions are running independently on their own goroutines. Also, every time
 there’s a piece of ore processed, it gets carried on to the next stage of our
 mining line.
 
 For the sake of keeping the focus on understanding the basics of channels and go
 routines, there was some important information I didn’t mention above- which, if
 you don’t know, could cause some trouble when you start programming. Now that
-you have an understanding of how go routines and channels work, let’s go over
-some information you should know before you start coding with go routines and
+you have an understanding of how goroutines and channels work, let’s go over
+some information you should know before you start coding with goroutines and
 channels.
 
 ### Before you go, you should know..
 
-#### Anonymous Go Routines
+#### Anonymous goroutines
 
 ![](https://cdn-images-1.medium.com/max/800/1*khLRmT0Dr_ZHN2SU1GVkaQ.jpeg)
 
-Similar to how we can set up a function to run on its own go routine using the
-*go* keyword, we can create an anonymous function to run on it’s own go routine
+Similar to how we can set up a function to run on its own goroutine using the
+*go* keyword, we can create an anonymous function to run on it’s own goroutine
 using the following format:
 
 ```golang
-    // Anonymous go routine
+    // Anonymous goroutine
     go func() {
-     fmt.Println("I'm running in my own go routine")
+     fmt.Println("I'm running in my own goroutine")
     }()
 ```
 
@@ -399,12 +399,12 @@ This way, if we only need to call a function once, we can place it on its own go
 routine to run, without worrying about creating an official function
 declaration.
 
-#### The main function is a go routine
+#### The main function is a goroutine
 
 ![](https://cdn-images-1.medium.com/max/800/1*2XfhTF9gRaS1D7PKNXHyXw.jpeg)
 
-The main function indeed runs in its own go routine! Even more important to know
-is that once the main function returns, it closes all other go routines that are
+The main function indeed runs in its own goroutine! Even more important to know
+is that once the main function returns, it closes all other goroutines that are
 currently running. This is why we had a timer at the bottom of our main function
 — which created a channel and sent a value on it after 5 seconds.
 
@@ -412,13 +412,13 @@ currently running. This is why we had a timer at the bottom of our main function
     <-time.After(time.Second * 5) //Receiving from channel after 5 sec
 ```
 
-Remember how a go routine will block on a read until something is sent? That’s
+Remember how a goroutine will block on a read until something is sent? That’s
 exactly what is happening to the main routine by adding this code above. The
-main routine will block, giving our other go routines 5 seconds of additional
+main routine will block, giving our other goroutines 5 seconds of additional
 life to run.
 
 Now there are much better ways to handle blocking the main function until all
-other go routines are complete. A common practice is to create a *done channel*
+other goroutines are complete. A common practice is to create a *done channel*
 which the main function blocks on waiting to read. Once you finish your work,
 write to this channel, and the program will end.
 
@@ -431,7 +431,7 @@ write to this channel, and the program will end.
       doneChan <- “I’m all done!”
      }()
 
-     <-doneChan // block until go routine signals work is done
+     <-doneChan // block until goroutine signals work is done
     }
 ```
 
@@ -457,14 +457,14 @@ Since the miner needs to read everything that the finder sends him, ranging over
 the channel here makes sure we receive everything that gets sent.
 
 > Note: Ranging over a channel will block until another item is sent on the
-> channel. The only way to stop the go routine from blocking after all sends have
+> channel. The only way to stop the goroutine from blocking after all sends have
 occurred is by closing the channel with `close(channel)`
 
 #### You can make a non-blocking read on a channel
 
-But you just told us all about how channels block go routines?! True, but there
+But you just told us all about how channels block goroutines?! True, but there
 is a technique where you can make a non-blocking read on a channel, using Go’s
-*select case *structure. By using the structure below, your go routine will read
+*select case *structure. By using the structure below, your goroutine will read
 from the channel if there’s something there, or run the default case.
 
 ```golang
