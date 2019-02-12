@@ -72,7 +72,9 @@
 
 ### Heroku Deployment (10 min)
 
-Deploying your bot means it will run forever --- even if your computer is turned off! Use this sample script to deploy your bot to Heroku:
+Deploying your bot means it will run forever --- even if your computer is turned off!
+
+**Use this sample script to deploy your bot to Heroku**:
 
 ```bash
 $ git clone git@github.com:PROJECT_NAME/REPO_NAME.git
