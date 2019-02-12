@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="img/typing.gif" height="250">
+  <img src="https://cdn-images-1.medium.com/max/800/1*lPX8LWWRYZRZzF9E3rSw0g.jpeg" height="200">
 </p>
 
 # Concurrency: Goroutines, Channels, & Practical Applications
