@@ -1,4 +1,8 @@
-# Concurrency & Goroutines: Practical Applications
+<p align="center">
+  <img src="img/typing.gif" height="250">
+</p>
+
+# Concurrency, Goroutines, & Practical Applications
 
 | **Elapsed** | **Time**  | **Activity**              |
 | ----------- | --------- | ------------------------- |
@@ -28,7 +32,7 @@
 
 ## In Class Activity I (15 min)
 
-**Before Starting**: Brainstorm **command(s) you'd like your Slackbot to perform**.
+**Before Starting**: Brainstorm **command(s)** you'd like your Slackbot to perform.
 
 ### Create New Slack App
 
@@ -54,7 +58,7 @@
 2. **Clone the forked repo** to your local machine and `cd REPO_NAME`.
 3. Create a `.env` file by running `cp .env.sample .env`.
 4. **Paste the Bot Token** from Step 9 in `.env` after `BOT_OAUTH_ACCESS_TOKEN=`.
-5. Run `go run main.go` to **start the server**.
+5. Run `export GO111MODULE=on; go run main.go` to **start the server**.
    1. If it fails to start, **let the instructor know**.
 
 ## BREAK (10 min)
@@ -79,10 +83,16 @@ Deploying your bot means it will run forever --- even if your computer is turned
 **Use this sample script to deploy your bot to Heroku**:
 
 ```bash
-$ git clone git@github.com:PROJECT_NAME/REPO_NAME.git
-$ cd REPO_NAME
+$ git clone git@github.com:USERNAME/goslackit.git PROJECT_NAME
+$ cd PROJECT_NAME
 $ heroku create PROJECT_NAME
-$ heroku config:set PROJECT_NAME_SLACK_TOKEN=YOUR_TOKEN
+$ heroku config:set BOT_OAUTH_ACCESS_TOKEN=YOUR_BOT_TOKEN
 $ git push heroku master
 $ heroku ps:scale worker=1
 ```
+
+## Additional Resources
+
+* **[The Go Blog](https://blog.golang.org/modules2019)**: Go Modules in 2019
+* **[Concurrency is not Parallelism](https://talks.golang.org/2012/waza.slide)**: Slide deck by Rob Pike
+* **[Concurrency in `golang` / Mini Load-Balancer Project](https://gist.github.com/rushilgupta/228dfdf379121cb9426d5e90d34c5b9)**: Awesome gist that shows off a real world, practical application of concurrent techniques.

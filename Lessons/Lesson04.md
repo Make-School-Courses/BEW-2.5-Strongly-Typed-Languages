@@ -68,3 +68,4 @@ Take a pic with your smartphone by the end of class and post it to our Slack cha
 ## Additional Resources
 
 1. [JSON to Go Structs](https://mholt.github.io/json-to-go/)
+2. [eager.io: Go and JSON](https://eager.io/blog/go-and-json/)
