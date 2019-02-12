@@ -7,7 +7,6 @@
 | 0:35        | 0:15      | In Class Activity I       |
 | 0:50        | 0:10      | BREAK                     |
 | 0:60        | 0:50      | In Class Activity II      |
-| 1:50        | 0:10      | Wrap Up                   |
 | TOTAL       | 2:00      |                           |
 
 ## Why You Should Know This
@@ -31,31 +30,31 @@
 
 ### Brainstorm (5 min)
 
-1. In teams of four, brainstorm what kind of command(s) you'd like your Slackbot to perform.
+* **Read about [Slack Bot Users](https://api.slack.com/bot-users)** in order to learn about bot integrations.
+* *Brainstorm the **kind of command(s) you'd like your Slackbot to perform**.
 
 ### Create New Slack App (5 min)
 
 1. [Click here](https://api.slack.com/apps?new_app=1) to point your browser to the **Create a Slack App** page.
-2. Name your Slack app. Select a name that fits the problem you're trying to solve.
-3. Select the Product College workspace.
+2. Name your app. Select a **name that fits the problem you're trying to solve**.
+3. Select the **Product College workspace**.
 4. Click the **Create App** button.
-5. On the sidebar, under the Features header, choose Bot Users.
-6. Git your bot a display name and a default username.
+5. On the sidebar, under the Features header, click **Bot Users**.
+6. Git your bot a **display name** and a **default username**.
 7. Click the **Save Changes** button.
-8. When ready to publish, go to the OAuth & Permissions link.
-9. Click **Install App to Workplace**, and make sure you set the contents of the modal dialog to match the below screenshot, ensuring bot activity for today's class will only end up in `#golang-slackbots`:
+8. When **ready to publish**, go to **OAuth & Permissions**.
+9. Click **Install App to Workplace**, and make sure you set the contents of the  dialog to match the below screenshot. This ensuring bot activity for today's class will only end up in `#golang-slackbots`:
 ![](img/oauth-enable.png)
 
 ### Setup Project (5 min)
 
-1. When your team decides on a project and name, fork this [starter repo](https://github.com/droxey/goslackit). It is best if you work from one computer today.
+1. Fork this [starter repo](https://github.com/droxey/goslackit).
+   1. It is best if you work from one computer today.
 2. Clone the forked repo to your local machine and `cd REPO_NAME`.
 3. Run `cp .env.sample .env` to create a `.env` file.
 4. Paste the Bot Token from Step 9 to your `.env` file under `BOT_OAUTH_ACCESS_TOKEN`.
-5. Run `go run main.go` to start the application. If it fails, please let the instructor know.
-
-
-
+5. Run `go run main.go` to start the application.
+   1. If it fails, please let the instructor know.
 
 ## BREAK (10 min)
 
@@ -65,11 +64,10 @@
 
 * There are 3 challenges written in the comments of the repo you forked. Search the project for `TODO` in order to find them.
 * Complete each with the help of your team, examining the output and testing your bot on Slack as you complete the activity.
-* If you get stuck, the following tutorial can assist: [Writing Slackbots with Goroutines](https://x-team.com/blog/writing-slackbots-with-goroutines/)
-* You may also want to read about [Slack Bot Users](https://api.slack.com/bot-users) in order to know all about enabling an integration with a bot.
+* **If you get stuck, the following tutorial can assist**: [Writing Slackbots with Goroutines](https://x-team.com/blog/writing-slackbots-with-goroutines/)
 * An additional **stretch challenge** is available if you finish early.
 
-## Wrap Up
+## After Class
 
 ### Heroku Deployment (10 min)
 
