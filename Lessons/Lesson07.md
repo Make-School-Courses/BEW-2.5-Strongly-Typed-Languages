@@ -34,8 +34,9 @@
 6. On the sidebar, under the Features header, click **Bot Users**.
 7. Git your bot a **display name** and a **default username**.
 8. Click the **Save Changes** button.
-9. Go to **OAuth & Permissions**.
-10. Click **Install App to Workplace**, and make sure you set the contents of the  dialog to match the below screenshot. This ensuring bot activity for today's class will only end up in `#golang-slackbots`:
+9. Go to **OAuth & Permissions** and scroll down to the **Scopes** > **Select Permission Scopes** text entry field.
+10. Add `channels:history`, `channels:read`, and `channels:write` permission scope and click **Save Changes**.
+11. Click **Install App to Workplace**, and make sure you set the contents of the  dialog to match the below screenshot. This ensures your bot replies in a particular channel:`#golang-slackbots`. Make sure your **OAuth dialog matches the following**:
 
 <p align="center">
   <img src="img/oauth-enable.png" height="350">
