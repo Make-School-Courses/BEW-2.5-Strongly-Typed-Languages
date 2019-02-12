@@ -13,25 +13,12 @@
 | 0:60        | 0:50      | In Class Activity II      |
 | TOTAL       | 2:00      |                           |
 
-## Why You Should Know This
+## Overview/TT I (30 min)
 
-`TODO` Explain why students should care to learn the material presented in this class.
+> **Parallelism** is about performance. **Concurrency** is about program design. -- **Google I/O 2010 – Rob Pike**
 
-## Class Learning Objectives/Competencies (5 min)
-
-1. `TODO` Identify and describe
-2. `TODO` Define
-3. `TODO` Design
-4. `TODO` Implement
-
-## Overview/TT I
-
-### Goroutines (30 min)
-
-> Parallelism is about performance. Concurrency is about program design. -- **Google I/O 2010 – Rob Pike**
-
-Present [Learning Go's Concurrency Through Illustrations](Additional/GoConcurrencyVisualized.md)
-
+1. Present [Concurrency in Go](Additional/ConcurrencyGo.md).
+2. Present [Learning Go's Concurrency Through Illustrations](Additional/GoConcurrencyVisualized.md).
 
 ## In Class Activity I (15 min)
 
@@ -81,7 +68,7 @@ Present [Learning Go's Concurrency Through Illustrations](Additional/GoConcurren
 
 ### Heroku Deployment
 
-Deploying your bot means it will run forever --- even if your computer is turned off!
+Deploying your bot means it will run forever --- even when your computer isn't on!
 
 **Use this sample script to deploy your bot to Heroku**:
 
