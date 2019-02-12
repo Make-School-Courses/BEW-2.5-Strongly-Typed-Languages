@@ -45,7 +45,7 @@
 8. Click the **Save Changes** button.
 9. When **ready to publish**, go to **OAuth & Permissions**.
 10. Click **Install App to Workplace**, and make sure you set the contents of the  dialog to match the below screenshot. This ensuring bot activity for today's class will only end up in `#golang-slackbots`:
-<img src="img/oauth-enable.png" height="200")
+<img src="img/oauth-enable.png" height="200">
 
 ### Setup Project (5 min)
 
