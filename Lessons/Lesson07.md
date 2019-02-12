@@ -2,7 +2,7 @@
   <img src="img/typing.gif" height="250">
 </p>
 
-# Concurrency, Goroutines, & Practical Applications
+# Concurrency: Goroutines, Channels, & Practical Applications
 
 | **Elapsed** | **Time**  | **Activity**              |
 | ----------- | --------- | ------------------------- |
@@ -28,7 +28,10 @@
 
 ### Goroutines (30 min)
 
-`TODO`: Goroutines lecture
+> Parallelism is about performance. Concurrency is about program design. -- **Google I/O 2010 – Rob Pike**
+
+Present [Learning Go's Concurrency Through Illustrations](Additional/GoConcurrencyVisualized.md)
+
 
 ## In Class Activity I (15 min)
 
@@ -94,5 +97,7 @@ $ heroku ps:scale worker=1
 ## Additional Resources
 
 * **[The Go Blog](https://blog.golang.org/modules2019)**: Go Modules in 2019
-* **[Concurrency is not Parallelism](https://talks.golang.org/2012/waza.slide)**: Slide deck by Rob Pike
-* **[Concurrency in `golang` / Mini Load-Balancer Project](https://gist.github.com/rushilgupta/228dfdf379121cb9426d5e90d34c5b9)**: Awesome gist that shows off a real world, practical application of concurrent techniques.
+* **[Golang Bootcamp](http://www.golangbootcamp.com/book/concurrency)**: Concurrency chapter. Be sure to execute the code samples!
+* **[Concurrency is not Parallelism](https://talks.golang.org/2012/waza.slide)**: Slide deck by Rob Pike.
+* **[Learn Go with Tests](https://github.com/quii/learn-go-with-tests/blob/master/concurrency.md)**
+* [A Complete Journey with Goroutines](https://medium.com/@riteeksrivastava/a-complete-journey-with-goroutines-8472630c7f5c)
