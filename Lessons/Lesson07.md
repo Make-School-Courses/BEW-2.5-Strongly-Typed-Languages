@@ -64,7 +64,9 @@
 ### Goroutines Challenge (40 min)
 
 * There are 3 challenges written in the comments of the repo you forked. Search the project for `TODO` in order to find them.
-* Complete each with the help of your team, examining the output of `go run main.go`, iteratively testing your bot via Slack as you complete the activity.
+* Complete each with the help of your team.
+  * Examine the output of `go run main.go`.
+  * Manually test the bot via Slack as you complete the activity.
 * **If you get stuck, the following tutorial can assist**: [Writing Slackbots with Goroutines](https://x-team.com/blog/writing-slackbots-with-goroutines/)
 * An additional **stretch challenge** is available if you finish early.
 
