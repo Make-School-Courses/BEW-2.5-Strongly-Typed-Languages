@@ -30,20 +30,21 @@
 
 ### Brainstorm (5 min)
 
-* **Read about [Slack Bot Users](https://api.slack.com/bot-users)** in order to learn about bot integrations.
-* *Brainstorm the **kind of command(s) you'd like your Slackbot to perform**.
+
+* Brainstorm **command(s) you'd like your Slackbot to perform**.
 
 ### Create New Slack App (5 min)
 
-1. [Click here](https://api.slack.com/apps?new_app=1) to point your browser to the **Create a Slack App** page.
-2. Name your app. Select a **name that fits the problem you're trying to solve**.
-3. Select the **Product College workspace**.
-4. Click the **Create App** button.
-5. On the sidebar, under the Features header, click **Bot Users**.
-6. Git your bot a **display name** and a **default username**.
-7. Click the **Save Changes** button.
-8. When **ready to publish**, go to **OAuth & Permissions**.
-9. Click **Install App to Workplace**, and make sure you set the contents of the  dialog to match the below screenshot. This ensuring bot activity for today's class will only end up in `#golang-slackbots`:
+1. **Have these docs open and ready as you configure a [Slack Bot User](https://api.slack.com/bot-users)**.
+2. Point your browser to the **[Create a Slack App]((https://api.slack.com/apps?new_app=1))** page.
+3. Enter a **name that fits the problem you're trying to solve**.
+4. Select **Product College workspace** from the Workspace drop-down.
+5. Click the **Create App** button.
+6. On the sidebar, under the Features header, click **Bot Users**.
+7. Git your bot a **display name** and a **default username**.
+8. Click the **Save Changes** button.
+9. When **ready to publish**, go to **OAuth & Permissions**.
+10. Click **Install App to Workplace**, and make sure you set the contents of the  dialog to match the below screenshot. This ensuring bot activity for today's class will only end up in `#golang-slackbots`:
 ![](img/oauth-enable.png)
 
 ### Setup Project (5 min)
@@ -63,7 +64,7 @@
 ### Goroutines Challenge (40 min)
 
 * There are 3 challenges written in the comments of the repo you forked. Search the project for `TODO` in order to find them.
-* Complete each with the help of your team, examining the output and testing your bot on Slack as you complete the activity.
+* Complete each with the help of your team, examining the output of `go run main.go`, iteratively testing your bot via Slack as you complete the activity.
 * **If you get stuck, the following tutorial can assist**: [Writing Slackbots with Goroutines](https://x-team.com/blog/writing-slackbots-with-goroutines/)
 * An additional **stretch challenge** is available if you finish early.
 
@@ -81,4 +82,3 @@ $ heroku config:set PROJECT_NAME_SLACK_TOKEN=YOUR_TOKEN
 $ git push heroku master
 $ heroku ps:scale worker=1
 ```
-
