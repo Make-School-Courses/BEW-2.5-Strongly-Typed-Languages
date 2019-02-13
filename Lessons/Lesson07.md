@@ -19,7 +19,7 @@
 
 1. Present [Concurrency in Go](Additional/ConcurrencyGo.md).
 2. Present [Learning Go's Concurrency Through Illustrations](Additional/GoConcurrencyVisualized.md).
-  - Source: [link](https://medium.com/@trevor4e/learning-gos-concurrency-through-illustrations-8c4aff603b3)
+    - Source: [link](https://medium.com/@trevor4e/learning-gos-concurrency-through-illustrations-8c4aff603b3)
 
 
 ## In Class Activity I (15 min)
