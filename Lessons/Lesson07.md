@@ -19,6 +19,8 @@
 
 1. Present [Concurrency in Go](Additional/ConcurrencyGo.md).
 2. Present [Learning Go's Concurrency Through Illustrations](Additional/GoConcurrencyVisualized.md).
+  - Source: [link](https://medium.com/@trevor4e/learning-gos-concurrency-through-illustrations-8c4aff603b3)
+
 
 ## In Class Activity I (15 min)
 
@@ -86,6 +88,7 @@ $ heroku ps:scale worker=1
 
 * **[The Go Blog](https://blog.golang.org/modules2019)**: Go Modules in 2019
 * **[Golang Bootcamp](http://www.golangbootcamp.com/book/concurrency)**: Concurrency chapter. Be sure to execute the code samples!
-* **[Concurrency is not Parallelism](https://talks.golang.org/2012/waza.slide)**: Slide deck by Rob Pike.
+* **[(2012) OG Golang Talk: Concurrency is not Parallelism](https://talks.golang.org/2012/waza.slide)**: Slide deck by Rob Pike.
 * **[Learn Go with Tests](https://github.com/quii/learn-go-with-tests/blob/master/concurrency.md)**
-* [A Complete Journey with Goroutines](https://medium.com/@riteeksrivastava/a-complete-journey-with-goroutines-8472630c7f5c)
+* **[A Complete Journey with Goroutines](https://medium.com/@riteeksrivastava/a-complete-journey-with-goroutines-8472630c7f5c)**
+* **[Concurrency in Go: Visualization with Example](https://medium.com/@dmrajkarthick.2012/concurrency-in-go-visualization-with-example-8deaf2cf3ee6)**: Awesome visualization that implements a goroutine. 
