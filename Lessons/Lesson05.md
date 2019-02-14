@@ -15,11 +15,11 @@
 
 The ability to **create custom middleware that augments the request/response cycle** is crucial for all Systems Engineers.
 
-## Class Learning Objectives/Competencies (5 min)
+## Learning Objectives (5 min)
 
 1. Identify and describe what a middleware is, and why you'd use the technique in your APIs or backend architectures.
-1. Design your first custom middleware.
-1. Implement a middleware that detects whether or not a request is coming from inside the building.
+2. Design your first custom middleware.
+3. Implement a middleware that detects whether or not a request is coming from inside the building.
 
 ## Initial Exercise (30 min)
 

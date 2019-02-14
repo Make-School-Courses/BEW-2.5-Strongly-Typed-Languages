@@ -70,6 +70,16 @@ a.section-link {
   display: block;
 }
 
+.sidebar ul li {
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  overflow: hidden;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 body .docsify-copy-code-button,
 body .docsify-copy-code-button::after {
   background: none !important;

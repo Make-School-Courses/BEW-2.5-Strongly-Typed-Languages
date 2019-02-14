@@ -1,6 +1,6 @@
 # Day 1: Introduction to Go
 
-## Minute-by-Minute
+## Minute by Minute
 
 | **Elapsed** | **Time**  | **Activity**              |
 | ----------- | --------- | ------------------------- |

@@ -1,6 +1,6 @@
 # Interacting with APIs in Golang
 
-## Minute-by-Minute
+## Minute by Minute
 
 | **Elapsed** | **Time**  | **Activity**              |
 | ----------- | --------- | ------------------------- |
@@ -15,11 +15,11 @@
 
 The ability to **marshal and unmarshal objects into a particular format** is a generic skill you can leverage in any language or framework for the rest of your career. You'll be able to write code that can integrate with any third party system you have access to using this technique.
 
-## Class Learning Objectives/Competencies (5 min)
+## Learning Objectives (5 min)
 
 1. Define what marshalling and unmarshalling a object means in the context of JSON.
-1. Design and build your first server-side Go application.
-1. Implement `struct`s that represent real-life objects from the [Public APIs List](https://github.com/toddmotto/public-apis).
+2. Design and build your first server-side Go application.
+3. Implement `struct`s that represent real-life objects from the [Public APIs List](https://github.com/toddmotto/public-apis).
 
 ## Initial Exercise (15 min)
 

@@ -1,6 +1,6 @@
 # Go Relational
 
-## Minute-by-Minute
+## Minute by Minute
 
 | **Elapsed** | **Time**  | **Activity**              |
 | ----------- | --------- | ------------------------- |
@@ -19,7 +19,7 @@ It's superpower: the ability to support numerous popular SQL dialects, simply by
 
 Your implementation will stay the same, regardless of the underlying relational database technology.
 
-## Class Learning Objectives/Competencies (5 min)
+## Learning Objectives (5 min)
 
 1. Identify and describe the role `gorm` plays in the architecture of a typical Golang application.
 2. Define `gorm` models and use them to persist data to a SQLite database.

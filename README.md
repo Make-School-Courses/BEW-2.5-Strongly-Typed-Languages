@@ -6,24 +6,6 @@
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | [**@droxey**](https://github.com/droxey) | #bew2-5-go | M/Th 1:00 - 1:30pm _(Golden Gate)_<br>T/Th 3:30 - 4:30pm _(Tea Tree)_ | [make.sc/bew2.5](https://make.sc/bew2.5) | [Link](https://make.sc/trackbew2.5) | [Link](https://make.sc/codewithdani) |
 
-## Table of Contents
-
-- [BEW2.5: Patterns & Practices in Strongly Typed Ecosystems](#bew25-patterns--practices-in-strongly-typed-ecosystems)
-  - [Table of Contents](#table-of-contents)
-  - [Course Description](#course-description)
-  - [Course Specifics](#course-specifics)
-  - [Prerequisites](#prerequisites)
-  - [Learning Objectives](#learning-objectives)
-  - [Schedule](#schedule)
-  - [Class Assignments](#class-assignments)
-    - [Tutorials](#tutorials)
-    - [Projects](#projects)
-    - [Commit Early and Often](#commit-early-and-often)
-  - [Evaluation](#evaluation)
-  - [Attendance](#attendance)
-  - [Additional Resources](#additional-resources)
-  - [Make School Course Policies](#make-school-course-policies)
-
 ## Course Description
 
 In this course, students discover the value of strongly typed languages in server-side architectures, and dive deep into performant, concurrent programming paradigms present in Go. Known best for it's ability to blend the expressive features of dynamic languages (Python, JavaScript) with the performance capabilities of compiled languages (C, C++), students will gain the syntactic diversity required in today's large-scale platform engineering pursuits. Throughout the course, students will learn and implement the design patterns and best practices that make Go a top choice at high-velocity startups like Lyft, Heroku, Docker, Medium, and more!

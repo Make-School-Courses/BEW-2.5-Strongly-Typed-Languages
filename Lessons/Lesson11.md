@@ -1,4 +1,6 @@
-## Minute-by-Minute [OPTIONAL]
+# Title
+
+## Minute by Minute
 
 | **Elapsed** | **Time**  | **Activity**              |
 | ----------- | --------- | ------------------------- |
@@ -9,16 +11,16 @@
 | 1:15        | 0:45      | In Class Activity II      |
 | TOTAL       | 2:00      |                           |
 
-# Why you should know this or industry application (optional) (5 min)
+## Why You Should Know This (5 min)
 
 Explain why students should care to learn the material presented in this class.
 
-## Class Learning Objectives/Competencies (5 min)
+## Learning Objectives (5 min)
 
 1. Identify and describe
-1. Define
-1. Design
-1. Implement
+2. Define
+3. Design
+4. Implement
 
 ## Initial Exercise (15 min)
 

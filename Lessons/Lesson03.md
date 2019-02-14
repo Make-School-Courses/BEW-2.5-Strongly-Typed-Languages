@@ -1,6 +1,6 @@
 # Anatomy & Architecture of Well Crafted Go Apps
 
-## Minute-by-Minute
+## Minute by Minute
 
 | **Elapsed** | **Time**  | **Activity**              |
 | ----------- | --------- | ------------------------- |
@@ -16,11 +16,11 @@
 
 Today's class will help you to create models that you can use in your applications, in any language, throughout your entire career.
 
-## Class Learning Objectives/Competencies (5 min)
+## Learning Objectives (5 min)
 
 1. Define what "modeling the domain" means to engineers.
-1. Design a program around the paradigms present in the Go language.
-1. Implement `struct`s or `interface`s that represent the nouns generated in class, and `func`s to represent verbs.
+2. Design a program around the paradigms present in the Go language.
+3. Implement `struct`s or `interface`s that represent the nouns generated in class, and `func`s to represent verbs.
 
 ## Initial Exercise (15 min)
 
