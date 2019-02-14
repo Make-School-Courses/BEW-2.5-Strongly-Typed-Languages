@@ -19,6 +19,8 @@
 
 1. Present [Concurrency in Go](Additional/ConcurrencyGo.md).
 2. Present [Learning Go's Concurrency Through Illustrations](Additional/GoConcurrencyVisualized.md).
+    - Source: [link](https://medium.com/@trevor4e/learning-gos-concurrency-through-illustrations-8c4aff603b3)
+
 
 ## In Class Activity I (15 min)
 
@@ -34,8 +36,9 @@
 6. On the sidebar, under the Features header, click **Bot Users**.
 7. Git your bot a **display name** and a **default username**.
 8. Click the **Save Changes** button.
-9. Go to **OAuth & Permissions**.
-10. Click **Install App to Workplace**, and make sure you set the contents of the  dialog to match the below screenshot. This ensuring bot activity for today's class will only end up in `#golang-slackbots`:
+9. Go to **OAuth & Permissions** and scroll down to the **Scopes** > **Select Permission Scopes** text entry field.
+10. Add `channels:history`, `channels:read`, and `channels:write` permission scope and click **Save Changes**.
+11. Click **Install App to Workplace**, and make sure you set the contents of the  dialog to match the below screenshot. This ensures your bot replies in a particular channel:`#golang-slackbots`. Make sure your **OAuth dialog matches the following**:
 
 <p align="center">
   <img src="img/oauth-enable.png" height="350">
@@ -85,6 +88,7 @@ $ heroku ps:scale worker=1
 
 * **[The Go Blog](https://blog.golang.org/modules2019)**: Go Modules in 2019
 * **[Golang Bootcamp](http://www.golangbootcamp.com/book/concurrency)**: Concurrency chapter. Be sure to execute the code samples!
-* **[Concurrency is not Parallelism](https://talks.golang.org/2012/waza.slide)**: Slide deck by Rob Pike.
+* **[(2012) OG Golang Talk: Concurrency is not Parallelism](https://talks.golang.org/2012/waza.slide)**: Slide deck by Rob Pike.
 * **[Learn Go with Tests](https://github.com/quii/learn-go-with-tests/blob/master/concurrency.md)**
-* [A Complete Journey with Goroutines](https://medium.com/@riteeksrivastava/a-complete-journey-with-goroutines-8472630c7f5c)
+* **[A Complete Journey with Goroutines](https://medium.com/@riteeksrivastava/a-complete-journey-with-goroutines-8472630c7f5c)**
+* **[Concurrency in Go: Visualization with Example](https://medium.com/@dmrajkarthick.2012/concurrency-in-go-visualization-with-example-8deaf2cf3ee6)**: Awesome visualization that implements a goroutine. 
