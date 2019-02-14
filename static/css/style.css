@@ -56,18 +56,9 @@ h6 {
   max-width: 840px;
 }
 
-.markdown-section a,
-.markdown-section a:hover {
-  text-decoration: none !important;
-}
-
 .markdown-section a:hover {
   border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
   padding-bottom: 3px;
-}
-
-a.section-link {
-  display: none;
 }
 
 .sidebar-nav>ul:nth-child(1)>li>a.section-link,
@@ -83,6 +74,10 @@ a.section-link {
   text-decoration: none;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.sidebar ul li a {
+  font-weight: 700;
 }
 
 body .docsify-copy-code-button,
