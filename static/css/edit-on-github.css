@@ -1,0 +1,38 @@
+.btn-edit-on-github {
+  transition: background-color 0.5s ease;
+  border: none;
+  border-radius: 3px;
+  background-color: var(--theme-color);
+  position: absolute;
+  top: var(--sidebar-toggle-offset-top);
+  right: 0;
+  margin-right: 45px;
+  padding: 6px 10px 6px 5px;
+  height: var(--sidebar-toggle-height);
+}
+
+.btn-edit-on-github a,
+.btn-edit-on-github svg {
+  transition: color 0.5s ease;
+  color: white;
+}
+
+.btn-edit-on-github a {
+  text-decoration: none;
+  font-family: "Operator SSm A", "Operator SSm B";
+  position: relative;
+  font-weight: 700;
+  top: -1px;
+  padding-left: 5px;
+}
+
+.btn-edit-on-github:hover {
+  cursor: pointer;
+  background-color: var(--mono-tint2);
+}
+
+.btn-edit-on-github:hover svg,
+.btn-edit-on-github:hover a {
+  text-decoration: none;
+  color: white;
+}

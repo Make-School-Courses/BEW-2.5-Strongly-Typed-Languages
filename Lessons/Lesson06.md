@@ -1,4 +1,4 @@
-# Go Relational with `gorm`
+# Go Relational
 
 ## Minute-by-Minute
 

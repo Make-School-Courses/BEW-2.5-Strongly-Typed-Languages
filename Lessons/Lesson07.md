@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://cdn-images-1.medium.com/max/800/1*lPX8LWWRYZRZzF9E3rSw0g.jpeg" height="200">
+  <img src="https://cdn-images-1.medium.com/max/800/1*lPX8LWWRYZRZzF9E3rSw0g.jpeg" height="150">
 </p>
 
-# Concurrency: Goroutines, Channels, & Practical Applications
+# Concurrency: Goroutines & Practical Applications
 
 | **Elapsed** | **Time**  | **Activity**              |
 | ----------- | --------- | ------------------------- |

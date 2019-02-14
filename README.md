@@ -8,20 +8,25 @@
 
 ## Table of Contents
 
-1. [Course Description](#course-description)
-1. [Course Specifics](#course-specifics)
-1. [Prerequisites](#prerequisites)
-1. [Learning Objectives](#learning-objectives)
-1. [Schedule](#schedule)
-1. [Class Assignments](#class-assignments)
-1. [Evaluation](#evaluation)
-1. [Attendance](#attendance)
-1. [Additional Resources](#additional-resources)
-1. [Make School Course Policies](#make-school-course-policies)
+- [BEW2.5: Patterns & Practices in Strongly Typed Ecosystems](#bew25-patterns--practices-in-strongly-typed-ecosystems)
+  - [Table of Contents](#table-of-contents)
+  - [Course Description](#course-description)
+  - [Course Specifics](#course-specifics)
+  - [Prerequisites](#prerequisites)
+  - [Learning Objectives](#learning-objectives)
+  - [Schedule](#schedule)
+  - [Class Assignments](#class-assignments)
+    - [Tutorials](#tutorials)
+    - [Projects](#projects)
+    - [Commit Early and Often](#commit-early-and-often)
+  - [Evaluation](#evaluation)
+  - [Attendance](#attendance)
+  - [Additional Resources](#additional-resources)
+  - [Make School Course Policies](#make-school-course-policies)
 
 ## Course Description
 
-_In this course, students discover the value of strongly typed languages in server-side architectures, and dive deep into performant, concurrent programming paradigms present in Go. Known best for it's ability to blend the expressive features of dynamic languages (Python, JavaScript) with the performance capabilities of compiled languages (C, C++), students will gain the syntactic diversity required in today's large-scale platform engineering pursuits. Throughout the course, students will learn and implement the design patterns and best practices that make Go a top choice at high-velocity startups like Lyft, Heroku, Docker, Medium, and more!_
+In this course, students discover the value of strongly typed languages in server-side architectures, and dive deep into performant, concurrent programming paradigms present in Go. Known best for it's ability to blend the expressive features of dynamic languages (Python, JavaScript) with the performance capabilities of compiled languages (C, C++), students will gain the syntactic diversity required in today's large-scale platform engineering pursuits. Throughout the course, students will learn and implement the design patterns and best practices that make Go a top choice at high-velocity startups like Lyft, Heroku, Docker, Medium, and more!
 
 ## Course Specifics
 
@@ -41,11 +46,11 @@ Class Sessions:  13 classes, 7 labs
 ## Learning Objectives
 
 1. Design and implement command line interfaces, APIs, and bots in Go.
-1. Identify and describe the architectures wherein the features of Golang could be best utilized.
-1. Build data structures that support unmarshalling JSON retreived from third-party APIs.
-1. Apply Object Relational Mapping techniques to persist data to relational databases in Go.
-1. Examine benchmarks to determine how to improve the speed and readability of a Golang project.
-1. Gain experience deploying APIs and bots to production.
+2. Identify and describe the architectures wherein the features of Golang could be best utilized.
+3. Build data structures that support unmarshalling JSON retreived from third-party APIs.
+4. Apply Object Relational Mapping techniques to persist data to relational databases in Go.
+5. Examine benchmarks to determine how to improve the speed and readability of a Golang project.
+6. Gain experience deploying APIs and bots to production.
 
 ## Schedule
 
