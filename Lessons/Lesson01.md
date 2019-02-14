@@ -1,4 +1,4 @@
-# Day 1: Introduction to Go
+# Introduction to Go
 
 ## Minute by Minute
 
@@ -14,9 +14,9 @@
 ## Learning Objectives/Competencies (5 min)
 
 1. Identify and describe
-1. Define
-1. Design
-1. Implement
+2. Define
+3. Design
+4. Implement
 
 ## Initial Exercise (15 min)
 
