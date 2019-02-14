@@ -47,6 +47,11 @@ h5,
 h6 {
   font-style: italic;
 } */
+
+#main>h1:nth-child(1) {
+  display: none;
+}
+
 .markdown-section {
   max-width: 840px;
 }

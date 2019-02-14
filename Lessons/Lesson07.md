@@ -91,4 +91,4 @@ $ heroku ps:scale worker=1
 * **[(2012) OG Golang Talk: Concurrency is not Parallelism](https://talks.golang.org/2012/waza.slide)**: Slide deck by Rob Pike.
 * **[Learn Go with Tests](https://github.com/quii/learn-go-with-tests/blob/master/concurrency.md)**
 * **[A Complete Journey with Goroutines](https://medium.com/@riteeksrivastava/a-complete-journey-with-goroutines-8472630c7f5c)**
-* **[Concurrency in Go: Visualization with Example](https://medium.com/@dmrajkarthick.2012/concurrency-in-go-visualization-with-example-8deaf2cf3ee6)**: Awesome visualization that implements a goroutine. 
+* **[Concurrency in Go: Visualization with Example](https://medium.com/@dmrajkarthick.2012/concurrency-in-go-visualization-with-example-8deaf2cf3ee6)**: Awesome visualization that implements a goroutine.
