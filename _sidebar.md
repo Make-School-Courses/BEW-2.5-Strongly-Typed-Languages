@@ -6,8 +6,6 @@
 - [Day 5: Middlewares](Lessons/Lesson05.md)
 - [Day 6: GORM](Lessons/Lesson06.md)
 - [Day 7: Concurrency](Lessons/Lesson07.md)
-  - [Go Concurrency Visualized](Additional/GoConcurrencyVisualized.md)
-  - [Concurrency Guide](Additional/ConcurrencyGuide.md)
 - [Day 8: Benchmarking](Lessons/Lesson08.md)
 - Day 9: President's Day
 - Day 10: Lab Day / Project Kickoff
