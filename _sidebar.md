@@ -1,4 +1,4 @@
-- [BEW 2.5 - Golang @ MakeSchool](README.md)
+- [BEW 2.5 - Go @ Make School](README.md)
 - [Day 1: Intro to Go](Lessons/Lesson01.md)
 - [Day 2: Tutorial Launch](Lessons/Lesson02.md)
 - [Day 3: Architecture](Lessons/Lesson03.md)
