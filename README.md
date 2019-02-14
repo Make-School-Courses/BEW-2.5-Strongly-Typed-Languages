@@ -29,7 +29,7 @@ Class Sessions:  13 classes, 7 labs
 
 1. Design and implement command line interfaces, APIs, and bots in Go.
 2. Identify and describe the architectures wherein the features of Golang could be best utilized.
-3. Build data structures that support unmarshalling JSON retreived from third-party APIs.
+3. Build data structures that support unmarshalling JSON retrieved from third-party APIs.
 4. Apply Object Relational Mapping techniques to persist data to relational databases in Go.
 5. Examine benchmarks to determine how to improve the speed and readability of a Golang project.
 6. Gain experience deploying APIs and bots to production.
@@ -41,20 +41,20 @@ Class Sessions:  13 classes, 7 labs
 
 | #  |          Date             |                 Topic                      | Assignment Due |
 |:-----:|---------------------------| ------------------------------------------- |:--------------:|
-|  1 |  Tuesday, Jan 22     | **[Lesson 1](Lessons/Lesson01.md): Intro to Go**  ||
-|  2 | Thursday, Jan 24     | **[Lesson 2](Lessons/Lesson02.md): Tutorial Launch**  ||
-|  3 |  Tuesday, Jan 29     | **[Lesson 3](Lessons/Lesson03.md): Architecture of Well Crafted Go Apps**  ||
-|  4 | Thursday, Jan 31     | **[Lesson 4](Lessons/Lesson04.md): Interacting with APIs in Golang**  ||
-|  5 |  Tuesday, Feb 5      | **[Lesson 5](Lessons/Lesson05.md): APIs, Middleware, & You**  ||
-|  6 | Thursday, Feb 7      | **[Lesson 6](Lessons/Lesson06.md): Go Relational with GORM**  ||
-|  7 |  Tuesday, Feb 12     | **[Lesson 7](Lessons/Lesson07.md): Concurrency & Goroutines**  ||
-|  8 | Thursday, Feb 14     | **[Lesson 8](Lessons/Lesson08.md): Benchmarking, Testing, & Documentation**  ||
-|  - |  _Tuesday, Feb 19_   | _President's Day (Observed)_ ||
-|  9 | Thursday, Feb 21     | **Lab Day: Challenges & MakeUtility Project Kickoff** | _20 Challenges @ 11:59pm_ |
-|  10 |  Tuesday, Feb 26    | **[Lesson 10](Lessons/Lesson10.md): Microservice Deployment Strategies** ||
-|  11 | Thursday, Feb 28    | **[Lesson 11](Lessons/Lesson11.md): Integrations & Bots** ||
-|  12 |  Tuesday, Mar 5     | **[Lesson 12](Lessons/Lesson12.md): Go Design Patterns** ||
-|  13 | Thursday, Mar 7     | **Final Exam** | _Project Due @ 11:59pm_ |
+|  1 |  Tues, Jan 22     | **[Lesson 1](Lessons/Lesson01.md): Intro to Go**  ||
+|  2 | Thurs, Jan 24     | **[Lesson 2](Lessons/Lesson02.md): Tutorial Launch**  ||
+|  3 |  Tues, Jan 29     | **[Lesson 3](Lessons/Lesson03.md): Architecture of Well Crafted Go Apps**  ||
+|  4 | Thurs, Jan 31     | **[Lesson 4](Lessons/Lesson04.md): Interacting with APIs in Golang**  ||
+|  5 |  Tues, Feb 5      | **[Lesson 5](Lessons/Lesson05.md): APIs, Middleware, & You**  ||
+|  6 | Thurs, Feb 7      | **[Lesson 6](Lessons/Lesson06.md): Go Relational with GORM**  ||
+|  7 |  Tues, Feb 12     | **[Lesson 7](Lessons/Lesson07.md): Concurrency & Goroutines**  ||
+|  8 | Thurs, Feb 14     | **Lab Day: Challenges / MakeUtility Project Kickoff**  ||
+|  - |  _Tues, Feb 19_   | _President's Day (Observed)_ ||
+|  9 | Thurs, Feb 21     | **[Lesson 9](Lessons/Lesson09.md): Go Design Patterns** | _20 Challenges @ 11:59pm_ |
+|  10 |  Tues, Feb 26    | **[Lesson 10](Lessons/Lesson10.md): Benchmarking & Testing** ||
+|  11 | Thurs, Feb 28    | **[Lesson 11](Lessons/Lesson11.md): Deployment Strategies** ||
+|  12 |  Tues, Mar 5     | **Demo Day: MakeUtility Project** | _3 Min Demo @ 1:30pm_ |
+|  13 | Thurs, Mar 7     | **Final Exam** | _Project @ 11:59pm_ |
 
 ## Class Assignments
 

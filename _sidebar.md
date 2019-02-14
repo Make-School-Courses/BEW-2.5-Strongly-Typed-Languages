@@ -8,9 +8,9 @@
 - [Day 7: Concurrency](Lessons/Lesson07.md)
   - [Learning Go’s Concurrency Through Illustrations](Lessons/Additional/GoConcurrencyVisualized.md)
   - [Concurrency Guide](Lessons/Additional/ConcurrencyGuide.md)
-- [Day 8: Benchmarking](Lessons/Lesson08.md)
+- Day 8: Lab Day / Project Kickoff
 - Day 9: President's Day
-- Day 10: Lab Day / Project Kickoff
-- [Day 10: Microservice Deployment](Lessons/Lesson10.md)
-- [Day 11: Integrations](Lessons/Lesson11.md)
-- [Day 12: Go Design Patterns](Lessons/Lesson12.md)
+- [Day 10: Benchmarking & Testing](Lessons/Lesson10.md)
+- [Day 10: Deployment Strategies](Lessons/Lesson10.md)
+- Day 11: Demo Day (MakeUtility Project)
+- Day 12: Final Exam
