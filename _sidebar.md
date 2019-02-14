@@ -1,16 +1,16 @@
 - [BEW 2.5 - Go @ Make School](README.md)
-- [Day 1: Intro to Go](Lessons/Lesson01.md)
-- [Day 2: Tutorial Launch](Lessons/Lesson02.md)
-- [Day 3: Architecture](Lessons/Lesson03.md)
-- [Day 4: APIs](Lessons/Lesson04.md)
-- [Day 5: Middlewares](Lessons/Lesson05.md)
-- [Day 6: GORM](Lessons/Lesson06.md)
-- [Day 7: Concurrency](Lessons/Lesson07.md)
+- **[Day 1: Intro to Go](Lessons/Lesson01.md)**
+- **[Day 2: Tutorial Launch](Lessons/Lesson02.md)**
+- **[Day 3: Architecture](Lessons/Lesson03.md)**
+- **[Day 4: APIs](Lessons/Lesson04.md)**
+- **[Day 5: Middlewares](Lessons/Lesson05.md)**
+- **[Day 6: GORM](Lessons/Lesson06.md)**
+- **[Day 7: Concurrency](Lessons/Lesson07.md)**
   - [Learning Go’s Concurrency Through Illustrations](Lessons/Additional/GoConcurrencyVisualized.md)
   - [Concurrency Guide](Lessons/Additional/ConcurrencyGuide.md)
-- Day 8: Lab Day / Project Kickoff
+- **[Day 8: MakeUtility Project Kickoff](Project/MakeUtility.md)**
 - Day 9: President's Day
-- [Day 10: Benchmarking & Testing](Lessons/Lesson10.md)
-- [Day 10: Deployment Strategies](Lessons/Lesson10.md)
+- **[Day 10: Benchmarking & Testing](Lessons/Lesson10.md)**
+- **[Day 10: Deployment Strategies](Lessons/Lesson10.md)**
 - Day 11: Demo Day (MakeUtility Project)
 - Day 12: Final Exam

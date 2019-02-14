@@ -40,13 +40,17 @@
   --code-tab-size: 2;
 }
 
-/* h2,
-h3,
-h4,
-h5,
-h6 {
-  font-style: italic;
+.sidebar>h1 {
+  margin: 2.3rem auto 1rem;
+}
+
+/* #main>h1:nth-child(1) {
+  display: none;
 } */
+
+.sidebar>h1>a>img {
+  height: auto;
+}
 
 .markdown-section {
   max-width: 840px;
@@ -62,7 +66,15 @@ h6 {
   display: block;
 }
 
-.sidebar ul li {
+#main>h1:nth-child(1) {
+  display: none;
+}
+
+#main>h1:nth-child(1)[id] {
+  display: block;
+}
+
+.sidebar ul li a {
   color: #333;
   font-size: 14px;
   font-weight: 400;
@@ -72,7 +84,15 @@ h6 {
   white-space: nowrap;
 }
 
-.sidebar ul li a {
+.sidebar ul li strong a {
+  font-weight: 700;
+}
+
+.sidebar ul li ul.app-sub-sidebar li a {
+  font-weight: 400;
+}
+
+.sidebar ul li ul.app-sub-sidebar li a.active {
   font-weight: 700;
 }
 
