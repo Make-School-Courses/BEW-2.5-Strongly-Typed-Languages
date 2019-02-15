@@ -1,6 +1,6 @@
 - [BEW 2.5 - Go @ Make School](README.md)
 - **[Day 1: Intro to Go](Lessons/Lesson01.md)**
-- **[Day 2: Tutorial Launch](Lessons/Lesson02.md)**
+- **[Day 2: Tutorial Launch](https://exercism.io/tracks/go)**
 - **[Day 3: Architecture](Lessons/Lesson03.md)**
 - **[Day 4: APIs](Lessons/Lesson04.md)**
 - **[Day 5: Middlewares](Lessons/Lesson05.md)**
