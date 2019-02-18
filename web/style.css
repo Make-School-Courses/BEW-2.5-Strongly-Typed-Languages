@@ -83,18 +83,25 @@
   font-weight: 700;
 }
 
-body .docsify-copy-code-button,
-body .docsify-copy-code-button::after {
+body .docsify-copy-code-button {
   background: none !important;
-  color: var(--copycode-color);
-  position: relative;
-  bottom: 0;
-  right: 0;
-  opacity: 0.6;
-  color: inherit;
-  font-size: var(--font-size-s);
-  line-height: 1;
+  line-height: 1.5rem;
+  position: absolute;
+  word-wrap: normal;
+  color: #ccc;
+  font-size: .7rem;
+  font-weight: 700;
+  left: 0;
+  height: 25px;
+  top: -4px;
+  text-align: center;
 }
+
+body .docsify-copy-code-button.success {
+  color: #11A31B;
+}
+
+body .docsify-copy-code-button::after {}
 
 .app-name-link img {
   height: 150px;
