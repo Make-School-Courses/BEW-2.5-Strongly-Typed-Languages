@@ -159,7 +159,7 @@ cd go
 
 1. `mkdir -p src/hello && cd src/hello`
 1. Create a file named `hello.go` and paste the following code:
-    ```golang
+    ```go
     package main
 
     import "fmt"
@@ -168,12 +168,12 @@ cd go
       fmt.Printf("hello, world\n")
     }
     ```
-1. Build `hello.go`:
+2. Build `hello.go`:
     ```bash
     $ cd $HOME/go/src/hello
     $ go build
     ```
-1. Run it:
+3. Run it:
     ```bash
     $ ./hello
     hello, world

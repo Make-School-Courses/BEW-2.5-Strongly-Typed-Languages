@@ -49,7 +49,7 @@ version of the program, our functions run on a single thread, one right after
 the other — and this single thread (the gopher named Gary) would need to do all
 the work.
 
-```golang
+```go
     func main() {
      theMine := [5]string{“rock”, “ore”, “ore”, “rock”, “ore”}
      foundOre := finder(theMine)
@@ -93,7 +93,7 @@ keyword, and have them print out every time they find “ore” in their mine.
 
 ![](https://cdn-images-1.medium.com/max/800/1*lPX8LWWRYZRZzF9E3rSw0g.jpeg)
 
-```golang
+```go
     func main() {
      theMine := [5]string{“rock”, “ore”, “ore”, “rock”, “ore”}
      go finder1(theMine)
@@ -132,7 +132,7 @@ other goroutines.
 
 ![](https://cdn-images-1.medium.com/max/800/1*_rq9tbbJ2SeTfx_j-vlbmw.jpeg)
 
-```golang
+```go
     myFirstChannel := make(chan string)
 ```
 
@@ -141,7 +141,7 @@ arrow (<-) that points in the direction that the data is going.
 
 ![](https://cdn-images-1.medium.com/max/800/1*KsMXEiIsh4T3Bxopc7fyzg.jpeg)
 
-```golang
+```go
     myFirstChannel <- "hello" // Send
     myVariable := <- myFirstChannel // Receive
 ```
@@ -160,7 +160,7 @@ important is to notice how the goroutines are passing data between each other
 using the channel, *oreChan*. *Don’t worry, I’ll explain unnamed functions at
 the end.*
 
-```golang
+```go
     func main() {
      theMine := [5]string{“ore1”, “ore2”, “ore3”}
      oreChan := make(chan string)
@@ -246,7 +246,7 @@ not let the surveying gopher spend most of its time waiting to send the breaking
 gopher some ore until it finishes, we can use a *buffered *channel. Lets start
 by making a buffered channel with a capacity of 3.
 
-```golang
+```go
     bufferedChan := make(chan string, 3)
 ```
 
@@ -256,7 +256,7 @@ routine to read from it.
 
 ![](https://cdn-images-1.medium.com/max/800/1*17IpvEF6LJCDqLLHQJoCuA.jpeg)
 
-```golang
+```go
     bufferedChan := make(chan string, 3)
 
     go func() {
@@ -309,7 +309,7 @@ takes full advantage of multiple threads using Go’s concurrency primitives.
 
 ![](https://cdn-images-1.medium.com/max/800/1*mdkQasa9ipcJZrSGajSU1A.jpeg)
 
-```golang
+```go
     theMine := [5]string{"rock", "ore", "ore", "rock", "ore"}
     oreChannel := make(chan string)
     minedOreChan := make(chan string)
@@ -388,7 +388,7 @@ Similar to how we can set up a function to run on its own goroutine using the
 *go* keyword, we can create an anonymous function to run on it’s own goroutine
 using the following format:
 
-```golang
+```go
     // Anonymous goroutine
     go func() {
      fmt.Println("I'm running in my own goroutine")
@@ -408,7 +408,7 @@ is that once the main function returns, it closes all other goroutines that are
 currently running. This is why we had a timer at the bottom of our main function
 — which created a channel and sent a value on it after 5 seconds.
 
-```golang
+```go
     <-time.After(time.Second * 5) //Receiving from channel after 5 sec
 ```
 
@@ -422,7 +422,7 @@ other goroutines are complete. A common practice is to create a *done channel*
 which the main function blocks on waiting to read. Once you finish your work,
 write to this channel, and the program will end.
 
-```golang
+```go
     func main() {
      doneChan := make(chan string)
 
@@ -444,7 +444,7 @@ collections, you can *range over a channel*.
 
 Updating our previous miner function, we could write:
 
-```golang
+```go
      // Ore Breaker
      go func() {
       for foundOre := range oreChan {
@@ -467,7 +467,7 @@ is a technique where you can make a non-blocking read on a channel, using Go’s
 *select case *structure. By using the structure below, your goroutine will read
 from the channel if there’s something there, or run the default case.
 
-```golang
+```go
     myChan := make(chan string)
 
     go func(){
@@ -504,7 +504,7 @@ Non-blocking sends use the same *select case* structure to perform their
 non-blocking operations, the only difference is our case would look like a send
 rather than a receive.
 
-```golang
+```go
     select {
      case myChan <- “message”:
       fmt.Println(“sent the message”)

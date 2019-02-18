@@ -38,7 +38,8 @@ Your implementation will stay the same, regardless of the underlying relational 
 2. Demonstrate navigating `gorm`'s [documentation](http://gorm.io/docs/) and highlight `gorm`'s syntax to query and filter persistent data.
 
 3. Walk through the following sample code that persists a `Product` model to a simple SQLite database named `test.db`:
-    ```golang
+
+    ```go
     package main
 
     import (

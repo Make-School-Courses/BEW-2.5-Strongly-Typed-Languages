@@ -37,7 +37,7 @@
 
   * Challenge
 
-    ```golang
+    ```go
     package main
 
     import (
@@ -60,7 +60,7 @@
 
   * Solution
 
-    ```golang
+  ```go
     http.HandleFunc("/hello", func(w http.ResponseWriter, r *http.Request) {
       fmt.Fprintf(w, "Hello with Go!")
     })
@@ -85,7 +85,7 @@
 
 ## Day 9: Integrations and Bots
 
-[gobots](https://github.com/strongo/bots-framework) 
+[gobots](https://github.com/strongo/bots-framework)
 
 * [15 Mins] Warmup Challenge
 * [10 Mins] BREAK
