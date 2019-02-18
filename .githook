@@ -1,0 +1,38 @@
+#!/bin/sh
+# =========
+# Compiles a nice table of contents on commit for usage in _sidebar.md.
+# Anytime you add a .md file, this pre-commit hook will ensure the
+# new file is searchable in your Docsify site by adding it to the sidebar.
+# =========
+
+# The final output file.
+FILENAME="toc.md"
+
+# Check to see if new Markdown files have been added or changed.
+STAGED_MARKDOWN_FILES=$(git diff --cached --name-only --diff-filter=ACM | grep ".md\{0,1\}$")
+if [[ "$STAGED_MARKDOWN_FILES" = "" ]]; then
+  exit 0
+fi
+
+# Ensure the environment can run docsify-cli and tocsify.
+echo "\nValidating environment...\n"
+
+which docsify-cli &> /dev/null
+if [[ "$?" == 1 ]]; then
+  echo "\t\033[41mPlease install docsify-cli from npm: https://www.npmjs.com/package/docsify-cli \033[0m"
+  exit 1
+fi
+
+# Check for tocsify.
+which tocsify &> /dev/null
+if [[ "$?" == 1 ]]; then
+  echo "\t\033[41mPlease install tocsify from npm: https://www.npmjs.com/package/tocsify \033[0m"
+  exit 1
+fi
+
+# Run the command and output a final Table of Contents file.
+exec tocsify . > $FILENAME
+echo "\nTable of Contents generated!\n"
+
+# Exit the script.
+exit $?

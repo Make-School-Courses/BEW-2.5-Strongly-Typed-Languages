@@ -1,5 +1,4 @@
 :root {
-  --base-font-family: "Operator SSm A", "Operator SSm B";
   --base-font-weight: 400;
   --base-color: white;
   --base-font-size: 14px;
@@ -7,7 +6,6 @@
   --sidebar-width: 22rem;
   --sidebar-nav-link-before-content: "";
   --sidebar-nav-link-before-content-l3: "";
-  --sidebar-name-font-family: "Operator Mono SSm A", "Operator Mono SSm B";
   --sidebar-name-font-weight: 500;
 
   --search-result-heading-font-size: 1em;
@@ -15,26 +13,19 @@
   --search-result-heading-font-weight: 400;
   --search-result-heading-margin: 0 0 0.1em;
 
-  --pre-font-family: "Operator Mono SSm A", "Operator Mono SSm B";
-
-  --heading-font-family: "Operator SSm A", "Operator SSm B";
   --heading-font-weight: 500;
   --heading-h1-font-weight: 700;
   --heading-h1-font-size: 2.5em;
 
-  --notice-font-family: "Operator SSm A", "Operator SSm B";
   --notice-font-style: italic;
   --notice-font-weight: 500;
 
-  --blockquote-em-font-family: "Operator SSm A", "Operator SSm B";
   --blockquote-em-font-style: normal;
   --blockquote-em-font-weight: 700;
 
-  --blockquote-font-family: "Operator SSm A", "Operator SSm B";
   --blockquote-font-style: italic;
   --blockquote-font-weight: 500;
 
-  --code-font-family: "Operator Mono SSm A", "Operator Mono SSm B";
   --code-font-size: 1em;
   --code-font-weight: 500;
   --code-tab-size: 2;
@@ -43,10 +34,6 @@
 .sidebar>h1 {
   margin: 2.3rem auto 1rem;
 }
-
-/* #main>h1:nth-child(1) {
-  display: none;
-} */
 
 .sidebar>h1>a>img {
   height: auto;
@@ -116,4 +103,42 @@ body .docsify-copy-code-button::after {
 
 table>tbody>tr>td::before {
   display: none;
+}
+
+.btn-edit-on-github {
+  transition: background-color 0.5s ease;
+  border: none;
+  border-radius: 3px;
+  background-color: var(--theme-color);
+  position: absolute;
+  top: var(--sidebar-toggle-offset-top);
+  right: 0;
+  margin-right: 45px;
+  padding: 6px 10px 6px 5px;
+  height: var(--sidebar-toggle-height);
+}
+
+.btn-edit-on-github a,
+.btn-edit-on-github svg {
+  transition: color 0.5s ease;
+  color: white;
+}
+
+.btn-edit-on-github a {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  top: -1px;
+  padding-left: 5px;
+}
+
+.btn-edit-on-github:hover {
+  cursor: pointer;
+  background-color: var(--mono-tint2);
+}
+
+.btn-edit-on-github:hover svg,
+.btn-edit-on-github:hover a {
+  text-decoration: none;
+  color: white;
 }
