@@ -6,10 +6,10 @@
 - **[Day 5: Middlewares](Lessons/Lesson05.md)**
 - **[Day 6: GORM](Lessons/Lesson06.md)**
 - **[Day 7: Concurrency](Lessons/Lesson07.md)**
-  - [Go’s Concurrency Through Illustrations](Lessons/Additional/GoConcurrencyVisualized.md)
-  - [Concurrency Guide](Lessons/Additional/ConcurrencyGuide.md)
+  - [Go’s Concurrency Through Illustrations](Resources/GoConcurrencyVisualized.md)
+  - [Concurrency Guide](Resources/ConcurrencyGuide.md)
 - **[Day 8: MakeUtility Project Kickoff](Project/MakeUtility.md)**
-  - **[Workshop: Go Tooling in Action](Lessons/Additional/GoToolsWorkshop/README.md)**
+  - **[Workshop: Go Tooling in Action](Resources/GoToolsWorkshop/README.md)**
 - Day 9: President's Day
 - **[Day 10: Benchmarking & Testing](Lessons/Lesson10.md)**
 - **[Day 11: Deployment Strategies](Lessons/Lesson11.md)**
