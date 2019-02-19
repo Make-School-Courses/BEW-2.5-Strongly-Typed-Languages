@@ -13,7 +13,8 @@ const HOSTNAME_WHITELIST = [
   'fonts.googleapis.com',
   'unpkg.com',
   'github.com',
-  'github.io'
+  'github.io',
+  'makeschool.com'
 ]
 
 // The Util Function to hack URLs of intercepted requests
