@@ -2,9 +2,9 @@
 
 # BEW2.5: Patterns & Practices in Strongly Typed Ecosystems
 
-| Guide | Slack | Office Hours | Shortlink | Tracker | Request 1-on-1 |
+| Guide | Slack | Office Hours | Shortlink | Tracker | 1-on-1 |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| [**@droxey**](https://github.com/droxey) | #bew2-5-go | M/Th 1:00 - 1:30pm _(Golden Gate)_<br>T/Th 3:30 - 4:30pm _(Tea Tree)_ | [make.sc/bew2.5](https://make.sc/bew2.5) | [Link](https://make.sc/trackbew2.5) | [Link](https://make.sc/codewithdani) |
+| [**@droxey**](https://github.com/droxey) | `#bew2-5-go` | T/Th 3:30 - 4:30pm _(Tea Tree)_ | [make.sc/bew2.5](https://make.sc/bew2.5) | [make.sc/trackbew2.5](https://make.sc/trackbew2.5) | [Link](https://make.sc/codewithdani) |
 
 ## Course Description
 
@@ -50,8 +50,8 @@ Class Sessions:  13 classes, 7 labs
 |  7 |  Tues, Feb 12     | **[Lesson 7](Lessons/Lesson07.md): Concurrency & Goroutines**  ||
 |  8 | Thurs, Feb 14     | **Lab Day: Challenges / MakeUtility Project Kickoff**  ||
 |  - |  _Tues, Feb 19_   | _President's Day (Observed)_ ||
-|  9 | Thurs, Feb 21     | **[Lesson 9](Lessons/Lesson09.md): Go Design Patterns** | _20 Challenges @ 11:59pm_ |
-|  10 |  Tues, Feb 26    | **[Lesson 10](Lessons/Lesson10.md): Benchmarking & Testing** ||
+|  9 | Thurs, Feb 21     | **[Lesson 9](Lessons/Lesson09.md): Benchmarking & Testing** | _20 Challenges @ 11:59pm_ |
+|  10 |  Tues, Feb 26    | **[Lesson 10](Lessons/Lesson10.md): Go Design Patterns** ||
 |  11 | Thurs, Feb 28    | **[Lesson 11](Lessons/Lesson11.md): Deployment Strategies** ||
 |  12 |  Tues, Mar 5     | **Demo Day: MakeUtility Project** | _3 Min Demo @ 1:30pm_ |
 |  13 | Thurs, Mar 7     | **Final Exam** | _Project @ 11:59pm_ |
@@ -112,6 +112,7 @@ Failure to meet these requirements will result in a PIP (Participation Improveme
 
 ## Additional Resources
 
+- [TutorialEdge - Golang Repository](https://github.com/elliotforbes/tutorialedge-v2/tree/master/content/golang): Mini-tutorials to introduce and enhance your Golang knowledge.
 - [YouTube - Todd Mcleod](https://www.youtube.com/user/toddmcleod/playlists): Videos to reinforce Golang concepts and techniques that we cover in class.
 - [Echo Framework](https://echo.labstack.com/guide): Documentation for Echo, a high performance, extensible, minimalist Go web framework.
 - [GORM](http://doc.gorm.io/#): The fantastic ORM library for Golang.

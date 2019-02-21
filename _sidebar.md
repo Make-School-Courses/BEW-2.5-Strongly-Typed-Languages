@@ -1,4 +1,4 @@
-- [BEW 2.5 - Go @ Make School](README.md)
+- **[BEW 2.5 - Go @ Make School](README.md)**
 - **[Day 1: Intro to Go](Lessons/Lesson01.md)**
 - **[Day 2: Tutorial Launch](https://exercism.io/tracks/go)**
 - **[Day 3: Architecture](Lessons/Lesson03.md)**
@@ -10,8 +10,7 @@
   - [Concurrency Guide](Resources/ConcurrencyGuide.md)
 - **[Day 8: MakeUtility Project Kickoff](Project/MakeUtility.md)**
   - **[Workshop: Go Tooling in Action](Resources/GoToolsWorkshop/README.md)**
-- Day 9: President's Day
-- **[Day 10: Benchmarking & Testing](Lessons/Lesson10.md)**
-- **[Day 11: Deployment Strategies](Lessons/Lesson11.md)**
+- **[Day 9: Benchmarking & Testing](Lessons/Lesson09.md)**
+- **[Day 10: Deployment Strategies](Lessons/Lesson10.md)**
 - Day 11: Demo Day (MakeUtility Project)
 - Day 12: Final Exam
