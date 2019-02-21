@@ -1,7 +1,3 @@
-<p align="center">
-
-</p>
-
 # Benchmarking & Testing
 
 | **Elapsed** | **Time**  | **Activity**              |
@@ -28,6 +24,72 @@ Performance is an important factor in your applications! Today's lesson focuses 
 4. Explore how to incorporate benchmarking and testing in your MakeUtility project.
 
 ## Overview/TT (20 min)
+
+### Table-Driven Tests
+
+#### Definition
+
+> _(noun)_ **Table-Driven Test**
+>
+> Each table entry is a complete test case with inputs and expected results, and sometimes with additional information such as a test name to make the test output easily readable. If you ever find yourself using copy and paste when writing a test, think about whether refactoring into a table-driven test or pulling the copied code out into a helper function might be a better option.
+
+#### Practical Example
+
+This example of a table-driven test checks the `fmt` package for accuracy:
+
+```go
+var flagtests = []struct {
+	in  string
+	out string
+}{
+	{"%a", "[%a]"},
+	{"%-a", "[%-a]"},
+	{"%+a", "[%+a]"},
+	{"%#a", "[%#a]"},
+	{"% a", "[% a]"},
+	{"%0a", "[%0a]"},
+	{"%1.2a", "[%1.2a]"},
+	{"%-1.2a", "[%-1.2a]"},
+	{"%+1.2a", "[%+1.2a]"},
+	{"%-+1.2a", "[%+-1.2a]"},
+	{"%-+1.2abc", "[%+-1.2a]bc"},
+	{"%-1.2abc", "[%-1.2a]bc"},
+}
+
+func TestFlagParser(t *testing.T) {
+	var flagprinter flagPrinter
+	for _, tt := range flagtests {
+		t.Run(tt.in, func(t *testing.T) {
+			s := Sprintf(tt.in, &flagprinter)
+			if s != tt.out {
+				t.Errorf("got %q, want %q", s, tt.out)
+			}
+		})
+	}
+}
+```
+
+#### Observations
+
+* Detailed error message provided with `t.Errorf`:
+  * Result and expected result are provided; input is the subtest name.
+  * Immediately obvious upon test failure which test failed and why, without having to understand or read the rest of the testing code.
+
+* A `t.Errorf` call is **not** an assertion.
+  * Test continues even after an error is logged.
+
+### Benchmark Tests
+
+#### Definition
+
+> _(noun)_ **Benchmark Test**
+>
+> A test designed or used to establish a point of comparison for the performance or effectiveness of something, especially computer hardware or software.
+
+#### Practical Example
+
+
+#### Observations
 
 ## In Class Activity I (30 min)
 
