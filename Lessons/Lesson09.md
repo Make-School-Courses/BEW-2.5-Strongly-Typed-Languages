@@ -29,81 +29,85 @@ Performance is an important factor in your applications! Today's lesson focuses 
 
 #### Definition
 
-> _(noun)_ **Table-Driven Test**
->
-> Each table entry is a complete test case with inputs and expected results, and sometimes with additional information such as a test name to make the test output easily readable. If you ever find yourself using copy and paste when writing a test, think about whether refactoring into a table-driven test or pulling the copied code out into a helper function might be a better option.
+> _(noun)_ **Table-Driven Test**<br>
+> A **complete test case** with **inputs and expected results**. Sometimes, additional information such as a test name may be included to make the test output easily readable.
 
-#### Practical Example
+If you ever find yourself using copy and paste when writing a test, think about whether refactoring into a table-driven test or pulling the copied code out into a helper function might be a better option.
 
-This example of a table-driven test checks the `fmt` package for accuracy:
+#### Examples
+
+Example of a **basic table-driven test**:
 
 ```go
-var flagtests = []struct {
-	in  string
-	out string
-}{
-	{"%a", "[%a]"},
-	{"%-a", "[%-a]"},
-	{"%+a", "[%+a]"},
-	{"%#a", "[%#a]"},
-	{"% a", "[% a]"},
-	{"%0a", "[%0a]"},
-	{"%1.2a", "[%1.2a]"},
-	{"%-1.2a", "[%-1.2a]"},
-	{"%+1.2a", "[%+1.2a]"},
-	{"%-+1.2a", "[%+-1.2a]"},
-	{"%-+1.2abc", "[%+-1.2a]bc"},
-	{"%-1.2abc", "[%-1.2a]bc"},
-}
-
-func TestFlagParser(t *testing.T) {
-	var flagprinter flagPrinter
-	for _, tt := range flagtests {
-		t.Run(tt.in, func(t *testing.T) {
-			s := Sprintf(tt.in, &flagprinter)
-			if s != tt.out {
-				t.Errorf("got %q, want %q", s, tt.out)
-			}
-		})
-	}
+func TestDivision(t *testing.T) {
+    tests := []struct{
+        x      float64
+        y      float64
+        result float64
+        err    error
+    }{
+        { x: 1.0, y: 2.0, result: 0.5, err: nil },
+        { x: -1.0, y: 2.0, result: -0.5, err: nil},
+        { x: 1.0, y: 0.0, result: 0.0, err: ErrZeroDivision},
+    }
+    for _, test := range tests {
+        result, err := divide(test.x, test.y)
+        assert.IsType(t, test.err, err)
+        assert.Equal(t, test.result, result)
+    }
 }
 ```
 
-#### Observations
+Example with **named test cases**:
 
-* Detailed error message provided with `t.Errorf`:
-  * Result and expected result are provided; input is the subtest name.
-  * Immediately obvious upon test failure which test failed and why, without having to understand or read the rest of the testing code.
-
-* A `t.Errorf` call is **not** an assertion.
-  * Test continues even after an error is logged.
+```go
+tests := map[string]struct {
+    number int
+    smsErr error
+    err    error
+}{
+    "successful":       {0132423444, nil, nil},
+    "propagates error": {0132423444, sampleErr, sampleErr},
+}
+```
 
 ### Benchmark Tests
 
 #### Definition
 
-> _(noun)_ **Benchmark Test**
->
-> A test designed or used to establish a point of comparison for the performance or effectiveness of something, especially computer hardware or software.
+> _(noun)_ **Benchmark Test**<br>
+> A test designed or used to **establish a point of comparison** for the **performance or effectiveness** of something, especially computer hardware or software.
 
-#### Practical Example
+#### Example
 
-
-#### Observations
+```go
+func BenchmarkFoo(b *testing.B) {
+    for i := 0; i < b.N; i++ {
+        // TODO: Perform the operation we're analyzing.
+    }
+}
+```
 
 ## In Class Activity I (30 min)
 
-1. Create a new GitHub repo and clone it locally.
-2. Complete the [Introduction to Testing in Go](https://tutorialedge.net/golang/intro-testing-in-go/) mini-tutorial.
-3. Commit and push your code to GitHub.
+1. Create a **new GitHub repo and clone it** locally.
+2. **Complete the [Introduction to Testing in Go](https://tutorialedge.net/golang/intro-testing-in-go/) mini-tutorial**.
+3. **Commit and push** your code to GitHub.
 
 ## BREAK (10 min)
 
 ## In Class Activity II (30 min)
 
-1. Using the same repository as earlier, complete the [Introduction to Benchmarking Your Go Programs](https://tutorialedge.net/golang/benchmarking-your-go-programs/) mini-tutorial.
-2. Commit and push your code to GitHub.
-3. Slack the link to the class channel to indicate that you've completed both tutorials.
+1. Using the same repository as earlier, **complete the [Introduction to Benchmarking Your Go Programs](https://tutorialedge.net/golang/benchmarking-your-go-programs/) mini-tutorial**.
+2. **Commit and push** your code to GitHub.
+3. **Slack the link** to the class channel to indicate that you've completed both tutorials.
+
+### Stretch Challenges
+
+1. What is a **golden file**? How could a developer **incorporate a golden file into their existing projects**?
+2. What is **mocking**? What **data structures complement** mocking? How could a developer implement mocking  to create **more accurate test scenarios**?
+3. What are **test fixtures**? How could you use Golang to **automatically load test fixtures**?
+4. Should you use the `_test` package in your project? Why or why not?
 
 ## Wrap Up (5 min)
 
@@ -117,4 +121,3 @@ Consider how you can practically apply the techniques discussed in class today t
 4. **[Practical Go Benchmarks](https://stackimpact.com/blog/practical-golang-benchmarks/)**: This collection of practical performance benchmarks of Go packages and algorithms aims to help developers write fast and efficient programs.
 5. **[Analyzing the Performance of Go Functions with Benchmarks](https://medium.com/justforfunc/analyzing-the-performance-of-go-functions-with-benchmarks-60b8162e61c6)**: Compares the performance metrics of three different merging techniques with `n` channels in Go.
 6. **[go-gophers/gophers](https://github.com/go-gophers/gophers)**: Gophers is a tool for API testing. It covers unit testing of individual components, functional testing of broader scenarios, and generation of up-to-date examples for documentation from testing scenarios.
-)
