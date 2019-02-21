@@ -52,7 +52,7 @@ Class Sessions:  13 classes, 7 labs
 |  - |  _Tues, Feb 19_   | _President's Day (Observed)_ ||
 |  9 | Thurs, Feb 21     | **[Lesson 9](Lessons/Lesson09.md): Benchmarking & Testing** | |
 |  10 |  Tues, Feb 26    | **[Lesson 10](Lessons/Lesson10.md): Go Design Patterns** ||
-|  11 | Thurs, Feb 28    | **[Lesson 11](Lessons/Lesson11.md): Deployment Strategies** | _20 Challenges @ 11:59pm_ |
+|  11 | Thurs, Feb 28    | **[Lesson 11](Lessons/Lesson11.md): Deployment Strategies** | _15 Challenges @ 11:59pm_ |
 |  12 |  Tues, Mar 5     | **Demo Day: MakeUtility Project** | _3 Min Demo @ 1:30pm_ |
 |  13 | Thurs, Mar 7     | **Final Exam** | _Project @ 11:59pm_ |
 
@@ -62,9 +62,9 @@ Class Sessions:  13 classes, 7 labs
 
 Tutorials are to help you get started in a topic.  They are **graded on completion only**.
 
-- **Complete AT LEAST 20 [Go Track Challenges](http://exercism.io)**, committed to a public GitHub repository.
+- **Complete AT LEAST 15 [Go Track Challenges](http://exercism.io)**, committed to a public GitHub repository.
 
-_Go **above 20 challenges to earn a special holographic [droxey](https://github.com/droxey) sticker** at the end of the term!_
+_Go **above 15 challenges to earn a special holographic [droxey](https://github.com/droxey) sticker** at the end of the term!_
 
 ### Projects
 
