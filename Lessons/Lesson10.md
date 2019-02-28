@@ -55,3 +55,4 @@ Continue to work on your [MakeUtility](https://make.sc/makeutility) project. It'
 ## Additional Resources
 
 - **[Delve Usage Documentation](https://github.com/go-delve/delve/blob/master/Documentation/usage/dlv.md)**
+- **[Delve Usage Demo Video](https://www.melvinvivas.com/debugging-go-applications-using-delve/)**
