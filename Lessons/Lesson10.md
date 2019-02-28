@@ -43,11 +43,13 @@ Debugging tools and techniques are language-agnostic skills that last a lifetime
 ## In Class Activity I (60 min)
 
 1. Make sure `$GOPATH` is set in your `bash` or `zsh` configuration: [follow these instructions](https://github.com/golang/go/wiki/SettingGOPATH#bash)
-1. Install Delve
+2. Add `export PATH="$GOPATH/bin:$PATH"` to your `~/.zshrc` or `~/.bashrc`
+3. Run `source ~/.zshrc` or `source ~/.bashrc` to reload your current shell instance and load the new `PATH` setting.
+4. Install Delve
     1. `cd ~/go`
-    1. `go get -u github.com/go-delve/delve/cmd/dlv`
-1. Follow this [Delve tutorial](https://www.jamessturtevant.com/posts/Using-the-Go-Delve-Debugger-from-the-command-line/) to learn how to debug on the command line.
-1. Use this [Editor Integration Guide](https://github.com/go-delve/delve/blob/master/Documentation/EditorIntegration.md) to integrate Delve debugging into your editor of choice.
+    2. `go get -u github.com/go-delve/delve/cmd/dlv`
+5. Follow this [Delve tutorial](https://www.jamessturtevant.com/posts/Using-the-Go-Delve-Debugger-from-the-command-line/) to learn how to debug on the command line.
+6. Use this [Editor Integration Guide](https://github.com/go-delve/delve/blob/master/Documentation/EditorIntegration.md) to integrate Delve debugging into your editor of choice.
 
 ## In Class Activity II
 
