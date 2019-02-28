@@ -1,11 +1,11 @@
-# Title
+# Delve into Debugging in Go
 
 ## Minute by Minute
 
 | **Elapsed** | **Time**  | **Activity**              |
 | ----------- | --------- | ------------------------- |
 | 0:00        | 0:05      | Objectives                |
-| 0:05        | 0:15      | Overview                  |
+| 0:05        | 0:15      | Initial Exercise          |
 | 0:20        | 0:45      | In Class Activity I       |
 | 1:05        | 0:10      | BREAK                     |
 | 1:15        | 0:45      | In Class Activity II      |
@@ -13,30 +13,24 @@
 
 ## Why You Should Know This (5 min)
 
-Explain why students should care to learn the material presented in this class.
+Debugging tools and techniques are language-agnostic skills that last a lifetime!
 
 ## Learning Objectives (5 min)
 
-1. Identify and describe
-2. Define
-3. Design
-4. Implement
+1. Identify and describe the processes Delve uses to debug Golang programs.
+2. Define what a debugger is, and why developers would use one.
+3. Implement
 
 ## Initial Exercise (15 min)
 
-- Funny comic
-- Prime the Pump (e.g. think and jot, think pair share, etc)
-- Productivity Tip/Tool
-- Review of current event (e.g. tech news relevant to your track/topic)
-- Quiz on homework or topic(s) of past class
-- Concept Test
+- CLI Demo - Vincenzo
 
 ## Overview/TT I (20 min)
 
-- Why learn this?
-- Industry examples of usage
-- Best practices
-- Personal anecdote
+- Install Delve
+    1. `cd ~/go`
+    2. `go get -u github.com/go-delve/delve/cmd/dlv`
+- Go over the [Delve Getting Started Guide](https://github.com/go-delve/delve/blob/master/Documentation/cli/getting_started.md).
 
 ## In Class Activity I (30 min)
 
@@ -63,4 +57,4 @@ Explain why students should care to learn the material presented in this class.
 
 ## Additional Resources
 
-1. Links to additional readings and videos
+- **[Delve Usage Documentation](https://github.com/go-delve/delve/blob/master/Documentation/usage/dlv.md)**:

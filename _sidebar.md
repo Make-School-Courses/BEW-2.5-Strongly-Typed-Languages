@@ -11,6 +11,6 @@
 - **[Day 8: MakeUtility Project Kickoff](Project/MakeUtility.md)**
   - **[Workshop: Go Tooling in Action](Resources/GoToolsWorkshop/README.md)**
 - **[Day 9: Benchmarking & Testing](Lessons/Lesson09.md)**
-- **[Day 10: Deployment Strategies](Lessons/Lesson10.md)**
-- Day 11: Demo Day (MakeUtility Project)
-- Day 12: Final Exam
+- **[Day 10: Delve into Debugging](Lessons/Lesson10.md)**
+- Day 11: TBD
+- Day 12: Final Exam / Demo Day (MakeUtility Project)
