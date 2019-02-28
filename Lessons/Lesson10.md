@@ -42,6 +42,7 @@ Debugging tools and techniques are language-agnostic skills that last a lifetime
 
 ## In Class Activity I (60 min)
 
+1. Make sure `$GOPATH` is set in your `bash` or `zsh` configuration: [follow these instructions](https://github.com/golang/go/wiki/SettingGOPATH#bash)
 1. Install Delve
     1. `cd ~/go`
     1. `go get -u github.com/go-delve/delve/cmd/dlv`
