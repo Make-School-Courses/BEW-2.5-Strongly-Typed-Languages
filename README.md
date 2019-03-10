@@ -114,6 +114,7 @@ Failure to meet these requirements will result in a PIP (Participation Improveme
 
 - [Practical Go](https://dave.cheney.net/practical-go/presentations/qcon-china.html): Real world advice for writing maintainable Go programs.
 - [Go Standard Project Layout](https://github.com/golang-standards/project-layout)
+- [Checklist for Go Projects](https://blog.depado.eu/post/checklist-for-go-projects): Lists everything a developer should do when starting a Go project.
 - [TutorialEdge - Golang Repository](https://github.com/elliotforbes/tutorialedge-v2/tree/master/content/golang): Mini-tutorials to introduce and enhance your Golang knowledge.
 - [YouTube - Todd Mcleod](https://www.youtube.com/user/toddmcleod/playlists): Videos to reinforce Golang concepts and techniques that we cover in class.
 - [Echo Framework](https://echo.labstack.com/guide): Documentation for Echo, a high performance, extensible, minimalist Go web framework.
