@@ -40,7 +40,7 @@ Your boss will be looking for it in a **file named `proposal.md`**.
 
 ## Project Guidelines
 
-1. **Must score higher than `80%` to pass the project**.
+1. **Must score higher than `70%` to pass the project**.
 2.  **Consult the [syllabus](../README.md)** for **project due dates** and rules surrounding the **total number and velocity of commits** in projects and assignments.
 3.  **Copy this document** and commit it to your project's repository.
     1.  **Use the ✓ column to keep track of requirements you've completed** so far.
