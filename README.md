@@ -1,10 +1,10 @@
 ![](https://raw.githubusercontent.com/ashleymcnamara/gophers/master/GOPHER_AVATARS.jpg)
 
-# BEW2.5: Patterns & Practices in Strongly Typed Ecosystems
+# BEW2.5: Patterns & Practices in Strongly Typed Languages
 
 | Guide | Slack | Office Hours | Shortlink | Tracker | 1-on-1 |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| [**@droxey**](https://github.com/droxey) | `#bew2-5-go` | T/Th 3:30 - 4:30pm _(Tea Tree)_ | [make.sc/bew2.5](https://make.sc/bew2.5) | [make.sc/trackbew2.5](https://make.sc/trackbew2.5) | [Link](https://make.sc/codewithdani) |
+| [**@droxey**](https://github.com/droxey) | `#bew2-5-go` | W 11:30 - 1:30pm _(Mezzanine)_ | [make.sc/bew2.5](https://make.sc/bew2.5) | [make.sc/trackbew2.5](https://make.sc/trackbew2.5) | [Link](https://make.sc/codewithdani) |
 
 ## Course Description
 
@@ -36,8 +36,8 @@ Class Sessions:  13 classes, 7 labs
 
 ## Schedule
 
-**Course Dates:** Tuesday, January 22 – Thursday, March 7, 2019 (_7 weeks_)<br>
-**Class Times:** Tuesday and Thursday at 1:30–3:20pm (_12 class sessions_)
+**Course Dates:** Monday, October 21 – Wednesday, December 11, 2019 (_7 weeks_)<br>
+**Class Times:** Monday and Wednesday at 3:30–5:20pm (_15 class sessions_)
 
 | #  |          Date             |                 Topic                      | Assignment Due |
 |:-----:|---------------------------| ------------------------------------------- |:--------------:|
@@ -49,7 +49,6 @@ Class Sessions:  13 classes, 7 labs
 |  6 | Thurs, Feb 7      | **[Lesson 6](Lessons/Lesson06.md): Go Relational with GORM**  ||
 |  7 |  Tues, Feb 12     | **[Lesson 7](Lessons/Lesson07.md): Concurrency & Goroutines**  ||
 |  8 | Thurs, Feb 14     | **Lab Day: Challenges / MakeUtility Project Kickoff**  ||
-|  - |  _Tues, Feb 19_   | _President's Day (Observed)_ ||
 |  9 | Thurs, Feb 21     | **[Lesson 9](Lessons/Lesson09.md): Benchmarking & Testing** | |
 |  10 |  Tues, Feb 26    | **[Lesson 10](Lessons/Lesson10.md): Go Design Patterns** ||
 |  11 | Thurs, Feb 28    | **[Lesson 11](Lessons/Lesson11.md): Deployment Strategies** | _15 Challenges @ 11:59pm_ |
