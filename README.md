@@ -51,9 +51,9 @@ Class Sessions:  13 classes, 7 labs
 |  8 | **Lab Day: Challenges / MakeUtility Project Kickoff**  ||
 |  9 | **[Lesson 9](Lessons/Lesson09.md): Benchmarking & Testing** | |
 |  10 | **[Lesson 10](Lessons/Lesson10.md): Go Design Patterns** ||
-|  11 | **[Lesson 11](Lessons/Lesson11.md): Deployment Strategies** | _15 Challenges @ 11:59pm_ |
-|  12 | **Demo Day: MakeUtility Project** | _3 Min Demo @ 1:30pm_ |
-|  13 | **Final Exam** | _Project @ 11:59pm_ |
+|  11 | **[Lesson 11](Lessons/Lesson11.md): Deployment Strategies** | _15 Challenges @ 11:59pm_ ||
+|  12 | **Demo Day: MakeUtility Project** | _3 Min Demo @ 1:30pm_ ||
+|  13 | **Final Exam** | _Project @ 11:59pm_ ||
 
 ## Class Assignments
 
