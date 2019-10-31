@@ -2,8 +2,8 @@
 
 # BEW2.5: Patterns & Practices in Strongly Typed Languages
 
-| Guide | Slack | Office Hours | Shortlink | Tracker | 1-on-1 |
-| :-: | :-: | :-: | :-: | :-: | :-: |
+|                  Guide                   |    Slack     |          Office Hours          |                Shortlink                 |                      Tracker                       |                1-on-1                |
+| :--------------------------------------: | :----------: | :----------------------------: | :--------------------------------------: | :------------------------------------------------: | :----------------------------------: |
 | [**@droxey**](https://github.com/droxey) | `#bew2-5-go` | W 11:30 - 1:30pm _(Mezzanine)_ | [make.sc/bew2.5](https://make.sc/bew2.5) | [make.sc/trackbew2.5](https://make.sc/trackbew2.5) | [Link](https://make.sc/codewithdani) |
 
 ## Course Description
@@ -39,21 +39,21 @@ Class Sessions:  13 classes, 7 labs
 **Course Dates:** Monday, October 21 – Wednesday, December 11, 2019 (_7 weeks_)<br>
 **Class Times:** Monday and Wednesday at 3:30–5:20pm (_15 class sessions_)
 
-| # |                Topic                      | Assignment Due |
-|:-----:|---------------------------| ------------------------------------------- |:--------------:|
-|  1 | **[Lesson 1](Lessons/Lesson01.md): Intro to Go**  ||
-|  2 | **[Lesson 2](Lessons/Lesson02.md): Tutorial Launch**  ||
-|  3 | **[Lesson 3](Lessons/Lesson03.md): Architecture of Well Crafted Go Apps**  ||
-|  4 | **[Lesson 4](Lessons/Lesson04.md): Interacting with APIs in Golang**  ||
-|  5 | **[Lesson 5](Lessons/Lesson05.md): APIs, Middleware, & You**  ||
-|  6 | **[Lesson 6](Lessons/Lesson06.md): Go Relational with GORM**  ||
-|  7 | **[Lesson 7](Lessons/Lesson07.md): Concurrency & Goroutines**  ||
-|  8 | **Lab Day: Challenges / MakeUtility Project Kickoff**  ||
-|  9 | **[Lesson 9](Lessons/Lesson09.md): Benchmarking & Testing** | |
-|  10 | **[Lesson 10](Lessons/Lesson10.md): Go Design Patterns** ||
-|  11 | **[Lesson 11](Lessons/Lesson11.md): Deployment Strategies** | _15 Challenges @ 11:59pm_ ||
-|  12 | **Demo Day: MakeUtility Project** | _3 Min Demo @ 1:30pm_ ||
-|  13 | **Final Exam** | _Project @ 11:59pm_ ||
+|   #   | Topic                                                                     | Assignment Due            |
+| :---: | ------------------------------------------------------------------------- | ------------------------- |
+|   1   | **[Lesson 1](Lessons/Lesson01.md): Intro to Go**                          |                           |
+|   2   | **[Lesson 2](Lessons/Lesson02.md): Tutorial Launch**                      |                           |
+|   3   | **[Lesson 3](Lessons/Lesson03.md): Architecture of Well Crafted Go Apps** |                           |
+|   4   | **[Lesson 4](Lessons/Lesson04.md): Interacting with APIs in Golang**      |                           |
+|   5   | **[Lesson 5](Lessons/Lesson05.md): APIs, Middleware, & You**              |                           |
+|   6   | **[Lesson 6](Lessons/Lesson06.md): Go Relational with GORM**              |                           |
+|   7   | **[Lesson 7](Lessons/Lesson07.md): Concurrency & Goroutines**             |                           |
+|   8   | **Lab Day: Challenges / MakeUtility Project Kickoff**                     |                           |
+|   9   | **[Lesson 9](Lessons/Lesson09.md): Benchmarking & Testing**               |                           |
+|  10   | **[Lesson 10](Lessons/Lesson10.md): Go Design Patterns**                  |                           |
+|  11   | **[Lesson 11](Lessons/Lesson11.md): Deployment Strategies**               | _15 Challenges @ 11:59pm_ |
+|  12   | **Demo Day: MakeUtility Project**                                         | _3 Min Demo @ 1:30pm_     |
+|  13   | **Final Exam**                                                            | _Project @ 11:59pm_       |
 
 ## Class Assignments
 
