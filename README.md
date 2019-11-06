@@ -46,14 +46,15 @@ Class Sessions:  13 classes, 7 labs
 |   3   | **[Lesson 3](Lessons/Lesson03.md): Architecture of Well Crafted Go Apps** |                           |
 |   4   | **[Lesson 4](Lessons/Lesson04.md): Interacting with APIs in Golang**      |                           |
 |   5   | **[Lesson 5](Lessons/Lesson05.md): APIs, Middleware, & You**              |                           |
-|   6   | **[Lesson 6](Lessons/Lesson06.md): Go Relational with GORM**              |                           |
-|   7   | **[Lesson 7](Lessons/Lesson07.md): Concurrency & Goroutines**             |                           |
-|   8   | **Lab Day: Challenges / MakeUtility Project Kickoff**                     |                           |
-|   9   | **[Lesson 9](Lessons/Lesson09.md): Benchmarking & Testing**               |                           |
-|  10   | **[Lesson 10](Lessons/Lesson10.md): Go Design Patterns**                  |                           |
-|  11   | **[Lesson 11](Lessons/Lesson11.md): Deployment Strategies**               | _15 Challenges @ 11:59pm_ |
-|  12   | **Demo Day: MakeUtility Project**                                         | _3 Min Demo @ 1:30pm_     |
-|  13   | **Final Exam**                                                            | _Project @ 11:59pm_       |
+|   6   | **Review Day**: Go Syntax                                                 |                           |
+|   7   | **[Lesson 6](Lessons/Lesson06.md): Go Relational with GORM**              |                           |
+|   8   | **[Lesson 7](Lessons/Lesson07.md): Concurrency & Goroutines**             |                           |
+|   9   | **Lab Day: Challenges / MakeUtility Project Kickoff**                     |                           |
+|  10   | **[Lesson 9](Lessons/Lesson09.md): Benchmarking & Testing**               |                           |
+|  11   | **[Lesson 10](Lessons/Lesson10.md): Go Design Patterns**                  |                           |
+|  12   | **[Lesson 11](Lessons/Lesson11.md): Deployment Strategies**               | _15 Challenges @ 11:59pm_ |
+|  13   | **Demo Day: MakeUtility Project**                                         | _3 Min Demo @ 1:30pm_     |
+|  14   | **Final Exam**                                                            | _Project @ 11:59pm_       |
 
 ## Class Assignments
 
