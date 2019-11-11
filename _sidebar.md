@@ -4,7 +4,8 @@
 - **[Day 3: Architecture](Lessons/Lesson03.md)**
 - **[Day 4: APIs](Lessons/Lesson04.md)**
 - **[Day 5: Middlewares](Lessons/Lesson05.md)**
-- **[Day 6: GORM](Lessons/Lesson06.md)**
+- **[Day 6: Fullstack App](Lessons/07-Fullstack.md)**
+  - [golang-starter-pack](https://github.com/make-school-labs/golang-starter-pack)
 - **[Day 7: Concurrency](Lessons/Lesson07.md)**
   - [Go’s Concurrency Through Illustrations](Resources/GoConcurrencyVisualized.md)
   - [Concurrency Guide](Resources/ConcurrencyGuide.md)

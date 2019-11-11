@@ -47,7 +47,7 @@ Class Sessions:  13 classes, 7 labs
 |   4   | **[Lesson 4](Lessons/Lesson04.md): Interacting with APIs in Golang**      |                           |
 |   5   | **[Lesson 5](Lessons/Lesson05.md): APIs, Middleware, & You**              |                           |
 |   6   | **Review Day**: Go Syntax                                                 |                           |
-|   7   | **[Lesson 6](Lessons/Lesson06.md): Go Relational with GORM**              |                           |
+|   7   | **[Lesson 6](Lessons/07-Fullstack.md): Fullstack Web Applications**              |                           |
 |   8   | **[Lesson 7](Lessons/Lesson07.md): Concurrency & Goroutines**             |                           |
 |   9   | **Lab Day: Challenges / MakeUtility Project Kickoff**                     |                           |
 |  10   | **[Lesson 9](Lessons/Lesson09.md): Benchmarking & Testing**               |                           |
