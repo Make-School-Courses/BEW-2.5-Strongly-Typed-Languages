@@ -3,11 +3,12 @@
 ### ⏱ Agenda
 
 1. [[**05m**] 🏆 Objectives](#05m-%f0%9f%8f%86-objectives)
-2. [[**30m**] 📖 Overview](#30m-%f0%9f%93%96-overview)
-3. [[**10m**] 🌴 BREAK](#10m-%f0%9f%8c%b4-break)
-4. [[**50m**] 💻 Activity](#50m-%f0%9f%92%bb-activity)
-5. [🌃 After Class](#%f0%9f%8c%83-after-class)
-6. [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
+2. [[**20m**] ☀️Warmup](#20m-%e2%98%80%ef%b8%8fwarmup)
+3. [[**30m**] 📖 Overview](#30m-%f0%9f%93%96-overview)
+4. [[**10m**] 🌴 BREAK](#10m-%f0%9f%8c%b4-break)
+5. [[**50m**] 💻 Activity](#50m-%f0%9f%92%bb-activity)
+6. [🌃 After Class](#%f0%9f%8c%83-after-class)
+7. [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
 
 ## [**05m**] 🏆 Objectives
 
@@ -21,6 +22,16 @@
 | 2: Understand | describe, explain, paraphrase, restate, summarize, contrast, interpret, discuss |
 | 1: Remember | list, recite, outline, define, name, match, quote, recall, identify, label, recognize |
 -->
+
+## [**20m**] ☀️Warmup
+
+- Write an `interface` for geometric shapes that defines `area` and `perimeter` functions.
+- Write a `struct` that represents a `circle` and a `rectangle`.
+- Implement the `interface` for both the `circle` and `rectangle` `struct`s.
+- Create a function, named `measure`, that can print the `area` and `diameter` of any geometric shape.
+- In the `main` function, create an instance of each `struct`.
+- Call the `measure` function on each instance.
+- When the timer goes off, save it as `interfaces.go` on gists.github.com, then DM me the link on Slack.
 
 ## [**30m**] 📖 Overview
 
