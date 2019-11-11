@@ -31,7 +31,7 @@ If you get stuck, you can use online resources in the last 8 minutes of the warm
 - Write an `interface` for geometric shapes that defines `area` and `perimeter` functions.
 - Write a `struct` that represents a `circle` and a `rectangle`.
 - Implement the `interface` for both the `circle` and `rectangle` `struct`s.
-- Create a function, named `measure`, that can print the `area` and `diameter` of any geometric shape.
+- Create a function, named `measure`, that can print the `area` and `perimeter` of any geometric shape.
 - In the `main` function, create an instance of each `struct`.
 - Call the `measure` function on each instance.
 - When the timer goes off, save it as `interfaces.go` on gists.github.com, then DM me the link on Slack.
