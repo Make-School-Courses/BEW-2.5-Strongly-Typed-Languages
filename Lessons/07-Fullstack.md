@@ -4,11 +4,12 @@
 
 1. [[**05m**] 🏆 Objectives](#05m-%f0%9f%8f%86-objectives)
 2. [[**20m**] ☀️Warmup](#20m-%e2%98%80%ef%b8%8fwarmup)
-3. [[**30m**] 📖 Overview](#30m-%f0%9f%93%96-overview)
-4. [[**10m**] 🌴 BREAK](#10m-%f0%9f%8c%b4-break)
-5. [[**50m**] 💻 Activity](#50m-%f0%9f%92%bb-activity)
-6. [🌃 After Class](#%f0%9f%8c%83-after-class)
-7. [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
+3. [[**10m**] ☑️ Review Solution](#10m-%e2%98%91%ef%b8%8f-review-solution)
+4. [[**30m**] 📖 Overview](#30m-%f0%9f%93%96-overview)
+5. [[**10m**] 🌴 BREAK](#10m-%f0%9f%8c%b4-break)
+6. [[**40m**] 💻 Activity](#40m-%f0%9f%92%bb-activity)
+7. [🌃 After Class](#%f0%9f%8c%83-after-class)
+8. [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
 
 ## [**05m**] 🏆 Objectives
 
@@ -33,13 +34,15 @@
 - Call the `measure` function on each instance.
 - When the timer goes off, save it as `interfaces.go` on gists.github.com, then DM me the link on Slack.
 
+## [**10m**] ☑️ Review Solution
+
 ## [**30m**] 📖 Overview
 
 Today, we'll be going over the [golang-starter-pack](https://github.com/make-school-labs/golang-starter-pack) that we can use as the starting point for today's challenges, as well as the MakeUtility project due at the end of the term.
 
 ## [**10m**] 🌴 BREAK
 
-## [**50m**] 💻 Activity
+## [**40m**] 💻 Activity
 
 Using the list below as inspiration, replace the Users and Articles entities throughout the example with a has-many relationship of your own choice.
 
