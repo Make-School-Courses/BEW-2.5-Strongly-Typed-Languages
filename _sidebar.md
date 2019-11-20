@@ -1,4 +1,5 @@
 - **[BEW 2.5 - Go @ Make School](README.md)**
+- **[_Docs / Cheatsheets_](Docs/Home.md)**
 - **[Day 1: Intro to Go](Lessons/Lesson01.md)**
 - **[Day 2: Tutorial Launch](https://exercism.io/tracks/go)**
 - **[Day 3: Architecture](Lessons/Lesson03.md)**

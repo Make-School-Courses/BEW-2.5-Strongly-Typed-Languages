@@ -1,7 +1,7 @@
 :root {
   --base-font-weight: 400;
   --base-color: white;
-  --base-font-size: 14px;
+  --base-font-size: 16px;
 
   --sidebar-width: 22rem;
   --sidebar-nav-link-before-content: "";
@@ -40,7 +40,7 @@
 }
 
 .markdown-section {
-  max-width: 840px;
+  max-width: 100%;
 }
 
 .markdown-section a:hover {
@@ -63,7 +63,7 @@
 
 .sidebar ul li a {
   color: #333;
-  font-size: 14px;
+  /* font-size: 14px; */
   font-weight: 400;
   overflow: hidden;
   text-decoration: none;

@@ -2,25 +2,25 @@
 
 ## Table of Contents
 
-- [MakeUtility Project](#makeutility-project)
-  - [Scenario](#scenario)
-  - [Project Guidelines](#project-guidelines)
-  - [Rubric](#rubric)
-  - [Code Review and Feedback](#code-review-and-feedback)
+1. [Table of Contents](#table-of-contents)
+2. [Scenario](#scenario)
+3. [Project Guidelines](#project-guidelines)
+4. [Rubric](#rubric)
+5. [Code Review and Feedback](#code-review-and-feedback)
 
 ## Scenario
 
-The Project Manager at _Awesome New Startup, Inc._ has **secured an entire sprint to focus on creating utilities that enhance the development team's workflow**. During sprint planning, the **team identified areas of improvement** together. Each team member will be responsible for **taking ownership over one problem** this sprint. 
+The Project Manager at _Awesome New Startup, Inc._ has **secured an entire sprint to focus on creating utilities that enhance the development team's workflow**. During sprint planning, the **team identified areas of improvement** together. Each team member will be responsible for **taking ownership over one problem** this sprint.
 
 ### Stakes
 
-#### Real World Opportunities, High Visibility Consequences 
+#### Real World Opportunities, High Visibility Consequences
 
-The entire software suite will be presented and discussed during the sprint retrospective. Furthermore, the suite of tools will be available internally for company-wide usage. A presentation will be made to everyone, introducing each tool, and a feedback form will also be sent in the organization's #general channel. **_That means all eyes are on you!_** You recognize an opportunity to **identify and solve a unique problem**, and are highly motivated to earn the respect of the entire organization. 
+The entire software suite will be presented and discussed during the sprint retrospective. Furthermore, the suite of tools will be available internally for company-wide usage. A presentation will be made to everyone, introducing each tool, and a feedback form will also be sent in the organization's #general channel. **_That means all eyes are on you!_** You recognize an opportunity to **identify and solve a unique problem**, and are highly motivated to earn the respect of the entire organization.
 
-**Reflect upon the questions below**, and **brainstorm ideas** that fit this scenario. 
+**Reflect upon the questions below**, and **brainstorm ideas** that fit this scenario.
 
-### Solve 
+### Solve
 
 #### Identifying a Good Engineering Problem
 
@@ -34,7 +34,7 @@ The entire software suite will be presented and discussed during the sprint retr
 
 ### First Deliverable
 
-**Commit a proposal document that describes the problem you'll solve** in the project root. 
+**Commit a proposal document that describes the problem you'll solve** in the project root.
 
 Your boss will be looking for it in a **file named `proposal.md`**.
 

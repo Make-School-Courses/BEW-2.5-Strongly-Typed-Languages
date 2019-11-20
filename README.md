@@ -2,9 +2,9 @@
 
 # BEW2.5: Patterns & Practices in Strongly Typed Languages
 
-|                  Guide                   |    Slack     |          Office Hours          |                Shortlink                 |                      Tracker                       |                1-on-1                |
-| :--------------------------------------: | :----------: | :----------------------------: | :--------------------------------------: | :------------------------------------------------: | :----------------------------------: |
-| [**@droxey**](https://github.com/droxey) | `#bew2-5-go` | W 11:30 - 1:30pm _(Mezzanine)_ | [make.sc/bew2.5](https://make.sc/bew2.5) | [make.sc/trackbew2.5](https://make.sc/trackbew2.5) | [Link](https://make.sc/codewithdani) |
+|                  Guide                   |    Slack     |          Office Hours           |                Shortlink                 |                      Tracker                       |                1-on-1                |
+| :--------------------------------------: | :----------: | :-----------------------------: | :--------------------------------------: | :------------------------------------------------: | :----------------------------------: |
+| [**@droxey**](https://github.com/droxey) | `#bew2-5-go` | W 11:30 - 12:30pm _(Mezzanine)_ | [make.sc/bew2.5](https://make.sc/bew2.5) | [make.sc/trackbew2.5](https://make.sc/trackbew2.5) | [Link](https://make.sc/codewithdani) |
 
 ## Course Description
 
@@ -47,7 +47,7 @@ Class Sessions:  13 classes, 7 labs
 |   4   | **[Lesson 4](Lessons/Lesson04.md): Interacting with APIs in Golang**      |                           |
 |   5   | **[Lesson 5](Lessons/Lesson05.md): APIs, Middleware, & You**              |                           |
 |   6   | **Review Day**: Go Syntax                                                 |                           |
-|   7   | **[Lesson 6](Lessons/07-Fullstack.md): Fullstack Web Applications**              |                           |
+|   7   | **[Lesson 6](Lessons/07-Fullstack.md): Fullstack Web Applications**       |                           |
 |   8   | **[Lesson 7](Lessons/Lesson07.md): Concurrency & Goroutines**             |                           |
 |   9   | **Lab Day: Challenges / MakeUtility Project Kickoff**                     |                           |
 |  10   | **[Lesson 9](Lessons/Lesson09.md): Benchmarking & Testing**               |                           |

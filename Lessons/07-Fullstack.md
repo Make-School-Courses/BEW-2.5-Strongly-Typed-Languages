@@ -28,6 +28,8 @@
 
 If you get stuck, you can use online resources in the last 8 minutes of the warmup.
 
+The data type should be `float64`.
+
 - Write an `interface` for geometric shapes that defines `area` and `perimeter` functions.
 - Write a `struct` that represents a `circle` and a `rectangle`.
 - Implement the `interface` for both the `circle` and `rectangle` `struct`s.
