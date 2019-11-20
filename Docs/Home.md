@@ -12,7 +12,7 @@ Welcome to the Go wiki, a collection of information about the [Go Programming La
 3. [Working With Go](#working-with-go)
 4. [Learning More About Go](#learning-more-about-go)
 5. [Using the Go Toolchain](#using-the-go-toolchain)
-6. [Additional Go Programming Wikis](#additional-go-programming-wikis)
+6. [Go Programming Wikis](#go-programming-wikis)
 7. [Online Services that work with Go](#online-services-that-work-with-go)
 8. [Troubleshooting Go Programs in Production](#troubleshooting-go-programs-in-production)
 
@@ -100,7 +100,7 @@ Once you have an overview of the language, here are resources you can use to lea
     - [GoGenerateTools](Docs/GoGenerateTools)
     - [Go Tooling Essentials](https://rakyll.org/go-tool-flags/) - by Jaana Burcu Dogan
 
-## Additional Go Programming Wikis
+## Go Programming Wikis
 
   - [Why Go doesn't Support Generics: A Summary of Go Generics Discussions](https://docs.google.com/document/d/1vrAy9gMpMoS3uaVphB32uVXX4pi-HnNjkMEgyAHX4N4/preview) - Start here before you join the debate.
   - Concurrency

@@ -1,18 +1,42 @@
 - **[BEW 2.5 - Go @ Make School](README.md)**
-- **[⭐️ _Docs / Cheatsheets_ ⭐️](Docs/Home.md)**
-- **[Day 1: Intro to Go](Lessons/Lesson01.md)**
-- **[Day 2: Tutorial Launch](https://exercism.io/tracks/go)**
-- **[Day 3: Architecture](Lessons/Lesson03.md)**
-- **[Day 4: APIs](Lessons/Lesson04.md)**
-- **[Day 5: Middlewares](Lessons/Lesson05.md)**
-- **[Day 6: Fullstack App](Lessons/07-Fullstack.md)**
-  - [golang-starter-pack](https://github.com/make-school-labs/golang-starter-pack)
-- **[Day 7: Concurrency](Lessons/Lesson07.md)**
-  - [Go’s Concurrency Through Illustrations](Resources/GoConcurrencyVisualized.md)
-  - [Concurrency Guide](Resources/ConcurrencyGuide.md)
-- **[Day 8: MakeUtility Project Kickoff](Project/MakeUtility.md)**
-  - **[Workshop: Go Tooling in Action](Resources/GoToolsWorkshop/README.md)**
-- **[Day 9: Benchmarking & Testing](Lessons/Lesson09.md)**
-- **[Day 10: Delve into Debugging](Lessons/Lesson10.md)**
-- Day 11: TBD
-- Day 12: Final Exam / Demo Day (MakeUtility Project)
+- **🎓 Class Topics**
+    - [Intro to Go](Lessons/Lesson01.md)
+    - [Tutorial Launch](https://exercism.io/tracks/go)
+    - [Architecture](Lessons/Lesson03.md)
+    - [APIs](Lessons/Lesson04.md)
+    - [Middlewares](Lessons/Lesson05.md)
+    - [Full Stack App](Lessons/07-Fullstack.md)**
+      - [golang-starter-pack](https://github.com/make-school-labs/golang-starter-pack)
+    - [Concurrency & Slackbots](Lessons/Lesson07.md)
+      - [Go’s Concurrency Through Illustrations](Resources/GoConcurrencyVisualized.md)
+      - [Concurrency Guide](Resources/ConcurrencyGuide.md)
+    - [MakeUtility Project Kickoff](Project/MakeUtility.md)
+      - [Workshop: Go Tooling in Action](Resources/GoToolsWorkshop/README.md)
+    - [Benchmarking & Testing](Lessons/Lesson09.md)
+    - [Delve into Debugging](Lessons/Lesson10.md)
+- **[⭐️ Docs + Cheatsheets](Docs/Home.md)**
+    - [Comments](Docs/Comments)
+    - [CommonMistakes](Docs/CommonMistakes)
+    - [Errors](Docs/Errors)
+    - [GcToolchainTricks](Docs/GcToolchainTricks)
+    - [GoStrings](Docs/GoStrings)
+    - [String Matching](http://blog.gopheracademy.com/advent-2014/string-matching/)
+    - [Hashing](Docs/Hashing)
+    - [HttpFetch](Docs/HttpFetch)
+    - [HttpStaticFiles](Docs/HttpStaticFiles)
+    - [InterfaceSlice](Docs/InterfaceSlice)
+    - [LockOSThread](Docs/LockOSThread)
+    - [MethodSets](Docs/MethodSets)
+    - [MutexOrChannel](Docs/MutexOrChannel)
+    - [PanicAndRecover](Docs/PanicAndRecover)
+    - [RaceDetector](Docs/RaceDetector)
+    - [Range](Docs/Range)
+    - [RateLimiting](Docs/RateLimiting)
+    - [Rationales](Docs/Rationales)
+    - [SendingMail](Docs/SendingMail)
+    - [SignalHandling](Docs/SignalHandling)
+    - [SimultaneousAssignment](Docs/SimultaneousAssignment)
+    - [SliceTricks](Docs/SliceTricks)
+    - [Switch](Docs/Switch)
+    - [TableDrivenTests](Docs/TableDrivenTests)
+    - [Timeouts](Docs/Timeouts)
