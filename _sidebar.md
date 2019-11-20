@@ -5,7 +5,7 @@
     - [Architecture](Lessons/Lesson03.md)
     - [APIs](Lessons/Lesson04.md)
     - [Middlewares](Lessons/Lesson05.md)
-    - [Full Stack App](Lessons/07-Fullstack.md)**
+    - [Full Stack App](Lessons/07-Fullstack.md)
       - [golang-starter-pack](https://github.com/make-school-labs/golang-starter-pack)
     - [Concurrency & Slackbots](Lessons/Lesson07.md)
       - [Go’s Concurrency Through Illustrations](Resources/GoConcurrencyVisualized.md)
