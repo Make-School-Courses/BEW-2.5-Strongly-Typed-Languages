@@ -1,4 +1,4 @@
-- **[BEW 2.5 - Go @ Make School](README.md)**
+- **[Syllabus](README.md)**
 - **🎓 Class Topics**
   - [Intro to Go](Lessons/Lesson01.md)
   - [Tutorial Launch](https://exercism.io/tracks/go)
@@ -35,15 +35,15 @@
   - [TableDrivenTests](Docs/TableDrivenTests)
   - [TestComments](Docs/TestComments)
   - [Timeouts](Docs/Timeouts)
-- **Guides**
+- **🗺 Guides**
   - [Concurrency Guide](Resources/ConcurrencyGuide)
   - [Concurrency Through Illustrations](Resources/GoConcurrencyVisualized)
-- **Why Use Golang?**
+- **⁉️ Why Use Golang?**
   - [Why Go?](Docs/WhyGo)
   - [Success Stories](Docs/SuccessStories)
   - [Additional Resources](Docs/Home)
-- **Starter Packs**
+- **📚 Starter Packs**
   - [goslackit](https://github.com/droxey/goslackit)
   - [golang-starter-pack](https://github.com/make-school-labs/golang-starter-pack)
-- **Videos**
+- **📼 Videos**
   - [Workshop: Go Tooling in Action](Resources/GoToolsWorkshop/README.md)
