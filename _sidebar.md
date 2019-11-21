@@ -34,10 +34,14 @@
     - [SliceTricks](Docs/SliceTricks)
     - [Switch](Docs/Switch)
     - [TableDrivenTests](Docs/TableDrivenTests)
+    - [TestComments](Docs/TestComments)
     - [Timeouts](Docs/Timeouts)
   - **Guides**
-    - [Concurrency Guide](Resources/ConcurrencyGuide.md)
-    - [Concurrency Through Illustrations](Resources/GoConcurrencyVisualized.md)
+    - [Concurrency Guide](Resources/ConcurrencyGuide)
+    - [Concurrency Through Illustrations](Resources/GoConcurrencyVisualized)
+  - **Why Use Golang?**
+    - [Why Go?](Docs/WhyGo)
+    - [Success Stories](Docs/SuccessStories)
   - **Starter Packs**
     - [goslackit](https://github.com/droxey/goslackit)
     - [golang-starter-pack](https://github.com/make-school-labs/golang-starter-pack)
