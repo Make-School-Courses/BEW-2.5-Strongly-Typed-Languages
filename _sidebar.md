@@ -6,16 +6,12 @@
   - [APIs](Lessons/Lesson04.md)
   - [Middlewares](Lessons/Lesson05.md)
   - [Full Stack App](Lessons/07-Fullstack.md)
-    - [golang-starter-pack](https://github.com/make-school-labs/golang-starter-pack)
   - [Concurrency & Slackbots](Lessons/Lesson07.md)
   - [MakeUtility Project Kickoff](Project/MakeUtility.md)
-    - [Workshop: Go Tooling in Action](Resources/GoToolsWorkshop/README.md)
   - [Benchmarking & Testing](Lessons/Lesson09.md)
   - [Delve into Debugging](Lessons/Lesson10.md)
 - **[⭐️ Docs + Cheatsheets](Docs/Home.md)**
   - **Cheatsheets**
-    - [Concurrency Guide](Resources/ConcurrencyGuide.md)
-    - [Concurrency Through Illustrations](Resources/GoConcurrencyVisualized.md)
     - [Comments](Docs/Comments)
     - [CommonMistakes](Docs/CommonMistakes)
     - [Errors](Docs/Errors)
@@ -39,3 +35,11 @@
     - [Switch](Docs/Switch)
     - [TableDrivenTests](Docs/TableDrivenTests)
     - [Timeouts](Docs/Timeouts)
+  - **Guides**
+    - [Concurrency Guide](Resources/ConcurrencyGuide.md)
+    - [Concurrency Through Illustrations](Resources/GoConcurrencyVisualized.md)
+  - **Starter Packs**
+    - [goslackit](https://github.com/droxey/goslackit)
+    - [golang-starter-pack](https://github.com/make-school-labs/golang-starter-pack)
+  - **Videos**
+    - [Workshop: Go Tooling in Action](Resources/GoToolsWorkshop/README.md)
