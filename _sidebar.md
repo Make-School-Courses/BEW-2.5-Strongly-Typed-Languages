@@ -9,6 +9,7 @@
   - [Concurrency & Slackbots](Lessons/Lesson07.md)
   - [MakeUtility Project Kickoff](Project/MakeUtility.md)
   - [Benchmarking & Testing](Lessons/Lesson09.md)
+  - [Design Patterns](Lessons/DesignPatterns.md)
   - [Delve into Debugging](Lessons/Lesson10.md)
 - **⭐️ Cheatsheets**
   - [Comments](Docs/Comments)
