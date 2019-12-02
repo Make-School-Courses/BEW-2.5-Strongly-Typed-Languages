@@ -11,26 +11,21 @@
 
 ### ⏱ Agenda
 
-1. [[**00m**] 🏆 Objectives](#00m-%f0%9f%8f%86-objectives)
+1. [[**05m**] 🏆 Objectives](#05m-%f0%9f%8f%86-objectives)
 2. [[**10m**] ☀️ Warm Up](#10m-%e2%98%80%ef%b8%8f-warm-up)
 3. [[**30m**] 📖 Overview: Common Design Patterns](#30m-%f0%9f%93%96-overview-common-design-patterns)
 4. [[**30m**] 💻 Activity: Pick a Pattern](#30m-%f0%9f%92%bb-activity-pick-a-pattern)
 5. [[**10m**] 🌴 BREAK](#10m-%f0%9f%8c%b4-break)
-6. [[**40m**] 💻 Activity: MakeUtility Project](#40m-%f0%9f%92%bb-activity-makeutility-project)
+6. [[**35m**] 💻 Activity: MakeUtility Project](#35m-%f0%9f%92%bb-activity-makeutility-project)
 7. [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
 
 <!-- > -->
 
-## [**00m**] 🏆 Objectives
+## [**05m**] 🏆 Objectives
 
-|   Level   | Verbs |
-| --------- | ----- |
-| 6: Create | design, formulate, build, invent, create, compose, generate, derive, modify, develop |
-| 5: Evaluate | choose, support, relate, determine, defend, compare, contrast, justify, support, convince, select |
-| 4: Analyze | classify, break down, categorize, analyze, diagram, illustrate, criticize, simplify, associate |
-| 3: Apply | calculate, predict, apply, solve, illustrate, use, demonstrate, determine, model, perform, present |
-| 2: Understand | describe, explain, paraphrase, restate, summarize, contrast, interpret, discuss |
-| 1: Remember | list, recite, outline, define, name, match, quote, recall, identify, label, recognize |
+1. Define what a design pattern is, and why they are frequently useful.
+2. List many different design patterns along with their specific purposes.
+3. Create real-world examples of different popular design patterns.
 
 <!-- > -->
 
@@ -86,7 +81,7 @@ To accomplish this, an intermediary, called a "message broker" or "event bus", r
 
 ## [**10m**] 🌴 BREAK
 
-## [**40m**] 💻 Activity: MakeUtility Project
+## [**35m**] 💻 Activity: MakeUtility Project
 
 Continue working on your project!
 
