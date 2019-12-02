@@ -3,9 +3,7 @@
 
 
 <!-- .slide: data-background="./../Slides/images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
-# 📜 Day #: Title
-
-<p align="center"><a href="https://make-school-courses.github.io/REPO_NAME/Slides/00-LESSON_NAME" title="Slides" target="_blank"><strong>Slides</strong></a></p>
+# 📜 Day 11: Design Patterns
 
 <!-- > -->
 
