@@ -52,9 +52,9 @@ Class Sessions:  13 classes, 7 labs
 |   9   | **Lab Day: Challenges / MakeUtility Project Kickoff**                     |                           |
 |  10   | **[Lesson 9](Lessons/Lesson09.md): Benchmarking & Testing**               |                           |
 |  11   | **[Lesson 10](Lessons/DesignPatterns.md): Go Design Patterns**            |                           |
-|  12   | **[Lesson 11](Lessons/DocsDeploy.md): Documentation & Deployments**       | _10 Challenges @ 11:59pm_ |
-|  13   | **Presentations** / **Final Exam Review** / **Practice Test**             | _3 Min Demo @ 3:30pm_     |
-|  14   | **Final Exam**                                                            | _Project @ 11:59pm_       |
+|  12   | **[Lesson 11](Lessons/DocsDeploy.md): Documentation & Deployments**       | _10 challenges due Wed 12/4 @ 11:59pm_ |
+|  13   | **Presentations** / **Exam Review** / **Practice Test**                   | _3 min demo due Mon 12/9 @ 3:30pm_ |
+|  14   | **Final Exam**                                                            | _MakeUtility due Fri 12/13 @ 11:59pm_ |
 
 ## Class Assignments
 
