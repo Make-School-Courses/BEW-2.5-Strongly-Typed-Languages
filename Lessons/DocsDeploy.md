@@ -7,7 +7,7 @@
 3. [[**15m**] 💻 Activity: Generate with Godoc](#15m--activity-generate-with-godoc)
    1. [Why Practice This](#why-practice-this)
    2. [Step By Step](#step-by-step)
-4. [[**15m**] 📖 Overview: Great Godocs](#15m--overview-great-godocs)
+4. [[**20m**] 📖 Overview: Great Godocs](#20m--overview-great-godocs)
 5. [[**05m**] 🌃 Wrap Up / After Class](#05m--wrap-up--after-class)
 6. [📚 Resources & Credits](#-resources--credits)
    1. [Documentation](#documentation)
@@ -65,7 +65,7 @@ export PATH=$PATH:$GOPATH/src
    - How can we run or see what Godoc generated?
    - How does Godoc know what comments to use when generating documentation?
 
-## [**15m**] 📖 Overview: Great Godocs
+## [**20m**] 📖 Overview: Great Godocs
 
 - You should modify your package imports in order to properly generate GoDocs and prepare for any deployment. Here's a handy guide to accomplish this task:
     - The full import of your package often has something identifying its author _(particularly on hosting sites like GitHub, where `github.com/droxey/...` is the full import)_, should always have the project name, and should end with the name of the package you've developed if it is different from the project name.
