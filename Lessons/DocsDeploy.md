@@ -9,8 +9,14 @@
    2. [Step By Step](#step-by-step)
    3. [Discussion Questions](#discussion-questions)
 4. [[**20m**] 📖 Overview: Great Godocs](#20m--overview-great-godocs)
-5. [[**05m**] 🌃 Wrap Up / After Class](#05m--wrap-up--after-class)
-6. [📚 Resources & Credits](#-resources--credits)
+5. [[**10m**] 🌴 BREAK](#10m--break)
+6. [[**15m**] 📖 Guide: Deploying on Heroku (APIs, Websites, Bots)](#15m--guide-deploying-on-heroku-apis-websites-bots)
+7. [[**15m**] 📖 Guide: Deploying on Homebrew (CLIs)](#15m--guide-deploying-on-homebrew-clis)
+   1. [Step 1: Installation & Setup](#step-1-installation--setup)
+   2. [Step 2: Initialize](#step-2-initialize)
+   3. [Step 3: Build & Upload](#step-3-build--upload)
+8. [[**05m**] 🌃 Wrap Up / After Class](#05m--wrap-up--after-class)
+9. [📚 Resources & Credits](#-resources--credits)
    1. [Package Publishing](#package-publishing)
    2. [Documentation](#documentation)
    3. [Deployment](#deployment)
@@ -18,8 +24,8 @@
 ## [**05m**] 🏆 Objectives
 
 1. Practice and generate standards-based package documentation using Godoc.
-1. Configure and release web applications, APIs, and bots written in Go on Heroku.
-1. Set up and use Homebrew to release CLIs written in Go.
+2. Configure and release web applications, APIs, and bots written in Go on Heroku.
+3. Set up and use Homebrew to release CLIs written in Go.
 
 ## [**10m**] 🌤 Warm Up: Comment All the Things
 
@@ -72,7 +78,7 @@ Once you've completed the activity, prepare to discuss answers to the following 
 
 ## [**20m**] 📖 Overview: Great Godocs
 
-- You should modify your package imports in order to properly generate GoDocs and prepare for any deployment. Here's a handy guide to accomplish this task:
+You should modify your package imports in order to properly generate GoDocs and prepare for any deployment. Here's a handy guide to accomplish this task:
     - The full import of your package often has something identifying its author _(particularly on hosting sites like GitHub, where `github.com/droxey/...` is the full import)_, should always have the project name, and should end with the name of the package you've developed if it is different from the project name.
     - For instance, the `gopherology` project provides a `utils` package, and is written by Dani Roxberry, and thus has the following import path:
 
@@ -87,33 +93,32 @@ Once you've completed the activity, prepare to discuss answers to the following 
 
     - It is often a good idea to make sure the last directory path (in this case, `utils`) matches the name of the package used by the source files in the directory.
 
-- To document a **type, variable, constant, function, or package**, write a regular comment directly preceding its declaration, with no blank line in between. Godoc will show that comment as text alongside the item it documents. For example, this is the documentation for the `fmt` package's [`Fprint`](https://golang.org/pkg/fmt/#Fprint) function:
+  To document a **type, variable, constant, function, or package**, write a regular comment directly preceding its declaration, with no blank line in between. Godoc will show that comment as text alongside the item it documents. For example, this is the documentation for the `fmt` package's [`Fprint`](https://golang.org/pkg/fmt/#Fprint) function:
+
+```golang
+// Fprint formats using the default formats for its operands and writes to w.
+// Spaces are added between operands when neither is a string.
+// It returns the number of bytes written and any write error encountered.
+func Fprint(w io.Writer, a ...interface{}) (n int, err error) {
+```
+
+Comments on package declarations should provide **general package documentation**. The first sentence of your package's comment is what appears in Godoc's [package list](https://golang.org/pkg/). These comments can be short, like the [`sort` package](https://golang.org/pkg/sort/)'s brief description:
+
+```golang
+// Package sort provides primitives for sorting slices and user-defined
+// collections.
+package sort
+```
+
+Top-level comments beginning with `BUG(who)` are recognized as known bugs.
+
+- Known bugs are included in the "Bugs” section of the package docs.
+- The "who” part should be the user name of someone who could provide more information.
+- For example, this is a known issue from the [bytes package](https://golang.org/pkg/bytes/#pkg-note-BUG):
 
     ```golang
-    // Fprint formats using the default formats for its operands and writes to w.
-    // Spaces are added between operands when neither is a string.
-    // It returns the number of bytes written and any write error encountered.
-    func Fprint(w io.Writer, a ...interface{}) (n int, err error) {
+    // BUG(r): The rule Title uses for word boundaries does not handle Unicode punctuation properly.
     ```
-
-- Comments on package declarations should provide **general package documentation**. The first sentence of your package's comment is what appears in Godoc's [package list](https://golang.org/pkg/). These comments can be short, like the [`sort` package](https://golang.org/pkg/sort/)'s brief description:
-
-   ```golang
-    // Package sort provides primitives for sorting slices and user-defined
-    // collections.
-    package sort
-    ```
-
-- Comments that are not adjacent to a top-level declaration will not appear in Godoc's output.
-- Top-level comments beginning with `BUG(who)` are recognized as known bugs.
-    - Known bugs are included in the "Bugs” section of the package docs.
-    - The "who” part should be the user name of someone who could provide more information.
-    - For example, this is a known issue from the [bytes package](https://golang.org/pkg/bytes/#pkg-note-BUG):
-
-        ```golang
-        // BUG(r): The rule Title uses for word boundaries does not handle Unicode punctuation properly.
-        ```
-
 
 ## [**10m**] 🌴 BREAK
 
