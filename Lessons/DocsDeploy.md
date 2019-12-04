@@ -1,6 +1,6 @@
 # 📜 Day 12: Documentation & Deployments
 
-### ⏱ Agenda
+### 🔖 Table of Contents
 
 1. [[**05m**] 🏆 Objectives](#05m--objectives)
 2. [[**10m**] 🌤 Warm Up: Comment All the Things](#10m--warm-up-comment-all-the-things)
@@ -11,12 +11,21 @@
 4. [[**20m**] 📖 Overview: Great Godocs](#20m--overview-great-godocs)
 5. [[**10m**] 🌴 BREAK](#10m--break)
 6. [[**15m**] 📖 Guide: Deploying on Heroku (APIs, Websites, Bots)](#15m--guide-deploying-on-heroku-apis-websites-bots)
+   1. [Step 1: Build](#step-1-build)
+   2. [Step 2: Create Heroku Instance](#step-2-create-heroku-instance)
+   3. [Step 3: Create Procfile](#step-3-create-procfile)
+   4. [Step 4: Declare App Dependencies](#step-4-declare-app-dependencies)
+   5. [Step 5: Deploy](#step-5-deploy)
+   6. [Step 6: Scale](#step-6-scale)
+   7. [Step 7: Test](#step-7-test)
+   8. [Step 8: 🎉 Profit!](#step-8--profit)
 7. [[**15m**] 📖 Guide: Deploying on Homebrew (CLIs)](#15m--guide-deploying-on-homebrew-clis)
    1. [Step 1: Installation & Setup](#step-1-installation--setup)
    2. [Step 2: Initialize](#step-2-initialize)
    3. [Step 3: Build & Upload](#step-3-build--upload)
-8. [[**05m**] 🌃 Wrap Up / After Class](#05m--wrap-up--after-class)
-9. [📚 Resources & Credits](#-resources--credits)
+8. [[**20m**] 💻 Activity: Deploy a Thing!](#20m--activity-deploy-a-thing)
+9. [[**05m**] 🌃 Wrap Up / After Class](#05m--wrap-up--after-class)
+10. [📚 Resources & Credits](#-resources--credits)
    1. [Package Publishing](#package-publishing)
    2. [Documentation](#documentation)
    3. [Deployment](#deployment)
@@ -49,6 +58,7 @@ When you are preparing to publish a package, you should make sure that the docum
 1. Double-check to ensure your environment is properly configured. In a standard environment, the following bash variables should be exported at the bottom of your `.bashrc` or `.zshrc` file:
 
 ```bash
+export GO111MODULE=auto
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
@@ -124,7 +134,91 @@ Top-level comments beginning with `BUG(who)` are recognized as known bugs.
 
 ## [**15m**] 📖 Guide: Deploying on Heroku (APIs, Websites, Bots)
 
-`TODO`
+### Step 1: Build
+
+```bash
+go build -o bin/YOUR_PROJECT_NAME -v .
+```
+
+### Step 2: Create Heroku Instance
+
+**2a**. Create a Heroku instance for your project:
+
+```bash
+heroku create UNIQUE_PROJECT_NAME
+```
+
+**2b**. To test that the build in Step 1 worked --- and to ensure a successful deployment on Heroku --- run the application locally via the `heroku local` command:
+
+```bash
+heroku local web
+```
+
+### Step 3: Create Procfile
+
+In the root of your repository, add a file named `Procfile`, and add the command below on the first line:
+
+```txt
+web: bin/YOUR_PACKAGE_NAME
+```
+
+### Step 4: Declare App Dependencies
+
+**3a**. Start by initializing your modules. This command creates a `go.mod` file. This file shares similar goals as `package-lock.json` in JavaScript or `requirements.txt` in Python. `go.mod` tells Heroku which packages to install before launching your application.
+
+```bash
+go mod init
+```
+
+⚠️ **ERRORS? READ THIS**: `go mod init` will often be able to use auxiliary data (such as `git` metadata) to automatically determine the appropriate module path, but if `go mod init` states it can not automatically determine the module path --- or, if you need to otherwise override that path, --- you can supply the module path as an optional argument to `go mod init`. For example:
+
+```bash
+go mod init github.com/username/reponame
+```
+
+🤔 Want to learn more about how the `go mod` command works? Dive into the [Defining a Module](https://github.com/golang/go/wiki/Modules#how-to-define-a-module) and [Preparing Modules for Release](https://github.com/golang/go/wiki/Modules#how-to-prepare-for-a-release) documentation!
+
+**3b**. For each dependency in your project, run `go get PATH_TO_PACKAGE` to install and save that dependency to `go.mod`.
+
+**3c**. You should also make sure that any unused modules have been removed from your application:
+
+```bash
+go mod tidy
+```
+
+**3d**. Then, make sure that your build is repeatable and resistant to [erosion](https://devcenter.heroku.com/articles/erosion-resistance) by vendoring any new dependencies:
+
+```bash
+go mod vendor
+```
+
+### Step 5: Deploy
+
+Deploy by pushing to Heroku:
+
+```bash
+git push heroku master
+```
+
+### Step 6: Scale
+
+Before testing out our deployment, we'll need to tell Heroku to launch a Dyno for our project:
+
+```bash
+heroku ps:scale web=1
+```
+
+### Step 7: Test
+
+```bash
+heroku open
+```
+
+### Step 8: 🎉 Profit!
+
+You've successfully released your website, bot, or API to Heroku!
+
+Visit [Heroku: Getting Started With Go](https://devcenter.heroku.com/articles/getting-started-with-go?singlepage=true) to dive deep on each step of the deployment outlined above.
 
 ## [**15m**] 📖 Guide: Deploying on Homebrew (CLIs)
 
@@ -213,6 +307,13 @@ OPTIONS:
    --pre                      mark this release is a prerelease
 ```
 
+
+## [**20m**] 💻 Activity: Deploy a Thing!
+
+1. Choose the deployment method best suited for your MakeUtility project based on what you learned about Heroku and Homebrew during today's class.
+2. Spend the remainder the class deploying your MakeUtility project, a Slackbot, an Echo API, or a CLI application!
+3. Be sure to choose a project that is fully complete. Alternatively, clone a Golang project repository, like my [Gopherology](https://github.com/droxey/gopherology) project, a classmates' Slackbot or CLI application, or any sample application that is similar to your MakeUtility.
+
 ## [**05m**] 🌃 Wrap Up / After Class
 
 - Add a checkmark next to the documentation requirement in your repo's `rubric.md`.
@@ -226,6 +327,7 @@ OPTIONS:
 
 ### Package Publishing
 
+- [**Documentation**: Modules](https://github.com/golang/go/wiki/Modules)
 - [**Documentation**: Package Publishing](https://github.com/golang/go/wiki/PackagePublishing)
 
 ### Documentation
