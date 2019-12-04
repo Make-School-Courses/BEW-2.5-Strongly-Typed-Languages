@@ -38,18 +38,27 @@ When you are preparing to publish a package, you should make sure that the docum
 
 ### Step By Step
 
-1. Open your terminal and change directory to `~/go/src/yourproject`. Run the following code:
+1. Double-check to ensure your environment is properly configured. In a standard environment, the following bash variables should be exported at the bottom of your `.bashrc` or `.zshrc` file:
+
+```bash
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
+export PATH=$PATH:$GOPATH/src
+```
+
+2. Open your terminal and change directory to `~/go/src/yourproject`. Run the following code:
 
      ```bash
      godoc -http=:6060 &
      ```
 
-2. Visit http://localhost:6060/pkg in your browser. Search for the name of your package, and click the link to access your generated GoDocs.
+3. Visit http://localhost:6060/pkg in your browser. Search for the name of your package, and click the link to access your generated GoDocs.
 
-    **Example 1**: In my [Gopherology](https://github.com/droxey/gopherology) project, the generated documentation for the public utils package can be found at http://localhost:6060/pkg/github.com/droxey/gopherology/utils.
+    **Example**: In my [Gopherology](https://github.com/droxey/gopherology) project, the generated documentation for the public utils package can be found at http://localhost:6060/pkg/github.com/droxey/gopherology/utils.
 
 
-3. Prepare to discuss answers to the following questions:
+4. Prepare to discuss answers to the following questions:
 
    - What task did running this command accomplish?
    - Did anything change in the filesystem when we ran Godoc?
