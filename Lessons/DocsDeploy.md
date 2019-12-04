@@ -129,9 +129,10 @@ Running `fgo build` will build your application and save the binary to the `pkg`
 
 When debugging, you may need to build your program but not upload it. To do this, run `fgo build` without a version number. Formula Go will then build your program in the `pkg/snapshot` directory without uploading.
 
+We can learn more about the `fgo build` command by running `fgo build --help`:
+
 ```bash
 $ fgo build --help
-
 NAME:
    fgo build - build binaries, upload them, and update the brew formula.
 
