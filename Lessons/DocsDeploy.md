@@ -4,8 +4,10 @@
 
 1. [[**05m**] 🏆 Objectives](#05m--objectives)
 2. [[**10m**] 🌤 Warm Up: Comment All the Things](#10m--warm-up-comment-all-the-things)
-3. [[**10m**] 💻 Activity: Generate with Godoc](#10m--activity-generate-with-godoc)
-4. [[**15m**] 📖 Guide: Great Godocs](#15m--guide-great-godocs)
+3. [[**15m**] 💻 Activity: Generate with Godoc](#15m--activity-generate-with-godoc)
+   1. [Why Practice This](#why-practice-this)
+   2. [Step By Step](#step-by-step)
+4. [[**15m**] 📖 Overview: Great Godocs](#15m--overview-great-godocs)
 5. [[**05m**] 🌃 Wrap Up / After Class](#05m--wrap-up--after-class)
 6. [📚 Resources & Credits](#-resources--credits)
    1. [Documentation](#documentation)
@@ -28,22 +30,46 @@
     - Functions
     - Packages
 
-## [**10m**] 💻 Activity: Generate with Godoc
+## [**15m**] 💻 Activity: Generate with Godoc
 
-Open your terminal and change directory to `~/go/src/yourproject`. Run the following code:
+### Why Practice This
 
-```bash
-ls && godoc . && ls
-```
+When you are preparing to publish a package, you should make sure that the documentation looks correct by running a local copy of godoc. Let's try it now!
 
-Read through the output and prepare to discuss answers to the following questions:
+### Step By Step
 
-- What task did running these commands accomplish?
-- What changed in the filesystem when we ran Godoc?
-- How can we run or see what Godoc generated?
-- How does Godoc know what comments to use when generating documentation?
+1. Open your terminal and change directory to `~/go/src/yourproject`. Run the following code:
 
-## [**15m**] 📖 Guide: Great Godocs
+     ```bash
+     godoc -http=:6060 &
+     ```
+
+2. Visit http://localhost:6060/pkg in your browser. Search for the name of your package, and click the link to access your generated GoDocs.
+
+    **Example 1**: In my [Gopherology](https://github.com/droxey/gopherology) project, the generated documentation for the public utils package can be found at http://localhost:6060/pkg/github.com/droxey/gopherology/utils.
+
+
+3. Prepare to discuss answers to the following questions:
+
+   - What task did running this command accomplish?
+   - Did anything change in the filesystem when we ran Godoc?
+   - How can we run or see what Godoc generated?
+   - How does Godoc know what comments to use when generating documentation?
+
+## [**15m**] 📖 Overview: Great Godocs
+
+- You should modify your package imports in order to properly generate GoDocs and prepare for any deployment. Here's a handy guide to accomplish this task:
+    - The full import of your package often has something identifying its author _(particularly on hosting sites like GitHub, where `github.com/droxey/...` is the full import)_, should always have the project name, and should end with the name of the package you've developed if it is different from the project name.
+    - For instance, the `gopherology` project provides a `utils` package, and is written by Dani Roxberry, and thus has the following import path:
+
+        ```bash
+        import "github.com/droxey/gopherology/utils"
+             ^         ^          ^     ^
+             |         |          |     `-- Package name
+             |         |          `-------- Project name
+             |         `------------------- Author's handle
+             `----------------------------- Hosting site
+        ```
 
 - To document a **type, variable, constant, function, or package**, write a regular comment directly preceding its declaration, with no blank line in between. Godoc will show that comment as text alongside the item it documents. For example, this is the documentation for the `fmt` package's [`Fprint`](https://golang.org/pkg/fmt/#Fprint) function:
 
@@ -98,7 +124,7 @@ brew install fgo
 **1b**. Create a [new Personal API Token on GitHub](https://github.com/settings/tokens/new) with the following scopes checked:
 
 <p align="center">
-    <img src="./img/new-token.png" width="800">
+    <img src="https://make-school-courses.github.io/BEW-2.5-Strongly-Typed-Ecosystems/Lessons/img/new-token.png" width="600">
 </p>
 
 **1c**. Copy the new token to your clipboard.
