@@ -11,6 +11,7 @@
   - [Benchmarking & Testing](Lessons/Lesson09.md)
   - [Design Patterns](Lessons/DesignPatterns.md)
   - [Delve into Debugging](Lessons/Lesson10.md)
+  - [Docs & Deployments](Lessons/DocsDeploy.md)
 - **⭐️ Cheatsheets**
   - [Comments](Docs/Comments)
   - [CommonMistakes](Docs/CommonMistakes)
