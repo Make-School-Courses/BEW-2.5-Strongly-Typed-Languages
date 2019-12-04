@@ -7,11 +7,13 @@
 3. [[**15m**] 💻 Activity: Generate with Godoc](#15m--activity-generate-with-godoc)
    1. [Why Practice This](#why-practice-this)
    2. [Step By Step](#step-by-step)
+   3. [Discussion Questions](#discussion-questions)
 4. [[**20m**] 📖 Overview: Great Godocs](#20m--overview-great-godocs)
 5. [[**05m**] 🌃 Wrap Up / After Class](#05m--wrap-up--after-class)
 6. [📚 Resources & Credits](#-resources--credits)
-   1. [Documentation](#documentation)
-   2. [Deployment](#deployment)
+   1. [Package Publishing](#package-publishing)
+   2. [Documentation](#documentation)
+   3. [Deployment](#deployment)
 
 ## [**05m**] 🏆 Objectives
 
@@ -57,12 +59,15 @@ export PATH=$PATH:$GOPATH/src
 
     **Example**: In my [Gopherology](https://github.com/droxey/gopherology) project, the generated documentation for the public utils package can be found at http://localhost:6060/pkg/github.com/droxey/gopherology/utils.
 
+### Discussion Questions
 
-4. Prepare to discuss answers to the following questions:
+Once you've completed the activity, prepare to discuss answers to the following questions:
 
    - What task did running this command accomplish?
+   - An ampersand (`&`) appears at the end of the command we ran.
+       - What does including the `&` do?
+       - What happens if you remove it?
    - Did anything change in the filesystem when we ran Godoc?
-   - How can we run or see what Godoc generated?
    - How does Godoc know what comments to use when generating documentation?
 
 ## [**20m**] 📖 Overview: Great Godocs
@@ -79,6 +84,8 @@ export PATH=$PATH:$GOPATH/src
              |         `------------------- Author's handle
              `----------------------------- Hosting site
         ```
+
+    - It is often a good idea to make sure the last directory path (in this case, `utils`) matches the name of the package used by the source files in the directory.
 
 - To document a **type, variable, constant, function, or package**, write a regular comment directly preceding its declaration, with no blank line in between. Godoc will show that comment as text alongside the item it documents. For example, this is the documentation for the `fmt` package's [`Fprint`](https://golang.org/pkg/fmt/#Fprint) function:
 
@@ -106,6 +113,7 @@ export PATH=$PATH:$GOPATH/src
         ```golang
         // BUG(r): The rule Title uses for word boundaries does not handle Unicode punctuation properly.
         ```
+
 
 ## [**10m**] 🌴 BREAK
 
@@ -210,6 +218,10 @@ OPTIONS:
     - _Miss a day from class? Review the lesson plan! Did you turn in all participation-based challenges listed in the [Course Tracker](https://make.sc/trackbew2.5)?_
 
 ## 📚 Resources & Credits
+
+### Package Publishing
+
+- [**Documentation**: Package Publishing](https://github.com/golang/go/wiki/PackagePublishing)
 
 ### Documentation
 
