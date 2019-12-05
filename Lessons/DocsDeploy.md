@@ -89,21 +89,23 @@ Once you've completed the activity, prepare to discuss answers to the following 
 ## [**20m**] 📖 Overview: Great Godocs
 
 You should modify your package imports in order to properly generate GoDocs and prepare for any deployment. Here's a handy guide to accomplish this task:
-    - The full import of your package often has something identifying its author _(particularly on hosting sites like GitHub, where `github.com/droxey/...` is the full import)_, should always have the project name, and should end with the name of the package you've developed if it is different from the project name.
-    - For instance, the `gopherology` project provides a `utils` package, and is written by Dani Roxberry, and thus has the following import path:
 
-        ```bash
-        import "github.com/droxey/gopherology/utils"
-             ^         ^          ^     ^
-             |         |          |     `-- Package name
-             |         |          `-------- Project name
-             |         `------------------- Author's handle
-             `----------------------------- Hosting site
-        ```
+The full import of your package often has something identifying its author _(particularly on hosting sites like GitHub, where `github.com/droxey/...` is the full import)_, should always have the project name, and should end with the name of the package you've developed if it is different from the project name.
 
-    - It is often a good idea to make sure the last directory path (in this case, `utils`) matches the name of the package used by the source files in the directory.
+For instance, the `gopherology` project provides a `utils` package, and is written by Dani Roxberry, and thus has the following import path:
 
-  To document a **type, variable, constant, function, or package**, write a regular comment directly preceding its declaration, with no blank line in between. Godoc will show that comment as text alongside the item it documents. For example, this is the documentation for the `fmt` package's [`Fprint`](https://golang.org/pkg/fmt/#Fprint) function:
+```bash
+import "github.com/droxey/gopherology/utils"
+     ^         ^          ^     ^
+     |         |          |     `-- Package name
+     |         |          `-------- Project name
+     |         `------------------- Author's handle
+     `----------------------------- Hosting site
+```
+
+It is often a good idea to make sure the last directory path (in this case, `utils`) matches the name of the package used by the source files in the directory.
+
+To document a **type, variable, constant, function, or package**, write a regular comment directly preceding its declaration, with no blank line in between. Godoc will show that comment as text alongside the item it documents. For example, this is the documentation for the `fmt` package's [`Fprint`](https://golang.org/pkg/fmt/#Fprint) function:
 
 ```golang
 // Fprint formats using the default formats for its operands and writes to w.
