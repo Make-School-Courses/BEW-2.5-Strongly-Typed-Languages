@@ -236,7 +236,7 @@ Formula Go can be installed via Homebrew or Linuxbrew.
 
 ```bash
 brew tap jkawamoto/fgo
-brew install fgo
+brew install fgo goxc ghr
 ```
 
 **1b**. Create a [new Personal API Token on GitHub](https://github.com/settings/tokens/new) with the following scopes checked:
