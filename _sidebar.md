@@ -12,6 +12,7 @@
   - [Design Patterns](Lessons/DesignPatterns.md)
   - [Delve into Debugging](Lessons/Lesson10.md)
   - [Docs & Deployments](Lessons/DocsDeploy.md)
+      - [Understanding Go Modules](Resources/GoMods.md)
 - **⭐️ Cheatsheets**
   - [Comments](Docs/Comments)
   - [CommonMistakes](Docs/CommonMistakes)
