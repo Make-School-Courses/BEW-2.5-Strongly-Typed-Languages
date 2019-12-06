@@ -18,7 +18,7 @@
    5. [Step 5: Deploy](#step-5-deploy)
    6. [Step 6: Scale](#step-6-scale)
    7. [Step 7: Test](#step-7-test)
-   8. [Step 8: 🎉 Profit!](#step-8--profit)
+   8. [Step 8: 🎉 Profit](#step-8--profit)
 7. [[**15m**] 📖 Guide: Deploying on Homebrew (CLIs)](#15m--guide-deploying-on-homebrew-clis)
    1. [Step 1: Installation & Setup](#step-1-installation--setup)
    2. [Step 2: Initialize](#step-2-initialize)
@@ -58,7 +58,7 @@ When you are preparing to publish a package, you should make sure that the docum
 1. Double-check to ensure your environment is properly configured. In a standard environment, the following bash variables should be exported at the bottom of your `.bashrc` or `.zshrc` file:
 
 ```bash
-export GO111MODULE=auto
+export GO111MODULE=on
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
@@ -216,7 +216,7 @@ heroku ps:scale web=1
 heroku open
 ```
 
-### Step 8: 🎉 Profit!
+### Step 8: 🎉 Profit
 
 You've successfully released your website, bot, or API to Heroku!
 
@@ -232,11 +232,15 @@ Formula Go assumes your software is hosted in GitHub, and its compiled binaries 
 
 Formula Go can be installed via Homebrew or Linuxbrew.
 
-**1a**. Install using the two commands below:
+**1a**. Install `fgo` and it's dependencies using the commands below:
 
 ```bash
+go get github.com/laher/goxc
+
+brew install ghr
+
 brew tap jkawamoto/fgo
-brew install fgo goxc ghr
+brew install fgo
 ```
 
 **1b**. Create a [new Personal API Token on GitHub](https://github.com/settings/tokens/new) with the following scopes checked:
