@@ -236,6 +236,8 @@ Formula Go can be installed via Homebrew or Linuxbrew.
 
 ```bash
 go get github.com/laher/goxc
+export GOROOT_BOOTSTRAP=/usr/local/go;
+goxc -t -bc=linux,darwin
 
 brew install ghr
 
