@@ -91,6 +91,10 @@ Projects are a **chance to build and ship code based on class concepts**.  Many 
 
 ## Evaluation
 
+<p align="center">
+  <img src="criteria.png"">
+</p>
+
 **To pass this course you must meet the following requirements**:
 
 - Complete all required tutorials
