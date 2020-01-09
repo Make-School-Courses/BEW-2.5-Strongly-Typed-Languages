@@ -97,11 +97,12 @@ Projects are a **chance to build and ship code based on class concepts**.  Many 
 
 **To pass this course you must meet the following requirements**:
 
-- Complete all required tutorials
-- Pass all projects according to the associated project rubric
-- Pass the final summative assessment >=75%
+- Complete the tutorial
+- Write two blog posts
+- Complete all challenges assigned in class
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
+- Complete the final project according to the associated [project rubric](Project/MakeUtility.md), delivered to the class on the final day of the course
 
 ## Attendance
 
