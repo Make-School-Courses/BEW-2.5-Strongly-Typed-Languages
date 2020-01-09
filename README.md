@@ -2,8 +2,8 @@
 
 # BEW2.5: Patterns & Practices in Strongly Typed Languages
 
-|                Instructor                | Slack Channel |              Course Website              |                   Course Tracker                   |               Instructor 1-on-1               |
-| :--------------------------------------: | :-----------: | :--------------------------------------: | :------------------------------------------------: | :-------------------------------------------: |  |
+| Instructor | Slack Channel | Course Website | Course Tracker | Instructor 1-on-1 |
+| :--------------------------------------: | :-----------: | :--------------------------------------: | :------------------------------------------------: | :-------------------------------------------: |
 | [**@droxey**](https://github.com/droxey) | `#bew2-5-go`  | [make.sc/bew2.5](https://make.sc/bew2.5) | [make.sc/trackbew2.5](https://make.sc/trackbew2.5) | [Click to Book](https://make.sc/codewithdani) |
 
 ## Course Description
