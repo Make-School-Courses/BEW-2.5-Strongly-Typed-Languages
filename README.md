@@ -2,9 +2,9 @@
 
 # BEW2.5: Patterns & Practices in Strongly Typed Languages
 
-|                  Guide                   |    Slack     |          Office Hours           |                Shortlink                 |                      Tracker                       |                1-on-1                |
-| :--------------------------------------: | :----------: | :-----------------------------: | :--------------------------------------: | :------------------------------------------------: | :----------------------------------: |
-| [**@droxey**](https://github.com/droxey) | `#bew2-5-go` | W 11:30 - 12:30pm _(Mezzanine)_ | [make.sc/bew2.5](https://make.sc/bew2.5) | [make.sc/trackbew2.5](https://make.sc/trackbew2.5) | [Link](https://make.sc/codewithdani) |
+|                Instructor                | Slack Channel |              Course Website              |                   Course Tracker                   |               Instructor 1-on-1               |
+| :--------------------------------------: | :-----------: | :--------------------------------------: | :------------------------------------------------: | :-------------------------------------------: |  |
+| [**@droxey**](https://github.com/droxey) | `#bew2-5-go`  | [make.sc/bew2.5](https://make.sc/bew2.5) | [make.sc/trackbew2.5](https://make.sc/trackbew2.5) | [Click to Book](https://make.sc/codewithdani) |
 
 ## Course Description
 
@@ -36,25 +36,42 @@ Class Sessions:  13 classes, 7 labs
 
 ## Schedule
 
-**Course Dates:** Monday, October 21 – Wednesday, December 11, 2019 (_7 weeks_)<br>
-**Class Times:** Monday and Wednesday at 3:30–5:20pm (_15 class sessions_)
+**Course Dates:** Monday, January 20 – Wednesday, March 4, 2020 (7 weeks)
 
-|   #   | Topic                                                                     | Assignment Due            |
-| :---: | ------------------------------------------------------------------------- | ------------------------- |
-|   1   | **[Lesson 1](Lessons/Lesson01.md): Intro to Go**                          |                           |
-|   2   | **[Lesson 2](Lessons/Lesson02.md): Tutorial Launch**                      |                           |
-|   3   | **[Lesson 3](Lessons/Lesson03.md): Architecture of Well Crafted Go Apps** |                           |
-|   4   | **[Lesson 4](Lessons/Lesson04.md): Interacting with APIs in Golang**      |                           |
-|   5   | **[Lesson 5](Lessons/Lesson05.md): APIs, Middleware, & You**              |                           |
-|   6   | **Review Day**: Go Syntax                                                 |                           |
-|   7   | **[Lesson 6](Lessons/07-Fullstack.md): Fullstack Web Applications**       |                           |
-|   8   | **[Lesson 7](Lessons/Lesson07.md): Concurrency & Goroutines**             |                           |
-|   9   | **Lab Day: Challenges / MakeUtility Project Kickoff**                     |                           |
-|  10   | **[Lesson 9](Lessons/Lesson09.md): Benchmarking & Testing**               |                           |
-|  11   | **[Lesson 10](Lessons/DesignPatterns.md): Go Design Patterns**            |                           |
-|  12   | **[Lesson 11](Lessons/DocsDeploy.md): Documentation & Deployments**       | _10 challenges due Wed 12/4 @ 11:59pm_ |
-|  13   | **Presentations** / **Exam Review** / **Practice Test**                   | _3 min demo due Mon 12/9 @ 3:30pm_ |
-|  14   | **Final Exam**                                                            | _MakeUtility due Fri 12/13 @ 11:59pm_ |
+**Class Times:** Monday and Wednesday at 3:30–5:20pm (13 class sessions)
+
+| Class |       Date       | Topics                                                         |
+| :---: | :--------------: | -------------------------------------------------------------- |
+|   -   | Mon, January 20  | **NO CLASS** - MLK Day |
+|   1   | Wed, January 22  | **[Intro to Go](Lessons/Lesson01.md)** |
+|   2   | Mon, January 27  | **[Tutorial Launch](Lessons/Lesson02.md)** |
+|   3   | Wed, January 29  | **[Architecture of Well Crafted Go App](Lessons/Lesson03.md)** |
+|   4   | Mon, February 3  | **[Interacting with APIs](Lessons/Lesson04.md)** |
+|   5   | Wed, February 5  | **[APIs, Middleware, & You](Lessons/Lesson05.md)** |
+|   6   | Mon, February 10 | Review Day |
+|   7   | Wed, February 12 | **[Fullstack Web Applications](Lessons/07-Fullstack.md)** |
+|   8   | Mon, February 17 | **[Concurrency & Goroutines](Lessons/Lesson07.md)** |
+|   9   | Wed, February 19 | Project Kickoff |
+|  10   | Mon, February 24 | **[Benchmarking & Testing](Lessons/Lesson09.md)** |
+|  11   | Wed, February 26 | **[Go Design Patterns](Lessons/DesignPatterns.md)** |
+|  12   |   Mon, March 2   | **[Documentation & Deployments](Lessons/DocsDeploy.md)** |
+|  13   |   Wed, March 4   | Final Presentations |
+
+
+## Evaluation
+
+<p align="center">
+  <img src="criteria.png"">
+</p>
+
+**To pass this course you must meet the following requirements**:
+
+- Complete the tutorial assigned in class
+- Write and publish two blog posts to Medium, dev.to, or a personal blog website
+- Complete all challenges assigned in class
+- Actively participate in class and abide by the attendance policy
+- Make up all classwork from all absences
+- Complete the final project according to the associated [project rubric](Project/MakeUtility.md), delivered to the class on the final day of the course
 
 ## Class Assignments
 
@@ -88,21 +105,6 @@ We want to encourage best practices that you will see working as a professional 
 Through this requirement, **we encourage you to think about projects with an iterative, modular mindset**. Doing so will allow you to **break projects down into smaller milestones** that come together to make your fully-realized solution.
 
 Projects are a **chance to build and ship code based on class concepts**.  Many are **open ended** allowing you to be **creative** and to have **individual work for your portfolio**.
-
-## Evaluation
-
-<p align="center">
-  <img src="criteria.png"">
-</p>
-
-**To pass this course you must meet the following requirements**:
-
-- Complete the tutorial
-- Write two blog posts
-- Complete all challenges assigned in class
-- Actively participate in class and abide by the attendance policy
-- Make up all classwork from all absences
-- Complete the final project according to the associated [project rubric](Project/MakeUtility.md), delivered to the class on the final day of the course
 
 ## Attendance
 
