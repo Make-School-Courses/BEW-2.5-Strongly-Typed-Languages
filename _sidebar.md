@@ -1,7 +1,6 @@
 - **[Syllabus](README.md)**
 - **🎓 Class Topics**
-  - [Intro to Go](Lessons/Lesson01.md)
-  - [Tutorial Launch](https://exercism.io/tracks/go)
+  - [Project #1: SSG](Lessons/SSGProject.md)
   - [Architecture](Lessons/Lesson03.md)
   - [APIs](Lessons/Lesson04.md)
   - [Middlewares](Lessons/Lesson05.md)

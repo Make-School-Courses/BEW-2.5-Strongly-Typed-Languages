@@ -22,12 +22,6 @@ Today's class will help you to create models that you can use in your applicatio
 2. Design a program around the paradigms present in the Go language.
 3. Implement `struct`s or `interface`s that represent the nouns generated in class, and `func`s to represent verbs.
 
-## Initial Exercise (15 min)
-
-- Take out one of the solutions you worked on last class period.
-- Review it with the person next to you.
-- If you didn't get a chance to work on the challenges last period, get [set up here](https://exercism.io).
-
 ## Overview/TT I (20 min)
 
 - Use [makefeedback](https://www.github.com/droxey/makefeedback) to go over:
@@ -46,7 +40,3 @@ Today's class will help you to create models that you can use in your applicatio
 1. Ask students to swap whiteboards with yet another team at their tables.
 1. Implement a function (verb) on the whiteboards based on the programmatic representations of their peers.
 1. **Your deliverable today: post your complete implementation on Slack in a code block!**
-
-## In Class Activity II (30 min)
-
-Continue the Go track at [exercism.io](https://exercism.io).

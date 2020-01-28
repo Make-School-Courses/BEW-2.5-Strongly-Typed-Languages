@@ -324,8 +324,7 @@ OPTIONS:
 - Commit the documentation you generated before leaving today and the update to your progress.
 - Review the [syllabus](https://make.sc/bew2.5) and ensure you are on track to meet all requirements and expectations by the end of the course.
     - _Are you on track to complete 10+ commits in your MakeUtility project?_
-    - _Have you completed 10+ Excercism solutions and committed them to the repo you linked in the [Course Tracker](https://make.sc/trackbew2.5)?_
-    - _Miss a day from class? Review the lesson plan! Did you turn in all participation-based challenges listed in the [Course Tracker](https://make.sc/trackbew2.5)?_
+    - _Miss a day from class? Review the lesson plan! Did you turn in all participation-based challenges listed in the syllabus?_
 
 ## 📚 Resources & Credits
 

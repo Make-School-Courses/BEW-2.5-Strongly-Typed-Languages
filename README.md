@@ -2,9 +2,9 @@
 
 # BEW2.5: Patterns & Practices in Strongly Typed Languages
 
-|                  Guide                   |    Slack     |          Office Hours           |                Shortlink                 |                      Tracker                       |                1-on-1                |
+|                  Guide                   |    Slack     |                Shortlink                 |                Instructor 1-on-1                |
 | :--------------------------------------: | :----------: | :-----------------------------: | :--------------------------------------: | :------------------------------------------------: | :----------------------------------: |
-| [**@droxey**](https://github.com/droxey) | `#bew2-5-go` | W 11:30 - 12:30pm _(Mezzanine)_ | [make.sc/bew2.5](https://make.sc/bew2.5) | [make.sc/trackbew2.5](https://make.sc/trackbew2.5) | [Link](https://make.sc/codewithdani) |
+| [**@droxey**](https://github.com/droxey) | `#bew2-5-go` | [make.sc/bew2.5](https://make.sc/bew2.5) | [Click to Schedule](https://make.sc/codewithdani) |
 
 ## Course Description
 
@@ -43,7 +43,7 @@ Class Sessions:  13 classes, 7 labs
 | :---: | ------------------------------------------------------------------------- | ------------------------- |
 |   1   | **[Lesson 1](Lessons/Lesson01.md): Intro to Go**                          |                           |
 |   2   | **[Lesson 2](Lessons/Lesson02.md): Tutorial Launch**                      |                           |
-|   3   | **[Lesson 3](Lessons/Lesson03.md): Architecture of Well Crafted Go Apps** |                           |
+|   3   | **[Lesson 3](Lessons/SSGProject.md): Project #1 - SSG** |                           |
 |   4   | **[Lesson 4](Lessons/Lesson04.md): Interacting with APIs in Golang**      |                           |
 |   5   | **[Lesson 5](Lessons/Lesson05.md): APIs, Middleware, & You**              |                           |
 |   6   | **Review Day**: Go Syntax                                                 |                           |
@@ -62,9 +62,7 @@ Class Sessions:  13 classes, 7 labs
 
 Tutorials are to help you get started in a topic.  They are **graded on completion only**.
 
-- **Complete AT LEAST 10 [Go Track Challenges](http://exercism.io)**, committed to a public GitHub repository.
-
-_Go **above 15 challenges to earn a special holographic [droxey](https://github.com/droxey) sticker** at the end of the term!_
+- **[Tour of Go](https://tour.golang.com)**
 
 ### Projects
 
