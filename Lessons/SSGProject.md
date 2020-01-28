@@ -4,18 +4,16 @@
 
 1. [[**05m**] 🏆 Objectives](#05m--objectives)
 2. [[**10m**] 💻 Warm Up: Explore SSGs](#10m--warm-up-explore-ssgs)
-3. [[**10m**] 📖 Overview: Static Site Generators](#10m--overview-static-site-generators)
-4. [[**10m**] 🏆 Today's Goals](#10m--todays-goals)
-   1. [Day 1: MVP](#day-1-mvp)
-5. [[**10m**] 📖 Starting a New Project](#10m--starting-a-new-project)
-6. [[**05m**] 📖 Building Your Changes](#05m--building-your-changes)
-7. [[**10m**] 📖 Getting Input from the Command Line](#10m--getting-input-from-the-command-line)
-8. [[**15m**] 🌴 BREAK](#15m--break)
-9. [[**10m**] 📖 Reading & Writing to the Filesystem](#10m--reading--writing-to-the-filesystem)
-10. [[**10m**] 📖 Working with Templates](#10m--working-with-templates)
-11. [[**55m**] 💻 Activity: Complete MVP](#55m--activity-complete-mvp)
-12. [[**15m**] 📖 Project Checkin](#15m--project-checkin)
-13. [📚 Resources & Credits](#-resources--credits)
+3. [[**10m**] 📖 Overview: Static Sites & Generators](#10m--overview-static-sites--generators)
+4. [[**10m**] 📖 Starting a New Project](#10m--starting-a-new-project)
+5. [[**05m**] 📖 Building, Running, & Installing](#05m--building-running--installing)
+6. [[**10m**] 📖 Standard Input/Output (I/O)](#10m--standard-inputoutput-io)
+7. [[**15m**] 🌴 BREAK](#15m--break)
+8. [[**10m**] 📖 Reading & Writing to the Filesystem](#10m--reading--writing-to-the-filesystem)
+9. [[**10m**] 📖 Working with Templates](#10m--working-with-templates)
+10. [[**65m**] 💻 Activity: Complete MVP](#65m--activity-complete-mvp)
+11. [[**15m**] 📖 Project Checkin](#15m--project-checkin)
+12. [📚 Resources & Credits](#-resources--credits)
 
 ## [**05m**] 🏆 Objectives
 
@@ -27,65 +25,150 @@
 
 ## [**10m**] 💻 Warm Up: Explore SSGs
 
-Visit the [Jekyll Homepage]() and answer the following questions by exploring the website:
+First, write down as many differences you can think of between static sites and dynamic sites.
 
-1. What features of Jekyll do you find appealing?
+Then, use [staticgen.com](https://www.staticgen.com/) to research the following questions. If you have extra time, discuss your answers with your peers.
+
+1. What problem(s) can a static site generator solve?
 2. As a developer, what could you use a static site generator for?
 
-## [**10m**] 📖 Overview: Static Site Generators
+## [**10m**] 📖 Overview: Static Sites & Generators
 
-> Define what a static site generator is
+### Static vs. Dynamic Websites
 
-`TODO`
+Four key differences from dynamic sites:
 
-## [**10m**] 🏆 Today's Goals
+- No server-side language
+- No database
+- Composed of only HTML, CSS, and JavaScript
+- Site files are delivered to the end user exactly as they are on the server
 
-### Day 1: MVP
+### Static Site Generators (SSGs)
 
-#### Requirements
+- Intermediary between static and dynamic sites
+- Run a command to turn text files into HTML pages
+- Commit the generated, static HTML pages to GitHub
+- Serve the HTML from GitHub Pages
 
-- [ ] Create a command line interface that takes in one argument: the path to a text-based file in the same directory as your program. Example: `makesite go_notes.txt`
-- [ ] Read in the contents the file specified.
-- [ ] Render and save an HTML template that displays the contents of the file you read in.
-- [ ] Manually test the HTML page by double-clicking the HTML file (output in the prior step) and opening it in your browser.
+### Use Cases
 
-#### Stretch Challenges
+- Blogs
+- Portfolios
+- Marketing Websites
+- Course Websites _(like this one!)_
+- Research Journals
+- Daily Development Logs
 
-- [ ] Use Bootstrap, or another CSS framework, to enhance the style and readability of your template. _Get creative! Writing your very own website generator is a great opportunity to broadcast your style, personality, and development preferences to the world!_
+### Advantages of SSGs
+
+- Speed
+- Security
+- Content can be version controlled
+- Don't have to deal with a server
+- Can handle lots of sudden internet traffic
+
+### Disadvantages of SSGs
+
+- No real-time content
+- No user input
+- No administrative user interface
+
+_David Walsh blogs more about the specifics in [An Introduction to Static Site Generators](https://davidwalsh.name/introduction-static-site-generators). Be sure to read over this before you start your project!_
 
 ## [**10m**] 📖 Starting a New Project
 
+Follow the [Getting Started](https://github.com/Make-School-Labs/makesite#getting-started) section of the project `README`.
+
+## [**05m**] 📖 Building, Running, & Installing
+
+Execute the following in command in your project's root directory:
+
+To build your program, run:
+
+```bash
+go build
+```
+
+To run the latest build:
+
+```bash
+./makesite
+```
+
+To install it for use system wide, run:
+
+```bash
+go install
+```
+
+
+## [**10m**] 📖 Standard Input/Output (I/O)
+
 `TODO`
-
-## [**05m**] 📖 Building Your Changes
-
-`TODO`
-
-## [**10m**] 📖 Getting Input from the Command Line
-
-`TODO`
-
 
 ## [**15m**] 🌴 BREAK
 
 ## [**10m**] 📖 Reading & Writing to the Filesystem
 
-`TODO`
+### Reading a File
+
+```golang
+package main
+
+import (
+      "fmt"
+      "io/ioutil"
+)
+
+func main() {
+        fileContents, err := ioutil.ReadFile("first-post.txt")
+        if err != nil {
+            // A common use of `panic` is to abort if a function returns an error
+            // value that we don’t know how to (or want to) handle. This example
+            // panics if we get an unexpected error when creating a new file.
+            panic(err)
+        }
+        fmt.Print(string(fileContents))
+}
+```
+
+### Writing a File
+
+```golang
+package main
+
+import (
+      "fmt"
+      "io/ioutil"
+)
+
+func main() {
+        bytesToWrite := []byte("hello\ngo\n")
+        err := ioutil.WriteFile("new-file.txt", bytesToWrite, 0644)
+        if err != nil {
+            panic(err)
+        }
+}
+```
 
 ## [**10m**] 📖 Working with Templates
 
 `TODO`
 
-## [**55m**] 💻 Activity: Complete MVP
+## [**65m**] 💻 Activity: Complete MVP
 
-Complete the MVP as described in the requirements in the order they appear. If you finish early, move on to the stretch challenges.
+Complete the MVP as described in the [requirements](https://github.com/make-school-labs/makesite) in the order they appear. If you finish early, move on to the stretch challenges.
 
 Return 15 minutes before the end of class for your project status update.
 
 ## [**15m**] 📖 Project Checkin
 
-Students will check in with the instructor on the status of their MVP. This is a great time to ask questions or get unblocked!
+Students will check in with the instructor on the status of their MVP.
+
+_This is a great time to ask questions or get unblocked so you can make progress before our next class!_
 
 ## 📚 Resources & Credits
 
-`TODO`
+- [**Static Site Generators: Modern Tools for Static Website Development**](https://www.oreilly.com/web-platform/free/files/static-site-generators.pdf) - A free eBook all about modern-day static website development, and the backend tools required.
+- [**David Walsh: An Introduction to Static Site Generators**](https://davidwalsh.name/introduction-static-site-generators) - A detailed look at the features, advantages, and disadvantages of static site generators.
+- [**Go By Example**: Panic](https://gobyexample.com/panic)
