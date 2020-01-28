@@ -10,16 +10,6 @@
 
 In this course, students discover the value of strongly typed languages in server-side architectures, and dive deep into performant, concurrent programming paradigms present in Go. Known best for it's ability to blend the expressive features of dynamic languages (Python, JavaScript) with the performance capabilities of compiled languages (C, C++), students will gain the syntactic diversity required in today's large-scale platform engineering pursuits. Throughout the course, students will learn and implement the design patterns and best practices that make Go a top choice at high-velocity startups like Lyft, Heroku, Docker, Medium, and more!
 
-## Course Specifics
-
-Weeks to Completion:  7 <br>
-Total Seat Hours:  37.5 hours <br>
-Total Out-of-Class Hours: 75 hours <br>
-Total Hours: 112.5 hours <br>
-Units:  3 units <br>
-Delivery Method:  Residential <br>
-Class Sessions:  13 classes, 7 labs
-
 ## Prerequisites
 
 - [BEW 1.1](https://make.sc/bew1.1)
@@ -36,25 +26,42 @@ Class Sessions:  13 classes, 7 labs
 
 ## Schedule
 
-**Course Dates:** Monday, October 21 – Wednesday, December 11, 2019 (_7 weeks_)<br>
-**Class Times:** Monday and Wednesday at 3:30–5:20pm (_15 class sessions_)
+**Course Dates:** Tuesday, January 21 – Thursday, March 5, 2020 (7 weeks)
 
-|   #   | Topic                                                                     | Assignment Due            |
-| :---: | ------------------------------------------------------------------------- | ------------------------- |
-|   1   | **[Lesson 1](Lessons/Lesson01.md): Intro to Go**                          |                           |
-|   2   | **[Lesson 2](Lessons/Lesson02.md): Tutorial Launch**                      |                           |
-|   3   | **[Lesson 3](Lessons/SSGProject.md): Project #1 - SSG** |                           |
-|   4   | **[Lesson 4](Lessons/Lesson04.md): Interacting with APIs in Golang**      |                           |
-|   5   | **[Lesson 5](Lessons/Lesson05.md): APIs, Middleware, & You**              |                           |
-|   6   | **Review Day**: Go Syntax                                                 |                           |
-|   7   | **[Lesson 6](Lessons/07-Fullstack.md): Fullstack Web Applications**       |                           |
-|   8   | **[Lesson 7](Lessons/Lesson07.md): Concurrency & Goroutines**             |                           |
-|   9   | **Lab Day: Challenges / MakeUtility Project Kickoff**                     |                           |
-|  10   | **[Lesson 9](Lessons/Lesson09.md): Benchmarking & Testing**               |                           |
-|  11   | **[Lesson 10](Lessons/DesignPatterns.md): Go Design Patterns**            |                           |
-|  12   | **[Lesson 11](Lessons/DocsDeploy.md): Documentation & Deployments**       | _10 challenges due Wed 12/4 @ 11:59pm_ |
-|  13   | **Presentations** / **Exam Review** / **Practice Test**                   | _3 min demo due Mon 12/9 @ 3:30pm_ |
-|  14   | **Final Exam**                                                            | _MakeUtility due Fri 12/13 @ 11:59pm_ |
+**Class Times:** Tuesday and Thursday at 2:30–5:15pm (14 class sessions)
+
+| Class |       Date       | Topics                                                         |
+| :---: | :--------------: | -------------------------------------------------------------- |
+|   1   |  Tue, January 21  | **[Intro to Go](Lessons/Lesson01.md)** |
+|   2   |  Thu, January 23  | **[Tutorial Launch](Lessons/Lesson02.md)** |
+|   3   |  Tue, January 28  | **[Project #1 - SSGs](Lessons/SSGProject.md)** |
+|   4   |  Thu, January 30  | **[Interacting with APIs](Lessons/Lesson04.md)** |
+|   5   |  Tue, February 4  | **[APIs, Middleware, & You](Lessons/Lesson05.md)** |
+|   6   |  Thu, February 6  | Review Day |
+|   7   |  Tue, February 11 | **[Fullstack Web Applications](Lessons/07-Fullstack.md)** |
+|   8   |  Thu, February 13 | **[Concurrency & Goroutines](Lessons/Lesson07.md)** |
+|   9   |  Tue, February 18 | Project Kickoff |
+|  10   |  Thu, February 20 | **[Benchmarking & Testing](Lessons/Lesson09.md)** |
+|  11   |  Tue, February 25 | **[Go Design Patterns](Lessons/DesignPatterns.md)** |
+|  12   |  Thu, February 27 | **[Documentation & Deployments](Lessons/DocsDeploy.md)** |
+|  13   |  Tue, March 3     | Review Day          |
+|  14   |  Thu, March 5     | Final Presentations |
+
+
+## Evaluation
+
+<p align="center">
+  <img src="criteria.png"">
+</p>
+
+**To pass this course you must meet the following requirements**:
+
+- Complete the tutorial assigned in class
+- Write and publish two blog posts to Medium, dev.to, or a personal blog website
+- Complete all challenges assigned in class
+- Actively participate in class and abide by the attendance policy
+- Make up all classwork from all absences
+- Complete the final project according to the associated [project rubric](Project/MakeUtility.md), delivered to the class on the final day of the course
 
 ## Class Assignments
 
@@ -62,51 +69,12 @@ Class Sessions:  13 classes, 7 labs
 
 Tutorials are to help you get started in a topic.  They are **graded on completion only**.
 
-- **[Tour of Go](https://tour.golang.com)**
+- **[Tour of Go](https://tour.golang.org/welcome)**
 
 ### Projects
 
 - **[MakeUtility Project](Project/MakeUtility.md)**: Architect, implement, deploy, and integrate a helpful utility written in Golang.
   - **[MakeUtility Rubric](Project/MakeUtility.md#Rubric)**: Use this rubric to assess your project _before_ turning it in.
-
-**All projects require a minimum of 10 commits, and must take place throughout the entirety of the course.**
-
-- **Good Example:** **40+ commits throughout the length of the course**, looking for a healthy spattering of commits each week (such as **3-5 per day**).
-- **Bad Example:** **10 commits on one day** during the course and **no others**. Students who do this will be at **severe risk of not passing** the class.
-- **Unacceptable Example:** **2 commits the day before a project is due**. Students who do this **should not expect to pass the class**.
-
-### Commit Early and Often
-
-We want to encourage best practices that you will see working as a professional software engineer. Breaking up a project by doing a large amount of commits helps engineers in the following ways:
-
-- It's much easier to **retrace your steps** if you break your project/product/code up into smaller pieces
-- It helps with being able to **comprehend the larger problem**, and also will **help with debugging** (i.e. finding exactly when you pushed that piece of broken code)
-- It allows for more **streamlined, iterative communication in your team**, as it's much easier to hand off a small change to someone (updating a function) than a huge one (changed the architecture of the project)
-
-Through this requirement, **we encourage you to think about projects with an iterative, modular mindset**. Doing so will allow you to **break projects down into smaller milestones** that come together to make your fully-realized solution.
-
-Projects are a **chance to build and ship code based on class concepts**.  Many are **open ended** allowing you to be **creative** and to have **individual work for your portfolio**.
-
-## Evaluation
-
-**To pass this course you must meet the following requirements**:
-
-- Complete all required tutorials
-- Pass all projects according to the associated project rubric
-- Pass the final summative assessment >=75%
-- Actively participate in class and abide by the attendance policy
-- Make up all classwork from all absences
-
-## Attendance
-
-Just like any job, attendance at Make School is required and a key component of your success. Attendance is being onsite from 9:30 to 5:30 each day, attending all scheduled sessions including classes, huddles, coaching and school meetings, and working in the study labs when not in a scheduled session. Working onsite allows you to learn with your peers, have access to support from TAs, instructors and others, and is vital to your learning.
-
-Attendance requirements for scheduled sessions are:
-
-- No more than two no call no shows per term in any scheduled session.
-- No more than four excused absences per term in any scheduled session.
-
-Failure to meet these requirements will result in a PIP (Participation Improvement Plan).  Failure to improve after the PIP is cause for not being allowed to continue at Make School.
 
 ## Additional Resources
 
@@ -120,10 +88,11 @@ Failure to meet these requirements will result in a PIP (Participation Improveme
 
 ## Make School Course Policies
 
-[Academic Honesty](https://make.sc/academic-honesty)<br>
-[Accommodations for Students](https://make.sc/accommodations-for-students)<br>
-[Attendance Policy](https://make.sc/attendance-policy)<br>
-[Diversity and Inclusion Policy](https://make.sc/diversity-and-inclusion-policy)<br>
-[Grading System](https://make.sc/grading-system)<br>
-[Title IX Policy](https://make.sc/title-ix-policy)<br>
-[Program Learning Outcomes](https://make.sc/program-learning-outcomes)
+- [Program Learning Outcomes](https://make.sc/program-learning-outcomes) - What you will achieve after finishing Make School, all courses are designed around these outcomes.
+- [Grading System](https://make.sc/grading-system) - How grading is done at Make School
+- [Diversity and Inclusion Statement](https://make.sc/diversity-and-inclusion-statement) - Learn about Diversity and Inclusion at Make School
+- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagerism, cheating, and other forms of academic misconduct
+- [Attendance Policy](https://make.sc/attendance-policy) - What we expect from you in terms of attendance for all classes at Make School
+- [Course Credit Policy](https://make.sc/course-credit-policy) - Our policy for how you obtain credit for your courses
+- [Disability Services (Academic Accommodations)](https://make.sc/disability-services) - Services and accommodations we provide for students
+- [Student Handbook](https://make.sc/student-handbook) - Guidelines, policies, and resources for all Make School students

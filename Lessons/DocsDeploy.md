@@ -236,6 +236,8 @@ Formula Go can be installed via Homebrew or Linuxbrew.
 
 ```bash
 go get github.com/laher/goxc
+export GOROOT_BOOTSTRAP=/usr/local/go;
+goxc -t -bc=linux,darwin
 
 brew install ghr
 
@@ -268,7 +270,7 @@ fgo init –desc="A short description of what your application does."
 ### Step 3: Build & Upload
 
 ```bash
-fgo build VERSION_NUMBER
+export GOROOT_BOOTSTRAP=$GOROOT; fgo build VERSION_NUMBER
 ```
 
 Running `fgo build` will build your application and save the binary to the `pkg` directory. Then, this command uploads the built binary files to GitHub. Finally, after uploading to GitHub, it updates a Homebrew formula in `homebrew` directory.
