@@ -7,7 +7,7 @@
 3. [[**10m**] 📖 Overview: Static Sites & Generators](#10m--overview-static-sites--generators)
 4. [[**10m**] 📖 Starting a New Project](#10m--starting-a-new-project)
 5. [[**05m**] 📖 Building, Running, & Installing](#05m--building-running--installing)
-6. [[**10m**] 📖 Standard Input/Output (I/O)](#10m--standard-inputoutput-io)
+6. [[**10m**] 📖 CLIs & Standard Input/Output (I/O)](#10m--clis--standard-inputoutput-io)
 7. [[**15m**] 🌴 BREAK](#15m--break)
 8. [[**10m**] 📖 Reading & Writing to the Filesystem](#10m--reading--writing-to-the-filesystem)
 9. [[**10m**] 📖 Working with Templates](#10m--working-with-templates)
@@ -102,9 +102,32 @@ go install
 ```
 
 
-## [**10m**] 📖 Standard Input/Output (I/O)
+## [**10m**] 📖 CLIs & Standard Input/Output (I/O)
 
-`TODO`
+### Writing to Standard Out (stdout)
+
+- `fmt.Print()`
+- `fmt.Println()`
+- `fmt.Sprintf()`
+
+### Reading from Standard In (stdin)
+
+- `flag` package offers a standard library for parsing command line input.
+- Defined using `flag.String()`, `Bool()`, `Int()`, etc.
+- Syntax: `-example`, `-example=text`, `-example text`.
+- Both `-` and `--` may be used for flags.
+
+#### Example
+
+```golang
+examplePtr := flag.String("example", "defaultValue", " Help text.")
+```
+
+`examplePtr` will reference the value for either `-example` or `--example`.
+
+The initial value at `*examplePtr` is `defaultValue`.
+
+Calling `flag.Parse()` will parse the command line input and write the value following `-example` or `--example` to `*examplePtr`.
 
 ## [**15m**] 🌴 BREAK
 
@@ -153,7 +176,83 @@ func main() {
 
 ## [**10m**] 📖 Working with Templates
 
-`TODO`
+### Storing the Data
+
+```golang
+type entry struct {
+  Name string
+  Done bool
+}
+
+type ToDo struct {
+  User string
+  List []entry
+}
+```
+
+### Creating a Template
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Go To-Do list</title>
+  </head>
+  <body>
+    <p>
+      To-Do list for user: {{ .User }}
+    </p>
+    <table>
+        <tr>
+          <td>Task</td>
+          <td>Done</td>
+      </tr>
+        {{ with .List }}
+          {{ range . }}
+            <tr>
+                  <td>{{ .Name }}</td>
+                  <td>{{ if .Done }}Yes{{ else }}No{{ end }}</td>
+            </tr>
+          {{ end }}
+        {{ end }}
+    </table>
+  </body>
+</html>
+```
+
+### Writing a Template to Standard Out (stdout)
+
+```golang
+package main
+
+import (
+        "html/template"
+        "os"
+)
+
+type entry struct {
+        Name string
+        Done bool
+}
+
+type ToDo struct {
+        User string
+        List []entry
+}
+
+func main() {
+        // Files are provided as a slice of strings.
+        paths := []string{
+          "todo.tmpl",
+        }
+
+        t := template.Must(template.New("html-tmpl").ParseFiles(paths...))
+        err = t.Execute(os.Stdout, todos)
+        if err != nil {
+          panic(err)
+        }
+}
+```
 
 ## [**65m**] 💻 Activity: Complete MVP
 
@@ -171,4 +270,8 @@ _This is a great time to ask questions or get unblocked so you can make progress
 
 - [**Static Site Generators: Modern Tools for Static Website Development**](https://www.oreilly.com/web-platform/free/files/static-site-generators.pdf) - A free eBook all about modern-day static website development, and the backend tools required.
 - [**David Walsh: An Introduction to Static Site Generators**](https://davidwalsh.name/introduction-static-site-generators) - A detailed look at the features, advantages, and disadvantages of static site generators.
+- [**Go By Example**: Reading Files](https://gobyexample.com/reading-files)
+- [**Go By Example**: Writing Files](https://gobyexample.com/writing-files)
 - [**Go By Example**: Panic](https://gobyexample.com/panic)
+- [**GopherAcademy**: Using Go Templates](https://blog.gopheracademy.com/advent-2017/using-go-templates/)
+- [**rapid7.com**: Building a Simple CLI Tool with Golang](https://blog.rapid7.com/2016/08/04/build-a-simple-cli-tool-with-golang/)
