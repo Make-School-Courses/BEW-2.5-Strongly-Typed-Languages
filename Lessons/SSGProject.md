@@ -1,5 +1,21 @@
 # 📜 Day 3: Project #1 - Static Site Generator
 
+### 🕑Agenda
+
+1. [[**05m**] 🏆 Objectives](#05m--objectives)
+2. [[**10m**] 💻 Warm Up: Explore SSGs](#10m--warm-up-explore-ssgs)
+3. [[**10m**] 📖 Overview: Static Site Generators](#10m--overview-static-site-generators)
+4. [[**10m**] 🏆 Today's Goals](#10m--todays-goals)
+   1. [Day 1: MVP](#day-1-mvp)
+5. [[**10m**] 📖 Starting a New Project](#10m--starting-a-new-project)
+6. [[**05m**] 📖 Building Your Changes](#05m--building-your-changes)
+7. [[**15m**] 📖 Getting Input from the Command Line](#15m--getting-input-from-the-command-line)
+8. [[**15m**] 🌴 BREAK](#15m--break)
+9. [[**15m**] 📖 Reading & Writing to the Filesystem](#15m--reading--writing-to-the-filesystem)
+10. [[**15m**] 📖 Working with Templates](#15m--working-with-templates)
+11. [[**55m**] 💻 Activity: Complete MVP](#55m--activity-complete-mvp)
+12. [📚 Resources & Credits](#-resources--credits)
+
 ## [**05m**] 🏆 Objectives
 
 1. Define what a _Static Site Generator_ is, and what it's best-fit use cases are.
