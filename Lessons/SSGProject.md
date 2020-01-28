@@ -9,12 +9,13 @@
    1. [Day 1: MVP](#day-1-mvp)
 5. [[**10m**] 📖 Starting a New Project](#10m--starting-a-new-project)
 6. [[**05m**] 📖 Building Your Changes](#05m--building-your-changes)
-7. [[**15m**] 📖 Getting Input from the Command Line](#15m--getting-input-from-the-command-line)
+7. [[**10m**] 📖 Getting Input from the Command Line](#10m--getting-input-from-the-command-line)
 8. [[**15m**] 🌴 BREAK](#15m--break)
-9. [[**15m**] 📖 Reading & Writing to the Filesystem](#15m--reading--writing-to-the-filesystem)
-10. [[**15m**] 📖 Working with Templates](#15m--working-with-templates)
+9. [[**10m**] 📖 Reading & Writing to the Filesystem](#10m--reading--writing-to-the-filesystem)
+10. [[**10m**] 📖 Working with Templates](#10m--working-with-templates)
 11. [[**55m**] 💻 Activity: Complete MVP](#55m--activity-complete-mvp)
-12. [📚 Resources & Credits](#-resources--credits)
+12. [[**15m**] 📖 Project Checkin](#15m--project-checkin)
+13. [📚 Resources & Credits](#-resources--credits)
 
 ## [**05m**] 🏆 Objectives
 
@@ -28,8 +29,8 @@
 
 Visit the [Jekyll Homepage]() and answer the following questions by exploring the website:
 
-1. `TODO`
-2. `TODO`
+1. What features of Jekyll do you find appealing?
+2. As a developer, what could you use a static site generator for?
 
 ## [**10m**] 📖 Overview: Static Site Generators
 
@@ -50,7 +51,7 @@ Visit the [Jekyll Homepage]() and answer the following questions by exploring th
 
 #### Stretch Challenges
 
-`TODO`
+- [ ] Use Bootstrap, or another CSS framework, to enhance the style and readability of your template. _Get creative! Writing your very own website generator is a great opportunity to broadcast your style, personality, and development preferences to the world!_
 
 ## [**10m**] 📖 Starting a New Project
 
@@ -60,26 +61,30 @@ Visit the [Jekyll Homepage]() and answer the following questions by exploring th
 
 `TODO`
 
-## [**15m**] 📖 Getting Input from the Command Line
+## [**10m**] 📖 Getting Input from the Command Line
 
 `TODO`
 
 
 ## [**15m**] 🌴 BREAK
 
-## [**15m**] 📖 Reading & Writing to the Filesystem
+## [**10m**] 📖 Reading & Writing to the Filesystem
 
 `TODO`
 
-## [**15m**] 📖 Working with Templates
+## [**10m**] 📖 Working with Templates
 
 `TODO`
 
 ## [**55m**] 💻 Activity: Complete MVP
 
-Complete the MVP as described in the requirements.
+Complete the MVP as described in the requirements in the order they appear. If you finish early, move on to the stretch challenges.
 
-If you finish early, move on to the stretch challenges.
+Return 15 minutes before the end of class for your project status update.
+
+## [**15m**] 📖 Project Checkin
+
+Students will check in with the instructor on the status of their MVP. This is a great time to ask questions or get unblocked!
 
 ## 📚 Resources & Credits
 
