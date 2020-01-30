@@ -5,7 +5,7 @@
 1. [[**05m**] 🏆 Objectives](#05m--objectives)
 2. [[**60m**] 💻 Work on SSG MVP](#60m--work-on-ssg-mvp)
 3. [[**30m**] ✓ Review](#30m--review)
-4. [[**10m**] 🌴 BREAK](#10m--break)
+4. [[**15m**] 🌴 BREAK](#15m--break)
 5. [[**30m**] 📚 Overview: Files & Directories](#30m--overview-files--directories)
 6. [[**30m**] 💻 Work on SSG v1.1](#30m--work-on-ssg-v11)
 7. [📚 Resources & Credits](#-resources--credits)
@@ -24,7 +24,7 @@ Ask class to close laptops. Demonstrate breaking down requirements into function
 
 Call on individuals to live code their solutions to the first three requirements. Invite the class to analyze each solution and determine why it works.
 
-## [**10m**] 🌴 BREAK
+## [**15m**] 🌴 BREAK
 
 ## [**30m**] 📚 Overview: Files & Directories
 
