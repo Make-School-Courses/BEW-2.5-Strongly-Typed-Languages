@@ -1,7 +1,7 @@
 - **[Syllabus](README.md)**
 - **🎓 Class Topics**
   - [Project #1: SSG](Lessons/SSGProject.md)
-  - [Architecture](Lessons/Lesson03.md)
+  - [Files & Directories](Lessons/FilesDirectories.md)
   - [APIs](Lessons/Lesson04.md)
   - [Middlewares](Lessons/Lesson05.md)
   - [Full Stack App](Lessons/07-Fullstack.md)

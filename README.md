@@ -35,7 +35,7 @@ In this course, students discover the value of strongly typed languages in serve
 |   1   |  Tue, January 21  | **[Intro to Go](Lessons/Lesson01.md)** |
 |   2   |  Thu, January 23  | **[Tutorial Launch](Lessons/Lesson02.md)** |
 |   3   |  Tue, January 28  | **[Project #1 - SSGs](Lessons/SSGProject.md)** |
-|   4   |  Thu, January 30  | **[Interacting with APIs](Lessons/Lesson04.md)** |
+|   4   |  Thu, January 30  | **[Files & Directories](Lessons/Lesson04.md)** |
 |   5   |  Tue, February 4  | **[APIs, Middleware, & You](Lessons/Lesson05.md)** |
 |   6   |  Thu, February 6  | Review Day |
 |   7   |  Tue, February 11 | **[Fullstack Web Applications](Lessons/07-Fullstack.md)** |
