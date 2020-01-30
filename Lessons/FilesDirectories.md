@@ -40,20 +40,6 @@ func ReadDir(dirname string) ([]os.FileInfo, error)
 
 `ReadDir` reads the directory named by `dirname`, and returns a list of directory entries sorted by filename.
 
-
-
-```golang
-A FileInfo describes a file and is returned by Stat and Lstat.
-
-type FileInfo interface {
-    Name() string       // base name of the file
-           // length in bytes for regular files; system-dependent for others
-    Mode() FileMode     // file mode bits
-    ModTime() time.Time // modification time
-    IsDir() bool        // abbreviation for Mode().IsDir()
-}
-```
-
 ### Code Snippet: Traversing a Directory Tree
 
 In your `$GOROOT`, create a directory named `traversing`, with a file inside named `main.go`.
