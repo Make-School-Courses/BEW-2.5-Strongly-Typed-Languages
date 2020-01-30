@@ -28,15 +28,77 @@ Call on individuals to live code their solutions to the first three requirements
 
 ## [**30m**] 📚 Overview: Files & Directories
 
-TODO
+### Introduction
+
+The `ioutil` package we introduced last class period has even more to offer!
+
+It provides a function named `ReadDir`, an approachable way to list all the files in the directory. Check out the method signature below:
+
+```golang
+func ReadDir(dirname string) ([]os.FileInfo, error)
+```
+
+`ReadDir` reads the directory named by `dirname`, and returns a list of directory entries sorted by filename.
+
+
+
+```golang
+A FileInfo describes a file and is returned by Stat and Lstat.
+
+type FileInfo interface {
+    Name() string       // base name of the file
+           // length in bytes for regular files; system-dependent for others
+    Mode() FileMode     // file mode bits
+    ModTime() time.Time // modification time
+    IsDir() bool        // abbreviation for Mode().IsDir()
+}
+```
+
+### Code Snippet: Traversing a Directory Tree
+
+In your `$GOROOT`, create a directory named `traversing`, with a file inside named `main.go`.
+
+Paste the code below, then build and run it. Examine the output and syntax.
+
+```golang
+package main
+
+import (
+    "fmt"
+    "io/ioutil"
+    "log"
+)
+
+func main() {
+    directory := "."
+    files, err := ioutil.ReadDir(directory)
+    if err != nil {
+        log.Fatal(err)
+    }
+
+    for _, file := range files {
+        fmt.Println(file.Name())
+    }
+}
+```
+
+### Ignoring Return Values
+
+To safely ignore returned values from a function, use the `_` in place of any variable name.
+
+### FileInfo Struct
+
+You might have noticed that the method signature for `ReadDir` returns a slice of [`FileInfo`](https://golang.org/pkg/os/#FileInfo) structs.
+
+Change the value of the `directory` variable, and set it to point to your home directory. For example, `/Users/YOUR_MAC_USERNAME`.
+
+Click the link in the last sentence, then modify the example code to print out the name of the path and a label indicating if the path is a directory or not (HINT: use `IsDir()`).
 
 ## [**30m**] 💻 Work on SSG v1.1
 
 1. ⭐️ **IMPORTANT**: Finish the [requirements](https://github.com/Make-School-Labs/makesite#mvp) for the MVP before beginning v1.1.
 2. Begin working on the [requirements](https://github.com/Make-School-Labs/makesite#v11) for SSG v1.1. **Be sure to copy them into your project's README to keep track of your progress**!
 
-`TODO`
-
 ## 📚 Resources & Credits
 
-TODO
+- [**List the files in a folder with Go**](https://flaviocopes.com/go-list-files/): How to get a list of files inside a folder on the filesystem using Go.
