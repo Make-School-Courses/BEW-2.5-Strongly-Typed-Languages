@@ -51,7 +51,7 @@ In this course, students discover the value of strongly typed languages in serve
 ## Evaluation
 
 <p align="center">
-  <img src="criteria.png"">
+  <img src="criteria.png">
 </p>
 
 **To pass this course you must meet the following requirements**:
