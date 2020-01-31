@@ -30,22 +30,22 @@ In this course, students discover the value of strongly typed languages in serve
 
 **Class Times:** Tuesday and Thursday at 2:30–5:15pm (14 class sessions)
 
-| Class |       Date       | Topics                                                    |
-| :---: | :--------------: | --------------------------------------------------------- |
-|   1   | Tue, January 21  | **[Intro to Go](Lessons/Lesson01.md)**                    |
-|   2   | Thu, January 23  | **[Tutorial Launch](Lessons/Lesson02.md)**                |
-|   3   | Tue, January 28  | **[Project #1 - SSGs](Lessons/SSGProject.md)**            |
-|   4   | Thu, January 30  | **[Files & Directories](Lessons/Lesson04.md)**            |
-|   5   | Tue, February 4  | **[APIs, Middleware, & You](Lessons/Lesson05.md)**        |
-|   6   | Thu, February 6  | Review Day                                                |
-|   7   | Tue, February 11 | **[Fullstack Web Applications](Lessons/07-Fullstack.md)** |
-|   8   | Thu, February 13 | **[Concurrency & Goroutines](Lessons/Lesson07.md)**       |
-|   9   | Tue, February 18 | Project Kickoff                                           |
-|  10   | Thu, February 20 | **[Benchmarking & Testing](Lessons/Lesson09.md)**         |
-|  11   | Tue, February 25 | **[Go Design Patterns](Lessons/DesignPatterns.md)**       |
-|  12   | Thu, February 27 | **[Documentation & Deployments](Lessons/DocsDeploy.md)**  |
-|  13   |   Tue, March 3   | Review Day                                                |
-|  14   |   Thu, March 5   | Final Presentations                                       |
+| Class |       Date       | Topics                                                    | Homework                    | Link to Submit |
+| :---: | :--------------: | --------------------------------------------------------- | --------------------------- | -------------- |
+|   1   | Tue, January 21  | **[Intro to Go](Lessons/Lesson01.md)**                    |                             |                |
+|   2   | Thu, January 23  | **[Tutorial Launch](Lessons/Lesson02.md)**                |                             |                |
+|   3   | Tue, January 28  | **[Project #1 - SSGs](Lessons/SSGProject.md)**            | SSG MVP Due 2/6 @ 11:59pm   | Coming Soon    |
+|   4   | Thu, January 30  | **[Files & Directories](Lessons/Lesson04.md)**            | SSG v1.1 Due 2/10 @ 11:59pm | Coming Soon    |
+|   5   | Tue, February 4  | **[APIs, Middleware, & You](Lessons/Lesson05.md)**        |                             |                |
+|   6   | Thu, February 6  | Review Day                                                |                             |                |
+|   7   | Tue, February 11 | **[Fullstack Web Applications](Lessons/07-Fullstack.md)** |                             |                |
+|   8   | Thu, February 13 | **[Concurrency & Goroutines](Lessons/Lesson07.md)**       |                             |                |
+|   9   | Tue, February 18 | Project Kickoff                                           |                             |                |
+|  10   | Thu, February 20 | **[Benchmarking & Testing](Lessons/Lesson09.md)**         |                             |                |
+|  11   | Tue, February 25 | **[Go Design Patterns](Lessons/DesignPatterns.md)**       |                             |                |
+|  12   | Thu, February 27 | **[Documentation & Deployments](Lessons/DocsDeploy.md)**  |                             |                |
+|  13   |   Tue, March 3   | Review Day                                                |                             |                |
+|  14   |   Thu, March 5   | Final Presentations                                       |                             |                |
 
 
 ## Evaluation
