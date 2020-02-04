@@ -36,7 +36,7 @@ In this course, students discover the value of strongly typed languages in serve
 |   2   | Thu, January 23  | **[Tutorial Launch](Lessons/Lesson02.md)**                |                             |                |
 |   3   | Tue, January 28  | **[Project #1 - SSGs](Lessons/SSGProject.md)**            | SSG MVP Due 2/6 @ 11:59pm   | Coming Soon    |
 |   4   | Thu, January 30  | **[Files & Directories](Lessons/Lesson04.md)**            | SSG v1.1 Due 2/10 @ 11:59pm | Coming Soon    |
-|   5   | Tue, February 4  | **[APIs, Middleware, & You](Lessons/Lesson05.md)**        |                             |                |
+|   5   | Tue, February 4  | Fast Functionality via 3rd Party Libraries                | SSG v1.1 Due 2/10 @ 11:59pm | Coming Soon    |
 |   6   | Thu, February 6  | Review Day                                                |                             |                |
 |   7   | Tue, February 11 | **[Fullstack Web Applications](Lessons/07-Fullstack.md)** |                             |                |
 |   8   | Thu, February 13 | **[Concurrency & Goroutines](Lessons/Lesson07.md)**       |                             |                |
