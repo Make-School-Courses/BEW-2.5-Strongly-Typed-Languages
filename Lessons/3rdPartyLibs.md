@@ -52,6 +52,16 @@ package <package_name>
 
 **Module**: A collection of Go packages stored in a file tree with a go. mod file at its root. The `go.mod` file defines the module's module path, which is also the import path used for the root directory, and its dependency requirements, which are the other modules needed for a successful build.
 
+### How Do I Know Where This Stuff Is?
+
+Run `go env` on your system now.
+
+Find the following environment variables and write down their values:
+
+-  `GOROOT`
+-  `GO111MODULE`
+-  `GOPATH`
+
 ### Creating a Module
 
  To initialize our project to use modules:
