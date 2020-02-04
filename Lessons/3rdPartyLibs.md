@@ -29,8 +29,6 @@
 
 ## [**30m**] 📖 Overview: Intro to Using 3rd Party Libs
 
-`TODO`
-
 ### Discovering New Libraries
 
 > When you have a problem, how do you determine which libraries or packages to use? **Write down your answers**.
@@ -49,7 +47,7 @@
 
 ### Saving Your Dependencies
 
-## [**15m**] 💻 Activity: Start A New Golang Project With Modules Support
+## [**15m**] 💻 Activity: Add Modules Support to Your SSG
 
 `TODO`
 
