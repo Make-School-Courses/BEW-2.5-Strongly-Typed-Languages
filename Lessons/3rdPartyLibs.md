@@ -12,9 +12,10 @@
   - **SSG Project MVP**: *Due Thursday 02/06 @ 11:59pm*
   - **SSG Project v1 & v2**: *Due Tuesday 02/10 @ 11:59pm*
 
+<!--
 ## [**00m**] 🏆 Objectives
 
-<!--
+
 |   Level   | Verbs |
 | --------- | ----- |
 | 6: Create | design, formulate, build, invent, create, compose, generate, derive, modify, develop |
