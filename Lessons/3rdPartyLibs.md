@@ -3,7 +3,7 @@
 ## ⏱ Agenda
 
 - [`2:30 - 3:15`] **Lab Time**: *Work on v1 Challenges*
-  - **Submit Attendance**: **https://make.sc/attend/**
+  - **Submit Attendance**: **https://make.sc/attend/CHUCK**
 
 - [`3:15 - 3:45`] **Lesson Plan**: *3rd Party Libraries*
 - [`3:45 - 4:00`] **Break**
