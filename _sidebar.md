@@ -2,6 +2,7 @@
 - **🎓 Class Topics**
   - [Project #1: SSG](Lessons/SSGProject.md)
   - [Files & Directories](Lessons/FilesDirectories.md)
+  - [3rd Party Libs](Lessons/3rdPartyLibs.md)
   - [APIs](Lessons/Lesson04.md)
   - [Middlewares](Lessons/Lesson05.md)
   - [Full Stack App](Lessons/07-Fullstack.md)
