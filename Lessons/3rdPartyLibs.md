@@ -3,11 +3,10 @@
 ## ⏱ Agenda
 
 - [`2:30 - 3:15`] **Lab Time**: *Work on v1 Challenges*
+- [`3:15 - 3:30`] **Break**
   - **Submit Attendance**: **https://make.sc/attend/CHUCK**
-- [`3:15 - 3:45`] **Lesson Plan**: *3rd Party Libraries*
-- [`3:45 - 4:00`] **Break**
-- [`4:00 - 4:10`] **Introduce v2 Challenges for SSG Project**
-- [`4:10 - 5:15`] **Lab Time**: *Work on v2 Challenges*
+- [`3:30 - 4:15`] **Lesson Plan**: *3rd Party Libraries*
+- [`4:15 - 5:15`] **Lab Time**: *Work on v2 Challenges*
 - **❗️IMPORTANT DUE DATES**:
   - **SSG Project MVP**: *Due Thursday 02/06 @ 11:59pm*
   - **SSG Project v1 & v2**: *Due Tuesday 02/10 @ 11:59pm*
