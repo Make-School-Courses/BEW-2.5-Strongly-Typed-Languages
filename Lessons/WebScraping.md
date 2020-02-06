@@ -85,7 +85,7 @@ Starter code is included in the [project repository](https://github.com/make-sch
 
 _Complete the workflow worksheet distributed in class._
 
-When you're done, use the remaining lab time to begin your project! You'll be able to complete at least a few requirements after what you've learned today. We'll learn how to parse and store JSON during our next class!
+When you're done, use the remaining lab time to begin your project! You'll be able to complete at least a few requirements after what you've learned today. We'll learn how to serialize and store JSON during our next class.
 
 ## 📚 Resources & Credits
 
