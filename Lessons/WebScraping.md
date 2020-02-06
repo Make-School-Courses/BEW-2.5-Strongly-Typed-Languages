@@ -7,10 +7,11 @@
 3. [[**15m**] 📖 Overview: Web Scraping](#15m--overview-web-scraping)
 4. [[**20m**] 💻 Game: Selector Diner](#20m--game-selector-diner)
 5. [[**10m**] 💻 Demo: Selecting Selectors](#10m--demo-selecting-selectors)
-6. [[**15m**] 📖 Overview: Colly](#15m--overview-colly)
-7. [[**30m**] 💻 Activity: Work Out a Workflow](#30m--activity-work-out-a-workflow)
-8. [[**65m**] 🧪 Lab Time: Begin Web Scraper Project](#65m--lab-time-begin-web-scraper-project)
-9. [📚 Resources & Credits](#-resources--credits)
+6. [[**10m**] BREAK](#10m-break)
+7. [[**15m**] 📖 Overview: Colly](#15m--overview-colly)
+8. [[**30m**] 💻 Activity: Work Out a Workflow](#30m--activity-work-out-a-workflow)
+9. [[**55m**] 🧪 Lab Time: Begin Web Scraper Project](#55m--lab-time-begin-web-scraper-project)
+10. [📚 Resources & Credits](#-resources--credits)
 
 ## [**05m**] 🏆 Objectives
 
@@ -70,7 +71,7 @@ Let's practice selectors now --- they're the most important part of writing an a
 
 Choose the right plates while working the window at the [CSS Diner](https://flukeout.github.io/). This fun game will level up your selector skills in preparation for your Web Scraper project.
 
-##  [**10m**] 💻 Demo: Selecting Selectors
+## [**10m**] 💻 Demo: Selecting Selectors
 
 _Instructor will demonstrate how to find and test selectors in Chrome before integrating them in your web scraper._
 
@@ -80,6 +81,8 @@ _Instructor will demonstrate how to find and test selectors in Chrome before int
 - Testing using `Ctrl` + `F` in the inspector.
 
 **If your selector does not work using these methods, it WILL NOT WORK IN YOUR SCRAPER**!
+
+## [**10m**] BREAK
 
 ## [**15m**] 📖 Overview: Colly
 
@@ -148,7 +151,7 @@ _Complete the workflow worksheet distributed in class._
 
 When you're done, use the remaining lab time to begin your project!
 
-## [**65m**] 🧪 Lab Time: Begin Web Scraper Project
+## [**55m**] 🧪 Lab Time: Begin Web Scraper Project
 
 Read the project [README](https://github.com/make-school-labs/makescraper) to begin your project.
 
