@@ -26,26 +26,25 @@ In this course, students discover the value of strongly typed languages in serve
 
 ## Schedule
 
-**Course Dates:** Tuesday, January 21 – Thursday, March 5, 2020 (7 weeks)
-
+**Course Dates:** Tuesday, January 21 – Thursday, March 5, 2020 (7 weeks)<br>
 **Class Times:** Tuesday and Thursday at 2:30–5:15pm (14 class sessions)
 
-| Class |       Date       | Topics                                                    | Homework                    | Link to Submit |
-| :---: | :--------------: | --------------------------------------------------------- | --------------------------- | -------------- |
-|   1   | Tue, January 21  | **[Intro to Go](Lessons/Lesson01.md)**                    |                             |                |
-|   2   | Thu, January 23  | **[Tutorial Launch](Lessons/Lesson02.md)**                |                             |                |
-|   3   | Tue, January 28  | **[Project #1 - SSGs](Lessons/SSGProject.md)**            | SSG MVP Due 2/6 @ 11:59pm   | Coming Soon    |
-|   4   | Thu, January 30  | **[Files & Directories](Lessons/Lesson04.md)**            | SSG v1.1 Due 2/10 @ 11:59pm | Coming Soon    |
-|   5   | Tue, February 4  | Fast Functionality via 3rd Party Libraries                | SSG v1.1 Due 2/10 @ 11:59pm | Coming Soon    |
-|   6   | Thu, February 6  | Review Day                                                |                             |                |
-|   7   | Tue, February 11 | **[Fullstack Web Applications](Lessons/07-Fullstack.md)** |                             |                |
-|   8   | Thu, February 13 | **[Concurrency & Goroutines](Lessons/Lesson07.md)**       |                             |                |
-|   9   | Tue, February 18 | Project Kickoff                                           |                             |                |
-|  10   | Thu, February 20 | **[Benchmarking & Testing](Lessons/Lesson09.md)**         |                             |                |
-|  11   | Tue, February 25 | **[Go Design Patterns](Lessons/DesignPatterns.md)**       |                             |                |
-|  12   | Thu, February 27 | **[Documentation & Deployments](Lessons/DocsDeploy.md)**  |                             |                |
-|  13   |   Tue, March 3   | Review Day                                                |                             |                |
-|  14   |   Thu, March 5   | Final Presentations                                       |                             |                |
+| Class |       Date       | Topics                                                                    |
+| :---: | :--------------: | ------------------------------------------------------------------------- |
+|   1   | Tue, January 21  | Intro to Go / Tutorial Launch                                             |
+|   2   | Thu, January 23  | **[Tutorial Launch](Lessons/Lesson02.md)**                                |
+|   3   | Tue, January 28  | **[Static Site Generators](Lessons/SSGProject.md)**                       |
+|   4   | Thu, January 30  | **[Files & Directories](Lessons/FilesDirectories.md)**                    |
+|   5   | Tue, February 4  | **[Fast Functionality via 3rd Party Libraries](Lessons/3rdPartyLibs.md)** |
+|   6   | Thu, February 6  | **[Scraping the Web](Lessons/WebScraping.md)**                            |
+|   7   | Tue, February 11 | **[Fullstack Web Applications](Lessons/07-Fullstack.md)**                 |
+|   8   | Thu, February 13 | **[Concurrency & Goroutines](Lessons/Lesson07.md)**                       |
+|   9   | Tue, February 18 | Project Kickoff                                                           |
+|  10   | Thu, February 20 | **[Benchmarking & Testing](Lessons/Lesson09.md)**                         |
+|  11   | Tue, February 25 | **[Go Design Patterns](Lessons/DesignPatterns.md)**                       |
+|  12   | Thu, February 27 | **[Documentation & Deployments](Lessons/DocsDeploy.md)**                  |
+|  13   |   Tue, March 3   | Review Day                                                                |
+|  14   |   Thu, March 5   | Final Presentations                                                       |
 
 
 ## Evaluation
@@ -63,18 +62,19 @@ In this course, students discover the value of strongly typed languages in serve
 - Make up all classwork from all absences
 - Complete the final project according to the associated [project rubric](Project/MakeUtility.md), delivered to the class on the final day of the course
 
-## Class Assignments
+## Course Deliverables
 
-### Tutorials
+*Assignments **must** be submitted to Gradescope by **11:59PM PST** on the date due.*
 
-Tutorials are to help you get started in a topic.  They are **graded on completion only**.
+| 📚   Assignment                                     | 🔗   Criteria                                                                                                                                                                        | 📆   Due Date                                                                                           |
+| :-------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------- |
+| **[Tour of Go](https://tour.golang.org/welcome/1)** | Done in Class | January 23, 2020 *(Thursday)* |
+| **Static Site Generator** | [MVP](https://github.com/Make-School-Labs/makesite#mvp)  <br />[v1.1](https://github.com/Make-School-Labs/makesite#v1.1) / [v1.2](https://github.com/Make-School-Labs/makesite#v1.2) | <u>MVP</u>: February 6, 2020 *(Thursday)*<br /><u>v1.1</u> / <u>v1.2</u>: February 10, 2020 *(Tuesday)* |
+| **Web Scraper** | [Requirements](https://make.sc/makescraper)| February 17, 2020 (*Monday*) |
+| **Slackbot** | TBD | TBD |
+| **Blog Post** | [Rubric](https://docs.google.com/document/d/1T1oqHFoRo0kl7mPUTFupmsoEkLYltKsVgtqyGKDaCgY/edit) | March 6, 2020 *(Friday)* |
+| **MakeUtility Project**| [Requirements](https://make.sc/makeutility) | March 6, 2020 *(Friday)* |
 
-- **[Tour of Go](https://tour.golang.org/welcome)**
-
-### Projects
-
-- **[MakeUtility Project](Project/MakeUtility.md)**: Architect, implement, deploy, and integrate a helpful utility written in Golang.
-  - **[MakeUtility Rubric](Project/MakeUtility.md#Rubric)**: Use this rubric to assess your project _before_ turning it in.
 
 ## Additional Resources
 
