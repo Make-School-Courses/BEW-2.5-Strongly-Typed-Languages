@@ -9,7 +9,7 @@
 5. [[**10m**] 💻 Demo: Selecting Selectors](#10m--demo-selecting-selectors)
 6. [[**15m**] 📖 Overview: Colly](#15m--overview-colly)
 7. [[**30m**] 💻 Activity: Work Out a Workflow](#30m--activity-work-out-a-workflow)
-8. [🧪 Lab Time: Start Web Scraper Project](#-lab-time-start-web-scraper-project)
+8. [[**65m**] 🧪 Lab Time: Begin Web Scraper Project](#65m--lab-time-begin-web-scraper-project)
 9. [📚 Resources & Credits](#-resources--credits)
 
 ## [**05m**] 🏆 Objectives
@@ -76,8 +76,8 @@ _Instructor will demonstrate how to find and test selectors in Chrome before int
 
 ### Techniques Demonstrated
 
-- [**Chrome Extension**: CSS Selector Tester](https://chrome.google.com/webstore/detail/css-selector-tester/bbklnaodgoocmcdejoalmbjihhdkbfon?hl=en)
 - Inspect an element > right click it's node in the DOM tree > choosing Copy > Copy Selector.
+- Testing using `Ctrl` + `F` in the inpector.
 
 **If your selector does not work using these methods, it WILL NOT WORK IN YOUR SCRAPER**!
 
@@ -108,11 +108,13 @@ _Complete the workflow worksheet distributed in class._
 
 When you're done, use the remaining lab time to begin your project!
 
-## 🧪 Lab Time: Start Web Scraper Project
+## [**65m**] 🧪 Lab Time: Begin Web Scraper Project
 
+Read the project [README](https://github.com/make-school-labs/makescraper) to begin your project.
 
+You'll be able to complete at least a few requirements after what you've learned today.
 
-You'll be able to complete at least a few requirements after what you've learned today. We'll learn how to serialize and store JSON during our next class.
+We'll learn how to serialize and store JSON during our next class!
 
 ## 📚 Resources & Credits
 
