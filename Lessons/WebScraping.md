@@ -97,6 +97,46 @@ A popular open source package, [Colly](https://go-colly.org), provides a clean f
 
 Starter code is included in the [project repository](https://github.com/make-school-labs/makescraper). Let's go through it together!
 
+### Callbacks
+
+Colly works via a series of callbacks that are executed anytime `Visit()` is called on a collector.
+
+Callbacks are functions that execute after another function completes.
+
+Colly supports the following callbacks:
+
+```golang
+c.OnRequest(func(r *colly.Request) {
+    fmt.Println("Visiting", r.URL)
+})
+
+c.OnError(func(_ *colly.Response, err error) {
+    log.Println("Something went wrong:", err)
+})
+
+c.OnResponse(func(r *colly.Response) {
+    fmt.Println("Visited", r.Request.URL)
+})
+
+c.OnHTML("a[href]", func(e *colly.HTMLElement) {
+    e.Request.Visit(e.Attr("href"))
+})
+
+c.OnHTML("tr td:nth-of-type(1)", func(e *colly.HTMLElement) {
+    fmt.Println("First column of a table row:", e.Text)
+})
+
+c.OnXML("//h1", func(e *colly.XMLElement) {
+    fmt.Println(e.Text)
+})
+
+c.OnScraped(func(r *colly.Response) {
+    fmt.Println("Finished", r.Request.URL)
+})
+```
+
+With a partner, use the sample code to determine which order these callbacks fire in. Paste the above snippet, build, and run `./makescraper` to see the output.
+
 ### More Examples
 
 - [**Colly**: Docs](http://go-colly.org/docs/): Check out the sidebar for 20+ examples!
