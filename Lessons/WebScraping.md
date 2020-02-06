@@ -77,7 +77,7 @@ _Instructor will demonstrate how to find and test selectors in Chrome before int
 ### Techniques Demonstrated
 
 - Inspect an element > right click it's node in the DOM tree > choosing Copy > Copy Selector.
-- Testing using `Ctrl` + `F` in the inpector.
+- Testing using `Ctrl` + `F` in the inspector.
 
 **If your selector does not work using these methods, it WILL NOT WORK IN YOUR SCRAPER**!
 
