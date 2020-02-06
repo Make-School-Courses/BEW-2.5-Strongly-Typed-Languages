@@ -43,6 +43,15 @@ Web Scrapers crawl a website, extract it's data, transform that data to a usable
 
 Programs that use this design pattern follow the **Extract-Transform-Load (ETL) Process**.
 
+### Web Crawling vs. Web Scraping
+
+- Not interchangeable terms!
+- Crawlers download and store the contents of large numbers of sites by following the links in pages.
+    - How Google got famous
+- Scrapers are built for the structure of a specific website.
+    - Use site's own structure to extract individual specific data elements.
+    - Crawling is the first step to web scraping.
+
 ### Parsing & Extracting Data Using Selectors
 
 Below are the most common selectors used when scraping the web for the purposes of data collection.
