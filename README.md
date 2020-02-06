@@ -6,6 +6,17 @@
 | :--------------------------------------: | :----------: | :--------------------------------------: | :-----------------------------------------------: |
 | [**@droxey**](https://github.com/droxey) | `#bew2-5-go` | [make.sc/bew2.5](https://make.sc/bew2.5) | [Click to Schedule](https://make.sc/codewithdani) |
 
+### Table of Contents
+
+1. [Course Description](#course-description)
+2. [Prerequisites](#prerequisites)
+3. [Learning Objectives](#learning-objectives)
+4. [Schedule](#schedule)
+5. [Evaluation](#evaluation)
+6. [Course Deliverables](#course-deliverables)
+7. [Additional Resources](#additional-resources)
+8. [Make School Course Policies](#make-school-course-policies)
+
 ## Course Description
 
 In this course, students discover the value of strongly typed languages in server-side architectures, and dive deep into performant, concurrent programming paradigms present in Go. Known best for it's ability to blend the expressive features of dynamic languages (Python, JavaScript) with the performance capabilities of compiled languages (C, C++), students will gain the syntactic diversity required in today's large-scale platform engineering pursuits. Throughout the course, students will learn and implement the design patterns and best practices that make Go a top choice at high-velocity startups like Lyft, Heroku, Docker, Medium, and more!
