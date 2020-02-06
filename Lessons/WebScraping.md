@@ -16,17 +16,8 @@
 ## [**05m**] 🏆 Objectives
 
 1. Identify the critical steps to collecting data using web scraping techniques.
-
-<!--
-|   Level   | Verbs |
-| --------- | ----- |
-| 6: Create | design, formulate, build, invent, create, compose, generate, derive, modify, develop |
-| 5: Evaluate | choose, support, relate, determine, defend, compare, contrast, justify, support, convince, select |
-| 4: Analyze | classify, break down, categorize, analyze, diagram, illustrate, criticize, simplify, associate |
-| 3: Apply | calculate, predict, apply, solve, illustrate, use, demonstrate, determine, model, perform, present |
-| 2: Understand | describe, explain, paraphrase, restate, summarize, contrast, interpret, discuss |
-| 1: Remember | list, recite, outline, define, name, match, quote, recall, identify, label, recognize |
--->
+2. Apply selectors to an HTML document to retreive data.
+3. Design and create a web scraper that retrieves data from your favorite website!
 
 ## [**05m**] 🤷‍♀️ Why You Should Know This
 
