@@ -1,15 +1,16 @@
 # 📜 Day 6: Scraping the Web
 
-## ⏱ Lesson Plan
+### ⏱ Lesson Plan
 
-1. [⏱ Lesson Plan](#-lesson-plan)
-2. [[**05m**] 🏆 Objectives](#05m--objectives)
-3. [[**05m**] 🤷‍♀️ Why You Should Know This](#05m-️-why-you-should-know-this)
-4. [[**15m**] 📖 Overview: Web Scraping](#15m--overview-web-scraping)
-5. [[**20m**] 💻 Activity: Selector Diner](#20m--activity-selector-diner)
+1. [[**05m**] 🏆 Objectives](#05m--objectives)
+2. [[**05m**] 🤷‍♀️ Why You Should Know This](#05m-️-why-you-should-know-this)
+3. [[**15m**] 📖 Overview: Web Scraping](#15m--overview-web-scraping)
+4. [[**20m**] 💻 Game: Selector Diner](#20m--game-selector-diner)
+5. [[**10m**] 💻 Demo: Selecting Selectors](#10m--demo-selecting-selectors)
 6. [[**15m**] 📖 Overview: Colly](#15m--overview-colly)
 7. [[**30m**] 💻 Activity: Work Out a Workflow](#30m--activity-work-out-a-workflow)
-8. [📚 Resources & Credits](#-resources--credits)
+8. [🧪 Lab Time: Start Web Scraper Project](#-lab-time-start-web-scraper-project)
+9. [📚 Resources & Credits](#-resources--credits)
 
 ## [**05m**] 🏆 Objectives
 
@@ -34,15 +35,15 @@
 
 ## [**15m**] 📖 Overview: Web Scraping
 
-> **Web Scraping**: *the process of extracting data from a website*.
+Web Scrapers crawl a website, extract it's data, transform that data to a usable structured format, finally writing it to a file or database for subsequent use.
 
-### How Web Scrapers Work
+<p align="center">
+  <img src="https://www.scrapehero.com/wp/wp-content/uploads/2018/01/xhow-does-a-web-scraper-work-simple-2.png.pagespeed.ic.MeNRriGmi9.webp">
+</p>
 
-1. Request a URL
-2. Receive an HTML response from the server
-3. Parse the HTML response using selector syntax
+Programs that use this design pattern follow the **Extract-Transform-Load (ETL) Process**.
 
-### Selectors for Web Scraping
+### Parsing & Extracting Data Using Selectors
 
 Below are the most common selectors used when scraping the web for the purposes of data collection.
 
@@ -56,9 +57,20 @@ Below are the most common selectors used when scraping the web for the purposes 
 
 Let's practice selectors now --- they're the most important part of writing an awesome web scraper! If the selector isn't correct, nothing will return, and no data will have been collected as a result of running your scraper.
 
-## [**20m**] 💻 Activity: Selector Diner
+## [**20m**] 💻 Game: Selector Diner
 
-Choose the right plates at the [CSS Diner](https://flukeout.github.io/) to level up your selector skills in preparation for your Web Scraper project.
+Choose the right plates while working the window at the [CSS Diner](https://flukeout.github.io/). This fun game will level up your selector skills in preparation for your Web Scraper project.
+
+##  [**10m**] 💻 Demo: Selecting Selectors
+
+_Instructor will demonstrate how to find and test selectors in Chrome before integrating them in your web scraper._
+
+### Techniques Demonstrated
+
+- [**Chrome Extension**: CSS Selector Tester](https://chrome.google.com/webstore/detail/css-selector-tester/bbklnaodgoocmcdejoalmbjihhdkbfon?hl=en)
+- Inspect an element > right click it's node in the DOM tree > choosing Copy > Copy Selector.
+
+**If your selector does not work using these methods, it WILL NOT WORK IN YOUR SCRAPER**!
 
 ## [**15m**] 📖 Overview: Colly
 
@@ -85,9 +97,16 @@ Starter code is included in the [project repository](https://github.com/make-sch
 
 _Complete the workflow worksheet distributed in class._
 
-When you're done, use the remaining lab time to begin your project! You'll be able to complete at least a few requirements after what you've learned today. We'll learn how to serialize and store JSON during our next class.
+When you're done, use the remaining lab time to begin your project!
+
+## 🧪 Lab Time: Start Web Scraper Project
+
+
+
+You'll be able to complete at least a few requirements after what you've learned today. We'll learn how to serialize and store JSON during our next class.
 
 ## 📚 Resources & Credits
 
+- [**ScrapeHero**: What is Web Scraping – Part 1 – Beginner’s Guide](https://www.scrapehero.com/a-beginners-guide-to-web-scraping-part-1-the-basics/)
 - [**W3C**: Selectors](https://www.w3.org/TR/CSS22/selector.html)
 - [Colly](https://go-colly.org): Starter code derived from [basic](http://go-colly.org/docs/examples/basic/) example.
