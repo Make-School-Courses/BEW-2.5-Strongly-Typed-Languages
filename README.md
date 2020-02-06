@@ -2,9 +2,9 @@
 
 # BEW2.5: Patterns & Practices in Strongly Typed Languages
 
-|                  Guide                   |    Slack     |                Shortlink                 |                 Instructor 1-on-1                 |
-| :--------------------------------------: | :----------: | :--------------------------------------: | :-----------------------------------------------: |
-| [**@droxey**](https://github.com/droxey) | `#bew2-5-go` | [make.sc/bew2.5](https://make.sc/bew2.5) | [Click to Schedule](https://make.sc/codewithdani) |
+|                  Guide                   |    Slack     | Shortlink | Office Hours | Instructor 1-on-1 |
+| :--------------------------------------: | :----------: | :--------------------------------------: | :-----------------------------------------------: |  :----------: |
+| [**@droxey**](https://github.com/droxey) | `#bew2-5-go` | [make.sc/bew2.5](https://make.sc/bew2.5) | Thursday 1:30 - 2:15pm (Aspen) |  [Click to Schedule](https://make.sc/codewithdani) |
 
 ### Table of Contents
 
