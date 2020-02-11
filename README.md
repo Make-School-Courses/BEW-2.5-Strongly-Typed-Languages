@@ -48,7 +48,7 @@ In this course, students discover the value of strongly typed languages in serve
 |   4   | Thu, January 30  | **[Files & Directories](Lessons/FilesDirectories.md)**                    |
 |   5   | Tue, February 4  | **[Fast Functionality via 3rd Party Libraries](Lessons/3rdPartyLibs.md)** |
 |   6   | Thu, February 6  | **[Scraping the Web](Lessons/WebScraping.md)**                            |
-|   7   | Tue, February 11 | WIP: Serializing Data                 |
+|   7   | Tue, February 11 | [Working With JSON](Lessons/JSON.md)                 |
 |   8   | Thu, February 13 | **[Concurrency & Goroutines](Lessons/Lesson07.md)**                       |
 |   9   | Tue, February 18 | Project Kickoff                                                           |
 |  10   | Thu, February 20 | **[Benchmarking & Testing](Lessons/Lesson09.md)**                         |
