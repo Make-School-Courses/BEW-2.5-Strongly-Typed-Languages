@@ -9,8 +9,8 @@
 | 📚   Assignment                                      | 🔗   Criteria                                                 | 📆   Due Date                                                 |
 | :-------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **[Tour of Go](https://tour.golang.org/welcome/1)** | Done in Class                                                | January 23, 2020 *(Thursday)*                                |
-| **Static Site Generator**                           | [MVP](https://github.com/Make-School-Labs/makesite#mvp)  <br />[v1.1](https://github.com/Make-School-Labs/makesite#v1.1) / [v1.2](https://github.com/Make-School-Labs/makesite#v1.2) | <u>MVP</u>: February 6, 2020 *(Thursday)*<br /><u>v1.1</u> / <u>v1.2</u>: February 10, 2020 *(Tuesday)* |
-| **Web Scraper**                                     |                                                              | February 17, 2020 (*Monday*)                                 |
+| **Static Site Generator**                           | [MVP](https://github.com/Make-School-Labs/makesite#mvp)  <br />[v1.1](https://github.com/Make-School-Labs/makesite#v1.1) / [v1.2](https://github.com/Make-School-Labs/makesite#v1.2) | <u>MVP</u>: February 6, 2020 *(Thursday)*<br /><u>v1.1</u> / <u>v1.2</u>: February 11, 2020 *(Tuesday)* |
+| **Web Scraper**                                     |                                                              | February 20, 2020 (*Thursday*)                               |
 | **Slackbot**                                        |                                                              |                                                              |
 | **Blog Post**                                       | [Rubric](https://docs.google.com/document/d/1T1oqHFoRo0kl7mPUTFupmsoEkLYltKsVgtqyGKDaCgY/edit) | March 6, 2020 *(Friday)*                                     |
 | **MakeUtility Project**                             | [Requirements](https://make.sc/makeutility)                  | March 6, 2020 *(Friday)*                                     |
@@ -100,7 +100,7 @@
 | `3:15 - 4:00` | **Lab Time**: *Web Scraper Project*               |
 | `4:00 - 4:15` | **Break**                                         |
 | `4:15 - 5:00` | **TT / Activities**: *TBD*                        |
-| `5:00 - 5:15` | **Standup Meeting**: *Web Scraper Project Status* |
+|               |                                                   |
 
 
 
@@ -112,30 +112,31 @@
 | `2:30 - 3:15` |                                                   |
 | `3:15 - 3:30` |                                                   |
 | `3:30 - 4:15` |                                                   |
+| `5:00 - 5:15` | **Standup Meeting**: *Web Scraper Project Status* |
 | `4:15 - 5:15` |                                                   |
 
 
 
 ### Day 9 (Feb 18)
 
-|      ⏰   Time | ✅   Agenda Item                                           |
-| ------------: | --------------------------------------------------------- |
-| `2:30 - 3:15` | **Review**: *Web Scraper Project - Postmortem & Solution* |
-| `3:15 - 3:30` |                                                           |
-| `3:30 - 4:15` |                                                           |
-| `4:15 - 5:15` |                                                           |
+|      ⏰   Time | ✅   Agenda Item |
+| ------------: | --------------- |
+| `2:30 - 3:15` |                 |
+| `3:15 - 3:30` |                 |
+| `3:30 - 4:15` |                 |
+| `4:15 - 5:15` |                 |
 
 
 
 ### Day 10 (Feb 20)
 
-|      ⏰   Time | ✅   Agenda Item                                   |
-| ------------: | ------------------------------------------------- |
-| `1:30 - 2:30` | **Office Hours**: *Meet Instructor & TA in Aspen* |
-| `2:30 - 3:15` |                                                   |
-| `3:15 - 3:30` |                                                   |
-| `3:30 - 4:15` |                                                   |
-| `4:15 - 5:15` |                                                   |
+|      ⏰   Time | ✅   Agenda Item                                           |
+| ------------: | --------------------------------------------------------- |
+| `1:30 - 2:30` | **Office Hours**: *Meet Instructor & TA in Aspen*         |
+| `2:30 - 3:15` | **Review**: *Web Scraper Project - Postmortem & Solution* |
+| `3:15 - 3:30` |                                                           |
+| `3:30 - 4:15` |                                                           |
+| `4:15 - 5:15` |                                                           |
 
 
 

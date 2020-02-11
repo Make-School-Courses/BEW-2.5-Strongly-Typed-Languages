@@ -77,21 +77,19 @@ In this course, students discover the value of strongly typed languages in serve
 
 *Assignments **must** be submitted to Gradescope by **11:59PM PST** on the date due.*
 
-| 📚   Assignment                                     | 🔗   Criteria                                                                                                                                                                        | 📆   Due Date                                                                                           |
-| :-------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------- |
-| **[Tour of Go](https://tour.golang.org/welcome/1)** | Done in Class | January 23, 2020 *(Thursday)* |
-| **Static Site Generator** | [MVP](https://github.com/Make-School-Labs/makesite#mvp)  <br />[v1.1](https://github.com/Make-School-Labs/makesite#v1.1) / [v1.2](https://github.com/Make-School-Labs/makesite#v1.2) | <u>MVP</u>: February 6, 2020 *(Thursday)*<br /><u>v1.1</u> / <u>v1.2</u>: February 10, 2020 *(Tuesday)* |
-| **Web Scraper** | [Requirements](https://make.sc/makescraper)| February 17, 2020 (*Monday*) |
-| **Slackbot** | TBD | TBD |
-| **Blog Post** | [Rubric](https://docs.google.com/document/d/1T1oqHFoRo0kl7mPUTFupmsoEkLYltKsVgtqyGKDaCgY/edit) | March 6, 2020 *(Friday)* |
-| **MakeUtility Project**| [Requirements](https://make.sc/makeutility) | March 6, 2020 *(Friday)* |
+| 📚   Assignment                                      | 🔗   Criteria                                                 | 📆   Due Date                                                 |
+| :-------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **[Tour of Go](https://tour.golang.org/welcome/1)** | Done in Class                                                | January 23, 2020 *(Thursday)*                                |
+| **Static Site Generator**                           | [MVP](https://github.com/Make-School-Labs/makesite#mvp)  <br />[v1.1](https://github.com/Make-School-Labs/makesite#v1.1) / [v1.2](https://github.com/Make-School-Labs/makesite#v1.2) | <u>MVP</u>: February 6, 2020 *(Thursday)*<br /><u>v1.1</u> / <u>v1.2</u>: February 11, 2020 *(Tuesday)* |
+| **Web Scraper**                                     |                                                              | February 20, 2020 (*Thursday*)                               |
+| **Slackbot**                                        |                                                              |                                                              |
+| **Blog Post**                                       | [Rubric](https://docs.google.com/document/d/1T1oqHFoRo0kl7mPUTFupmsoEkLYltKsVgtqyGKDaCgY/edit) | March 6, 2020 *(Friday)*                                     |
+| **MakeUtility Project**                             | [Requirements](https://make.sc/makeutility)                  | March 6, 2020 *(Friday)*                                     |
 
 
 ## Additional Resources
 
-- [Practical Go](https://dave.cheney.net/practical-go/presentations/qcon-china.html): Real world advice for writing maintainable Go programs.
-- [Go Standard Project Layout](https://github.com/golang-standards/project-layout)
-- [Checklist for Go Projects](https://blog.depado.eu/post/checklist-for-go-projects): Lists everything a developer should do when starting a Go project.
+- [Gophercises](https://gophercises.com/): Real-world side projects with video tutorials!
 - [TutorialEdge - Golang Repository](https://github.com/elliotforbes/tutorialedge-v2/tree/master/content/golang): Mini-tutorials to introduce and enhance your Golang knowledge.
 - [YouTube - Todd Mcleod](https://www.youtube.com/user/toddmcleod/playlists): Videos to reinforce Golang concepts and techniques that we cover in class.
 - [Echo Framework](https://echo.labstack.com/guide): Documentation for Echo, a high performance, extensible, minimalist Go web framework.
