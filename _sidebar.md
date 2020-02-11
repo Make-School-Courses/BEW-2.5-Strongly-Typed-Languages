@@ -4,6 +4,7 @@
   - [Files & Directories](Lessons/FilesDirectories.md)
   - [3rd Party Libs](Lessons/3rdPartyLibs.md)
   - [Scraping the Web](Lessons/WebScraping.md)
+  - [Working With JSON](Lessons/JSON.md)
   - [APIs](Lessons/Lesson04.md)
   - [Middlewares](Lessons/Lesson05.md)
   - [Full Stack App](Lessons/07-Fullstack.md)

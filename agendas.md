@@ -87,20 +87,19 @@
 | `2:30 - 3:30` | **TT / Activities**: *Scraping the Web*                      |
 | `3:30 - 3:45` | **Break**                                                    |
 | `3:45 - 4:00` | **Activity**: *Introduce Web Scraper Project*                |
-| `4:00 - 5:00` | **Lab Time**: *Finish SSG Project / Begin Web Scraper Project* |
-| `5:00 - 5:15` | **Standup Meeting**: *Course Progress*                       |
+| `4:00 - 5:15` | **Lab Time**: *Finish SSG Project / Begin Web Scraper Project* |
 
 
 
-### Day 7 (Feb 10)
+### Day 7 (Feb 11)
 
-|      ⏰   Time | ✅   Agenda Item                                   |
-| ------------: | ------------------------------------------------- |
-| `2:30 - 3:15` | **Review**: *SSG Project - Postmortem & Solution* |
-| `3:15 - 4:00` | **Lab Time**: *Web Scraper Project*               |
-| `4:00 - 4:15` | **Break**                                         |
-| `4:15 - 5:00` | **TT / Activities**: *TBD*                        |
-|               |                                                   |
+|      ⏰   Time | ✅   Agenda Item                                              |
+| ------------: | ------------------------------------------------------------ |
+| `2:30 - 2:45` | **Standup Meeting**: *Course Progress*                       |
+| `2:45 - 3:30` | **Lab Time**: *SSG v1.1 & 1.2 Due Tonight @ 11:59pm* / *Web Scraper Project* |
+| `3:30 - 4:15` | **TT / Activities**: Serialization                           |
+| `4:15 - 4:25` | **Break**                                                    |
+| `4:25 - 5:15` | **Lab Time**: *SSG v1.1 & 1.2 Due Tonight @ 11:59pm* / *Web Scraper Project* |
 
 
 
@@ -109,7 +108,7 @@
 |      ⏰   Time | ✅   Agenda Item                                   |
 | ------------: | ------------------------------------------------- |
 | `1:30 - 2:30` | **Office Hours**: *Meet Instructor & TA in Aspen* |
-| `2:30 - 3:15` |                                                   |
+| `2:30 - 3:15` | **Review**: *SSG Project - Postmortem & Solution* |
 | `3:15 - 3:30` |                                                   |
 | `3:30 - 4:15` |                                                   |
 | `5:00 - 5:15` | **Standup Meeting**: *Web Scraper Project Status* |
