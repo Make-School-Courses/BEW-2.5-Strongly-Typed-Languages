@@ -11,7 +11,7 @@
 
 ## Overview/TT I (30 min)
 
-Present [Learning Go's Concurrency Through Illustrations](Resources/GoConcurrencyVisualized.md).
+Present [Learning Go's Concurrency Through Illustrations](/Resources/GoConcurrencyVisualized.md).
 - Source: [link](https://medium.com/@trevor4e/learning-gos-concurrency-through-illustrations-8c4aff603b3)
 
 
