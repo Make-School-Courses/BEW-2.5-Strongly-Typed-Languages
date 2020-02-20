@@ -48,13 +48,13 @@ In this course, students discover the value of strongly typed languages in serve
 |   4   | Thu, January 30  | **[Files & Directories](Lessons/FilesDirectories.md)**                    |
 |   5   | Tue, February 4  | **[Fast Functionality via 3rd Party Libraries](Lessons/3rdPartyLibs.md)** |
 |   6   | Thu, February 6  | **[Scraping the Web](Lessons/WebScraping.md)**                            |
-|   7   | Tue, February 11 | [Working With JSON](Lessons/JSON.md)                 |
-|   8   | Thu, February 13 | **[Concurrency & Goroutines](Lessons/Lesson07.md)**                       |
-|   9   | Tue, February 18 | Project Kickoff                                                           |
-|  10   | Thu, February 20 | **[Benchmarking & Testing](Lessons/Lesson09.md)**                         |
-|  11   | Tue, February 25 | **[Go Design Patterns](Lessons/DesignPatterns.md)**                       |
+|   7   | Tue, February 11 | **[Working With JSON](Lessons/JSON.md)**                 |
+|   8   | Thu, February 13 | **Echo**                       |
+|   9   | Tue, February 18 | **[GORM](Lessons/Lesson06.md)**                                                           |
+|  10   | Thu, February 20 | **[Concurrency & Goroutines](Lessons/Lesson07.md)**                         |
+|  11   | Tue, February 25 |  **[Go Design Patterns](Lessons/DesignPatterns.md)** + Final Project Kickoff                      |
 |  12   | Thu, February 27 | **[Documentation & Deployments](Lessons/DocsDeploy.md)**                  |
-|  13   |   Tue, March 3   | Review Day                                                                |
+|  13   |   Tue, March 3   | **[Benchmarking & Testing](Lessons/Lesson09.md)**                                                               |
 |  14   |   Thu, March 5   | Final Presentations                                                       |
 
 
@@ -81,8 +81,8 @@ In this course, students discover the value of strongly typed languages in serve
 | :-------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **[Tour of Go](https://tour.golang.org/welcome/1)** | Done in Class                                                | January 23, 2020 *(Thursday)*                                |
 | **Static Site Generator**                           | [MVP](https://github.com/Make-School-Labs/makesite#mvp)  <br />[v1.1](https://github.com/Make-School-Labs/makesite#v1.1) / [v1.2](https://github.com/Make-School-Labs/makesite#v1.2) | <u>MVP</u>: February 6, 2020 *(Thursday)*<br /><u>v1.1</u> / <u>v1.2</u>: February 11, 2020 *(Tuesday)* |
-| **Web Scraper**                                     |                                                              | February 20, 2020 (*Thursday*)                               |
-| **Slackbot**                                        |                                                              |                                                              |
+| **Web Scraper**                                     |   [Requirements](https://make.sc/makescraper)                                        | February 20, 2020 (*Thursday*)                               |
+| **Slackbot**                                        | [Requirements](https://github.com/droxey/goslackit)                                      |      February 27, 2020 (*Thursday*)                                                         |
 | **Blog Post**                                       | [Rubric](https://docs.google.com/document/d/1T1oqHFoRo0kl7mPUTFupmsoEkLYltKsVgtqyGKDaCgY/edit) | March 6, 2020 *(Friday)*                                     |
 | **MakeUtility Project**                             | [Requirements](https://make.sc/makeutility)                  | March 6, 2020 *(Friday)*                                     |
 
