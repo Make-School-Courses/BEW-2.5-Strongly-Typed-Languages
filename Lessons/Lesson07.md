@@ -4,22 +4,15 @@
 
 # Concurrency: Goroutines & Practical Applications
 
-| **Elapsed** | **Time**  | **Activity**              |
-| ----------- | --------- | ------------------------- |
-| 0:00        | 0:05      | Objectives                |
-| 0:05        | 0:30      | Overview                  |
-| 0:35        | 0:15      | In Class Activity I       |
-| 0:50        | 0:10      | BREAK                     |
-| 0:60        | 0:50      | In Class Activity II      |
-| TOTAL       | 2:00      |                           |
+## Learning Objectives
+
+1. Define how concurrency works in Golang.
+2. Build an interactive slackbot using goroutines.
 
 ## Overview/TT I (30 min)
 
-> **Parallelism** is about performance. **Concurrency** is about program design. -- **Google I/O 2010 – Rob Pike**
-
-1. Present [Concurrency in Go](Resources/ConcurrencyGo.md).
-2. Present [Learning Go's Concurrency Through Illustrations](Resources/GoConcurrencyVisualized.md).
-    - Source: [link](https://medium.com/@trevor4e/learning-gos-concurrency-through-illustrations-8c4aff603b3)
+Present [Learning Go's Concurrency Through Illustrations](Resources/GoConcurrencyVisualized.md).
+- Source: [link](https://medium.com/@trevor4e/learning-gos-concurrency-through-illustrations-8c4aff603b3)
 
 
 ## In Class Activity I (15 min)
@@ -51,7 +44,7 @@
 2. **Clone the forked repo** to your local machine and `cd REPO_NAME`.
 3. Create a `.env` file by running `cp .env.sample .env`.
 4. **Paste the Bot Token** from Step 9 in `.env` after `BOT_OAUTH_ACCESS_TOKEN=`.
-5. Run `export GO111MODULE=on; go run main.go` to **start the server**.
+5. Run `go run main.go` to **start the server**.
    1. If it fails to start, **let the instructor know**.
 
 ## BREAK (10 min)
