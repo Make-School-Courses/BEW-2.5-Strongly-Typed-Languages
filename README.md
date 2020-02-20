@@ -49,7 +49,7 @@ In this course, students discover the value of strongly typed languages in serve
 |   5   | Tue, February 4  | **[Fast Functionality via 3rd Party Libraries](Lessons/3rdPartyLibs.md)** |
 |   6   | Thu, February 6  | **[Scraping the Web](Lessons/WebScraping.md)**                            |
 |   7   | Tue, February 11 | **[Working With JSON](Lessons/JSON.md)**                 |
-|   8   | Thu, February 13 | **Echo**                       |
+|   8   | Thu, February 13 | **[Echo](Lessons/Lesson04.md)**                       |
 |   9   | Tue, February 18 | **[GORM](Lessons/Lesson06.md)**                                                           |
 |  10   | Thu, February 20 | **[Concurrency & Goroutines](Lessons/Lesson07.md)**                         |
 |  11   | Tue, February 25 |  **[Go Design Patterns](Lessons/DesignPatterns.md)** + Final Project Kickoff                      |
