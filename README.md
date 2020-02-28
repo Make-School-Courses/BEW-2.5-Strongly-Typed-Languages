@@ -89,6 +89,18 @@ In this course, students discover the value of strongly typed languages in serve
 
 ## Additional Resources
 
+### Update to Latest Version of Go
+
+New version of Go released? No problem! Run the following command to install the latest version of Golang on your Mac or Linux system:
+
+```bash
+git clone https://github.com/udhos/update-golang
+cd update-golang
+sudo ./update-golang.sh
+```
+
+### Links
+
 - [Gophercises](https://gophercises.com/): Real-world side projects with video tutorials!
 - [TutorialEdge - Golang Repository](https://github.com/elliotforbes/tutorialedge-v2/tree/master/content/golang): Mini-tutorials to introduce and enhance your Golang knowledge.
 - [YouTube - Todd Mcleod](https://www.youtube.com/user/toddmcleod/playlists): Videos to reinforce Golang concepts and techniques that we cover in class.
