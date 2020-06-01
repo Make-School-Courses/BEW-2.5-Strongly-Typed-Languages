@@ -72,10 +72,10 @@ In this course, students discover the value of strongly typed languages in serve
 | :-------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **[Tour of Go](https://tour.golang.org/welcome/1)** | Done in Class                                                | January 23, 2020 *(Thursday)*                                |
 | **Static Site Generator** | [MVP](https://github.com/Make-School-Labs/makesite#mvp)  <br />[v1.1](https://github.com/Make-School-Labs/makesite#v1.1) / [v1.2](https://github.com/Make-School-Labs/makesite#v1.2) | <u>MVP</u>: June 13, 2020 *(Friday)*<br /><u>v1.1</u> / <u>v1.2</u>: June 24, 2020 *(Wednesday)* |
-| **Web Scraper** |   [Requirements](https://make.sc/makescraper) | Monday, July 6, 2020 (*Wednesday*) |
-| **Slackbot** | [Requirements](https://github.com/droxey/goslackit) | July 11, 2020 (*Monday*) |
-| **Blog Post** | [Rubric](https://docs.google.com/document/d/1T1oqHFoRo0kl7mPUTFupmsoEkLYltKsVgtqyGKDaCgY/edit) | July 15, 2020 *(Friday)* |
-| **MakeUtility Project** | [Requirements](https://make.sc/makeutility) |  July 15, 2020 *(Friday)* |
+| **Web Scraper** |   [Requirements](https://make.sc/makescraper) |  July 6, 2020 (*Monday*) |
+| **Slackbot** | [Requirements](https://github.com/droxey/goslackit) | July 10, 2020 (*Friday*) |
+| **Blog Post** | [Rubric](https://docs.google.com/document/d/1T1oqHFoRo0kl7mPUTFupmsoEkLYltKsVgtqyGKDaCgY/edit) | July 17, 2020 *(Friday)* |
+| **MakeUtility Project** | [Requirements](https://make.sc/makeutility) |  July 17, 2020 *(Friday)* |
 
 ## Evaluation
 
