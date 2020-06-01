@@ -4,8 +4,9 @@
 
 |                  Guide                   |    Slack     | Shortlink | Office Hours | Instructor 1-on-1 |
 | :--------------------------------------: | :----------: | :--------------------------------------: | :-----------------------------------------------: |  :----------: |
-| [**@droxey**](https://github.com/droxey) | `#bew2-5-go` | [make.sc/bew2.5](https://make.sc/bew2.5) | Thursday 1:30 - 2:15pm (Aspen) |  [Click to Schedule](https://make.sc/codewithdani) |
+| [**@droxey**](https://github.com/droxey) | `#bew2-5-go` | [make.sc/bew2.5](https://make.sc/bew2.5) | **TA**: MTWTh 12:30 - 1:30pm |  [Click to Schedule](https://make.sc/codewithdani) |
 
+<!-- omit in toc -->
 ### Table of Contents
 
 1. [Course Description](#course-description)
@@ -37,41 +38,31 @@ In this course, students discover the value of strongly typed languages in serve
 
 ## Schedule
 
-**Course Dates:** Tuesday, January 21 – Thursday, March 5, 2020 (7 weeks)<br>
-**Class Times:** Tuesday and Thursday at 2:30–5:15pm (14 class sessions)
+**Course Dates**: Monday, June 1<sup>st</sup> &mdash; Friday, July 17<sup>th</sup> 2020 _(7 weeks)_<br>
+**Class Times**: Monday, Wednesday, & Friday: 1:30 &mdash; 3:30pm _(20 class sessions)_
 
-| Class |       Date       | Topics                                                                    |
-| :---: | :--------------: | ------------------------------------------------------------------------- |
-|   1   | Tue, January 21  | Intro to Go / Tutorial Launch                                             |
-|   2   | Thu, January 23  | **[Tutorial Launch](Lessons/Lesson02.md)**                                |
-|   3   | Tue, January 28  | **[Static Site Generators](Lessons/SSGProject.md)**                       |
-|   4   | Thu, January 30  | **[Files & Directories](Lessons/FilesDirectories.md)**                    |
-|   5   | Tue, February 4  | **[Fast Functionality via 3rd Party Libraries](Lessons/3rdPartyLibs.md)** |
-|   6   | Thu, February 6  | **[Scraping the Web](Lessons/WebScraping.md)**                            |
-|   7   | Tue, February 11 | **[Working With JSON](Lessons/JSON.md)**                 |
-|   8   | Thu, February 13 | **[Echo](Lessons/Lesson04.md)**                       |
-|   9   | Tue, February 18 | **[GORM](Lessons/Lesson06.md)**                                                           |
-|  10   | Thu, February 20 | **[Concurrency & Goroutines](Lessons/Lesson07.md)**                         |
-|  11   | Tue, February 25 |  **[Go Design Patterns](Lessons/DesignPatterns.md)** + Final Project Kickoff                      |
-|  12   | Thu, February 27 | **[Documentation & Deployments](Lessons/DocsDeploy.md)**                  |
-|  13   |   Tue, March 3   | **[Benchmarking & Testing](Lessons/Lesson09.md)**                                                               |
-|  14   |   Thu, March 5   | Final Presentations                                                       |
-
-
-## Evaluation
-
-<p align="center">
-  <img src="criteria.png">
-</p>
-
-**To pass this course you must meet the following requirements**:
-
-- Complete the tutorial assigned in class
-- Write and publish one (1) blog post to Medium, dev.to, or a personal blog website
-- Complete all challenges assigned in class
-- Actively participate in class and abide by the attendance policy
-- Make up all classwork from all absences
-- Complete the final project according to the associated [project rubric](Project/MakeUtility.md), delivered to the class on the final day of the course
+| Class | Date         | Topics                                                                    |
+|:-----:|------------|---------------------------------------------------------------------------|
+| 1     | Mon, June 1  | [**Intro to Go / Tutorial Launch**](https://tour.golang.org)                  |
+| 2     | Wed, June 3  | 🔬**Lab**: [Tutorial](https://tour.golang.org)                  |
+| 3     | Fri, June 5  | **[Static Site Generators](Lessons/SSGProject.md)**                       |
+| 4     | Mon, June 8  | 🔬**Lab**: SSG MVP                                                        |
+| 5     | Wed, June 10 | **[Files & Directories](Lessons/FilesDirectories.md)**                    |
+| 6     | Fri, June 12 | 🔬**Lab**: SSG MVP / SSG v1.1                                             |
+| 7     | Mon, June 15 | **[Fast Functionality via 3rd Party Libraries](Lessons/3rdPartyLibs.md)** |
+| 8     | Wed, June 17 | 🔬**Lab**: SSG v1.1                                                       |
+| 9     | Fri, June 19 | 🔬**Lab**: SSG v1.2                                                       |
+| 10    | Mon, June 22 | **[Scraping the Web](Lessons/WebScraping.md)**                            |
+| 11    | Wed, June 24 | **[Working With JSON](Lessons/JSON.md)**                                  |
+| 12    | Fri, June 26 | 🔬**Lab**: Web Scraper                                                    |
+| 13    | Mon, June 29 | **[Echo](Lessons/Lesson04.md)**                                           |
+| 14    | Wed, July 1  | **[GORM](Lessons/Lesson06.md)**                                           |
+| -     | Fri, July 3  | **NO CLASS - INDEPENDENCE DAY OBSERVED**                                  |
+| 15    | Mon, July 6  | **[Concurrency & Goroutines](Lessons/Lesson07.md)**                       |
+| 16    | Wed, July 8  | **[Documentation & Deployments](Lessons/DocsDeploy.md)**                  |
+| 17    | Fri, July 10 | **[Benchmarking & Testing](Lessons/Lesson09.md)**                         |
+| 18    | Mon, July 13 | 🔬**Lab**: Final Project                                                  |
+| 20    | Fri, July 17 | [**Final Presentations**](Project/MakeUtility.md)                             |
 
 ## Course Deliverables
 
@@ -80,12 +71,22 @@ In this course, students discover the value of strongly typed languages in serve
 | 📚   Assignment                                      | 🔗   Criteria                                                 | 📆   Due Date                                                 |
 | :-------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **[Tour of Go](https://tour.golang.org/welcome/1)** | Done in Class                                                | January 23, 2020 *(Thursday)*                                |
-| **Static Site Generator**                           | [MVP](https://github.com/Make-School-Labs/makesite#mvp)  <br />[v1.1](https://github.com/Make-School-Labs/makesite#v1.1) / [v1.2](https://github.com/Make-School-Labs/makesite#v1.2) | <u>MVP</u>: February 6, 2020 *(Thursday)*<br /><u>v1.1</u> / <u>v1.2</u>: February 11, 2020 *(Tuesday)* |
-| **Web Scraper**                                     |   [Requirements](https://make.sc/makescraper)                                        | February 20, 2020 (*Thursday*)                               |
-| **Slackbot**                                        | [Requirements](https://github.com/droxey/goslackit)                                      |      February 27, 2020 (*Thursday*)                                                         |
-| **Blog Post**                                       | [Rubric](https://docs.google.com/document/d/1T1oqHFoRo0kl7mPUTFupmsoEkLYltKsVgtqyGKDaCgY/edit) | March 6, 2020 *(Friday)*                                     |
-| **MakeUtility Project**                             | [Requirements](https://make.sc/makeutility)                  | March 6, 2020 *(Friday)*                                     |
+| **Static Site Generator** | [MVP](https://github.com/Make-School-Labs/makesite#mvp)  <br />[v1.1](https://github.com/Make-School-Labs/makesite#v1.1) / [v1.2](https://github.com/Make-School-Labs/makesite#v1.2) | <u>MVP</u>: June 13, 2020 *(Friday)*<br /><u>v1.1</u> / <u>v1.2</u>: June 24, 2020 *(Wednesday)* |
+| **Web Scraper** |   [Requirements](https://make.sc/makescraper) | Monday, July 6, 2020 (*Wednesday*) |
+| **Slackbot** | [Requirements](https://github.com/droxey/goslackit) | July 11, 2020 (*Monday*) |
+| **Blog Post** | [Rubric](https://docs.google.com/document/d/1T1oqHFoRo0kl7mPUTFupmsoEkLYltKsVgtqyGKDaCgY/edit) | July 15, 2020 *(Friday)* |
+| **MakeUtility Project** | [Requirements](https://make.sc/makeutility) |  July 15, 2020 *(Friday)* |
 
+## Evaluation
+
+**To pass this course you must meet the following requirements**:
+
+- Complete the [tutorial](https://tour.golang.org) assigned in class.
+- Write and publish one (1) blog post to Medium, dev.to, or a personal blog website.
+- Complete the final project according to the associated [project rubric](Project/MakeUtility.md), delivered to the class on the final day of the course.
+- Complete all challenges assigned in class.
+- Actively participate in class and abide by the attendance policy.
+- Make up all classwork from all absences.
 
 ## Additional Resources
 
@@ -112,7 +113,7 @@ sudo ./update-golang.sh
 - [Program Learning Outcomes](https://make.sc/program-learning-outcomes) - What you will achieve after finishing Make School, all courses are designed around these outcomes.
 - [Grading System](https://make.sc/grading-system) - How grading is done at Make School
 - [Diversity and Inclusion Statement](https://make.sc/diversity-and-inclusion-statement) - Learn about Diversity and Inclusion at Make School
-- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagerism, cheating, and other forms of academic misconduct
+- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagiarism, cheating, and other forms of academic misconduct
 - [Attendance Policy](https://make.sc/attendance-policy) - What we expect from you in terms of attendance for all classes at Make School
 - [Course Credit Policy](https://make.sc/course-credit-policy) - Our policy for how you obtain credit for your courses
 - [Disability Services (Academic Accommodations)](https://make.sc/disability-services) - Services and accommodations we provide for students
