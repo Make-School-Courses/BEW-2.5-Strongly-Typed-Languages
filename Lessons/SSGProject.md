@@ -243,10 +243,10 @@ type ToDo struct {
 func main() {
         // Files are provided as a slice of strings.
         paths := []string{
-          "todo.tmpl",
+          "template.tmpl",
         }
 
-        t := template.Must(template.New("html-tmpl").ParseFiles(paths...))
+        t := template.Must(template.New("new.html").ParseFiles(paths...))
         err = t.Execute(os.Stdout, todos)
         if err != nil {
           panic(err)
