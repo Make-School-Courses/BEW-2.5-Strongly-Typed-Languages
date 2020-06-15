@@ -22,12 +22,13 @@
 
 ## [**45m**] ☀️ Warm Up: Keyboard Input & Variables
 
-1. Read [Keyboard Input](https://golangr.com/keyboard-input/#Keyboard-input-in-golang) and take notes on how to read from `stdin`.
-1. Read [Variables](https://golangr.com/variables/) and review what you learned in the tutorial. If you prefer to watch a video, scroll down to the bottom of the page.
-1. Complete the following exercises, using what you learned above as a guide:
-   1. Create a program that calculates the year, given the date of birth and age.
-   1. Create a program that calculates the average weight of 5 people.
-1. At the end of the warm up, **submit whatever you have complete on [Gradescope](https://www.gradescope.com/courses/133578/assignments/533966)**.
+1. 📚 Read **[Keyboard Input](https://golangr.com/keyboard-input/#Keyboard-input-in-golang)**. **Take notes on how to read from `stdin`**.
+1. 📚 Read **[Variables](https://golangr.com/variables/)** and **review what you learned in the tutoria**l.&nbsp;&nbsp;&nbsp;<br>📹 If you prefer to **watch a video**, scroll down to the **bottom of the page**.
+1. ✅ **Complete the following exercises, using what you learned above as a guide:**
+   - [ ] Write a program that **calculates the year** using a provided **date of birth and age**. **HINT**: Get the date of birth and age from `stdin`!
+   - [ ] Write a program that **calculates the average weight of 5 people**.
+1. **Paste the code for each solution in the [Warm Up 1: Keyboard Input & Variables](https://www.gradescope.com/courses/133578/assignments/533966) worksheet on Gradescope.**
+1. At the end of the warm up, **submit whatever you have complete!**
    1. If you finish early, take a break until `2:15pm`.
    1. It's okay if you didn't finish! You'll still earn credit for participating.
 
