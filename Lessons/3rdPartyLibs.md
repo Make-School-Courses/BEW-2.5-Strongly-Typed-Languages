@@ -27,7 +27,7 @@
 1. Complete the following exercises, using what you learned above as a guide:
    1. Create a program that calculates the year, given the date of birth and age.
    1. Create a program that calculates the average weight of 5 people.
-1. At the end of the warm up, **submit whatever you have complete on Gradescope**.
+1. At the end of the warm up, **submit whatever you have complete on [Gradescope](https://www.gradescope.com/courses/133578/assignments/533966)**.
    1. If you finish early, take a break until `2:15pm`.
    1. It's okay if you didn't finish! You'll still earn credit for participating.
 
