@@ -2,14 +2,9 @@
 
 ## ⏱ Agenda
 
-- [`2:30 - 3:15`] **Lab Time**: *Work on v1 Challenges*
-- [`3:15 - 3:30`] **Break**
-  - **Submit Attendance**: **https://make.sc/attend/CHUCK**
-- [`3:30 - 4:15`] **Lesson Plan**: *3rd Party Libraries*
-- [`4:15 - 5:15`] **Lab Time**: *Work on v2 Challenges*
-- **❗️IMPORTANT DUE DATES**:
-  - **SSG Project MVP**: *Due Thursday 02/06 @ 11:59pm*
-  - **SSG Project v1 & v2**: *Due Tuesday 02/10 @ 11:59pm*
+- [`1:30 - 2:15`] **Warm Up**: *Keyboard Input & Variables*
+- [`2:15 - 2:55`] **Lesson Plan**: *3rd Party Libraries*
+- [`2:55 - 3:20`] **Lab Time**: *Work on v1.2 Challenges*
 
 <!--
 ## [**00m**] 🏆 Objectives
@@ -24,6 +19,17 @@
 | 2: Understand | describe, explain, paraphrase, restate, summarize, contrast, interpret, discuss |
 | 1: Remember | list, recite, outline, define, name, match, quote, recall, identify, label, recognize |
 -->
+
+## [**45m**] ☀️ Warm Up: Keyboard Input & Variables
+
+1. Read [Keyboard Input](https://golangr.com/keyboard-input/#Keyboard-input-in-golang) and take notes on how to read from `stdin`.
+1. Read [Variables](https://golangr.com/variables/) and review what you learned in the tutorial. If you prefer to watch a video, scroll down to the bottom of the page.
+1. Complete the following exercises, using what you learned above as a guide:
+   1. Create a program that calculates the year, given the date of birth and age.
+   1. Create a program that calculates the average weight of 5 people.
+1. At the end of the warm up, **submit whatever you have complete on Gradescope**.
+   1. If you finish early, take a break until `2:15pm`.
+   1. It's okay if you didn't finish! You'll still earn credit for participating.
 
 ## [**10m**] 💻 Activity: Discovering New Libraries
 
