@@ -15,9 +15,9 @@
   - [How to Find Other People's Modules](#how-to-find-other-peoples-modules)
 - [[**25m**] 💻 Activity: Add Modules Support to Your SSG](#25m--activity-add-modules-support-to-your-ssg)
 - [📚 Resources & Credits](#-resources--credits)
-<!--
-## [**00m**] 🏆 Objectives
 
+
+## 🏆 Objectives
 
 |   Level   | Verbs |
 | --------- | ----- |
@@ -27,7 +27,6 @@
 | 3: Apply | calculate, predict, apply, solve, illustrate, use, demonstrate, determine, model, perform, present |
 | 2: Understand | describe, explain, paraphrase, restate, summarize, contrast, interpret, discuss |
 | 1: Remember | list, recite, outline, define, name, match, quote, recall, identify, label, recognize |
--->
 
 ## [**30m**] ☀️ Warm Up
 
