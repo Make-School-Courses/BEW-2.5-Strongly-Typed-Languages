@@ -51,7 +51,7 @@ In this course, students discover the value of strongly typed languages in serve
 | 6     | Fri, June 12 | 🔬**Lab**: SSG MVP / SSG v1.1                                             |
 | 7     | Mon, June 15 | **[Introducing Warmups](Lessons/Warmups.md)**: 1<sup>st</sup>Daily Drill |
 | 8     | Wed, June 17 | **[Fast Functionality via 3rd Party Libraries](Lessons/3rdPartyLibs.md)**                                                       |
-| 9     | Fri, June 19 | 🔬**Lab**: SSG v1.2                                                       |
+| 9     | Fri, June 19 | <!--**❌NO CLASS - JUNETEENTH OBSERVED**--> |
 | 10    | Mon, June 22 | **[Scraping the Web](Lessons/WebScraping.md)**                            |
 | 11    | Wed, June 24 | **[Working With JSON](Lessons/JSON.md)**                                  |
 | 12    | Fri, June 26 | 🔬**Lab**: Web Scraper                                                    |
