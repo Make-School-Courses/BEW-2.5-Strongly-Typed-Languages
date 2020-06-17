@@ -4,7 +4,7 @@
 ## Table of Contents
 
 - [[**45m**] ☀️ Warm Up 1: Keyboard Input & Variables](#45m-️-warm-up-1-keyboard-input--variables)
-- [[**45m**] ☀️ Warm Up 2: Structs & While Loops](#45m-️-warm-up-2-structs--while-loops)
+- [[**30m**] ☀️ Warm Up 2: Structs & While Loops](#30m-️-warm-up-2-structs--while-loops)
 
 ## [**45m**] ☀️ Warm Up 1: Keyboard Input & Variables
 
@@ -20,7 +20,7 @@
 
 ---
 
-## [**45m**] ☀️ Warm Up 2: Structs & While Loops
+## [**30m**] ☀️ Warm Up 2: Structs & While Loops
 
 1. 📚 Read [Structs](https://golangr.com/struct/).
 1. 📚 Read [While Loops](https://golangr.com/while/).

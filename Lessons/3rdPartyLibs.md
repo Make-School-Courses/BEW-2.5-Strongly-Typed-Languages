@@ -31,7 +31,7 @@
 
 ## [**30mm**] ☀️ Warm Up
 
-Complete [Structs & While Loops](WarmUps.md##45m-️-warm-up-2-structs--while-loops) warmup.
+Complete [Structs & While Loops](WarmUps.md#30m-️-warm-up-2-structs--while-loops) warmup.
 
 ## [**10m**] 💻 Activity: Discovering New Libraries
 
