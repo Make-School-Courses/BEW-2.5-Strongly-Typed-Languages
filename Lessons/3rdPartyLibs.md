@@ -13,7 +13,7 @@
   - [Adding 3rd Party Dependencies](#adding-3rd-party-dependencies)
   - [Configuring .gitignore](#configuring-gitignore)
   - [How to Find Other People's Modules](#how-to-find-other-peoples-modules)
-- [[**10m**] 💻 Activity: Add Modules Support to Your SSG](#10m--activity-add-modules-support-to-your-ssg)
+- [[**25m**] 💻 Activity: Add Modules Support to Your SSG](#25m--activity-add-modules-support-to-your-ssg)
 - [📚 Resources & Credits](#-resources--credits)
 <!--
 ## [**00m**] 🏆 Objectives
@@ -125,7 +125,7 @@ go mod download <package_url>
 - https://search.gocenter.io: Quickly searchable index of packages
 - https://twitter.com/RealGophersShip: Twitter bot that highlights Golang package releases.
 
-## [**10m**] 💻 Activity: Add Modules Support to Your SSG
+## [**25m**] 💻 Activity: Add Modules Support to Your SSG
 
 Complete the first requirement in the [v1.2 Checklist](https://github.com/Make-School-Labs/makesite#v12) by adding Go Modules support to your project. Use [this tutorial](https://tutorialedge.net/golang/go-modules-tutorial/) as a guide.
 
