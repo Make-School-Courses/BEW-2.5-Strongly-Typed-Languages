@@ -1,20 +1,20 @@
 # 📜 Day 5: Fast Functionality Via 3rd Party Libraries
 
+<!-- omit in toc -->
 ## ⏱ Agenda
 
-- [⏱ Agenda](#-agenda)
-- [[**30mm**] ☀️ Warm Up](#30mm-️-warm-up)
-- [[**10m**] 💻 Activity: Discovering New Libraries](#10m--activity-discovering-new-libraries)
+- [[**30m**] ☀️ Warm Up](#30m-️-warm-up)
+- [[**15m**] 💻 Activity: Review, Reflect, Resubmit](#15m--activity-review-reflect-resubmit)
+- [[**10m**] 🌴 Break](#10m--break)
 - [[**20m**] 📖 Overview: Intro to Using 3rd Party Libs](#20m--overview-intro-to-using-3rd-party-libs)
-  - [A Few Discovery Techniques](#a-few-discovery-techniques)
   - [How Go Packages & Modules Work](#how-go-packages--modules-work)
   - [How Do I Know Where This Stuff Is?](#how-do-i-know-where-this-stuff-is)
   - [Creating a Module](#creating-a-module)
   - [Adding 3rd Party Dependencies](#adding-3rd-party-dependencies)
   - [Configuring .gitignore](#configuring-gitignore)
+  - [How to Find Other People's Modules](#how-to-find-other-peoples-modules)
 - [[**10m**] 💻 Activity: Add Modules Support to Your SSG](#10m--activity-add-modules-support-to-your-ssg)
 - [📚 Resources & Credits](#-resources--credits)
-
 <!--
 ## [**00m**] 🏆 Objectives
 
@@ -29,24 +29,21 @@
 | 1: Remember | list, recite, outline, define, name, match, quote, recall, identify, label, recognize |
 -->
 
-## [**30mm**] ☀️ Warm Up
+## [**30m**] ☀️ Warm Up
 
 Complete [Structs & While Loops](WarmUps.md#30m-️-warm-up-2-structs--while-loops) warmup.
 
-## [**10m**] 💻 Activity: Discovering New Libraries
+## [**15m**] 💻 Activity: Review, Reflect, Resubmit
 
-> When you have a problem, how do you determine which libraries or packages to use? **Write down your answers**.
+It's time to breakout into teams of 3 and review each other's solutions.
+
+When you enter the breakout room, be sure to share your screen with each other to pair program / get help.
+
+If you fix your solution, you can resubmit it for grading by the end of the class period!
+
+## [**10m**] 🌴 Break
 
 ## [**20m**] 📖 Overview: Intro to Using 3rd Party Libs
-
-### A Few Discovery Techniques
-
-- https://pkg.go.dev provides:
-  - Centralized information for Go packages and modules published on index.golang.org.
-  - Essential learning resources
-  - Critical use cases & case studies
-- https://github.com/topics/go: GitHub Topics for Golang
-- https://search.gocenter.io: Quickly searchable index of packages
 
 ### How Go Packages & Modules Work
 
@@ -117,6 +114,16 @@ go mod download <package_url>
 
 # End of https://www.gitignore.io/api/go
 ```
+
+### How to Find Other People's Modules
+
+- https://pkg.go.dev provides:
+  - Centralized information for Go packages and modules published on index.golang.org.
+  - Essential learning resources
+  - Critical use cases & case studies
+- https://github.com/topics/go: GitHub Topics for Golang
+- https://search.gocenter.io: Quickly searchable index of packages
+- https://twitter.com/RealGophersShip: Twitter bot that highlights Golang package releases.
 
 ## [**10m**] 💻 Activity: Add Modules Support to Your SSG
 
