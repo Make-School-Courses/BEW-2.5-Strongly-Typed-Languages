@@ -2,9 +2,18 @@
 
 ## ⏱ Agenda
 
-- [`1:30 - 2:15`] **Warm Up**: *Keyboard Input & Variables*
-- [`2:15 - 2:55`] **Lesson Plan**: *3rd Party Libraries*
-- [`2:55 - 3:20`] **Lab Time**: *Work on v1.2 Challenges*
+- [⏱ Agenda](#-agenda)
+- [[**30mm**] ☀️ Warm Up](#30mm-️-warm-up)
+- [[**10m**] 💻 Activity: Discovering New Libraries](#10m--activity-discovering-new-libraries)
+- [[**20m**] 📖 Overview: Intro to Using 3rd Party Libs](#20m--overview-intro-to-using-3rd-party-libs)
+  - [A Few Discovery Techniques](#a-few-discovery-techniques)
+  - [How Go Packages & Modules Work](#how-go-packages--modules-work)
+  - [How Do I Know Where This Stuff Is?](#how-do-i-know-where-this-stuff-is)
+  - [Creating a Module](#creating-a-module)
+  - [Adding 3rd Party Dependencies](#adding-3rd-party-dependencies)
+  - [Configuring .gitignore](#configuring-gitignore)
+- [[**10m**] 💻 Activity: Add Modules Support to Your SSG](#10m--activity-add-modules-support-to-your-ssg)
+- [📚 Resources & Credits](#-resources--credits)
 
 <!--
 ## [**00m**] 🏆 Objectives
@@ -20,17 +29,9 @@
 | 1: Remember | list, recite, outline, define, name, match, quote, recall, identify, label, recognize |
 -->
 
-## [**45m**] ☀️ Warm Up: Keyboard Input & Variables
+## [**30mm**] ☀️ Warm Up
 
-1. 📚 Read **[Keyboard Input](https://golangr.com/keyboard-input/#Keyboard-input-in-golang)**. **Take notes on how to read from `stdin`**.
-1. 📚 Read **[Variables](https://golangr.com/variables/)** and **review what you learned in the tutoria**l.&nbsp;&nbsp;&nbsp;<br>📹 If you prefer to **watch a video**, scroll down to the **bottom of the page**.
-1. ✅ **Complete the following exercises, using what you learned above as a guide:**
-   - [ ] Write a program that **calculates the year** using a provided **date of birth and age**. **HINT**: Get the date of birth and age from `stdin`!
-   - [ ] Write a program that **calculates the average weight of 5 people**.
-1. **Paste the code for each solution in the [Warm Up 1: Keyboard Input & Variables](https://www.gradescope.com/courses/133578/assignments/533966) worksheet on Gradescope.**
-1. At the end of the warm up, **submit whatever you have complete!**
-   1. If you finish early, take a break until `2:15pm`.
-   1. It's okay if you didn't finish! You'll still earn credit for participating.
+Complete [Structs & While Loops](WarmUps.md##45m-️-warm-up-2-structs--while-loops) warmup.
 
 ## [**10m**] 💻 Activity: Discovering New Libraries
 
