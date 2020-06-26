@@ -2,23 +2,20 @@
 
 ### ⏱ Lesson Plan
 
-1. [[**15m**] 💬 Standup Meeting: Current Status](#15m--standup-meeting-current-status)
-2. [[**45m**] 🧪 Lab Time](#45m--lab-time)
-3. [[**05m**] 🏆 Objectives](#05m--objectives)
-4. [[**30m**] 📖 Overview: Serialization](#30m--overview-serialization)
-5. [[**55m**] 🧪 Lab Time](#55m--lab-time)
-6. [📚 Resources & Credits](#-resources--credits)
+- [[**20m**] 💬 Review Web Scraper Worksheet](#20m--review-web-scraper-worksheet)
+- [[**05m**] 🏆 Objectives](#05m--objectives)
+- [[**30m**] 📖 Overview: Serialization](#30m--overview-serialization)
+  - [What is Serialization?](#what-is-serialization)
+  - [New Packages](#new-packages)
+  - [Basic Data Types](#basic-data-types)
+  - [Slices & Maps](#slices--maps)
+  - [Structs](#structs)
+- [[**55m**] 🧪 Lab Time](#55m--lab-time)
+- [📚 Resources & Credits](#-resources--credits)
 
-## [**15m**] 💬 Standup Meeting: Current Status
+## [**20m**] 💬 Review Web Scraper Worksheet
 
-- What did you get done last week?
-- What are you working on?
-- Do you have any blockers?
-
-## [**45m**] 🧪 Lab Time
-
-- *SSG v1.1 & 1.2*
-- *Web Scraper Project*
+Break into groups of 4 and get feedback on your worksheets.
 
 ## [**05m**] 🏆 Objectives
 
