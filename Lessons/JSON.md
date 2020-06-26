@@ -6,11 +6,13 @@
 - [[**05m**] 🏆 Objectives](#05m--objectives)
 - [[**30m**] 📖 Overview: Serialization](#30m--overview-serialization)
   - [What is Serialization?](#what-is-serialization)
+  - [An Analogy](#an-analogy)
   - [New Packages](#new-packages)
   - [Basic Data Types](#basic-data-types)
   - [Slices & Maps](#slices--maps)
   - [Structs](#structs)
-- [[**55m**] 🧪 Lab Time](#55m--lab-time)
+- [[**15m**] 🌴 Break](#15m--break)
+- [[**50m**] 🧪 Lab Time / Q + A](#50m--lab-time--q--a)
 - [📚 Resources & Credits](#-resources--credits)
 
 ## [**20m**] 💬 Review Web Scraper Worksheet
@@ -34,6 +36,18 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/Serialization):
 > The process of **translating data structures or object state into a format that can be stored** (for example, in a file or memory buffer) **or transmitted** (for example, across a network connection link) and **reconstructed later** (possibly in a different computer environment).
 
 We will have to _serialize_ our `struct` into JSON format in order to store our web scraping results.
+
+### An Analogy
+
+**SCENARIO**: You've got an idea and you want to describe it to your friend. Unfortunately, you're at home. Your friend is somewhere else. You decide to write an email, describing your idea, and send it to your friend.
+
+---
+
+See what happened here? *Real life is just like coding!*
+
+**You serialized the stuff in your head into an email**, something that can be **transmitted, stored, rendered and finally read** by your friend.
+
+When **your friend reads your email**, they in turn **de-serialize the message content** in order to understand your idea in their own minds!
 
 ### New Packages
 
@@ -102,7 +116,9 @@ fmt.Println(string(fruitJSON))
 What do you think will be output in this case? Write down your answer.
 What do you think will change if the `json:` struct field declaration were to be removed?
 
-## [**55m**] 🧪 Lab Time
+## [**15m**] 🌴 Break
+
+## [**50m**] 🧪 Lab Time / Q + A
 
 - *SSG v1.1 & 1.2*
 - *Web Scraper Project*
@@ -110,3 +126,4 @@ What do you think will change if the `json:` struct field declaration were to be
 ## 📚 Resources & Credits
 
 - [**GoByExample**: JSON](https://gobyexample.com/json)
+- [**Quora**: Why do we serialize data?](https://quora.com/Why-do-we-serialize-data)
