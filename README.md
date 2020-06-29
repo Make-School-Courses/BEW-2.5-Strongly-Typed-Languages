@@ -9,14 +9,16 @@
 <!-- omit in toc -->
 ### Table of Contents
 
-1. [Course Description](#course-description)
-2. [Prerequisites](#prerequisites)
-3. [Learning Objectives](#learning-objectives)
-4. [Schedule](#schedule)
-5. [Evaluation](#evaluation)
-6. [Course Deliverables](#course-deliverables)
-7. [Additional Resources](#additional-resources)
-8. [Make School Course Policies](#make-school-course-policies)
+- [Course Description](#course-description)
+- [Prerequisites](#prerequisites)
+- [Learning Objectives](#learning-objectives)
+- [Schedule](#schedule)
+- [Course Deliverables](#course-deliverables)
+- [Evaluation](#evaluation)
+- [Additional Resources](#additional-resources)
+  - [Update to Latest Version of Go](#update-to-latest-version-of-go)
+  - [Links](#links)
+- [Make School Course Policies](#make-school-course-policies)
 
 ## Course Description
 
@@ -52,11 +54,11 @@ In this course, students discover the value of strongly typed languages in serve
 | 7     | Mon, June 15 | **[Introducing Warmups](Lessons/WarmUps.md)**: 1<sup>st</sup>Daily Drill |
 | 8     | Wed, June 17 | **[Fast Functionality via 3rd Party Libraries](Lessons/3rdPartyLibs.md)**                                                       |
 | 9     | Fri, June 19 | **❌NO CLASS - JUNETEENTH OBSERVED** |
-| 10    | Mon, June 22 | **[Scraping the Web](Lessons/WebScraping.md)**                            |
-| 11    | Wed, June 24 | **[Working With JSON](Lessons/JSON.md)**                                  |
-| 12    | Fri, June 26 | 🔬**Lab**: Web Scraper                                                    |
-| 13    | Mon, June 29 | **[Echo](Lessons/Lesson04.md)**                                           |
-| 14    | Wed, July 1  | **[GORM](Lessons/Lesson06.md)**                                           |
+| 10    | Mon, June 22 |🔬**Lab**: SSG v1.2 |
+| 11    | Wed, June 24 | **[Scraping the Web](Lessons/WebScraping.md)**|
+| 12    | Fri, June 26 |**[Working With JSON](Lessons/JSON.md)**  |
+| 13    | Mon, June 29 |🔬**Lab**: Web Scraper   |
+| 14    | Wed, July 1  | **[Echo](Lessons/Lesson04.md)** & **[GORM](Lessons/Lesson06.md)**                                           |
 | -     | Fri, July 3  | **NO CLASS - INDEPENDENCE DAY OBSERVED**                                  |
 | 15    | Mon, July 6  | **[Concurrency & Goroutines](Lessons/Lesson07.md)**                       |
 | 16    | Wed, July 8  | **[Documentation & Deployments](Lessons/DocsDeploy.md)**                  |
