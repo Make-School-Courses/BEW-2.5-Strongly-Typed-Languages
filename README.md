@@ -11,6 +11,7 @@
 1. [Learning Objectives](#learning-objectives)
 1. [Schedule](#schedule)
 1. [Course Deliverables](#course-deliverables)
+1. [Late Assignment Policy](#late-assignment-policy)
 1. [Evaluation](#evaluation)
 1. [Additional Resources](#additional-resources)
 1. [Academic Honesty Policy](#academic-honesty-policy)
@@ -75,6 +76,13 @@ Your Gradescope login is your Make School email, and your password can be change
 | **Web Scraper**                                     | [Requirements](https://make.sc/makescraper)                                                                                                                                          | Feb 23, 2020 (*Tuesday*)                                                                          |
 | **Blog Post**                                       | [Rubric](https://docs.google.com/document/d/1T1oqHFoRo0kl7mPUTFupmsoEkLYltKsVgtqyGKDaCgY/edit)                                                                                       | March 4, 2020 *(Tuesday)*                                                                         |
 | **MakeUtility Project <br>& Presentation**                             | [Requirements](https://make.sc/makeutility)                                                                                                                                          | March 4, 2020 *(Tuesday)*                                                                                   |
+
+## Late Assignment Policy
+
+- Late assignments that are submitted **more than 5 days (120 hours)** after the deadline will be given a **25% late penalty**.
+- The **absolute last day** to submit any assignment will be **Tuesday, March 4 at 11:59 PM**.
+
+If you require accommodations or have extenuating circumstances such as prolonged illness, please contact your instructor to request an extension.
 
 ## Evaluation
 
