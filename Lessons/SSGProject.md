@@ -241,7 +241,7 @@ type ToDo struct {
 }
 
 func main() {
-        t := template.Must(template.New("template.tmpl").ParseFiles("new.html"))
+        t := template.Must(template.New("template.tmpl").ParseFiles("template.tmpl"))
         err = t.Execute(os.Stdout, todos)
         if err != nil {
           panic(err)
