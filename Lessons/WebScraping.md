@@ -167,7 +167,7 @@ To examine the output, paste the above snippet, build, and run your executable.
 
 ## [**30m**] Video: Headless Web Scraping
 
-<iframe id="ytplayer" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/_7pWCg94sKw?modestbranding=1&playsinline=1 frameborder="0" allow="picture-in-picture" allowfullscreen>
+<iframe id="ytplayer" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/_7pWCg94sKw?modestbranding=1&playsinline=1" frameborder="0" allow="picture-in-picture" allowfullscreen>
 
 <!--
 # [**30m**] 💻 Activity: Work Out a Workflow
