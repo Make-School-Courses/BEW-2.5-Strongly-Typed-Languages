@@ -18,6 +18,7 @@
 	1. [Good](#good)
 	1. [Not So Good](#not-so-good)
 1. [[**30m**] Video: Headless Web Scraping](#30m-video-headless-web-scraping)
+1. [[**20m**] Example Code / Demo](#20m-example-code--demo)
 1. [📚 Resources & Credits](#%F0%9F%93%9A-resources--credits)
 
 ## [**05m**] 🏆 Objectives
@@ -168,6 +169,11 @@ To examine the output, paste the above snippet, build, and run your executable.
 ## [**30m**] Video: Headless Web Scraping
 
 <iframe id="ytplayer" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/_7pWCg94sKw?modestbranding=1&playsinline=1" frameborder="0" allow="picture-in-picture" allowfullscreen>
+
+## [**20m**] Example Code / Demo
+
+- [chromedp/examples](https://github.com/chromedp/examples): awesome `chromedp` examples, use these to get started
+- [droxey/makeshort](https://github.com/droxey/makeshort): example app for creating `make.sc` shortlinks from the command line
 
 <!--
 # [**30m**] 💻 Activity: Work Out a Workflow
