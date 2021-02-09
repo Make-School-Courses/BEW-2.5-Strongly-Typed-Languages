@@ -107,46 +107,47 @@ Colly supports the following callbacks:
 package main
 
 import (
-		"fmt"
-		"github.com/gocolly/colly"
-)
+	"fmt"
 
+	"github.com/gocolly/colly"
+)
 
 // main() contains code adapted from example found in Colly's docs:
 // http://go-colly.org/docs/examples/basic/
 func main() {
-		// Instantiate default collector
-		c := colly.NewCollector()
+	// Instantiate default collector
+	c := colly.NewCollector()
 
-		c.OnHTML("a[href]", func(e *colly.HTMLElement) {
-				// Find link using an attribute selector
-				// Matches any element that includes href=""
-				link := e.Attr("href")
+	c.OnHTML("a[href]", func(e *colly.HTMLElement) {
+		// Find link using an attribute selector
+		// Matches any element that includes href=""
+		link := e.Attr("href")
 
-				// Print link
-				fmt.Printf("Link found: %q -> %s\n", e.Text, link)
+		// Print link
+		fmt.Printf("Link found: %q -> %s\n", e.Text, link)
 
-				// Visit link
-				e.Request.Visit(visit)
-		})
+		// Visit link
+		e.Request.Visit(link)
+	})
 
-		c.OnRequest(func(r *colly.Request) {
-				fmt.Println("Visiting", r.URL)
-		})
+	c.OnRequest(func(r *colly.Request) {
+		fmt.Println("Visiting", r.URL)
+	})
 
-		c.OnError(func(_ *colly.Response, err error) {
-				fmt.Println("Something went wrong:", err)
-		})
+	c.OnError(func(_ *colly.Response, err error) {
+		fmt.Println("Something went wrong:", err)
+	})
 
-		c.OnResponse(func(r *colly.Response) {
-				fmt.Println("Visited", r.Request.URL)
-		})
-		c.OnScraped(func(r *colly.Response) {
-				fmt.Println("Finished", r.Request.URL)
-		})
+	c.OnResponse(func(r *colly.Response) {
+		fmt.Println("Visited", r.Request.URL)
+	})
 
-		// Start scraping on https://hackerspaces.org
-		c.Visit("https://hackerspaces.org/")
+	c.OnScraped(func(r *colly.Response) {
+		fmt.Println("Finished", r.Request.URL)
+	})
+
+	// Start scraping on https://hackerspaces.org
+	c.Visit("https://hackerspaces.org/")
 }
 ```
 
