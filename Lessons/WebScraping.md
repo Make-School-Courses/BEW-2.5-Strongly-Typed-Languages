@@ -1,17 +1,24 @@
 # 📜 Day 6: Scraping the Web
 
-### ⏱ Lesson Plan
+<!-- omit in toc -->
+## ⏱ Agenda
 
-1. [[**05m**] 🏆 Objectives](#05m--objectives)
-2. [[**05m**] 🤷‍♀️ Why You Should Know This](#05m-️-why-you-should-know-this)
-3. [[**15m**] 📖 Overview: Web Scraping](#15m--overview-web-scraping)
-4. [[**20m**] 💻 Game: Selector Diner](#20m--game-selector-diner)
-5. [[**10m**] 💻 Demo: Selecting Selectors](#10m--demo-selecting-selectors)
-6. [[**10m**] BREAK](#10m-break)
-7. [[**15m**] 📖 Overview: Colly](#15m--overview-colly)
-8. [[**30m**] 💻 Activity: Work Out a Workflow](#30m--activity-work-out-a-workflow)
-9. [[**55m**] 🧪 Lab Time: Begin Web Scraper Project](#55m--lab-time-begin-web-scraper-project)
-10. [📚 Resources & Credits](#-resources--credits)
+1. [[**05m**] 🏆 Objectives](#05m-%F0%9F%8F%86-objectives)
+1. [[**05m**] 🤷‍♀️ Why You Should Know This](#05m-%F0%9F%A4%B7%E2%80%8D%E2%99%80%EF%B8%8F-why-you-should-know-this)
+1. [[**15m**] 📖 Overview: Web Scraping](#15m-%F0%9F%93%96-overview-web-scraping)
+	1. [Web Crawling vs. Web Scraping](#web-crawling-vs-web-scraping)
+	1. [Parsing & Extracting Data Using Selectors](#parsing--extracting-data-using-selectors)
+1. [[**20m**] 💻 Game: Selector Diner](#20m-%F0%9F%92%BB-game-selector-diner)
+1. [[**10m**] 💻 Demo: Selecting Selectors](#10m-%F0%9F%92%BB-demo-selecting-selectors)
+	1. [Techniques Demonstrated](#techniques-demonstrated)
+1. [[**10m**] BREAK](#10m-break)
+1. [[**15m**] 📖 Overview: Colly](#15m-%F0%9F%93%96-overview-colly)
+1. [[**20m**] Activity: Colly Calls Back](#20m-activity-colly-calls-back)
+1. [[**10m**] TT: Advantages and Disadvantages to Using Colly](#10m-tt-advantages-and-disadvantages-to-using-colly)
+	1. [Good](#good)
+	1. [Not So Good](#not-so-good)
+1. [[**30m**] Video: Headless Web Scraping](#30m-video-headless-web-scraping)
+1. [📚 Resources & Credits](#%F0%9F%93%9A-resources--credits)
 
 ## [**05m**] 🏆 Objectives
 
@@ -39,10 +46,10 @@ Programs that use this design pattern follow the **Extract-Transform-Load (ETL) 
 
 - Not interchangeable terms!
 - Crawlers download and store the contents of large numbers of sites by following the links in pages.
-    - How Google got famous
+	- How Google got famous
 - Scrapers are built for the structure of a specific website.
-    - Use site's own structure to extract individual specific data elements.
-    - Crawling is the first step to web scraping.
+	- Use site's own structure to extract individual specific data elements.
+	- Crawling is the first step to web scraping.
 
 ### Parsing & Extracting Data Using Selectors
 
@@ -87,11 +94,7 @@ A popular open source package, [Colly](https://go-colly.org), provides a clean f
 - Distributed scraping
 - Caching
 
-### Starter Code
-
-Starter code is included in the [project repository](https://github.com/make-school-labs/makescraper). Let's go through it together!
-
-### Callbacks
+## [**20m**] Activity: Colly Calls Back
 
 Colly works via a series of callbacks that are executed anytime `Visit()` is called on a collector.
 
@@ -100,45 +103,76 @@ Callbacks are functions that execute after another function completes.
 Colly supports the following callbacks:
 
 ```golang
-c.OnRequest(func(r *colly.Request) {
-    fmt.Println("Visiting", r.URL)
-})
+package main
 
-c.OnError(func(_ *colly.Response, err error) {
-    log.Println("Something went wrong:", err)
-})
+import (
+		"fmt"
+		"github.com/gocolly/colly"
+)
 
-c.OnResponse(func(r *colly.Response) {
-    fmt.Println("Visited", r.Request.URL)
-})
 
-c.OnHTML("a[href]", func(e *colly.HTMLElement) {
-    e.Request.Visit(e.Attr("href"))
-})
+// main() contains code adapted from example found in Colly's docs:
+// http://go-colly.org/docs/examples/basic/
+func main() {
+		// Instantiate default collector
+		c := colly.NewCollector()
 
-c.OnHTML("tr td:nth-of-type(1)", func(e *colly.HTMLElement) {
-    fmt.Println("First column of a table row:", e.Text)
-})
+		c.OnHTML("a[href]", func(e *colly.HTMLElement) {
+				// Find link using an attribute selector
+				// Matches any element that includes href=""
+				link := e.Attr("href")
 
-c.OnXML("//h1", func(e *colly.XMLElement) {
-    fmt.Println(e.Text)
-})
+				// Print link
+				fmt.Printf("Link found: %q -> %s\n", e.Text, link)
 
-c.OnScraped(func(r *colly.Response) {
-    fmt.Println("Finished", r.Request.URL)
-})
+				// Visit link
+				e.Request.Visit(visit)
+		})
+
+		c.OnRequest(func(r *colly.Request) {
+				fmt.Println("Visiting", r.URL)
+		})
+
+		c.OnError(func(_ *colly.Response, err error) {
+				fmt.Println("Something went wrong:", err)
+		})
+
+		c.OnResponse(func(r *colly.Response) {
+				fmt.Println("Visited", r.Request.URL)
+		})
+		c.OnScraped(func(r *colly.Response) {
+				fmt.Println("Finished", r.Request.URL)
+		})
+
+		// Start scraping on https://hackerspaces.org
+		c.Visit("https://hackerspaces.org/")
+}
 ```
 
-With a partner, use the sample code to determine which order these callbacks fire in. Paste the above snippet, build, and run `./makescraper` to see the output.
+With a partner, use the sample code to determine which order these callbacks fire
+To examine the output, paste the above snippet, build, and run your executable.
 
-### More Examples
+## [**10m**] TT: Advantages and Disadvantages to Using Colly
 
-- [**Colly**: Docs](http://go-colly.org/docs/): Check out the sidebar for 20+ examples!
-- [**Ali Shalabi**: Syntax-Helper](https://github.com/alishalabi/syntax-helper): Command line interface to help generate proper code syntax, pulled from the Golang documentation.
+### Good
 
-## [**30m**] 💻 Activity: Work Out a Workflow
+- Quick to copy and paste an example from the docs and modify it to create your own web scraper.
+- Lots of plugins and libraries with good documentation
+- Security features allow you cloak your scraper so it isn't detected
 
-_Complete the workflow worksheet distributed in class._
+### Not So Good
+
+- Can't scrape websites that take advantage of a shadow DOM to render components
+- This means you can't use Colly to scrape websites written in Angular, Vue, and React
+
+## [**30m**] Video: Headless Web Scraping
+
+<iframe id="ytplayer" type="text/html" width="720" height="405" src="https://www.youtube.com/embed/_7pWCg94sKw?modestbranding=1&playsinline=1 frameborder="0" allow="picture-in-picture" allowfullscreen>
+
+<!--
+# [**30m**] 💻 Activity: Work Out a Workflow
+
+_Complete the [workflow worksheet]() distributed in class._
 
 When you're done, use the remaining lab time to begin your project!
 
@@ -149,9 +183,12 @@ Read the project [README](https://github.com/make-school-labs/makescraper) to be
 You'll be able to complete at least a few requirements after what you've learned today.
 
 We'll learn how to serialize and store JSON during our next class!
+-->
 
 ## 📚 Resources & Credits
 
 - [**ScrapeHero**: What is Web Scraping – Part 1 – Beginner’s Guide](https://www.scrapehero.com/a-beginners-guide-to-web-scraping-part-1-the-basics/)
 - [**W3C**: Selectors](https://www.w3.org/TR/CSS22/selector.html)
 - [Colly](https://go-colly.org): Starter code derived from [basic](http://go-colly.org/docs/examples/basic/) example.
+- [chromedp/examples](https://github.com/chromedp/examples): various `chromedp` examples
+- [Chrome DevTools Protocol](https://chromedevtools.github.io/devtools-protocol/): Chrome DevTools Protocol Domain documentation
