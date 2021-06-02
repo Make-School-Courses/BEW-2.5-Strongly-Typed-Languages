@@ -89,7 +89,7 @@ Your Gradescope login is your Make School email, and your password can be change
 ## Late Assignment Policy
 
 - Late assignments that are submitted **more than 5 days (120 hours)** after the deadline will be given a **25% late penalty**.
-- The **absolute last day** to submit any assignment will be **Tuesday, March 4 at 11:59 PM**.
+- The **absolute last day** to submit any assignment will be **Friday, July 16 at 11:59 PM**.
 
 If you require accommodations or have extenuating circumstances such as prolonged illness, please contact your instructor to request an extension.
 
