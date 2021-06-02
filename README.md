@@ -38,8 +38,7 @@ _In this course, students discover the value of strongly typed languages in serv
 2. Identify and describe the architectures wherein the features of Golang could be best utilized.
 3. Build data structures that support unmarshalling JSON retrieved from third-party APIs.
 4. Apply Object Relational Mapping techniques to persist data to relational databases in Go.
-<!-- 5. Examine benchmarks to determine how to improve the speed and readability of a Golang project. -->
-6. Gain experience deploying APIs and bots to production.
+5. Gain experience deploying APIs and bots to production.
 
 ## Schedule
 
