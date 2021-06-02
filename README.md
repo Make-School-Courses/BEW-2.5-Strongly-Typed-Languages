@@ -44,7 +44,7 @@ _In this course, students discover the value of strongly typed languages in serv
 ## Schedule
 
 
-**Course Dates:** Monday, May 31 through Friday, July 16, 2021 _(7 weeks)_<br>-
+**Course Dates:** Monday, May 31 through Friday, July 16, 2021 _(7 weeks)_<br>
 **Class Times:** Monday, Wednesday, Friday at 2:15pm - 4:00pm PST _(19 class sessions)_
 
 | Class |          Date          |                 Topics                  |
