@@ -58,11 +58,11 @@ _In this course, students discover the value of strongly typed languages in serv
 | `06` |  _Mon, June 14_        | 🆕 Working with Modules |
 | `07` |  _Wed, June 16_        | **[Fast Functionality via 3rd Party Libraries](Lessons/3rdPartyLibs.md)** |
 | `08` |  _Fri, June 18_        | 🔬 **Lab**: SSG Project |
-| `09` |  _Mon, June 21_        | **[Scraping the Web](Lessons/WebScraping.md)** |
-| `10` |  _Wed, June 23_        | **[Working With JSON](Lessons/JSON.md)** |
-| `11` |  _Fri, June 25_        | 🔬 **Lab**: Web Scraper |
-| `12` |  _Mon, June 28_        | 🆕  Pointers |
-| `13` |  _Wed, June 30_        | **[Concurrency & Goroutines](Lessons/Lesson07.md)** |
+| `09` |  _Mon, June 21_        | 🆕  Pointers |
+| `10` |  _Wed, June 23_        | **[Concurrency & Goroutines](Lessons/Lesson07.md)** |
+| `11` |  _Fri, June 25_        | **[Scraping the Web](Lessons/WebScraping.md)** |
+| `12` |  _Mon, June 28_        | **[Working With JSON](Lessons/JSON.md)** |
+| `13` |  _Wed, June 30_        | 🔬 **Lab**: Web Scraper  |
 | `14` |  _Fri, July 2_         | **[Design Patterns](Lessons/DesignPatterns.md)**|
 | -    |  _Mon, July 5_         | _No Class - Independence Day_ |
 | `15` |  _Wed, July 7_         | **[Project Kickoff](Project/MakeUtility.md)** |
