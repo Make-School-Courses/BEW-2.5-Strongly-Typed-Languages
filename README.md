@@ -123,7 +123,7 @@ Complete the final project according to the associated [project rubric](Project/
 <!-- omit in toc -->
 ### Final Presentation
 
-The delivery of a live or pre-recorded presentation is required to pass this course. **Presentations will be delivered on Wednesday, December 9th on our final day of class**.
+The delivery of a live or pre-recorded presentation is required to pass this course. **Presentations will be delivered on our final day of class**.
 
 Your **three to five minute presentation** should focus on the **experience you gained** and **lessons you learned** while implementing one of the three [Challenges](#challenges) in this course.
 
