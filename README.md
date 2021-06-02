@@ -28,7 +28,7 @@ _In this course, students discover the value of strongly typed languages in serv
 
 ## Course Specifics
 
-**Course Delivery**: online | 7 weeks | 14 sessions
+**Course Delivery**: online | 7 weeks | 19 sessions
 
 **Course Credits**: 3 units | 37.5 Seat Hours | 75 Total Hours
 
