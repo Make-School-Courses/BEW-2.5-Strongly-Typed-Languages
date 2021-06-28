@@ -46,29 +46,29 @@ _In this course, students discover the value of strongly typed languages in serv
 **Course Dates:** Monday, May 31 through Friday, July 16, 2021 _(7 weeks)_<br>
 **Class Times:** Monday, Wednesday, Friday at 2:15pm - 4:00pm PST _(19 class sessions)_
 
-| Class |          Date          |                 Topics                  |
-|:-----:|----------------------|---------------------------------------|
-|  -   |  _Mon, May 31_         | _No Class - Memorial Day_ |
-| `01` |  _Wed, June 2_         | 🆕 Welcome to Class / Static Languages |
-| `02` |  _Fri, June 4_         | [**Intro to Go / Tutorial Launch**](https://tour.golang.org) |
-| `03` |  _Mon, June 7_         | **[Drill Day](Lessons/WarmUps.md)**|
-| `04` |  _Wed, June 9_         | **[Static Site Generators](Lessons/SSGProject.md)** |
-| `05` |  _Fri, June 11_        | **[Files & Directories](Lessons/FilesDirectories.md)** |
-| `06` |  _Mon, June 14_        | 🆕 Working with Modules |
-| `07` |  _Wed, June 16_        | **[Fast Functionality via 3rd Party Libraries](Lessons/3rdPartyLibs.md)** |
-| `08` |  _Fri, June 18_        | 🔬 **Lab**: SSG Project |
-| `09` |  _Mon, June 21_        | 🆕  Pointers |
-| `10` |  _Wed, June 23_        | **[Concurrency & Goroutines](Lessons/Lesson07.md)** |
-| `11` |  _Fri, June 25_        | **[Scraping the Web](Lessons/WebScraping.md)** |
-| `12` |  _Mon, June 28_        | **[Working With JSON](Lessons/JSON.md)** |
-| `13` |  _Wed, June 30_        | 🔬 **Lab**: Web Scraper  |
-| `14` |  _Fri, July 2_         | **[Design Patterns](Lessons/DesignPatterns.md)**|
-| -    |  _Mon, July 5_         | _No Class - Independence Day_ |
-| `15` |  _Wed, July 7_         | **[Project Kickoff](Project/MakeUtility.md)** |
-| `16` |  _Fri, July 9_         | **[Delve into Debugging](Lessons/Lesson10.md)** |
-| `17` |  _Mon, July 12_        | **[Benchmarking & Testing](Lessons/Lesson09.md)** |
-| `18` |  _Wed, July 14_        | **[Documentation & Deployments](Lessons/DocsDeploy.md)** |
-| `19` |  _Fri, July 16_        | [**Final Presentations**](Project/MakeUtility.md) |                                                     | -->
+| Class | Date           | Topics                                                                    |
+| :---: | -------------- | ------------------------------------------------------------------------- |
+|   -   | _Mon, May 31_  | _No Class - Memorial Day_                                                 |
+| `01`  | _Wed, June 2_  | 🆕 Welcome to Class / Static Languages                                     |
+| `02`  | _Fri, June 4_  | [**Intro to Go / Tutorial Launch**](https://tour.golang.org)              |
+| `03`  | _Mon, June 7_  | **[Drill Day](Lessons/WarmUps.md)**                                       |
+| `04`  | _Wed, June 9_  | **[Static Site Generators](Lessons/SSGProject.md)**                       |
+| `05`  | _Fri, June 11_ | **[Files & Directories](Lessons/FilesDirectories.md)**                    |
+| `06`  | _Mon, June 14_ | 🆕 Working with Modules                                                    |
+| `07`  | _Wed, June 16_ | **[Fast Functionality via 3rd Party Libraries](Lessons/3rdPartyLibs.md)** |
+| `08`  | _Fri, June 18_ | 🔬 **Lab**: SSG Project                                                    |
+| `09`  | _Mon, June 21_ | **[Scraping the Web](Lessons/WebScraping.md)**                            |
+| `10`  | _Wed, June 23_ |                                                                           |
+| `11`  | _Fri, June 25_ | **[Working With JSON](Lessons/JSON.md)**                                  |
+| `12`  | _Mon, June 28_ | 🆕 **[Pointers]**(Lessons/Pointers.md)                                     |
+| `13`  | _Wed, June 30_ | 🔬 **Lab**: Web Scraper                                                    |
+| `14`  | _Fri, July 2_  | **[Concurrency & Goroutines](Lessons/Lesson07.md)**                       |
+|   -   | _Mon, July 5_  | _No Class - Independence Day_                                             |
+| `15`  | _Wed, July 7_  | **[Project Kickoff](Project/MakeUtility.md)**                             |
+| `16`  | _Fri, July 9_  | **[Delve into Debugging](Lessons/Lesson10.md)**                           |
+| `17`  | _Mon, July 12_ | **[Benchmarking & Testing](Lessons/Lesson09.md)**                         |
+| `18`  | _Wed, July 14_ | **[Documentation & Deployments](Lessons/DocsDeploy.md)**                  |
+| `19`  | _Fri, July 16_ | [**Final Presentations**](Project/MakeUtility.md)                         |  | --> |
 
 ## Course Deliverables
 
@@ -78,13 +78,13 @@ Your Gradescope login is your Make School email, and your password can be change
 
 *Assignments **must** be submitted to Gradescope by **11:59PM PST** on the date due.*
 
-| 📚   Assignment                                      | 🔗   Criteria                                                                                                                                                                         | 📆   Due Date                                                                                     |
-| :-------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
-| **[Tour of Go](https://tour.golang.org/welcome/1)** | Done in Class                                                                                                                                                                        | June 7, 2021 *(Monday)*                                                                    |
+| 📚   Assignment                                      | 🔗   Criteria                                                                                                                                                                         | 📆   Due Date                                                                                  |
+| :-------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- |
+| **[Tour of Go](https://tour.golang.org/welcome/1)** | Done in Class                                                                                                                                                                        | June 7, 2021 *(Monday)*                                                                       |
 | **Static Site Generator**                           | [MVP](https://github.com/Make-School-Labs/makesite#mvp)  <br />[v1.1](https://github.com/Make-School-Labs/makesite#v1.1) / [v1.2](https://github.com/Make-School-Labs/makesite#v1.2) | <u>MVP</u>: June 18, 2021 *(Monday)*<br /><u>v1.1</u> / <u>v1.2</u>: June 21, 2021 *(Friday)* |
-| **Web Scraper**                                     | [Requirements](https://make.sc/makescraper)                                                                                                                                          | June 28, 2021 (*Monday*)                                                                          |
-| **Blog Post**                                       | [Rubric](https://docs.google.com/document/d/1T1oqHFoRo0kl7mPUTFupmsoEkLYltKsVgtqyGKDaCgY/edit)                                                                                       | July 16, 2021 *(Friday)*                                                                         |
-| **MakeUtility Project <br>& Presentation**                             | [Requirements](https://make.sc/makeutility)                                                                                                                                          |July 16, 2021 *(Friday)*                                                                                   |
+| **Web Scraper**                                     | [Requirements](https://make.sc/makescraper)                                                                                                                                          | July 7, 2021 (*Tuesday*)                                                                      |
+| **Blog Post**                                       | [Rubric](https://docs.google.com/document/d/1T1oqHFoRo0kl7mPUTFupmsoEkLYltKsVgtqyGKDaCgY/edit)                                                                                       | July 16, 2021 *(Friday)*                                                                      |
+| **MakeUtility Project <br>& Presentation**          | [Requirements](https://make.sc/makeutility)                                                                                                                                          | July 16, 2021 *(Friday)*                                                                      |
 
 ## Late Assignment Policy
 
