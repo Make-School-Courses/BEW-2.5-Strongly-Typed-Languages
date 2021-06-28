@@ -60,7 +60,7 @@ _In this course, students discover the value of strongly typed languages in serv
 | `09`  | _Mon, June 21_ | **[Scraping the Web](Lessons/WebScraping.md)**                            |
 | `10`  | _Wed, June 23_ |                                                                           |
 | `11`  | _Fri, June 25_ | **[Working With JSON](Lessons/JSON.md)**                                  |
-| `12`  | _Mon, June 28_ | 🆕 **[Pointers]**(Lessons/Pointers.md)                                     |
+| `12`  | _Mon, June 28_ | 🆕 **[Pointers](Lessons/Pointers.md)**                                     |
 | `13`  | _Wed, June 30_ | 🔬 **Lab**: Web Scraper                                                    |
 | `14`  | _Fri, July 2_  | **[Concurrency & Goroutines](Lessons/Lesson07.md)**                       |
 |   -   | _Mon, July 5_  | _No Class - Independence Day_                                             |
