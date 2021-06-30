@@ -46,29 +46,29 @@ _In this course, students discover the value of strongly typed languages in serv
 **Course Dates:** Monday, May 31 through Friday, July 16, 2021 _(7 weeks)_<br>
 **Class Times:** Monday, Wednesday, Friday at 2:15pm - 4:00pm PST _(19 class sessions)_
 
-| Class | Date           | Topics                                                                    |
-| :---: | -------------- | ------------------------------------------------------------------------- |
-|   -   | _Mon, May 31_  | _No Class - Memorial Day_                                                 |
-| `01`  | _Wed, June 2_  | 🆕 Welcome to Class / Static Languages                                     |
-| `02`  | _Fri, June 4_  | [**Intro to Go / Tutorial Launch**](https://tour.golang.org)              |
-| `03`  | _Mon, June 7_  | **[Drill Day](Lessons/WarmUps.md)**                                       |
-| `04`  | _Wed, June 9_  | **[Static Site Generators](Lessons/SSGProject.md)**                       |
-| `05`  | _Fri, June 11_ | **[Files & Directories](Lessons/FilesDirectories.md)**                    |
-| `06`  | _Mon, June 14_ | 🆕 Working with Modules                                                    |
-| `07`  | _Wed, June 16_ | **[Fast Functionality via 3rd Party Libraries](Lessons/3rdPartyLibs.md)** |
-| `08`  | _Fri, June 18_ | 🔬 **Lab**: SSG Project                                                    |
-| `09`  | _Mon, June 21_ | **[Scraping the Web](Lessons/WebScraping.md)**                            |
-| `10`  | _Wed, June 23_ |                                                                           |
-| `11`  | _Fri, June 25_ | **[Working With JSON](Lessons/JSON.md)**                                  |
-| `12`  | _Mon, June 28_ | 🆕 **[Pointers](Lessons/Pointers.md)**                                     |
-| `13`  | _Wed, June 30_ | 🔬 **Lab**: Web Scraper                                                    |
-| `14`  | _Fri, July 2_  | **[Concurrency & Goroutines](Lessons/Lesson07.md)**                       |
-|   -   | _Mon, July 5_  | _No Class - Independence Day_                                             |
-| `15`  | _Wed, July 7_  | **[Project Kickoff](Project/MakeUtility.md)**                             |
-| `16`  | _Fri, July 9_  | **[Delve into Debugging](Lessons/Lesson10.md)**                           |
-| `17`  | _Mon, July 12_ | **[Benchmarking & Testing](Lessons/Lesson09.md)**                         |
-| `18`  | _Wed, July 14_ | **[Documentation & Deployments](Lessons/DocsDeploy.md)**                  |
-| `19`  | _Fri, July 16_ | [**Final Presentations**](Project/MakeUtility.md)                         |  | --> |
+| Class | Date           | Topics                                                                                                                                                                                                      |
+| :---: | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|   -   | _Mon, May 31_  | _No Class - Memorial Day_                                                                                                                                                                                   |
+| `01`  | _Wed, June 2_  | 🆕 Welcome to Class / Static Languages                                                                                                                                                                       |
+| `02`  | _Fri, June 4_  | [**Intro to Go / Tutorial Launch**](https://tour.golang.org)                                                                                                                                                |
+| `03`  | _Mon, June 7_  | **[Drill Day](Lessons/WarmUps.md)**                                                                                                                                                                         |
+| `04`  | _Wed, June 9_  | **[Static Site Generators](Lessons/SSGProject.md)**                                                                                                                                                         |
+| `05`  | _Fri, June 11_ | **[Files & Directories](Lessons/FilesDirectories.md)**                                                                                                                                                      |
+| `06`  | _Mon, June 14_ | 🆕 Working with Modules                                                                                                                                                                                      |
+| `07`  | _Wed, June 16_ | **[Fast Functionality via 3rd Party Libraries](Lessons/3rdPartyLibs.md)**                                                                                                                                   |
+| `08`  | _Fri, June 18_ | 🔬 **Lab**: SSG Project                                                                                                                                                                                      |
+| `09`  | _Mon, June 21_ | **[Scraping the Web](Lessons/WebScraping.md)**                                                                                                                                                              |
+| `10`  | _Wed, June 23_ | **[Scraping the Web](Lessons/WebScraping.md)**                                                                                                                                                              |
+| `11`  | _Fri, June 25_ | **[Working With JSON](Lessons/JSON.md)**                                                                                                                                                                    |
+| `12`  | _Mon, June 28_ | 🆕 **[Pointers](Lessons/Pointers.md)**                                                                                                                                                                       |
+| `13`  | _Wed, June 30_ | **[Concurrency & Goroutines](Lessons/Lesson07.md)**                                                                                                                                                         |
+| `14`  | _Fri, July 2_  | **[Project Kickoff](Project/MakeUtility.md)** <small>_presented by [@OmarSagoo](https://github.com/omarsagoo)_</small> <br>🔬 **Lab**: MakeScraper / MakeUtility <small>_(get unblocked by the TA!)_</small> |
+|   -   | _Mon, July 5_  | _No Class - Independence Day_                                                                                                                                                                               |
+| `15`  | _Wed, July 7_  | TBD                                                                                                                                                                                                         |
+| `16`  | _Fri, July 9_  | **[Delve into Debugging](Lessons/Lesson10.md)**                                                                                                                                                             |
+| `17`  | _Mon, July 12_ | **[Benchmarking & Testing](Lessons/Lesson09.md)**                                                                                                                                                           |
+| `18`  | _Wed, July 14_ | **[Documentation & Deployments](Lessons/DocsDeploy.md)**                                                                                                                                                    |
+| `19`  | _Fri, July 16_ | [**Final Presentations**](Project/MakeUtility.md)                                                                                                                                                           |  | --> |
 
 ## Course Deliverables
 
